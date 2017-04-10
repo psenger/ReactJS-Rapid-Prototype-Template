@@ -1,0 +1,1 @@
+export const SET_HIGHEST_SCORE = 'setHighestScore';
