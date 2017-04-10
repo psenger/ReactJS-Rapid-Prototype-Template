@@ -1,14 +1,26 @@
 {
-  "name": "claims",
+  "name": "reacttemplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple ReactJS Rapid Prototype Template based on aik",
   "main": "index.js",
+  "dependencies": {
+    "aik": "^0.14.0",
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "start": "./node_modules/.bin/aik index.js -o",
+    "postinstall": "./node_modules/.bin/bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://psenger@github.com/psenger/ReactJS-Rapid-Prototype-Template.git"
+  },
+  "author": "Philip A Senger <philip.a.senger@cngrgroup.com>",
   "license": "ISC",
-  "dependencies": {
-    "aik": "^0.14.0"
-  }
+  "bugs": {
+    "url": "https://github.com/psenger/ReactJS-Rapid-Prototype-Template/issues"
+  },
+  "homepage": "https://github.com/psenger/ReactJS-Rapid-Prototype-Template"
 }
