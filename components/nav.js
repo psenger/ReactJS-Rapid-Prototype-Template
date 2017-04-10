@@ -15,7 +15,7 @@ export default React.createClass({
                             <span className="icon-bar" />
                             <span className="icon-bar" />
                         </button>
-                        <NavLink to="/" className="navbar-brand">Claims</NavLink>
+                        <NavLink to="/" className="navbar-brand">ReactJS</NavLink>
                     </div>
                     <div id="navbar" className="navbar-collapse collapse">
                         <ul className="nav navbar-nav">
