@@ -1,13 +1,9 @@
-import * as actionConst from '../actions/const';
+/**
+ * Created by psenger on 3/29/17.
+ */
+import { combineReducers } from 'redux';
+import profileReducer from './profileReducer';
 
-let initialState = [];
-
-export default function mainReducer(state = initialState, action) {
-    switch (action.type) {
-        case actionConst.SET_HIGHEST_SCORE:
-            return Object.assign({}, state, {highestScore: action.value});
-
-        default:
-            return state
-    }
-}
+export default combineReducers({
+    profileReducer
+});

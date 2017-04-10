@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "aik": "^0.14.0",
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "jsdom": "^9.12.0"
   },
   "devDependencies": {
     "react": "^15.5.3",
@@ -19,7 +20,7 @@
   "scripts": {
     "start": "./node_modules/.bin/aik index.js -o",
     "postinstall": "./node_modules/.bin/bower install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/setup.js \"./[!n][!o][!d][!e]*/**/*.spec.js\""
   },
   "repository": {
     "type": "git",
