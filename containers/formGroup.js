@@ -10,7 +10,7 @@ export default React.createClass({
         // role="group" aria-labelledby="ssn1"
         return (
             <div className="form-group" id={this.props.inputId + '_form-group'} >
-                <label for={this.props.inputId}>{this.props.label}</label>
+                <label htmlFor={this.props.inputId}>{this.props.label}</label>
                 {this.props.children}
             </div>
         );

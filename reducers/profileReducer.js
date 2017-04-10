@@ -1,8 +1,9 @@
 import * as actionConst from '../actions/const';
+import { fromJS } from 'immutable';
 
-let initialState = [];
+let initialState = fromJS({});
 
-export default function mainReducer(state = initialState, action) {
+function profileReducer(state = initialState, action) {
     switch (action.type) {
         case actionConst.PROFILE_MODIFY_ACTIVE:
             return Object.assign({}, state, {isActive: action.value});
@@ -12,3 +13,4 @@ export default function mainReducer(state = initialState, action) {
             return state
     }
 }
+export default profileReducer;

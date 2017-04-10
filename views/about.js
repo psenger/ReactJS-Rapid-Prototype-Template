@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default React.createClass({
-    displayName: 'About',
+export class about extends React.Component {
+    // displayName: 'About',
 
     render() {
         return (
@@ -10,4 +10,4 @@ export default React.createClass({
             </div>
         );
     }
-});
+}
