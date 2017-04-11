@@ -5,24 +5,31 @@
   "main": "index.js",
   "dependencies": {
     "aik": "^0.14.0",
+    "babel-polyfill": "^6.23.0",
     "bower": "^1.8.0",
     "immutable": "^3.8.1",
     "jsdom": "^9.12.0"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
     "enzyme": "^2.8.0",
+    "mocha": "^3.2.0",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
     "react-redux": "^5.0.4",
     "react-router-dom": "^4.0.0",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.1",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "should": "^11.2.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/aik index.js -o",
     "postinstall": "./node_modules/.bin/bower install",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/setup.js \"./[!n][!o][!d][!e]*/**/*.spec.js\""
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/setup.js \"./**/*.spec.js\""
   },
   "repository": {
     "type": "git",
