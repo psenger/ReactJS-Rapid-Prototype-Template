@@ -9,4 +9,7 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
-install: npm install test --loglevel silent --progress=false
+install: 
+  - npm install --loglevel silent --progress=false
+script:
+  - npm run test
