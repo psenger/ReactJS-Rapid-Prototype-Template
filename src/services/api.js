@@ -90,7 +90,7 @@ function callApi(endpoint) {
             if (!response.ok) {
                 return Promise.reject(json)
             }
-            return Object.assign({}, json)
+            return json;
         })
         .then(
             response => (response),

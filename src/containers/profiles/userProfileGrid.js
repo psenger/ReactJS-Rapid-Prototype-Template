@@ -9,14 +9,14 @@ import {bindActionCreators} from 'redux';
 import * as ProfilesAction from '../../actionCreators/profilesAction';
 import { fetchProfiles } from '../../services/api';
 // import TableOfProfiles from '../containers/tableOfProfiles';
-import ReactDataGrid from 'react-data-grid';
 import * as ProfilesActions from '../../actionCreators/profilesAction';
 
 const columns = [   { key: '_id', name: 'ID' },
     // { key: 'name.first', name: 'First' },
     // { key: 'name.last', name: 'Last' },
     { key: 'email', name: 'Email' } ];
-const rowGetter = rowNumber => rows[rowNumber];
+const rowGetter = (i)=>this.props.profiles[i];
+const rowCounter = ()=>this.props.profiles.length;
 
 // const columns = [{ key: 'id', name: 'ID' }, { key: 'title', name: 'Title' }];
 // const rows = [{ id: 1, title: 'Title 1' }, { id: 2, title: 'Txxxxx' }];
@@ -44,10 +44,24 @@ export class UserProfileGrid extends Component {
                     </FormGroup>
                     <button type="button" className="btn btn-primary" onClick={this.props.onSubmit}>Submit</button>
                 </Form>
-                <ReactDataGrid  columns={columns}
-                                rowGetter={function(){ console.log('row getter',arguments); return 'xxx';}}
-                                rowsCount={(this.props.profiles || []).length}
-                                minHeight={500} />
+                <table>
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>email</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {this.props.profiles.map(function(row, i) {
+                        return (
+                            <tr key={i}>
+                                <td>{row['_id']}</td>
+                                <td>{row['email']}</td>
+                            </tr>
+                        );
+                    })}
+                    </tbody>
+                </table>
             </div>
         );
     }

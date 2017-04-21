@@ -4,9 +4,7 @@
   "description": "A Simple ReactJS Rapid Prototype Template based on aik",
   "main": "index.js",
   "dependencies": {
-    "//": {
-      "bower": "^1.8.0"
-    },
+
     "aik": "^0.14.0",
     "babel-polyfill": "^6.23.0",
     "bootstrap": "^3.3.7",
@@ -52,4 +50,5 @@
     "url": "https://github.com/psenger/ReactJS-Rapid-Prototype-Template/issues"
   },
   "homepage": "https://github.com/psenger/ReactJS-Rapid-Prototype-Template"
+
 }
