@@ -3,8 +3,8 @@
  */
 import React from "react";
 import {connect} from "react-redux";
-import Form from "../containers/form";
-import FormGroup from "../containers/formGroup";
+import Form from "../components/form";
+import FormGroup from "../components/formGroup";
 import { bindActionCreators } from 'redux';
 import * as ProfileAction from '../actions/profileAction';
 

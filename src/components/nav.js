@@ -1,9 +1,12 @@
 // import {Link} from 'react-router-dom';
-import React from 'react';
+import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default React.createClass({
-    displayName: 'Nav',
+export default class Nav extends Component {
+    constructor(props) {
+        super(props);
+        this.displayName = 'components/Nav';
+    }
     render() {
         return (
             <nav className="navbar navbar-default">
@@ -26,4 +29,4 @@ export default React.createClass({
             </nav>
         );
     }
-});
+}

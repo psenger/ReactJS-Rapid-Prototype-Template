@@ -1,10 +1,13 @@
 /**
  * Created by psenger on 7/04/2017.
  */
-import React from 'react';
+import React, { Component } from 'react';
 
-export default React.createClass({
-    displayName: 'FormGroup',
+export default class FormGroup extends Component {
+    constructor(props) {
+        super(props);
+        this.displayName = 'containers/FormGroup';
+    }
 
     render() {
         // role="group" aria-labelledby="ssn1"
@@ -15,4 +18,4 @@ export default React.createClass({
             </div>
         );
     }
-});
+}

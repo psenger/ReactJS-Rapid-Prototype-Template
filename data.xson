@@ -1,0 +1,72 @@
+The following was used at http://beta.json-generator.com/ to generate the data.json
+
+
+[
+  {
+    'repeat(5, 20)': {
+
+      _id: '{{objectId()}}',
+      isActive: '{{bool()}}',
+      lastLogin: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+      balance: '{{floating(1000, 4000, 2, "$0,0.00")}}',
+      age: '{{integer(20, 40)}}',
+      eyeColor: '{{random("blue", "brown", "green")}}',
+      name: {
+        title: function (tags) {
+            var t = ['MR', 'MRS', 'MS', 'MISS'];
+            return t[tags.integer(0, t.length - 1)];
+        },
+        first: '{{firstName()}}',
+        last: '{{surname()}}'
+      },
+      company: '{{company().toUpperCase()}}',
+      email: function (tags) {
+        return (this.name.first + '.' + this.name.last + '@' + this.company + tags.domainZone()).toLowerCase();
+      },
+      phone: [
+        {
+          'repeat(1, 4)':{
+            _id: '{{objectId()}}',
+            num: '+1 {{phone()}}',
+            type: function (tags) {
+                  var ph = ['mobile', 'work', 'home'];
+                  return ph[tags.integer(0, ph.length - 1)];
+            }
+          }
+        }
+      ],
+      address: {
+        _id: '{{objectId()}}',
+        num: '{{integer(100, 999)}}',
+        street: '{{street()}}',
+        city: '{{city()}}',
+        state: '{{state()}}',
+        zip:'{{integer(100, 10000)}}',
+        latitude: '{{floating(-90.000001, 90)}}',
+        longitude: '{{floating(-180.000001, 180)}}'
+      },
+      bio: '{{lorem(1, "paragraphs")}}',
+      tags: [
+        {
+          'repeat(1,10)': '{{lorem(1, "words")}}'
+        }
+      ],
+      friends: [
+        {
+          'repeat(1,5)': {
+            _id: '{{objectId()}}',
+            title: function (tags) {
+                var t = ['MR', 'MRS', 'MS', 'MISS'];
+                return t[tags.integer(0, t.length - 1)];
+            },
+            first: '{{firstName()}}',
+            last: '{{surname()}}'
+          }
+        }
+      ],
+      greeting: function (tags) {
+        return 'Hello, ' + this.name.first + '! You have ' + tags.integer(5, 10) + ' unread messages.';
+      }
+    }
+  }
+]
