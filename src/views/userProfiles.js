@@ -1,12 +1,10 @@
-/**
- * Created by psenger on 7/04/2017.
- */
+
 import React, {Component} from 'react';
-import { fetchProfiles } from '../services/api';
-import UserProfileGrid from '../containers/profiles/userProfileGrid';
-import * as ProfilesActions from '../actionCreators/profilesAction';
 import {bindActionCreators} from 'redux';
 import {connect} from "react-redux";
+import {fetchProfiles} from '../services/api';
+import * as ProfilesActions from '../actionCreators/profilesAction';
+import UserProfileGrid from '../containers/profiles/userProfileGrid';
 
 export class UserProfiles extends Component {
 
