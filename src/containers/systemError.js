@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 
-export default class Home extends Component {
+export default class SystemError extends Component {
     constructor(props) {
         super(props);
-        this.displayName = 'views/Home';
+        this.displayName = 'containers/SystemError';
     }
 
     render() {
         return (
             <div>
-                Welcome home.
+                System Error
             </div>
         );
     }

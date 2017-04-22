@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 
-export default class SystemError extends Component {
+export default class NotFound extends Component {
     constructor(props) {
         super(props);
-        this.displayName = 'views/SystemError';
+        this.displayName = 'containers/NotFound';
     }
 
     render() {
         return (
             <div>
-                System Error
+                404 Not found
             </div>
         );
     }

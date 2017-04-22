@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 
-export default class NotFound extends Component {
+export default class Home extends Component {
     constructor(props) {
         super(props);
-        this.displayName = 'views/NotFound';
+        this.displayName = 'containers/Home';
     }
 
     render() {
         return (
             <div>
-                404 Not found
+                Welcome home.
             </div>
         );
     }

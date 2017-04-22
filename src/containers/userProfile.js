@@ -15,7 +15,7 @@ export class UserProfile extends Component {
 
     constructor(props) {
         super(props);
-        this.displayName = 'views/UserProfile';
+        this.displayName = 'containers/UserProfile';
         this.onSubmit = this.onSubmit.bind(this);
         console.log('profile called', this.props.params );
     }

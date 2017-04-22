@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export default class About extends Component {
     constructor(props) {
         super(props);
-        this.displayName = 'views/About';
+        this.displayName = 'containers/About';
     }
 
     render() {
