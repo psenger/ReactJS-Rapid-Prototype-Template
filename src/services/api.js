@@ -1,6 +1,4 @@
-/**
- * Created by psenger on 4/15/17.
- */
+
 // import { Schema, arrayOf, normalize } from 'normalizr'
 // import { camelizeKeys } from 'humps'
 import 'isomorphic-fetch'

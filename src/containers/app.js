@@ -1,15 +1,12 @@
-/**
- * Created by psenger on 7/04/2017.
- */
 
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
-import React, {Component} from 'react';
-import About from './about';
-import UserProfiles from './userProfiles';
-import UserProfile from './userProfile';
 import Home from './home';
-import Nav from '../components/nav';
+import About from './about';
 import NotFound from './notFound';
+import Nav from '../components/nav';
+import React, {Component} from 'react';
+import UserProfile from './userProfile';
+import UserProfiles from './userProfiles';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 
 const viewMap = [
     {path: '/',                 com: Home,         label: 'Home',     children: []},
