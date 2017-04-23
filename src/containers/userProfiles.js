@@ -4,6 +4,7 @@ import Form from '../components/form';
 import React, {Component} from 'react';
 import Input from '../components/input';
 import {bindActionCreators} from 'redux';
+import {withRouter} from 'react-router';
 import {fetchProfiles} from '../services/api';
 import FormGroup from '../components/formGroup';
 import * as ProfilesActions from '../actionCreators/profilesAction';
@@ -79,4 +80,11 @@ export class UserProfiles extends Component {
 
 let mapStateToProps = ( store, ownProps ) => { return { profiles: store.profilesReducer.profiles } };
 let mapDispatchToProps = (dispatch) => { return { profilesActionDispatcher: bindActionCreators(ProfilesActions, dispatch) }; };
-export default connect(mapStateToProps, mapDispatchToProps)( UserProfiles );
+
+/**
+ * If you are using withRouter to prevent updates from being blocked by shouldComponentUpdate,
+ * it is important that withRouter wraps the component that implements shouldComponentUpate.
+ * For example, when using Redux:
+ * https://reacttraining.com/react-router/web/api/matchPath
+ */
+export default withRouter( connect(mapStateToProps, mapDispatchToProps)( UserProfiles ) );
