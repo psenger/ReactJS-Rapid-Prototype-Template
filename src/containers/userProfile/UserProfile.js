@@ -2,12 +2,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
-import Form from "../components/form";
-import FormGroup from "../components/formGroup";
-import MultiFormGroup from "../components/multiFormGroup";
-import Input from "../components/input";
+import Form from "../../components/form";
+import FormGroup from "../../components/formGroup";
+import MultiFormGroup from "../../components/multiFormGroup";
+import Input from "../../components/input";
 import {bindActionCreators} from 'redux';
-import * as ProfileAction from '../actionCreators/profileAction';
+import * as ProfileAction from '../../actionCreators/profileAction';
 
 export class UserProfile extends Component {
 

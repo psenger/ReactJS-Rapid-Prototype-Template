@@ -1,0 +1,77 @@
+{
+    "_id": "58fd92fea0bbb626e1a6aa64",
+    "isActive": true,
+    "lastLogin": "Wednesday, September 21, 2016 10:20 AM",
+    "balance": "$3,386.85",
+    "age": 28,
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Paul",
+        "last": "Solis"
+    },
+    "company": "BULLJUICE",
+    "email": "paul.solis@bulljuice.co.uk",
+    "phone": [
+        {
+            "_id": "58fd92feb1a3e31dc2ecdffa",
+            "num": "+1 (975) 455-2658",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe078c9b13d85fd40b",
+            "num": "+1 (843) 586-2346",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd92fe899462faf2d02fab",
+            "num": "+1 (885) 523-2407",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd92feb28a3cd28b7f74d7",
+        "num": 764,
+        "street": "Burnett Street",
+        "city": "Magnolia",
+        "state": "Alaska",
+        "zip": 5222,
+        "latitude": "-9.050486",
+        "longitude": "50.701259"
+    },
+    "bio": "Labore proident laboris qui consectetur incididunt nulla. Ipsum nulla ipsum culpa et aute reprehenderit ex incididunt quis cillum commodo nisi pariatur dolore. Mollit labore anim minim veniam proident aute velit eiusmod ad ex ea. Ut ad aliqua ad non commodo deserunt nostrud nulla veniam irure laborum aliqua consectetur mollit. Ut culpa consectetur et eu velit ullamco veniam deserunt consequat qui pariatur reprehenderit Lorem. Ullamco irure Lorem adipisicing reprehenderit mollit ipsum sint excepteur Lorem. Culpa cupidatat fugiat ullamco ipsum aute fugiat dolore sunt ea Lorem voluptate deserunt ea voluptate.",
+    "tags": [
+        "incididunt"
+    ],
+    "friends": [],
+    "greeting": "Hello, Paul! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe5ead2553a8214fcc"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        },
+        {
+            "_id": "58fd92ffac414195d6d836e5"
+        },
+        {
+            "_id": "58fd9553b98df142aa6a74ee"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        },
+        {
+            "_id": "58fd9553a8f3b8252a18f7e2"
+        },
+        {
+            "_id": "58fd95532183f3627c84afd2"
+        },
+        {
+            "_id": "58fd955372cc2491ab2dc5a6"
+        }
+    ]
+}

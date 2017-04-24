@@ -1,12 +1,13 @@
 
-import Home from './home';
-import About from './about';
-import NotFound from './notFound';
+import Home from './home/Home';
+import About from './about/About';
+import NotFound from './notFound/NotFound';
 import Nav from '../components/nav';
 import React, {Component} from 'react';
-import UserProfile from './userProfile';
-import UserProfiles from './userProfiles';
+import UserProfile from './userProfile/UserProfile';
+import UserProfiles from './userProfiles/UserProfiles';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+
 const viewMap = [
     {path: '/',                 component: Home,         label: 'Home',     },
     {path: '/userProfiles',     component: UserProfiles, label: 'Profiles', children: [ { path: '/userProfiles/:id', component: UserProfile, label: 'Profiles'} ] },

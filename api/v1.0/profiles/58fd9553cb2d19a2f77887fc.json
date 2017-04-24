@@ -1,0 +1,71 @@
+{
+    "_id": "58fd9553cb2d19a2f77887fc",
+    "isActive": false,
+    "lastLogin": "Sunday, February 9, 2014 10:38 AM",
+    "balance": "$3,618.94",
+    "age": 36,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Eaton",
+        "last": "Alford"
+    },
+    "company": "COMTREK",
+    "email": "eaton.alford@comtrek.info",
+    "phone": [
+        {
+            "_id": "58fd95539cb7fb4fccee6b26",
+            "num": "+1 (848) 407-2120",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9553208e04e7b354bb70",
+            "num": "+1 (917) 442-3514",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9553a7fbfab46307c395",
+            "num": "+1 (881) 438-3973",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553917bbbd705be4b03",
+        "num": 789,
+        "street": "Rogers Avenue",
+        "city": "Henrietta",
+        "state": "District Of Columbia",
+        "zip": 1147,
+        "latitude": "-36.093887",
+        "longitude": "-98.48383"
+    },
+    "bio": "Eu aliquip occaecat sunt qui nulla eiusmod esse ipsum ullamco adipisicing reprehenderit est aute qui. Aliquip ad nostrud ullamco ut fugiat aute qui proident occaecat ut dolore minim ad. Et commodo exercitation aute nulla Lorem labore. Consectetur reprehenderit laborum non elit. Commodo et deserunt aliqua excepteur.",
+    "tags": [
+        "pariatur",
+        "qui",
+        "amet",
+        "id"
+    ],
+    "friends": [],
+    "greeting": "Hello, Eaton! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92ffd531b92e1c9ab6b0"
+        },
+        {
+            "_id": "58fd92fe9ac8a7155896bf62"
+        },
+        {
+            "_id": "58fd92fe149dbdd91fcc2e47"
+        },
+        {
+            "_id": "58fd92fea555162393862553"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        }
+    ]
+}

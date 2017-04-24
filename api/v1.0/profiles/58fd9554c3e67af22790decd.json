@@ -1,0 +1,95 @@
+{
+    "_id": "58fd9554c3e67af22790decd",
+    "isActive": true,
+    "lastLogin": "Thursday, August 11, 2016 1:06 AM",
+    "balance": "$2,577.39",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Corinne",
+        "last": "Avery"
+    },
+    "company": "PROWASTE",
+    "email": "corinne.avery@prowaste.com",
+    "phone": [
+        {
+            "_id": "58fd95549f5120e975521b2e",
+            "num": "+1 (982) 591-2074",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9554506f0e7e1a6c67ff",
+            "num": "+1 (976) 469-2286",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9554b617778a5f352f56",
+            "num": "+1 (907) 422-2689",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9554160d856815ff468f",
+            "num": "+1 (916) 520-3719",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd95546e8042a144f1cc35",
+        "num": 969,
+        "street": "Bayview Avenue",
+        "city": "Tedrow",
+        "state": "Wisconsin",
+        "zip": 5782,
+        "latitude": "60.184679",
+        "longitude": "-90.621874"
+    },
+    "bio": "Est officia esse adipisicing ut consectetur. Non fugiat reprehenderit esse excepteur esse tempor commodo tempor nostrud enim esse. Exercitation irure sunt voluptate labore dolor nulla fugiat in officia amet. Lorem reprehenderit pariatur sit consequat eu velit quis. Nostrud amet in culpa esse aliquip occaecat ullamco nulla sit proident sint adipisicing. Proident irure aute tempor eu incididunt.",
+    "tags": [
+        "cillum",
+        "id",
+        "culpa",
+        "cillum",
+        "voluptate",
+        "ea",
+        "excepteur",
+        "aliqua"
+    ],
+    "friends": [],
+    "greeting": "Hello, Corinne! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92ff320c9526512d1274"
+        },
+        {
+            "_id": "58fd92fe4744b9ee1b9e125e"
+        },
+        {
+            "_id": "58fd92ff0448789c8b6efeb0"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd955493ff63c42219e546"
+        },
+        {
+            "_id": "58fd95549a3fc0b20d3d16b6"
+        },
+        {
+            "_id": "58fd92feaadba1cf5a27c0e1"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd92fedcdef7d10fe8ca22"
+        },
+        {
+            "_id": "58fd92ffd531b92e1c9ab6b0"
+        },
+        {
+            "_id": "58fd95549a3fc0b20d3d16b6"
+        }
+    ]
+}

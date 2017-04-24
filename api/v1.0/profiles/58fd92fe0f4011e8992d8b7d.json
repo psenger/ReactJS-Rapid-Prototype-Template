@@ -1,0 +1,68 @@
+{
+    "_id": "58fd92fe0f4011e8992d8b7d",
+    "isActive": true,
+    "lastLogin": "Friday, February 7, 2014 5:43 AM",
+    "balance": "$3,601.79",
+    "age": 25,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Le",
+        "last": "Mcguire"
+    },
+    "company": "HARMONEY",
+    "email": "le.mcguire@harmoney.name",
+    "phone": [
+        {
+            "_id": "58fd92fe805420f4f48a65ee",
+            "num": "+1 (860) 486-2887",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe4105443cda1dc6cb",
+            "num": "+1 (990) 478-3873",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fece2945b0afecebcc",
+        "num": 139,
+        "street": "Hendrix Street",
+        "city": "Bradenville",
+        "state": "California",
+        "zip": 6517,
+        "latitude": "-80.043678",
+        "longitude": "49.808794"
+    },
+    "bio": "In Lorem amet exercitation occaecat ullamco. Nostrud dolore anim laboris minim consequat aute id elit labore nulla dolor voluptate enim proident. Esse non occaecat labore do ut laboris ex nisi laborum laboris. Minim deserunt irure culpa ea in. Ut ea id duis non velit laborum deserunt mollit eu. Tempor qui mollit mollit magna labore in sint sunt duis nostrud id nulla quis elit.",
+    "tags": [
+        "magna",
+        "non",
+        "sint",
+        "consequat",
+        "dolor",
+        "sunt"
+    ],
+    "friends": [],
+    "greeting": "Hello, Le! You have 10 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95532f86ee44b4d626f5"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        },
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        },
+        {
+            "_id": "58fd92fe99ff12fdcb5a19ad"
+        },
+        {
+            "_id": "58fd92fecd6f5681da4521d9"
+        },
+        {
+            "_id": "58fd92ff320c9526512d1274"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "_id": "58fd95530e42a7520d5f5911",
+    "isActive": false,
+    "lastLogin": "Monday, February 24, 2014 9:58 AM",
+    "balance": "$1,979.27",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Alma",
+        "last": "Alvarado"
+    },
+    "company": "UNEEQ",
+    "email": "alma.alvarado@uneeq.name",
+    "phone": [
+        {
+            "_id": "58fd9553716f1c8f895b0d92",
+            "num": "+1 (814) 485-2089",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9553f7ca07f327bb3ef1",
+            "num": "+1 (927) 596-3214",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553f12c381ddbe52d26",
+        "num": 657,
+        "street": "Agate Court",
+        "city": "Ferney",
+        "state": "Idaho",
+        "zip": 6127,
+        "latitude": "12.844497",
+        "longitude": "-17.976403"
+    },
+    "bio": "Minim deserunt pariatur eu commodo enim quis adipisicing ullamco ut commodo ex tempor laboris. Laborum ea Lorem in do dolore anim adipisicing mollit laboris esse qui id. Eiusmod deserunt laborum dolor veniam sint non non ex excepteur voluptate.",
+    "tags": [
+        "anim",
+        "aute"
+    ],
+    "friends": [],
+    "greeting": "Hello, Alma! You have 10 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd9553c086b44173a35b73"
+        },
+        {
+            "_id": "58fd95533e7208a2cf718045"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        },
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd9553b9615b845a27869b"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd9554c00e184906d730bb"
+        }
+    ]
+}

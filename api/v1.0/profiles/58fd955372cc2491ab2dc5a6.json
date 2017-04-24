@@ -1,0 +1,64 @@
+{
+    "_id": "58fd955372cc2491ab2dc5a6",
+    "isActive": false,
+    "lastLogin": "Friday, February 14, 2014 1:43 AM",
+    "balance": "$3,647.71",
+    "age": 23,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Ada",
+        "last": "Obrien"
+    },
+    "company": "VISUALIX",
+    "email": "ada.obrien@visualix.info",
+    "phone": [
+        {
+            "_id": "58fd9553d1a2dd0798541719",
+            "num": "+1 (999) 482-3220",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553b073da8b48d4ec3c",
+        "num": 684,
+        "street": "Scott Avenue",
+        "city": "Baker",
+        "state": "New York",
+        "zip": 7624,
+        "latitude": "-60.041608",
+        "longitude": "-56.28824"
+    },
+    "bio": "Ea laborum officia ullamco et labore occaecat in eiusmod incididunt aliqua fugiat. Ad culpa id laboris ad. Adipisicing et anim occaecat sit deserunt pariatur officia ut dolor aute ullamco Lorem pariatur et. Cupidatat non incididunt tempor enim commodo non esse irure occaecat deserunt. Qui elit ex fugiat ea ullamco et dolore reprehenderit adipisicing enim.",
+    "tags": [
+        "consectetur",
+        "qui",
+        "dolore",
+        "aliquip",
+        "irure",
+        "nisi",
+        "anim"
+    ],
+    "friends": [],
+    "greeting": "Hello, Ada! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe79a5cec1099c3094"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd9554bd078e4130b02ddf"
+        },
+        {
+            "_id": "58fd9553b98df142aa6a74ee"
+        },
+        {
+            "_id": "58fd92ffb35c85218e841531"
+        },
+        {
+            "_id": "58fd955344618f57173e2b32"
+        }
+    ]
+}

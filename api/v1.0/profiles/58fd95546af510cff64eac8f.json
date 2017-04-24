@@ -1,0 +1,85 @@
+{
+    "_id": "58fd95546af510cff64eac8f",
+    "isActive": false,
+    "lastLogin": "Friday, May 30, 2014 5:52 AM",
+    "balance": "$1,774.69",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Briana",
+        "last": "Mendoza"
+    },
+    "company": "TECHMANIA",
+    "email": "briana.mendoza@techmania.tv",
+    "phone": [
+        {
+            "_id": "58fd95548287d50613325eb7",
+            "num": "+1 (869) 498-3533",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9554a52cc8ce68cd5f84",
+            "num": "+1 (857) 562-2265",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9554423f971868bf6dbf",
+            "num": "+1 (978) 547-2568",
+            "type": "work"
+        },
+        {
+            "_id": "58fd95546b5f34ba969e8783",
+            "num": "+1 (811) 578-2768",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd95545bbe8a11b2cf965a",
+        "num": 488,
+        "street": "Revere Place",
+        "city": "Lookingglass",
+        "state": "Alaska",
+        "zip": 7050,
+        "latitude": "4.840957",
+        "longitude": "174.017424"
+    },
+    "bio": "Aliquip pariatur fugiat sunt culpa officia sit sint proident mollit non qui labore veniam eu. Ullamco nulla ullamco sint nulla mollit minim. Ullamco magna ad deserunt ad ullamco laborum. Consequat aute officia Lorem esse esse adipisicing exercitation laborum anim eu velit amet sit.",
+    "tags": [
+        "aliquip"
+    ],
+    "friends": [],
+    "greeting": "Hello, Briana! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92feebffc20ad3127e51"
+        },
+        {
+            "_id": "58fd955493ff63c42219e546"
+        },
+        {
+            "_id": "58fd92fe38b6926b878f27bf"
+        },
+        {
+            "_id": "58fd92fefa327c98b8181519"
+        },
+        {
+            "_id": "58fd955340b182675ef6928a"
+        },
+        {
+            "_id": "58fd92feccb2a0e2214b5baf"
+        },
+        {
+            "_id": "58fd9553c086b44173a35b73"
+        },
+        {
+            "_id": "58fd92ffac414195d6d836e5"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92feebffc20ad3127e51"
+        }
+    ]
+}

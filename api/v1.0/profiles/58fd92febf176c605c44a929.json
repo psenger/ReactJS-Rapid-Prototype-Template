@@ -1,0 +1,58 @@
+{
+    "_id": "58fd92febf176c605c44a929",
+    "isActive": true,
+    "lastLogin": "Tuesday, December 23, 2014 4:35 AM",
+    "balance": "$2,710.09",
+    "age": 22,
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Casey",
+        "last": "Carlson"
+    },
+    "company": "ANARCO",
+    "email": "casey.carlson@anarco.com",
+    "phone": [
+        {
+            "_id": "58fd92feebd0720df6cd4eb6",
+            "num": "+1 (926) 468-2101",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92feee7b9768929ed279",
+        "num": 503,
+        "street": "Jackson Street",
+        "city": "Herlong",
+        "state": "Ohio",
+        "zip": 9939,
+        "latitude": "25.850433",
+        "longitude": "103.811745"
+    },
+    "bio": "Sint veniam amet nostrud irure dolore est occaecat sit officia qui labore officia nostrud. Elit proident ut sint pariatur est et fugiat pariatur proident. Proident dolor in sit cillum nisi incididunt nisi deserunt quis aute duis qui ea. Id nisi amet duis incididunt consequat ut cillum. Consectetur nisi commodo velit commodo voluptate. Consequat minim excepteur irure ex in. Quis laboris consequat voluptate nisi reprehenderit aliqua.",
+    "tags": [
+        "esse"
+    ],
+    "friends": [],
+    "greeting": "Hello, Casey! You have 5 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95537d072e29a5efc780"
+        },
+        {
+            "_id": "58fd92fedcdef7d10fe8ca22"
+        },
+        {
+            "_id": "58fd92fe6440a607a61fb47d"
+        },
+        {
+            "_id": "58fd92ff861deb1d67efca08"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        }
+    ]
+}

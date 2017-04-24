@@ -18,7 +18,7 @@ import 'isomorphic-fetch'
 //     return nextLink.split(';')[0].slice(1, -1)
 // }
 
-const API_ROOT = 'http://localhost:4444/';
+const API_ROOT = 'http://localhost:4444/api/v1.0/';
 
 /**
 // Fetches an API response and normalizes the result JSON according to schema.
@@ -97,4 +97,5 @@ function callApi(endpoint) {
 
 }
 
-export const fetchProfiles = () => callApi('data.json');
+export const fetchProfiles = () => callApi('profiles.json');
+export const fetchProfile = (id) => callApi(`profiles/${id}.json`);

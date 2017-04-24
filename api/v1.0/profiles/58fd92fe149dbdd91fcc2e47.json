@@ -1,0 +1,95 @@
+{
+    "_id": "58fd92fe149dbdd91fcc2e47",
+    "isActive": false,
+    "lastLogin": "Saturday, November 28, 2015 5:00 PM",
+    "balance": "$3,857.71",
+    "age": 26,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Letitia",
+        "last": "Sharp"
+    },
+    "company": "PUSHCART",
+    "email": "letitia.sharp@pushcart.name",
+    "phone": [
+        {
+            "_id": "58fd92fe7cfa1d3f4e5ad793",
+            "num": "+1 (988) 552-2290",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd92fe3fa60240f3d72f2b",
+            "num": "+1 (981) 507-2015",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fec4ac2a86a7e331bc",
+            "num": "+1 (870) 587-3110",
+            "type": "work"
+        },
+        {
+            "_id": "58fd92fe6880b1158fa130d2",
+            "num": "+1 (813) 485-3096",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fe0ca8af34b6116104",
+        "num": 770,
+        "street": "Columbia Street",
+        "city": "Nile",
+        "state": "Maine",
+        "zip": 210,
+        "latitude": "-5.365065",
+        "longitude": "65.2695"
+    },
+    "bio": "Exercitation consectetur incididunt labore anim dolor anim sit. Non ad eiusmod adipisicing labore culpa labore elit occaecat amet. Do Lorem eu esse proident ut ad eu culpa adipisicing nulla excepteur officia. Aute quis laborum ut laborum deserunt deserunt consectetur.",
+    "tags": [
+        "anim",
+        "ea",
+        "anim",
+        "ipsum",
+        "excepteur",
+        "incididunt",
+        "anim",
+        "reprehenderit"
+    ],
+    "friends": [],
+    "greeting": "Hello, Letitia! You have 10 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd955304cf4f318e2da8be"
+        },
+        {
+            "_id": "58fd955376b82d31b39dab80"
+        },
+        {
+            "_id": "58fd92fe6a0ba021f1aa85cc"
+        },
+        {
+            "_id": "58fd92fe37a873c9638bb10d"
+        },
+        {
+            "_id": "58fd92fe5ead2553a8214fcc"
+        },
+        {
+            "_id": "58fd92feebffc20ad3127e51"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92fefa327c98b8181519"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd9553cac48fe6cb9e9285"
+        }
+    ]
+}

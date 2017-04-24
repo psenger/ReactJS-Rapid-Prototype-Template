@@ -1,0 +1,77 @@
+{
+    "_id": "58fd92fe99ff12fdcb5a19ad",
+    "isActive": false,
+    "lastLogin": "Friday, July 17, 2015 6:19 AM",
+    "balance": "$2,315.98",
+    "age": 35,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Ball",
+        "last": "Heath"
+    },
+    "company": "XTH",
+    "email": "ball.heath@xth.tv",
+    "phone": [
+        {
+            "_id": "58fd92fe70478b862f1e80b0",
+            "num": "+1 (885) 595-2410",
+            "type": "work"
+        },
+        {
+            "_id": "58fd92fe1acb0e846a28e5cc",
+            "num": "+1 (835) 415-2734",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe9ba701538f9570e0",
+            "num": "+1 (989) 527-3456",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fee533ca955500307d",
+        "num": 366,
+        "street": "Kings Hwy",
+        "city": "Graniteville",
+        "state": "Northern Mariana Islands",
+        "zip": 9530,
+        "latitude": "58.531402",
+        "longitude": "0.67051"
+    },
+    "bio": "Esse dolor ex quis dolor deserunt ad sint fugiat. Magna dolor qui commodo sunt proident et elit quis fugiat laborum. Amet proident incididunt aute ex consectetur. Amet Lorem reprehenderit exercitation id et exercitation ipsum. Nulla culpa esse ut eu qui ex do duis ad adipisicing sit. Aliqua reprehenderit ex et esse enim veniam adipisicing mollit ea ullamco.",
+    "tags": [
+        "occaecat",
+        "commodo",
+        "ipsum",
+        "elit",
+        "officia",
+        "tempor",
+        "cupidatat",
+        "sit",
+        "nostrud",
+        "nisi"
+    ],
+    "friends": [],
+    "greeting": "Hello, Ball! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        },
+        {
+            "_id": "58fd95530e42a7520d5f5911"
+        },
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd92ffa6caa3f4d4b7ebc4"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "_id": "58fd9553b9615b845a27869b",
+    "isActive": true,
+    "lastLogin": "Wednesday, September 10, 2014 6:49 AM",
+    "balance": "$1,709.10",
+    "age": 20,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Blanca",
+        "last": "Navarro"
+    },
+    "company": "RONBERT",
+    "email": "blanca.navarro@ronbert.io",
+    "phone": [
+        {
+            "_id": "58fd9553c860b9eeb2c0f920",
+            "num": "+1 (851) 437-2556",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9553f717c18306517931",
+            "num": "+1 (902) 545-3974",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9553f7992b8fd5509a7d",
+            "num": "+1 (805) 409-3828",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd955357fbc14371df69c0",
+        "num": 698,
+        "street": "Imlay Street",
+        "city": "Whipholt",
+        "state": "American Samoa",
+        "zip": 804,
+        "latitude": "21.553931",
+        "longitude": "-17.777988"
+    },
+    "bio": "Adipisicing consequat duis ad culpa consectetur enim commodo elit ad. Excepteur deserunt labore magna sunt et exercitation. Sint amet dolore reprehenderit eiusmod veniam voluptate esse amet veniam deserunt.",
+    "tags": [
+        "ex",
+        "et",
+        "quis",
+        "sit",
+        "magna",
+        "consectetur"
+    ],
+    "friends": [],
+    "greeting": "Hello, Blanca! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95530e42a7520d5f5911"
+        },
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd955340b182675ef6928a"
+        },
+        {
+            "_id": "58fd9554b7297ccb3d801a4e"
+        },
+        {
+            "_id": "58fd9554753d587ae9127a73"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        }
+    ]
+}

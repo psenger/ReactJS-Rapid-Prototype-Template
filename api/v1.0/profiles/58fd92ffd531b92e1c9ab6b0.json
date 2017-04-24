@@ -1,0 +1,67 @@
+{
+    "_id": "58fd92ffd531b92e1c9ab6b0",
+    "isActive": true,
+    "lastLogin": "Monday, February 17, 2014 8:04 PM",
+    "balance": "$3,843.69",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Campbell",
+        "last": "Hunter"
+    },
+    "company": "IMAGEFLOW",
+    "email": "campbell.hunter@imageflow.tv",
+    "phone": [
+        {
+            "_id": "58fd92ff84837583b773c94a",
+            "num": "+1 (915) 520-2913",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92ffc3e75d66d84a293a",
+            "num": "+1 (922) 475-3129",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92ff8d788639c6058db6",
+        "num": 885,
+        "street": "Irving Street",
+        "city": "Toftrees",
+        "state": "Vermont",
+        "zip": 5298,
+        "latitude": "-66.62139",
+        "longitude": "-102.161368"
+    },
+    "bio": "Nisi ad officia veniam duis eu elit deserunt sint elit. Qui dolor ipsum esse et et voluptate dolor esse ea est. Quis ullamco ullamco sit enim minim officia culpa in elit consectetur culpa. Eiusmod nulla minim occaecat consequat non. Adipisicing consequat ullamco veniam enim pariatur laborum duis in proident. Ullamco sit reprehenderit dolor dolore nulla voluptate cillum voluptate esse tempor irure anim dolor. Quis aliquip irure velit fugiat duis cupidatat cupidatat Lorem ex.",
+    "tags": [
+        "pariatur",
+        "ullamco",
+        "ipsum",
+        "nulla",
+        "proident"
+    ],
+    "friends": [],
+    "greeting": "Hello, Campbell! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554665c0e181fa7a059"
+        },
+        {
+            "_id": "58fd92fe6a0ba021f1aa85cc"
+        },
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        },
+        {
+            "_id": "58fd92fea555162393862553"
+        },
+        {
+            "_id": "58fd955304cf4f318e2da8be"
+        }
+    ]
+}

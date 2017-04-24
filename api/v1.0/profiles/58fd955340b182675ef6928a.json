@@ -1,0 +1,65 @@
+{
+    "_id": "58fd955340b182675ef6928a",
+    "isActive": true,
+    "lastLogin": "Thursday, September 22, 2016 3:12 AM",
+    "balance": "$2,582.31",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Frost",
+        "last": "Whitley"
+    },
+    "company": "MOREGANIC",
+    "email": "frost.whitley@moreganic.ca",
+    "phone": [
+        {
+            "_id": "58fd95533476ef56cab57586",
+            "num": "+1 (866) 490-3565",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd955314641f9ac0ef46b1",
+            "num": "+1 (954) 557-2562",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd95537714f0dc3c9c839a",
+        "num": 750,
+        "street": "Graham Avenue",
+        "city": "Helen",
+        "state": "Michigan",
+        "zip": 5399,
+        "latitude": "-49.161119",
+        "longitude": "72.819586"
+    },
+    "bio": "Eiusmod consequat ex ut qui reprehenderit aliquip dolor laboris cupidatat. Aute do est do ex. Sint dolore exercitation velit id laborum et deserunt ea in elit ipsum nostrud esse quis. Ex fugiat ea sint aute pariatur voluptate elit voluptate reprehenderit elit tempor enim culpa. Anim ex eu exercitation nostrud consequat minim consectetur in officia incididunt eiusmod proident. Culpa laboris duis enim qui minim voluptate occaecat quis culpa non.",
+    "tags": [
+        "irure",
+        "consectetur",
+        "voluptate"
+    ],
+    "friends": [],
+    "greeting": "Hello, Frost! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554753d587ae9127a73"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd95532183f3627c84afd2"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        },
+        {
+            "_id": "58fd9554bd078e4130b02ddf"
+        },
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        }
+    ]
+}

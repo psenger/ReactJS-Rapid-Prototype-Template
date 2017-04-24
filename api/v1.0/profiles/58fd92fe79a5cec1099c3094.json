@@ -1,0 +1,77 @@
+{
+    "_id": "58fd92fe79a5cec1099c3094",
+    "isActive": true,
+    "lastLogin": "Wednesday, September 21, 2016 7:01 PM",
+    "balance": "$2,202.53",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Latisha",
+        "last": "Todd"
+    },
+    "company": "NORSUP",
+    "email": "latisha.todd@norsup.ca",
+    "phone": [
+        {
+            "_id": "58fd92fe0763bb57958a94ac",
+            "num": "+1 (982) 533-3304",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe35663b4ebad07744",
+            "num": "+1 (846) 503-2060",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd92fe7fff6ee2241be4ce",
+            "num": "+1 (980) 548-2824",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd92feb5ab4aa697db64c1",
+        "num": 916,
+        "street": "Ridge Boulevard",
+        "city": "Eastmont",
+        "state": "Maryland",
+        "zip": 3826,
+        "latitude": "-10.211935",
+        "longitude": "57.250589"
+    },
+    "bio": "Reprehenderit proident Lorem sint quis ullamco incididunt aliquip sit nisi do. Est consectetur ut proident labore consectetur minim officia. Tempor ex proident ex non veniam eu. Labore est irure sint cupidatat ea labore irure laboris. Eiusmod dolore sint cupidatat reprehenderit aute nulla cupidatat et.",
+    "tags": [
+        "eiusmod",
+        "commodo",
+        "velit",
+        "consequat",
+        "exercitation",
+        "quis",
+        "aliquip"
+    ],
+    "friends": [],
+    "greeting": "Hello, Latisha! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        },
+        {
+            "_id": "58fd9553cac48fe6cb9e9285"
+        },
+        {
+            "_id": "58fd92fecd6f5681da4521d9"
+        },
+        {
+            "_id": "58fd9553a8f3b8252a18f7e2"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        }
+    ]
+}

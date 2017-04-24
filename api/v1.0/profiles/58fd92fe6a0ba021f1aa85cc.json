@@ -1,0 +1,67 @@
+{
+    "_id": "58fd92fe6a0ba021f1aa85cc",
+    "isActive": false,
+    "lastLogin": "Friday, August 22, 2014 3:43 PM",
+    "balance": "$3,256.60",
+    "age": 40,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Susanna",
+        "last": "Rodriguez"
+    },
+    "company": "HOUSEDOWN",
+    "email": "susanna.rodriguez@housedown.io",
+    "phone": [
+        {
+            "_id": "58fd92fe42da61da048123af",
+            "num": "+1 (827) 416-3427",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fe3077c2a799485bb3",
+        "num": 191,
+        "street": "Rapelye Street",
+        "city": "Conestoga",
+        "state": "New Mexico",
+        "zip": 2080,
+        "latitude": "-16.373387",
+        "longitude": "-105.130055"
+    },
+    "bio": "Non eiusmod nulla aute anim est tempor minim consequat proident in culpa sunt. Ullamco qui cupidatat est commodo fugiat ullamco voluptate voluptate veniam proident. Labore fugiat nulla Lorem in et aute aliquip excepteur voluptate anim culpa irure aliqua. Exercitation deserunt ex elit nostrud culpa laboris id nulla ut deserunt est ea.",
+    "tags": [
+        "laboris",
+        "aliquip",
+        "minim",
+        "amet",
+        "ipsum",
+        "proident",
+        "id"
+    ],
+    "friends": [],
+    "greeting": "Hello, Susanna! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd92feebffc20ad3127e51"
+        },
+        {
+            "_id": "58fd92ffd531b92e1c9ab6b0"
+        },
+        {
+            "_id": "58fd95530e42a7520d5f5911"
+        },
+        {
+            "_id": "58fd92ffa6caa3f4d4b7ebc4"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd955344618f57173e2b32"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "_id": "58fd955376b82d31b39dab80",
+    "isActive": true,
+    "lastLogin": "Tuesday, July 19, 2016 10:16 AM",
+    "balance": "$2,936.37",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Linda",
+        "last": "Oconnor"
+    },
+    "company": "ZEAM",
+    "email": "linda.oconnor@zeam.org",
+    "phone": [
+        {
+            "_id": "58fd95533d6ce1190d6ee538",
+            "num": "+1 (992) 516-3495",
+            "type": "home"
+        },
+        {
+            "_id": "58fd95530b1b287351470c4c",
+            "num": "+1 (873) 594-3762",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9553b46c182606c1cad5",
+            "num": "+1 (922) 450-3333",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553b62330d18363b357",
+        "num": 213,
+        "street": "Nelson Street",
+        "city": "Lindisfarne",
+        "state": "Arizona",
+        "zip": 8534,
+        "latitude": "78.206231",
+        "longitude": "168.440915"
+    },
+    "bio": "Sint sint fugiat deserunt ex laborum. Veniam sint in excepteur duis dolore eu ipsum qui id tempor. Ullamco labore qui aliqua ut culpa ad. Nostrud ad ipsum et Lorem officia adipisicing.",
+    "tags": [
+        "laborum",
+        "voluptate"
+    ],
+    "friends": [],
+    "greeting": "Hello, Linda! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92ffa6caa3f4d4b7ebc4"
+        },
+        {
+            "_id": "58fd95547e62492d87a432c3"
+        },
+        {
+            "_id": "58fd92fedcdef7d10fe8ca22"
+        },
+        {
+            "_id": "58fd9553114dda9aac86d4dc"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd9554b7297ccb3d801a4e"
+        },
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd9554bd078e4130b02ddf"
+        },
+        {
+            "_id": "58fd92ff5ba9314ec4d623ec"
+        },
+        {
+            "_id": "58fd9554c00e184906d730bb"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "_id": "58fd9553cac48fe6cb9e9285",
+    "isActive": false,
+    "lastLogin": "Saturday, June 6, 2015 3:03 AM",
+    "balance": "$2,983.71",
+    "age": 34,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Rachael",
+        "last": "Christian"
+    },
+    "company": "VIOCULAR",
+    "email": "rachael.christian@viocular.biz",
+    "phone": [
+        {
+            "_id": "58fd955350e2d6b1fddd9d2b",
+            "num": "+1 (870) 447-3528",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9553c25b5cd2173348b8",
+            "num": "+1 (947) 427-3476",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd95532e4681b8d1b9183d",
+            "num": "+1 (870) 481-2777",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553d99654ef836cf0c2",
+        "num": 632,
+        "street": "Robert Street",
+        "city": "Gracey",
+        "state": "Indiana",
+        "zip": 4678,
+        "latitude": "75.907654",
+        "longitude": "-5.850663"
+    },
+    "bio": "Sint consectetur in do occaecat in Lorem proident cupidatat mollit eiusmod deserunt qui. Officia dolor et qui ut laboris nisi nisi do excepteur. Magna ullamco minim sunt laboris excepteur voluptate ipsum laborum. Voluptate laboris consequat excepteur irure est mollit aute ut. Do quis veniam sint magna amet.",
+    "tags": [
+        "reprehenderit",
+        "amet"
+    ],
+    "friends": [],
+    "greeting": "Hello, Rachael! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd95535087dc0b6bda3343"
+        },
+        {
+            "_id": "58fd95535658907d59f35d43"
+        },
+        {
+            "_id": "58fd95532183f3627c84afd2"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        },
+        {
+            "_id": "58fd95533e7208a2cf718045"
+        },
+        {
+            "_id": "58fd9553fbe4e025d22ef487"
+        }
+    ]
+}

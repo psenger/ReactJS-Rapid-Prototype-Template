@@ -1,0 +1,63 @@
+{
+    "_id": "58fd92fd6b453171b6988e31",
+    "isActive": true,
+    "lastLogin": "Sunday, January 31, 2016 3:43 PM",
+    "balance": "$2,145.33",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Johns",
+        "last": "Riley"
+    },
+    "company": "ZENTIME",
+    "email": "johns.riley@zentime.org",
+    "phone": [
+        {
+            "_id": "58fd92fefd6e06fc4f888b1a",
+            "num": "+1 (865) 508-2534",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fec3b2cf1ab25dba77",
+        "num": 301,
+        "street": "Court Street",
+        "city": "Jugtown",
+        "state": "Federated States Of Micronesia",
+        "zip": 5061,
+        "latitude": "-54.850897",
+        "longitude": "-90.516052"
+    },
+    "bio": "Ea qui dolore dolore aute. Qui laboris duis Lorem anim. Aliqua id adipisicing aute occaecat velit sint nostrud cupidatat ad anim consequat.",
+    "tags": [
+        "officia",
+        "non",
+        "consequat"
+    ],
+    "friends": [],
+    "greeting": "Hello, Johns! You have 9 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92ff320c9526512d1274"
+        },
+        {
+            "_id": "58fd955376b82d31b39dab80"
+        },
+        {
+            "_id": "58fd92fefa327c98b8181519"
+        },
+        {
+            "_id": "58fd955493ff63c42219e546"
+        },
+        {
+            "_id": "58fd955304cf4f318e2da8be"
+        },
+        {
+            "_id": "58fd92fea555162393862553"
+        },
+        {
+            "_id": "58fd9553a8f3b8252a18f7e2"
+        }
+    ]
+}

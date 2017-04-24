@@ -1,0 +1,77 @@
+{
+    "_id": "58fd9554137e97790f7124c0",
+    "isActive": true,
+    "lastLogin": "Wednesday, January 8, 2014 11:02 PM",
+    "balance": "$2,146.94",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Harrell",
+        "last": "Nunez"
+    },
+    "company": "ASSITIA",
+    "email": "harrell.nunez@assitia.io",
+    "phone": [
+        {
+            "_id": "58fd955444c196c96ab9f1e9",
+            "num": "+1 (839) 574-2324",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9554f330807cd6eec1a6",
+            "num": "+1 (985) 539-2115",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9554f8ef3facc00a6c13",
+            "num": "+1 (890) 445-2033",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd95541e0f4334681797ec",
+            "num": "+1 (883) 563-3059",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9554877192b1b5334f35",
+        "num": 408,
+        "street": "Oak Street",
+        "city": "Chloride",
+        "state": "South Carolina",
+        "zip": 2273,
+        "latitude": "6.190829",
+        "longitude": "-169.136175"
+    },
+    "bio": "Eu sint ea tempor consectetur in labore ad mollit. Est qui esse laborum ut pariatur mollit occaecat consectetur ad enim cillum tempor. Eu aliquip sunt est consectetur voluptate. Aute nisi minim anim voluptate adipisicing.",
+    "tags": [
+        "aliquip",
+        "anim",
+        "laborum",
+        "voluptate",
+        "incididunt"
+    ],
+    "friends": [],
+    "greeting": "Hello, Harrell! You have 9 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe3fa9073fd37c9617"
+        },
+        {
+            "_id": "58fd92fe6440a607a61fb47d"
+        },
+        {
+            "_id": "58fd9553c086b44173a35b73"
+        },
+        {
+            "_id": "58fd95547e62492d87a432c3"
+        },
+        {
+            "_id": "58fd92fe5ead2553a8214fcc"
+        },
+        {
+            "_id": "58fd955372cc2491ab2dc5a6"
+        }
+    ]
+}

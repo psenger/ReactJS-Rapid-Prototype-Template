@@ -1,0 +1,62 @@
+{
+    "_id": "58fd955344618f57173e2b32",
+    "isActive": false,
+    "lastLogin": "Wednesday, March 18, 2015 6:51 AM",
+    "balance": "$1,436.85",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Bianca",
+        "last": "Donaldson"
+    },
+    "company": "TRI@TRIBALOG",
+    "email": "bianca.donaldson@tri@tribalog.name",
+    "phone": [
+        {
+            "_id": "58fd9553fc32dbbc9c8022ec",
+            "num": "+1 (926) 583-3894",
+            "type": "work"
+        },
+        {
+            "_id": "58fd95537a8199bd5497735c",
+            "num": "+1 (944) 556-3089",
+            "type": "work"
+        },
+        {
+            "_id": "58fd95539256b9ee67843221",
+            "num": "+1 (842) 416-2306",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553af9a7b97ce2e738a",
+        "num": 981,
+        "street": "Butler Place",
+        "city": "Rosburg",
+        "state": "Oregon",
+        "zip": 6525,
+        "latitude": "-73.103335",
+        "longitude": "-98.471751"
+    },
+    "bio": "Velit enim commodo reprehenderit ex eu ea minim. Incididunt fugiat est cupidatat veniam eiusmod consequat ipsum proident qui incididunt nisi adipisicing cillum sint. Et commodo esse fugiat ex nulla velit.",
+    "tags": [
+        "cillum",
+        "proident",
+        "sit",
+        "ipsum",
+        "ipsum",
+        "et",
+        "excepteur"
+    ],
+    "friends": [],
+    "greeting": "Hello, Bianca! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        }
+    ]
+}

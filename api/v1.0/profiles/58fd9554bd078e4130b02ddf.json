@@ -1,0 +1,67 @@
+{
+    "_id": "58fd9554bd078e4130b02ddf",
+    "isActive": false,
+    "lastLogin": "Friday, September 5, 2014 10:08 AM",
+    "balance": "$3,661.90",
+    "age": 33,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Carla",
+        "last": "Allison"
+    },
+    "company": "NEXGENE",
+    "email": "carla.allison@nexgene.org",
+    "phone": [
+        {
+            "_id": "58fd9554da8db08c0be39f97",
+            "num": "+1 (935) 538-2523",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9554c4206f543ebe92e1",
+            "num": "+1 (836) 438-3267",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd95546e9e577ce87d8a9a",
+        "num": 498,
+        "street": "Front Street",
+        "city": "Bonanza",
+        "state": "Colorado",
+        "zip": 3034,
+        "latitude": "-10.715356",
+        "longitude": "40.307067"
+    },
+    "bio": "Id consequat aliquip fugiat id. Minim quis eu ex laborum. Culpa quis ea sit laborum amet tempor enim qui velit dolor quis sit eiusmod eiusmod. Qui exercitation sunt commodo eu minim.",
+    "tags": [
+        "et",
+        "exercitation",
+        "magna",
+        "nisi",
+        "nisi"
+    ],
+    "friends": [],
+    "greeting": "Hello, Carla! You have 10 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554bd078e4130b02ddf"
+        },
+        {
+            "_id": "58fd955376b82d31b39dab80"
+        },
+        {
+            "_id": "58fd955376b82d31b39dab80"
+        },
+        {
+            "_id": "58fd92ff320c9526512d1274"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        }
+    ]
+}

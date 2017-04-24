@@ -1,0 +1,67 @@
+{
+    "_id": "58fd92fe38b6926b878f27bf",
+    "isActive": false,
+    "lastLogin": "Saturday, March 19, 2016 6:36 PM",
+    "balance": "$2,459.27",
+    "age": 31,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Leslie",
+        "last": "Hardy"
+    },
+    "company": "MEDIFAX",
+    "email": "leslie.hardy@medifax.ca",
+    "phone": [
+        {
+            "_id": "58fd92fed53c11beb1accb17",
+            "num": "+1 (934) 537-2387",
+            "type": "work"
+        },
+        {
+            "_id": "58fd92fe3b7b8bf7f8d88813",
+            "num": "+1 (896) 423-2199",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92feaad28e1013d42e60",
+            "num": "+1 (805) 577-3314",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fef788fbd2129bcca7",
+        "num": 477,
+        "street": "Regent Place",
+        "city": "Winchester",
+        "state": "Connecticut",
+        "zip": 3728,
+        "latitude": "52.721534",
+        "longitude": "45.36711"
+    },
+    "bio": "Aliquip est dolore quis id exercitation mollit consectetur duis aliqua amet cillum consequat nisi minim. Quis nisi exercitation dolor sint reprehenderit. Ipsum pariatur sunt cillum sint aliqua sunt ipsum. Deserunt consectetur quis commodo est magna laboris ex veniam sint consectetur occaecat.",
+    "tags": [
+        "deserunt",
+        "fugiat",
+        "deserunt",
+        "eu",
+        "culpa",
+        "exercitation"
+    ],
+    "friends": [],
+    "greeting": "Hello, Leslie! You have 9 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554914f539903605e07"
+        },
+        {
+            "_id": "58fd955304cf4f318e2da8be"
+        },
+        {
+            "_id": "58fd92ffb35c85218e841531"
+        },
+        {
+            "_id": "58fd92feccb2a0e2214b5baf"
+        }
+    ]
+}

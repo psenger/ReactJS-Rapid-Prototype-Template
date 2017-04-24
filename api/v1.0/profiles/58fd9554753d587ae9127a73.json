@@ -1,0 +1,66 @@
+{
+    "_id": "58fd9554753d587ae9127a73",
+    "isActive": true,
+    "lastLogin": "Saturday, April 1, 2017 9:14 AM",
+    "balance": "$2,422.40",
+    "age": 38,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Teresa",
+        "last": "Dotson"
+    },
+    "company": "BULLJUICE",
+    "email": "teresa.dotson@bulljuice.name",
+    "phone": [
+        {
+            "_id": "58fd95544c60e090585fe7f2",
+            "num": "+1 (897) 442-2603",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd9554769ebc1b025bf8d5",
+        "num": 983,
+        "street": "Burnett Street",
+        "city": "Cowiche",
+        "state": "Wyoming",
+        "zip": 8127,
+        "latitude": "14.224389",
+        "longitude": "-8.650078"
+    },
+    "bio": "Ipsum nulla laborum in velit. Eu magna laboris nisi aliquip aute id esse velit consequat laborum voluptate et nostrud officia. Incididunt eiusmod Lorem sit consectetur cillum est sint culpa elit. Adipisicing consequat laborum consequat quis nulla quis et cupidatat incididunt esse. Commodo do amet tempor fugiat cupidatat quis aliqua.",
+    "tags": [
+        "do",
+        "est",
+        "laboris"
+    ],
+    "friends": [],
+    "greeting": "Hello, Teresa! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fedc595c7f63b638ef"
+        },
+        {
+            "_id": "58fd955329bef3f085681dd5"
+        },
+        {
+            "_id": "58fd955353e318abd772603d"
+        },
+        {
+            "_id": "58fd955372cc2491ab2dc5a6"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd955329bef3f085681dd5"
+        }
+    ]
+}

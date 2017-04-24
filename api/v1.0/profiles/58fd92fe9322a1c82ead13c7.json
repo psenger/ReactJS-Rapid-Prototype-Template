@@ -1,0 +1,54 @@
+{
+    "_id": "58fd92fe9322a1c82ead13c7",
+    "isActive": true,
+    "lastLogin": "Friday, April 21, 2017 8:02 PM",
+    "balance": "$2,862.52",
+    "age": 36,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Pearl",
+        "last": "Duffy"
+    },
+    "company": "MIRACULA",
+    "email": "pearl.duffy@miracula.us",
+    "phone": [
+        {
+            "_id": "58fd92fe727ab09ae02d759e",
+            "num": "+1 (815) 572-2452",
+            "type": "work"
+        },
+        {
+            "_id": "58fd92fefe3fba98469b5345",
+            "num": "+1 (993) 462-3078",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fe71790ae006bc092a",
+        "num": 631,
+        "street": "Turnbull Avenue",
+        "city": "Caroline",
+        "state": "Oregon",
+        "zip": 1848,
+        "latitude": "-41.047353",
+        "longitude": "9.639304"
+    },
+    "bio": "Quis qui officia ex cupidatat nostrud consectetur est nulla. Lorem consequat sint eiusmod qui ea pariatur. Sint ut fugiat dolore ea aute non minim cupidatat elit commodo consectetur qui. Consequat amet elit eiusmod incididunt mollit anim. Occaecat non occaecat ipsum dolore mollit ipsum cillum cillum veniam exercitation non eiusmod magna enim. Proident occaecat ipsum minim aliquip minim nostrud excepteur.",
+    "tags": [
+        "cillum",
+        "adipisicing",
+        "eiusmod",
+        "exercitation"
+    ],
+    "friends": [],
+    "greeting": "Hello, Pearl! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd92fe5ead2553a8214fcc"
+        }
+    ]
+}

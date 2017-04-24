@@ -1,0 +1,93 @@
+{
+    "_id": "58fd95537d072e29a5efc780",
+    "isActive": true,
+    "lastLogin": "Saturday, May 28, 2016 2:38 AM",
+    "balance": "$1,585.09",
+    "age": 37,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Gwendolyn",
+        "last": "Workman"
+    },
+    "company": "UBERLUX",
+    "email": "gwendolyn.workman@uberlux.com",
+    "phone": [
+        {
+            "_id": "58fd9553642d62d3167b47d9",
+            "num": "+1 (916) 579-2920",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9553b9b6b9279ba6f0be",
+            "num": "+1 (945) 472-3625",
+            "type": "work"
+        },
+        {
+            "_id": "58fd95530a12144090b42a70",
+            "num": "+1 (924) 465-3342",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9553aa317cc865908afd",
+            "num": "+1 (847) 455-3754",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd95534e4318288f3377c5",
+        "num": 495,
+        "street": "Barwell Terrace",
+        "city": "Forbestown",
+        "state": "Rhode Island",
+        "zip": 9822,
+        "latitude": "38.907532",
+        "longitude": "-67.083094"
+    },
+    "bio": "Et commodo esse anim veniam aliqua est. Labore incididunt magna labore duis laborum est culpa aliquip tempor labore laboris esse enim. Cillum excepteur commodo fugiat minim nulla excepteur velit id. Anim aliquip incididunt occaecat adipisicing dolore excepteur reprehenderit. Exercitation velit labore ullamco nostrud eiusmod veniam mollit consectetur commodo voluptate sunt.",
+    "tags": [
+        "aliquip",
+        "consectetur",
+        "magna"
+    ],
+    "friends": [],
+    "greeting": "Hello, Gwendolyn! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92ffa6caa3f4d4b7ebc4"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd9553d95eaa61e35e78a8"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        },
+        {
+            "_id": "58fd9554b7297ccb3d801a4e"
+        },
+        {
+            "_id": "58fd9553fbe4e025d22ef487"
+        },
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        },
+        {
+            "_id": "58fd9554e7416f96efac8009"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        },
+        {
+            "_id": "58fd9554e18e71ddcda90729"
+        },
+        {
+            "_id": "58fd9554c99300a1e79023d0"
+        },
+        {
+            "_id": "58fd9554c3e67af22790decd"
+        }
+    ]
+}

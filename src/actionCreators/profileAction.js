@@ -1,5 +1,5 @@
 
-import * as actionConstants from "./actions/profile";
+import * as actionConstants from "./actionTypes/profile";
 
 export const updateEmail = email => ({
     type: actionConstants.PROFILE_MODIFY_EMAIL,

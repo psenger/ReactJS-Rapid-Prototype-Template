@@ -1,0 +1,77 @@
+{
+    "_id": "58fd92fe9ac8a7155896bf62",
+    "isActive": false,
+    "lastLogin": "Monday, August 8, 2016 2:30 PM",
+    "balance": "$2,707.34",
+    "age": 30,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Concepcion",
+        "last": "Larson"
+    },
+    "company": "COMVEYER",
+    "email": "concepcion.larson@comveyer.net",
+    "phone": [
+        {
+            "_id": "58fd92feaeb67b407f0041e3",
+            "num": "+1 (911) 445-2874",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fedc39ec28e70ebe76",
+        "num": 774,
+        "street": "Taaffe Place",
+        "city": "Glidden",
+        "state": "West Virginia",
+        "zip": 8986,
+        "latitude": "-56.615199",
+        "longitude": "-52.491377"
+    },
+    "bio": "Dolor irure tempor aliquip consectetur sint sunt aliquip eu voluptate ipsum cupidatat eiusmod aliquip enim. Aute deserunt nulla labore quis nisi culpa nulla laboris ullamco non ullamco in. Ut quis veniam sint culpa quis minim commodo aliquip ex culpa incididunt.",
+    "tags": [
+        "mollit",
+        "magna",
+        "amet",
+        "nostrud",
+        "reprehenderit"
+    ],
+    "friends": [],
+    "greeting": "Hello, Concepcion! You have 5 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fea711098768f69d2b"
+        },
+        {
+            "_id": "58fd92fe9ac8a7155896bf62"
+        },
+        {
+            "_id": "58fd955344618f57173e2b32"
+        },
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        },
+        {
+            "_id": "58fd92ff5ba9314ec4d623ec"
+        },
+        {
+            "_id": "58fd92fe79a5cec1099c3094"
+        },
+        {
+            "_id": "58fd92fe5ead2553a8214fcc"
+        },
+        {
+            "_id": "58fd92fe4744b9ee1b9e125e"
+        },
+        {
+            "_id": "58fd9553fbe4e025d22ef487"
+        },
+        {
+            "_id": "58fd92ff0448789c8b6efeb0"
+        },
+        {
+            "_id": "58fd9553b9615b845a27869b"
+        }
+    ]
+}

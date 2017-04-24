@@ -3,7 +3,7 @@ The following was used at http://beta.json-generator.com/ to generate the data.j
 
 [
   {
-    'repeat(5, 20)': {
+    'repeat(40)': {
 
       _id: '{{objectId()}}',
       isActive: '{{bool()}}',
@@ -52,17 +52,7 @@ The following was used at http://beta.json-generator.com/ to generate the data.j
         }
       ],
       friends: [
-        {
-          'repeat(1,5)': {
-            _id: '{{objectId()}}',
-            title: function (tags) {
-                var t = ['MR', 'MRS', 'MS', 'MISS'];
-                return t[tags.integer(0, t.length - 1)];
-            },
-            first: '{{firstName()}}',
-            last: '{{surname()}}'
-          }
-        }
+
       ],
       greeting: function (tags) {
         return 'Hello, ' + this.name.first + '! You have ' + tags.integer(5, 10) + ' unread messages.';

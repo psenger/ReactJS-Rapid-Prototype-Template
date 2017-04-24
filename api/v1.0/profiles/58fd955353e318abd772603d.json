@@ -1,0 +1,75 @@
+{
+    "_id": "58fd955353e318abd772603d",
+    "isActive": false,
+    "lastLogin": "Wednesday, July 30, 2014 2:26 AM",
+    "balance": "$3,282.03",
+    "age": 34,
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Osborne",
+        "last": "Flores"
+    },
+    "company": "BIOTICA",
+    "email": "osborne.flores@biotica.me",
+    "phone": [
+        {
+            "_id": "58fd9553024a47a433c55c55",
+            "num": "+1 (875) 425-2805",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd95532bb2b94a43698e78",
+        "num": 352,
+        "street": "Karweg Place",
+        "city": "Grimsley",
+        "state": "Puerto Rico",
+        "zip": 2967,
+        "latitude": "88.472916",
+        "longitude": "-160.307253"
+    },
+    "bio": "Aliqua ut reprehenderit eu culpa consequat aute incididunt. Eiusmod irure anim adipisicing laboris laborum sunt labore voluptate proident fugiat eu aute. Consectetur pariatur aliqua nostrud est nisi pariatur excepteur eiusmod commodo est incididunt deserunt. Duis labore ex sint dolor culpa. Sit ex duis labore anim anim sint veniam eu labore aliquip qui Lorem nostrud.",
+    "tags": [
+        "anim",
+        "aliquip",
+        "officia"
+    ],
+    "friends": [],
+    "greeting": "Hello, Osborne! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        },
+        {
+            "_id": "58fd92fedc595c7f63b638ef"
+        },
+        {
+            "_id": "58fd95549a3fc0b20d3d16b6"
+        },
+        {
+            "_id": "58fd92fecd6f5681da4521d9"
+        },
+        {
+            "_id": "58fd92fecf3ab8dd0f0f4a0a"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92fe99ff12fdcb5a19ad"
+        },
+        {
+            "_id": "58fd92ffb35c85218e841531"
+        },
+        {
+            "_id": "58fd9554665c0e181fa7a059"
+        },
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        },
+        {
+            "_id": "58fd92fe3fa9073fd37c9617"
+        }
+    ]
+}

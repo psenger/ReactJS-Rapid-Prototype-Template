@@ -1,0 +1,91 @@
+{
+    "_id": "58fd9554c00e184906d730bb",
+    "isActive": false,
+    "lastLogin": "Friday, April 24, 2015 12:22 PM",
+    "balance": "$3,539.91",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Colleen",
+        "last": "Armstrong"
+    },
+    "company": "METROZ",
+    "email": "colleen.armstrong@metroz.com",
+    "phone": [
+        {
+            "_id": "58fd955459eb3bbd6c66be1c",
+            "num": "+1 (942) 523-3176",
+            "type": "work"
+        },
+        {
+            "_id": "58fd9554f273a8c23e6df86b",
+            "num": "+1 (863) 487-3535",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9554bad6868ef99ea86d",
+            "num": "+1 (974) 541-2159",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd95549270346d98681034",
+            "num": "+1 (885) 564-2767",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9554ac31f090d15fa813",
+        "num": 567,
+        "street": "Louise Terrace",
+        "city": "Finzel",
+        "state": "West Virginia",
+        "zip": 4914,
+        "latitude": "-13.597953",
+        "longitude": "-115.674137"
+    },
+    "bio": "Exercitation laboris reprehenderit Lorem eiusmod quis ipsum officia minim aute consequat incididunt. Cupidatat magna ea elit reprehenderit minim voluptate in in anim esse esse. Adipisicing occaecat dolore reprehenderit aute nulla dolore elit ea cupidatat minim sunt consequat nisi nulla.",
+    "tags": [
+        "sint"
+    ],
+    "friends": [],
+    "greeting": "Hello, Colleen! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95547cb032766adf643f"
+        },
+        {
+            "_id": "58fd955493ff63c42219e546"
+        },
+        {
+            "_id": "58fd92fe4744b9ee1b9e125e"
+        },
+        {
+            "_id": "58fd95537d072e29a5efc780"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd92ffb35c85218e841531"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd92fedcdef7d10fe8ca22"
+        },
+        {
+            "_id": "58fd92fe996db5b673382faa"
+        },
+        {
+            "_id": "58fd92ffa70fd04398e85c42"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        }
+    ]
+}

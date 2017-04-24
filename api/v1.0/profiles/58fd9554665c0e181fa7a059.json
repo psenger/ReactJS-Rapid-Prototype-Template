@@ -1,0 +1,68 @@
+{
+    "_id": "58fd9554665c0e181fa7a059",
+    "isActive": false,
+    "lastLogin": "Thursday, March 2, 2017 11:28 PM",
+    "balance": "$3,687.92",
+    "age": 25,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Patton",
+        "last": "Case"
+    },
+    "company": "MEDIFAX",
+    "email": "patton.case@medifax.biz",
+    "phone": [
+        {
+            "_id": "58fd9554b7daaeb7dcc7060d",
+            "num": "+1 (816) 433-2518",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd95546424efee2587c956",
+        "num": 769,
+        "street": "Pilling Street",
+        "city": "Durham",
+        "state": "Louisiana",
+        "zip": 4798,
+        "latitude": "2.526456",
+        "longitude": "133.711698"
+    },
+    "bio": "Ea pariatur adipisicing ipsum dolore mollit mollit laborum qui incididunt dolor culpa adipisicing occaecat minim. Est reprehenderit consectetur incididunt sint id eiusmod irure esse voluptate velit reprehenderit enim et nulla. Pariatur velit fugiat consequat consequat quis sint eiusmod mollit. Veniam laboris dolor proident irure amet. Velit esse nulla incididunt non dolor laborum excepteur sunt velit ipsum laborum.",
+    "tags": [
+        "fugiat",
+        "aliqua",
+        "et",
+        "esse",
+        "excepteur"
+    ],
+    "friends": [],
+    "greeting": "Hello, Patton! You have 5 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9553114dda9aac86d4dc"
+        },
+        {
+            "_id": "58fd95532f86ee44b4d626f5"
+        },
+        {
+            "_id": "58fd92ff861deb1d67efca08"
+        },
+        {
+            "_id": "58fd92feaadba1cf5a27c0e1"
+        },
+        {
+            "_id": "58fd92fe99ff12fdcb5a19ad"
+        },
+        {
+            "_id": "58fd9553c82dbff207d3048c"
+        },
+        {
+            "_id": "58fd95537d072e29a5efc780"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        }
+    ]
+}

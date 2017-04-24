@@ -1,0 +1,67 @@
+{
+    "_id": "58fd9553c086b44173a35b73",
+    "isActive": false,
+    "lastLogin": "Thursday, May 8, 2014 2:38 PM",
+    "balance": "$1,560.66",
+    "age": 36,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Ava",
+        "last": "Chang"
+    },
+    "company": "MUSIX",
+    "email": "ava.chang@musix.org",
+    "phone": [
+        {
+            "_id": "58fd9553da89901e5226a90d",
+            "num": "+1 (839) 528-2744",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9553da08e01ee1e10b47",
+            "num": "+1 (999) 531-2821",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9553fc65a458a9aa21bf",
+            "num": "+1 (823) 510-3716",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd95530242d6d631bf1fe4",
+        "num": 319,
+        "street": "Butler Street",
+        "city": "Gila",
+        "state": "North Carolina",
+        "zip": 8200,
+        "latitude": "-81.82772",
+        "longitude": "82.473121"
+    },
+    "bio": "Laboris enim cupidatat voluptate nostrud. Est nulla amet ex sunt eu duis non culpa minim ut. Veniam dolor veniam sint tempor ad reprehenderit dolor dolor duis non aliquip ipsum. Dolor occaecat aute consectetur magna est veniam culpa consequat consequat amet elit. Exercitation eiusmod aliquip pariatur exercitation exercitation aliqua do ea.",
+    "tags": [
+        "esse",
+        "eiusmod",
+        "consequat",
+        "do",
+        "adipisicing",
+        "aliquip"
+    ],
+    "friends": [],
+    "greeting": "Hello, Ava! You have 5 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd955493ff63c42219e546"
+        },
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        },
+        {
+            "_id": "58fd9554753d587ae9127a73"
+        }
+    ]
+}

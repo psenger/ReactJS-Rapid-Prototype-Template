@@ -1,0 +1,73 @@
+{
+    "_id": "58fd92ff0448789c8b6efeb0",
+    "isActive": true,
+    "lastLogin": "Friday, February 21, 2014 4:01 PM",
+    "balance": "$3,548.50",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Shannon",
+        "last": "Horne"
+    },
+    "company": "FURNIGEER",
+    "email": "shannon.horne@furnigeer.io",
+    "phone": [
+        {
+            "_id": "58fd92ffbc5f0736e5ba9e65",
+            "num": "+1 (819) 482-2991",
+            "type": "work"
+        },
+        {
+            "_id": "58fd92ffdac6820d0cacb1eb",
+            "num": "+1 (983) 401-3457",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92ff6706cebbebec7b4d",
+            "num": "+1 (872) 558-2874",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd92ff01900a8c6f2350a0",
+        "num": 499,
+        "street": "McClancy Place",
+        "city": "Newry",
+        "state": "Pennsylvania",
+        "zip": 3091,
+        "latitude": "-69.341183",
+        "longitude": "-137.359754"
+    },
+    "bio": "Id est est elit do labore. Veniam amet commodo veniam do exercitation qui duis reprehenderit sunt duis eu. Quis sit proident tempor consectetur pariatur labore deserunt. Est esse dolor anim occaecat tempor laboris eiusmod ullamco veniam laboris mollit.",
+    "tags": [
+        "tempor",
+        "enim",
+        "culpa",
+        "cupidatat",
+        "nulla",
+        "sit",
+        "quis",
+        "velit",
+        "ut"
+    ],
+    "friends": [],
+    "greeting": "Hello, Shannon! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd955353e318abd772603d"
+        },
+        {
+            "_id": "58fd9554914f539903605e07"
+        },
+        {
+            "_id": "58fd9553d95eaa61e35e78a8"
+        },
+        {
+            "_id": "58fd92ff5ba9314ec4d623ec"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        }
+    ]
+}

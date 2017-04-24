@@ -1,0 +1,60 @@
+{
+    "_id": "58fd92ff57458ff7bde2ef3c",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 21, 2017 12:46 PM",
+    "balance": "$2,652.86",
+    "age": 36,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Guadalupe",
+        "last": "Mcfarland"
+    },
+    "company": "COMCUBINE",
+    "email": "guadalupe.mcfarland@comcubine.org",
+    "phone": [
+        {
+            "_id": "58fd92ffb3bdabbf55122efe",
+            "num": "+1 (911) 512-3688",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92ff12c2e744882f1bc0",
+        "num": 421,
+        "street": "Mersereau Court",
+        "city": "Spokane",
+        "state": "Virginia",
+        "zip": 5942,
+        "latitude": "-50.783014",
+        "longitude": "-103.863584"
+    },
+    "bio": "Proident do excepteur exercitation laboris tempor qui irure do in tempor ad sit dolor. Nulla labore excepteur pariatur elit amet consectetur quis Lorem proident nostrud occaecat laborum ex culpa. Ullamco aliqua fugiat consequat laboris proident proident culpa nostrud dolore ullamco proident eiusmod. Fugiat tempor anim enim dolore ex. In mollit id occaecat consectetur eiusmod est ullamco quis laboris veniam.",
+    "tags": [
+        "proident",
+        "aliqua",
+        "duis"
+    ],
+    "friends": [],
+    "greeting": "Hello, Guadalupe! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd9554b7297ccb3d801a4e"
+        },
+        {
+            "_id": "58fd95547e62492d87a432c3"
+        },
+        {
+            "_id": "58fd955353e318abd772603d"
+        },
+        {
+            "_id": "58fd92fe149dbdd91fcc2e47"
+        },
+        {
+            "_id": "58fd9554c3e67af22790decd"
+        },
+        {
+            "_id": "58fd92ffd531b92e1c9ab6b0"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "_id": "58fd95535087dc0b6bda3343",
+    "isActive": true,
+    "lastLogin": "Wednesday, September 2, 2015 9:40 AM",
+    "balance": "$2,876.99",
+    "age": 35,
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Coleman",
+        "last": "Waller"
+    },
+    "company": "FIREWAX",
+    "email": "coleman.waller@firewax.me",
+    "phone": [
+        {
+            "_id": "58fd9553edceb27ab685ccbb",
+            "num": "+1 (924) 412-2735",
+            "type": "work"
+        },
+        {
+            "_id": "58fd95535860d209a920b54a",
+            "num": "+1 (995) 404-2724",
+            "type": "home"
+        },
+        {
+            "_id": "58fd95530769fbe927565199",
+            "num": "+1 (892) 544-2172",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553726714e43e5f661f",
+        "num": 835,
+        "street": "Brightwater Avenue",
+        "city": "Beason",
+        "state": "Federated States Of Micronesia",
+        "zip": 2705,
+        "latitude": "8.151205",
+        "longitude": "123.748396"
+    },
+    "bio": "Minim tempor enim culpa ut. Eu proident Lorem id ad in ut quis Lorem aliquip mollit deserunt eu. Reprehenderit incididunt non ea incididunt aute sint occaecat non exercitation voluptate mollit excepteur. Elit consequat exercitation deserunt irure amet aliquip laboris mollit consequat aliquip. Tempor minim ullamco nisi dolor ad consectetur esse id. Aute do dolore nisi cillum aliquip incididunt.",
+    "tags": [
+        "sit",
+        "esse",
+        "ut",
+        "ullamco",
+        "aliquip",
+        "quis",
+        "veniam",
+        "occaecat",
+        "veniam"
+    ],
+    "friends": [],
+    "greeting": "Hello, Coleman! You have 8 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd95547e62492d87a432c3"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        },
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        }
+    ]
+}

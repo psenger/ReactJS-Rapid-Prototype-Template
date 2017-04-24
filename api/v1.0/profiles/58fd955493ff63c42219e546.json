@@ -1,0 +1,73 @@
+{
+    "_id": "58fd955493ff63c42219e546",
+    "isActive": false,
+    "lastLogin": "Friday, January 3, 2014 12:19 AM",
+    "balance": "$2,549.01",
+    "age": 37,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Sandoval",
+        "last": "Whitney"
+    },
+    "company": "LIMOZEN",
+    "email": "sandoval.whitney@limozen.info",
+    "phone": [
+        {
+            "_id": "58fd9554fd7e42ddc2840912",
+            "num": "+1 (867) 444-3463",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9554c69951f63c25b4e4",
+            "num": "+1 (850) 421-2312",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd9554820ff4f69be5d535",
+            "num": "+1 (889) 593-3971",
+            "type": "home"
+        },
+        {
+            "_id": "58fd95547c3f4daf47973b85",
+            "num": "+1 (908) 531-3117",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd9554d239387959f1327c",
+        "num": 553,
+        "street": "Canda Avenue",
+        "city": "Hardyville",
+        "state": "Oklahoma",
+        "zip": 244,
+        "latitude": "-44.345909",
+        "longitude": "41.096228"
+    },
+    "bio": "Incididunt sint veniam velit laboris minim anim in ipsum occaecat magna labore. Ut laboris velit do amet anim ea veniam. Deserunt sit qui magna aliqua nostrud in. Eu duis culpa id exercitation magna consequat adipisicing pariatur proident. Do do in commodo laboris.",
+    "tags": [
+        "eu",
+        "sint",
+        "labore",
+        "duis"
+    ],
+    "friends": [],
+    "greeting": "Hello, Sandoval! You have 5 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe38b6926b878f27bf"
+        },
+        {
+            "_id": "58fd92febf176c605c44a929"
+        },
+        {
+            "_id": "58fd92fefa327c98b8181519"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        },
+        {
+            "_id": "58fd955304cf4f318e2da8be"
+        }
+    ]
+}

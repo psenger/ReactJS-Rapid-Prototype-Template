@@ -1,0 +1,76 @@
+{
+    "_id": "58fd92fefa327c98b8181519",
+    "isActive": false,
+    "lastLogin": "Wednesday, May 6, 2015 4:24 AM",
+    "balance": "$1,267.13",
+    "age": 21,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Velazquez",
+        "last": "Cabrera"
+    },
+    "company": "BISBA",
+    "email": "velazquez.cabrera@bisba.tv",
+    "phone": [
+        {
+            "_id": "58fd92fe91001b8d7bea99a0",
+            "num": "+1 (898) 552-2657",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe012f90d3a3c7bbb0",
+            "num": "+1 (934) 456-2124",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fe1693030647068382",
+            "num": "+1 (999) 429-3836",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd92fefbdd8c0930f52590",
+            "num": "+1 (908) 464-3533",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fe914539357f64e4ee",
+        "num": 438,
+        "street": "Cook Street",
+        "city": "Gilmore",
+        "state": "Kansas",
+        "zip": 993,
+        "latitude": "73.013671",
+        "longitude": "-0.126539"
+    },
+    "bio": "Occaecat commodo anim id occaecat Lorem ipsum proident sit sit ipsum dolor est esse. Officia ipsum ad in elit. Minim nulla tempor pariatur amet veniam officia voluptate nulla cupidatat.",
+    "tags": [
+        "occaecat",
+        "reprehenderit",
+        "commodo",
+        "consectetur",
+        "qui",
+        "aute",
+        "dolore",
+        "ex",
+        "anim",
+        "aliqua"
+    ],
+    "friends": [],
+    "greeting": "Hello, Velazquez! You have 9 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fea711098768f69d2b"
+        },
+        {
+            "_id": "58fd95547e62492d87a432c3"
+        },
+        {
+            "_id": "58fd92fea0bbb626e1a6aa64"
+        },
+        {
+            "_id": "58fd95549a3fc0b20d3d16b6"
+        }
+    ]
+}

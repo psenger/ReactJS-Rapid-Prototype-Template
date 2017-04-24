@@ -1,0 +1,74 @@
+{
+    "_id": "58fd92fedcdef7d10fe8ca22",
+    "isActive": true,
+    "lastLogin": "Friday, February 7, 2014 7:55 PM",
+    "balance": "$3,317.68",
+    "age": 38,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Barnett",
+        "last": "Holland"
+    },
+    "company": "ICOLOGY",
+    "email": "barnett.holland@icology.tv",
+    "phone": [
+        {
+            "_id": "58fd92feef6607cf95cb4003",
+            "num": "+1 (943) 513-2824",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd92fe36761f0e21fbddda",
+            "num": "+1 (800) 504-2437",
+            "type": "home"
+        },
+        {
+            "_id": "58fd92fec91501a702550716",
+            "num": "+1 (991) 563-3119",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd92fe709b28038826485e",
+        "num": 430,
+        "street": "Coleman Street",
+        "city": "Ticonderoga",
+        "state": "Kentucky",
+        "zip": 5153,
+        "latitude": "76.305293",
+        "longitude": "53.185944"
+    },
+    "bio": "Occaecat laboris sit proident Lorem fugiat nostrud amet sunt ipsum consectetur Lorem deserunt. Dolore dolor aliqua enim fugiat id ex sit sint consectetur esse. In do laboris deserunt cillum ipsum laborum ipsum laboris voluptate qui eu nulla. Dolore sint quis deserunt pariatur id veniam qui proident.",
+    "tags": [
+        "sit",
+        "labore",
+        "et",
+        "ipsum",
+        "exercitation",
+        "occaecat",
+        "aute"
+    ],
+    "friends": [],
+    "greeting": "Hello, Barnett! You have 6 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95549a3fc0b20d3d16b6"
+        },
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd92fe2e1de144cb044dfd"
+        },
+        {
+            "_id": "58fd95533e7208a2cf718045"
+        },
+        {
+            "_id": "58fd9554137e97790f7124c0"
+        },
+        {
+            "_id": "58fd92fe38b6926b878f27bf"
+        }
+    ]
+}

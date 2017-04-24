@@ -1,0 +1,85 @@
+{
+    "_id": "58fd95533e7208a2cf718045",
+    "isActive": false,
+    "lastLogin": "Friday, February 7, 2014 12:43 PM",
+    "balance": "$3,873.90",
+    "age": 37,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Bender",
+        "last": "Rivas"
+    },
+    "company": "BITENDREX",
+    "email": "bender.rivas@bitendrex.us",
+    "phone": [
+        {
+            "_id": "58fd95536edfed4bf1120271",
+            "num": "+1 (874) 496-3579",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "58fd95537f53179e28af7ab9",
+        "num": 786,
+        "street": "Hinsdale Street",
+        "city": "Corinne",
+        "state": "Delaware",
+        "zip": 4318,
+        "latitude": "-44.357964",
+        "longitude": "-59.48649"
+    },
+    "bio": "Dolor do aliqua commodo do esse incididunt elit ad elit occaecat pariatur sunt. Sunt eiusmod aute consectetur id consequat quis aliqua culpa aliquip Lorem duis. Cupidatat ad fugiat aliquip laborum velit non voluptate. Exercitation culpa ipsum eu duis voluptate fugiat in do est pariatur. Quis dolore officia dolor aliquip. Occaecat nulla voluptate exercitation eu ad. Reprehenderit dolor do pariatur culpa Lorem dolor do anim.",
+    "tags": [
+        "anim",
+        "amet",
+        "culpa",
+        "Lorem",
+        "nostrud",
+        "voluptate",
+        "proident",
+        "aute",
+        "nulla",
+        "ex"
+    ],
+    "friends": [],
+    "greeting": "Hello, Bender! You have 10 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd95535658907d59f35d43"
+        },
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        },
+        {
+            "_id": "58fd92feaadba1cf5a27c0e1"
+        },
+        {
+            "_id": "58fd92ff5ba9314ec4d623ec"
+        },
+        {
+            "_id": "58fd955372cc2491ab2dc5a6"
+        },
+        {
+            "_id": "58fd9554665c0e181fa7a059"
+        },
+        {
+            "_id": "58fd9553c086b44173a35b73"
+        },
+        {
+            "_id": "58fd92fe0f4011e8992d8b7d"
+        },
+        {
+            "_id": "58fd92fedcdef7d10fe8ca22"
+        },
+        {
+            "_id": "58fd955340b182675ef6928a"
+        },
+        {
+            "_id": "58fd9554665c0e181fa7a059"
+        },
+        {
+            "_id": "58fd95535658907d59f35d43"
+        }
+    ]
+}

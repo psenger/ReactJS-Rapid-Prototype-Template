@@ -1,0 +1,89 @@
+{
+    "_id": "58fd9553a8f3b8252a18f7e2",
+    "isActive": true,
+    "lastLogin": "Tuesday, February 4, 2014 12:13 PM",
+    "balance": "$2,712.05",
+    "age": 20,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Mcintosh",
+        "last": "Hogan"
+    },
+    "company": "ASSURITY",
+    "email": "mcintosh.hogan@assurity.ca",
+    "phone": [
+        {
+            "_id": "58fd9553a6a14c6a3b59012a",
+            "num": "+1 (848) 572-3004",
+            "type": "mobile"
+        },
+        {
+            "_id": "58fd95536d2e2d06efdd4d00",
+            "num": "+1 (963) 442-3797",
+            "type": "home"
+        },
+        {
+            "_id": "58fd9553ae8c973e14684e78",
+            "num": "+1 (924) 547-3851",
+            "type": "work"
+        },
+        {
+            "_id": "58fd955382df8b6d99422347",
+            "num": "+1 (870) 529-2065",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "58fd9553ff83873c53d635ce",
+        "num": 918,
+        "street": "Meserole Avenue",
+        "city": "Brandywine",
+        "state": "Tennessee",
+        "zip": 6767,
+        "latitude": "65.759336",
+        "longitude": "-76.159846"
+    },
+    "bio": "Culpa minim voluptate elit ipsum consequat minim eiusmod labore in officia minim incididunt. Magna id ullamco incididunt reprehenderit anim officia irure reprehenderit sint eu Lorem id officia do. Deserunt laboris cupidatat amet Lorem laborum mollit esse reprehenderit excepteur non laborum esse reprehenderit. Magna laborum velit deserunt fugiat enim proident consectetur. Duis amet minim reprehenderit magna dolore cupidatat Lorem sit cillum pariatur qui aliquip ad. Nisi reprehenderit ea tempor dolor excepteur culpa quis. Non ut ipsum deserunt id aliquip aute consequat consequat proident ex mollit esse dolor.",
+    "tags": [
+        "elit",
+        "reprehenderit",
+        "velit",
+        "pariatur",
+        "aute"
+    ],
+    "friends": [],
+    "greeting": "Hello, Mcintosh! You have 7 unread messages.",
+    "friend": [
+        {
+            "_id": "58fd92fe3d3b07bf89371ecf"
+        },
+        {
+            "_id": "58fd92ff57458ff7bde2ef3c"
+        },
+        {
+            "_id": "58fd9554e7416f96efac8009"
+        },
+        {
+            "_id": "58fd9554665c0e181fa7a059"
+        },
+        {
+            "_id": "58fd92fe149dbdd91fcc2e47"
+        },
+        {
+            "_id": "58fd92fe278c079886cd5eb5"
+        },
+        {
+            "_id": "58fd9553cb2d19a2f77887fc"
+        },
+        {
+            "_id": "58fd92febf176c605c44a929"
+        },
+        {
+            "_id": "58fd955372cc2491ab2dc5a6"
+        },
+        {
+            "_id": "58fd95547cb032766adf643f"
+        }
+    ]
+}
