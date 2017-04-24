@@ -1,9 +1,10 @@
 
 import Home from './home/Home';
 import About from './about/About';
-import NotFound from './notFound/NotFound';
-import Nav from '../components/nav';
 import React, {Component} from 'react';
+import {NavLink} from 'react-router-dom';
+import NotFound from './notFound/NotFound';
+import {Navbar,Nav,NavItem} from 'react-bootstrap';
 import UserProfile from './userProfile/UserProfile';
 import UserProfiles from './userProfiles/UserProfiles';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
@@ -18,7 +19,7 @@ const viewMap = [
  * Recursively flatten the map, pulling the deepest child to the top of the array.
  * Router-Switch recognizes the order of the route path's with the intent of specificity.
  * Therefore the most specific paths need to be first. AND, children of menus should
- * be routes that look like proper rest paths... respecting the specificity.
+ * be routes that look like proper REST paths... respecting the specificity.
  * I delete children because it is a reserved word in the props of Route
  */
 const flatViewMap = ( items ) => {
@@ -41,6 +42,7 @@ const flatViewMap = ( items ) => {
 };
 
 export default class App extends Component {
+
     constructor(props) {
         super(props);
         this.displayName = 'views/App';
@@ -51,7 +53,20 @@ export default class App extends Component {
         return (
             <Router>
                 <div>
-                    <Nav navMap={viewMap}/>
+                    <Navbar>
+                        <Navbar.Header>
+                            <Navbar.Brand>
+                                <NavLink to="/" className="navbar-brand">ReactJS</NavLink>
+                            </Navbar.Brand>
+                        </Navbar.Header>
+                        <Nav>
+                            {viewMap.map((option,index) => {
+                                return(
+                                    <NavItem key={index} href="#"><NavLink to={option.path} activeClassName="active">{option.label}</NavLink></NavItem>
+                                );
+                            })}
+                        </Nav>
+                    </Navbar>
                     <main>
                         <Switch>
                             {this.state.routes.map((option, index) => {
