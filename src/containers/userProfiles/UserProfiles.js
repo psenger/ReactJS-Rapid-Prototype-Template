@@ -1,12 +1,13 @@
+
 import {connect} from "react-redux";
-import Form from '../../components/form';
+import {Link} from 'react-router-dom';
 import React, {Component} from 'react';
-import Input from '../../components/input';
-import {bindActionCreators} from 'redux';
 import {withRouter} from 'react-router';
+import Form from '../../components/form';
+import {bindActionCreators} from 'redux';
 import {fetchProfiles} from '../../services/api';
-import FormGroup from '../../components/formGroup';
 import * as ProfilesActions from '../../actionCreators/profilesAction';
+import {FormGroup,ControlLabel,FormControl,HelpBlock,Button} from 'react-bootstrap';
 
 const columns = [{key: '_id', name: 'ID'},
     {key: 'name.first', name: 'First'},
@@ -17,7 +18,7 @@ const safeGet = (obj, key, defaultVal) => {
     if ((obj === undefined) || (obj === null)) return defaultVal;
     if (typeof obj[key] !== 'undefined') return obj[key];
     return key.split('.').reduce(function (o, x) {
-        return (typeof o == 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
+        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
     }, obj);
 };
 
@@ -27,13 +28,10 @@ export class UserProfiles extends Component {
         super(props);
         this.displayName = 'containers/UserProfiles';
         this.onSubmit = this.onSubmit.bind(this);
-        this.onClick = this.onClick.bind(this);
         this.renderRow = this.renderRow.bind(this);
         this.renderCol = this.renderCol.bind(this);
-    }
-
-    onClick(row) {
-        console.log(row);
+        this.onChange = this.onChange.bind(this);
+        this.getValidationState = this.getValidationState.bind(this);
     }
 
     onSubmit(e) {
@@ -43,15 +41,37 @@ export class UserProfiles extends Component {
             });
     }
 
+    onChange(){
+        console.log('onChange');
+    }
+
+    getValidationState(){
+        console.log('getValidationState');
+        // valid values are ["success","warning","error",null]
+        return null;
+    }
+
+    /**
+     * Well this might not be be the best method of determining the column
+     * with the router link (eg  col.key === '_id' ) but it will do for now.
+     */
     renderCol(row) {
         return (col, ii) => {
-            return ( <td key={ii}>{ safeGet(row, col.key) }</td> );
+            return (
+                <td key={ii}>
+                    { col.key === '_id' ? (
+                        <Link to={{pathname: `/userProfiles/${row._id}`}}>{safeGet(row, col.key)}</Link>
+                    ):(
+                        <div>{safeGet(row, col.key)}</div>
+                    )}
+                </td>
+            );
         }
     }
 
     renderRow(row, i) {
         return (
-            <tr key={i} onClick={() => this.onClick(row)}>{ columns.map(this.renderCol(row)) }</tr>
+            <tr key={i}>{columns.map(this.renderCol(row))}</tr>
         );
     }
 
@@ -59,32 +79,27 @@ export class UserProfiles extends Component {
         return (
             <div>
                 <Form>
-                    <FormGroup inputId="first" label="Search Name">
-                        <div>
-                            <Input id="first"
-                                   type="text"
-                                   className="form-control"
-                                   aria-describedby="firstHelp"
-                                   placeholder="Enter search name"
-                                   tabIndex="0"/>
-                            <small id="firstHelp" className="form-text text-muted">Enter a name to search</small>
-                        </div>
+                    <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
+                        <ControlLabel>Search Name</ControlLabel>
+                        <FormControl type="text" placeholder="Enter search name" onChange={this.onChange}/>
+                        <FormControl.Feedback />
+                        <HelpBlock>Enter a name to search</HelpBlock>
                     </FormGroup>
-                    <button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</button>
+                    <Button bsStyle="primary" onClick={this.onSubmit}>Submit</Button>
                 </Form>
 
                 <hr/>
 
                 <table className="table table-bordered">
                     <thead>
-                    <tr>
-                        { columns.map((row, i) => {
-                            return (<td key={i}>{row.name}</td>)
-                        }) }
-                    </tr>
+                        <tr>
+                            {columns.map((row, i) => {
+                                return (<td key={i}>{row.name}</td>)
+                            })}
+                        </tr>
                     </thead>
                     <tbody>
-                    {this.props.profiles.map(this.renderRow)}
+                        {this.props.profiles.map(this.renderRow)}
                     </tbody>
                 </table>
             </div>
