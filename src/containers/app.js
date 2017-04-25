@@ -53,19 +53,22 @@ export default class App extends Component {
         return (
             <Router>
                 <div>
-                    <Navbar>
+                    <Navbar collapseOnSelect>
                         <Navbar.Header>
                             <Navbar.Brand>
                                 <NavLink to="/" className="navbar-brand">ReactJS</NavLink>
                             </Navbar.Brand>
+                            <Navbar.Toggle />
                         </Navbar.Header>
-                        <Nav>
-                            {viewMap.map((option,index) => {
-                                return(
-                                    <NavItem key={index} href="#"><NavLink to={option.path} activeClassName="active">{option.label}</NavLink></NavItem>
-                                );
-                            })}
-                        </Nav>
+                        <Navbar.Collapse>
+                            <Nav>
+                                {viewMap.map((option,index) => {
+                                    return(
+                                        <NavItem key={index} href="#"><NavLink to={option.path} activeClassName="active">{option.label}</NavLink></NavItem>
+                                    );
+                                })}
+                            </Nav>
+                        </Navbar.Collapse>
                     </Navbar>
                     <main>
                         <Switch>
