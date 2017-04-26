@@ -1,6 +1,11 @@
 
 import * as actionConstants from "./actionTypes/profile";
 
+export const updateProfile = profile => ({
+    type: actionConstants.PROFILE_UPDATE,
+    value: profile
+});
+
 export const updateEmail = email => ({
     type: actionConstants.PROFILE_MODIFY_EMAIL,
     value: email
