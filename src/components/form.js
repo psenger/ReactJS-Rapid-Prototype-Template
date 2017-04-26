@@ -1,10 +1,10 @@
+
 import React, { Component } from 'react';
-// import { omit } from 'lodash';
 
 export default class Form extends Component {
     constructor(props) {
         super(props);
-        this.displayName = 'containers/Form';
+        this.displayName = 'components/Form';
     }
 
     render() {
