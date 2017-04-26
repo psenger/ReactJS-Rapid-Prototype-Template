@@ -20,6 +20,16 @@ describe('REDUCER: ', () => {
         it('should return the current state when action actionConstants is of unknown', () => {
             expect(reducer(initialState, {})).to.deep.equal(initialState);
         });
+        describe('PROFILE_UPDATE', () => {
+            it("should change the whole object", () => {
+                Object.freeze(initialState);
+                expect(reducer(initialState, profileActions.updateProfile({email:'a@a.com',isActive: true}))).to.deep.equal({email:'a@a.com',isActive: true});
+            });
+            it("should change the active state to false", () => {
+                Object.freeze(initialState);
+                expect(reducer(initialState, profileActions.updateActivity(false))).to.deep.equal({ isActive: false });
+            });
+        });
         describe('PROFILE_MODIFY_ACTIVE', () => {
             it("should change the active state to true", () => {
                 Object.freeze(initialState);

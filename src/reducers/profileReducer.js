@@ -7,7 +7,7 @@ export function safeGet(obj, key, defaultVal) {
     if ((obj === undefined) || (obj === null)) return defaultVal;
     if (typeof obj[key] !== 'undefined') return obj[key];
     return key.split('.').reduce(function(o, x) {
-        return (typeof o == 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
+        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
     }, obj);
 }
 function modifyPath ( state, action, path ) {
@@ -17,6 +17,8 @@ function modifyPath ( state, action, path ) {
 export default function profileReducer(state = initialState, action) {
     let value = action.value;
     switch (action.type) {
+        case actionConst.PROFILE_UPDATE:
+            return Object.assign({}, state, value);
         case actionConst.PROFILE_MODIFY_ACTIVE:
             // return modifyPath( state, {isActive: value}, 'isActive' );
             return Object.assign({}, state, {isActive: value});
