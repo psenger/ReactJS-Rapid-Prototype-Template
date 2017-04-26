@@ -1,0 +1,55 @@
+{
+    "_id": "5900775cf4cadd2208bb3cca",
+    "isActive": true,
+    "lastLogin": "Friday, April 21, 2017 5:35 PM",
+    "balance": "$1,460.09",
+    "age": 29,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Lenore",
+        "last": "Curtis"
+    },
+    "company": "COMBOT",
+    "email": "lenore.curtis@combot.com",
+    "phone": [
+        {
+            "_id": "5900775cd6ffbc4850b67082",
+            "num": "+1 (935) 535-2985",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5900775c61c4b1d745e552fc",
+        "num": 953,
+        "street": "Russell Street",
+        "city": "Cavalero",
+        "state": "Pennsylvania",
+        "zip": 6031,
+        "latitude": "19.78892",
+        "longitude": "-66.935324"
+    },
+    "bio": "Magna voluptate amet reprehenderit sit nisi laborum adipisicing qui excepteur voluptate. Enim ex est fugiat qui laboris officia ipsum magna dolor quis. Labore eu incididunt aliqua magna pariatur dolor duis et. Culpa cupidatat eiusmod enim et. Eu officia nisi sunt excepteur esse minim sint aliqua elit dolore dolor quis. Adipisicing labore eu dolore deserunt occaecat id est occaecat aliqua. Elit sunt eiusmod est excepteur et culpa pariatur culpa mollit laboris occaecat.",
+    "tags": [
+        "sint",
+        "Lorem",
+        "consequat",
+        "minim",
+        "laboris"
+    ],
+    "friends": [
+        {
+            "_id": "59007787b7acc7f97d96dff4"
+        },
+        {
+            "_id": "590077876c46032e7830ee20"
+        },
+        {
+            "_id": "590077871bb73a1e706d5f5a"
+        },
+        {
+            "_id": "5900775d4ee7c54b887b6dd8"
+        }
+    ],
+    "greeting": "Hello, Lenore! You have 5 unread messages."
+}

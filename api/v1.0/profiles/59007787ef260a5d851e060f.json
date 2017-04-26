@@ -1,0 +1,46 @@
+{
+    "_id": "59007787ef260a5d851e060f",
+    "isActive": true,
+    "lastLogin": "Tuesday, October 25, 2016 7:27 PM",
+    "balance": "$2,368.88",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Shari",
+        "last": "Garrett"
+    },
+    "company": "EVIDENDS",
+    "email": "shari.garrett@evidends.io",
+    "phone": [
+        {
+            "_id": "590077874c8bd9155c654666",
+            "num": "+1 (927) 472-3941",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "590077871945f9ef5dce112e",
+        "num": 375,
+        "street": "Wythe Place",
+        "city": "Orviston",
+        "state": "Nevada",
+        "zip": 7104,
+        "latitude": "74.997051",
+        "longitude": "173.71291"
+    },
+    "bio": "Enim quis qui incididunt incididunt laborum et minim veniam non. Deserunt laboris officia laboris reprehenderit duis irure mollit esse aute cupidatat cillum ea voluptate sint. Elit qui enim labore adipisicing dolor elit occaecat.",
+    "tags": [
+        "adipisicing",
+        "quis"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d5595f80d8d3cd737"
+        },
+        {
+            "_id": "59007787d9ed33e88211759e"
+        }
+    ],
+    "greeting": "Hello, Shari! You have 5 unread messages."
+}

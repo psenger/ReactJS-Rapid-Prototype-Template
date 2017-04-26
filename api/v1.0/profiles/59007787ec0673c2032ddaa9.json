@@ -1,0 +1,45 @@
+{
+    "_id": "59007787ec0673c2032ddaa9",
+    "isActive": true,
+    "lastLogin": "Sunday, August 16, 2015 10:57 PM",
+    "balance": "$1,137.96",
+    "age": 24,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Martinez",
+        "last": "Greene"
+    },
+    "company": "KINETICA",
+    "email": "martinez.greene@kinetica.info",
+    "phone": [
+        {
+            "_id": "590077879d2ddaf4b92b1e11",
+            "num": "+1 (905) 487-3199",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787f2aa9ed314d4f1de",
+        "num": 316,
+        "street": "Cleveland Street",
+        "city": "Kennedyville",
+        "state": "Virgin Islands",
+        "zip": 3555,
+        "latitude": "-1.843728",
+        "longitude": "-98.040618"
+    },
+    "bio": "Voluptate ad eu veniam eiusmod incididunt labore. Reprehenderit in sunt anim culpa commodo ullamco adipisicing quis sunt. Dolore irure enim pariatur nostrud veniam deserunt ut sit elit nulla tempor.",
+    "tags": [
+        "magna"
+    ],
+    "friends": [
+        {
+            "_id": "5900778868ea9fd84ae9bdc7"
+        },
+        {
+            "_id": "5900775cfc3be7267252988b"
+        }
+    ],
+    "greeting": "Hello, Martinez! You have 8 unread messages."
+}

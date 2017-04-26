@@ -1,0 +1,71 @@
+{
+    "_id": "5900775c82145d93d5eb98ba",
+    "isActive": true,
+    "lastLogin": "Thursday, May 5, 2016 5:29 AM",
+    "balance": "$3,835.40",
+    "age": 31,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Buchanan",
+        "last": "Roy"
+    },
+    "company": "CUJO",
+    "email": "buchanan.roy@cujo.us",
+    "phone": [
+        {
+            "_id": "5900775c9d803e148e64b1d0",
+            "num": "+1 (859) 485-3636",
+            "type": "work"
+        },
+        {
+            "_id": "5900775c0bb60387228623b7",
+            "num": "+1 (908) 469-3509",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5900775ccc31b6052d964d81",
+        "num": 716,
+        "street": "Woodhull Street",
+        "city": "Guilford",
+        "state": "Wyoming",
+        "zip": 7257,
+        "latitude": "44.98214",
+        "longitude": "179.923754"
+    },
+    "bio": "Quis aliqua ad duis non velit ex ullamco veniam. Quis consectetur pariatur nulla cupidatat esse ipsum nisi anim voluptate amet adipisicing nostrud. Eiusmod occaecat quis veniam minim pariatur officia deserunt magna excepteur sunt aute ad. Aute deserunt magna dolore consectetur eiusmod.",
+    "tags": [
+        "amet",
+        "eu",
+        "ipsum",
+        "ad",
+        "sunt",
+        "proident",
+        "sunt",
+        "laborum",
+        "magna",
+        "ad"
+    ],
+    "friends": [
+        {
+            "_id": "59007787c18c9e1b697e6416"
+        },
+        {
+            "_id": "5900775d7a459e142ae1822d"
+        },
+        {
+            "_id": "5900775d289e73fa7a84a551"
+        },
+        {
+            "_id": "59007788000bf4e431d5530b"
+        },
+        {
+            "_id": "59007787608bbf0d0e22cf05"
+        },
+        {
+            "_id": "590077871bb73a1e706d5f5a"
+        }
+    ],
+    "greeting": "Hello, Buchanan! You have 10 unread messages."
+}

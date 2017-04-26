@@ -1,0 +1,50 @@
+{
+    "_id": "590077875c0cb5dd144b2229",
+    "isActive": false,
+    "lastLogin": "Sunday, June 8, 2014 12:24 AM",
+    "balance": "$2,292.63",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Fry",
+        "last": "Hendricks"
+    },
+    "company": "CYTREX",
+    "email": "fry.hendricks@cytrex.ca",
+    "phone": [
+        {
+            "_id": "590077874fff138e0330190e",
+            "num": "+1 (855) 586-2419",
+            "type": "work"
+        },
+        {
+            "_id": "590077870342b41e2aa92b3d",
+            "num": "+1 (817) 450-3108",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787fe04941199249c8a",
+        "num": 612,
+        "street": "Aurelia Court",
+        "city": "Zarephath",
+        "state": "Guam",
+        "zip": 8591,
+        "latitude": "12.38565",
+        "longitude": "164.122131"
+    },
+    "bio": "Ut sint reprehenderit labore aliqua proident dolore deserunt dolore proident commodo enim. Sit dolor proident sit aliquip. Ut do ex tempor ut sunt commodo consequat sint dolore voluptate incididunt ad amet est.",
+    "tags": [
+        "ullamco",
+        "voluptate",
+        "fugiat",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "59007787e6de4eb741bb26f8"
+        }
+    ],
+    "greeting": "Hello, Fry! You have 9 unread messages."
+}

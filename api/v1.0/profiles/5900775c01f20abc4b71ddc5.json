@@ -1,0 +1,65 @@
+{
+    "_id": "5900775c01f20abc4b71ddc5",
+    "isActive": true,
+    "lastLogin": "Monday, February 27, 2017 3:59 PM",
+    "balance": "$2,843.54",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Colette",
+        "last": "Wyatt"
+    },
+    "company": "ZILLACOM",
+    "email": "colette.wyatt@zillacom.org",
+    "phone": [
+        {
+            "_id": "5900775c41f6718e0ec31c1e",
+            "num": "+1 (854) 421-3989",
+            "type": "home"
+        },
+        {
+            "_id": "5900775c7836f0d82fbc5b45",
+            "num": "+1 (970) 438-3292",
+            "type": "home"
+        },
+        {
+            "_id": "5900775ca3e5cab99e3e48bd",
+            "num": "+1 (993) 517-3374",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5900775c508f0bb513602c9d",
+        "num": 624,
+        "street": "Richardson Street",
+        "city": "Vivian",
+        "state": "Kansas",
+        "zip": 8108,
+        "latitude": "20.696222",
+        "longitude": "58.772994"
+    },
+    "bio": "Quis duis velit nostrud sit ex mollit. Lorem exercitation Lorem quis adipisicing anim deserunt sint velit dolor in amet. Mollit velit esse magna aliqua sit deserunt magna. Consectetur mollit proident ipsum elit consequat adipisicing aute. Amet elit ea consectetur elit labore laboris exercitation dolore tempor. Mollit sint proident anim ullamco pariatur dolor adipisicing magna. Officia sunt adipisicing et pariatur cupidatat labore velit ad sunt.",
+    "tags": [
+        "aliquip",
+        "sit",
+        "reprehenderit",
+        "incididunt",
+        "labore",
+        "do",
+        "aliqua",
+        "eiusmod"
+    ],
+    "friends": [
+        {
+            "_id": "5900775de89d89d2ccec37de"
+        },
+        {
+            "_id": "59007787acd94a7e2d46b4e0"
+        },
+        {
+            "_id": "5900778794f4bf22c3c62dd8"
+        }
+    ],
+    "greeting": "Hello, Colette! You have 10 unread messages."
+}

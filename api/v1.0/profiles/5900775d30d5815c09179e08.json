@@ -1,0 +1,73 @@
+{
+    "_id": "5900775d30d5815c09179e08",
+    "isActive": false,
+    "lastLogin": "Saturday, August 27, 2016 8:44 AM",
+    "balance": "$2,641.61",
+    "age": 22,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Erin",
+        "last": "Herrera"
+    },
+    "company": "MAINELAND",
+    "email": "erin.herrera@maineland.net",
+    "phone": [
+        {
+            "_id": "5900775d9ea9b426e9393c60",
+            "num": "+1 (964) 576-3580",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775d39a7398560b6540f",
+            "num": "+1 (926) 463-2453",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775d62ec3a40d32b74de",
+            "num": "+1 (889) 509-3189",
+            "type": "work"
+        },
+        {
+            "_id": "5900775ddbe384e193a7639e",
+            "num": "+1 (898) 523-2688",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775da480573a74ca5095",
+        "num": 336,
+        "street": "Wilson Avenue",
+        "city": "Rosewood",
+        "state": "North Dakota",
+        "zip": 9591,
+        "latitude": "-86.706473",
+        "longitude": "27.762135"
+    },
+    "bio": "Aliquip eiusmod nulla aliquip est id ad cillum. Deserunt elit ea ad exercitation nulla proident duis magna eu mollit non et. Lorem incididunt laboris ullamco esse ex commodo aliquip exercitation proident. Lorem nostrud quis sint laborum quis. Culpa ea sunt irure enim excepteur esse velit ad pariatur minim pariatur proident ipsum.",
+    "tags": [
+        "deserunt",
+        "ea",
+        "deserunt",
+        "laboris",
+        "sint",
+        "nisi",
+        "exercitation",
+        "ut"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d196eac10b2fbae63"
+        },
+        {
+            "_id": "5900775d7a459e142ae1822d"
+        },
+        {
+            "_id": "590077877db1d85cbcb08c3c"
+        },
+        {
+            "_id": "5900775c82145d93d5eb98ba"
+        }
+    ],
+    "greeting": "Hello, Erin! You have 9 unread messages."
+}

@@ -1,0 +1,59 @@
+{
+    "_id": "5900775dca472bc8c2bcdef4",
+    "isActive": true,
+    "lastLogin": "Thursday, February 25, 2016 7:39 AM",
+    "balance": "$2,502.57",
+    "age": 26,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Marylou",
+        "last": "Lester"
+    },
+    "company": "CUBICIDE",
+    "email": "marylou.lester@cubicide.io",
+    "phone": [
+        {
+            "_id": "5900775db98f3e0038320e75",
+            "num": "+1 (877) 442-2139",
+            "type": "work"
+        },
+        {
+            "_id": "5900775da02c25bf15618342",
+            "num": "+1 (826) 566-3363",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5900775d6ce7e1c7b0c3f52f",
+        "num": 992,
+        "street": "Hazel Court",
+        "city": "Libertytown",
+        "state": "Wisconsin",
+        "zip": 645,
+        "latitude": "9.304497",
+        "longitude": "141.028075"
+    },
+    "bio": "Enim et in occaecat in duis exercitation consectetur nulla incididunt ipsum ad ad et. Cillum tempor do nisi sit laborum non aute. Mollit enim ea sunt enim consequat est ea laborum. Cupidatat eu voluptate culpa ex nostrud cupidatat do. Laborum nisi magna dolor voluptate ad pariatur aute esse. Do reprehenderit ad anim id incididunt voluptate reprehenderit. Deserunt excepteur veniam dolore nisi dolor.",
+    "tags": [
+        "anim",
+        "tempor",
+        "reprehenderit",
+        "irure"
+    ],
+    "friends": [
+        {
+            "_id": "5900775c762eb061888a2755"
+        },
+        {
+            "_id": "5900775d13e102fab2912cfc"
+        },
+        {
+            "_id": "590077870ee73b196cc5c907"
+        },
+        {
+            "_id": "59007787c18c9e1b697e6416"
+        }
+    ],
+    "greeting": "Hello, Marylou! You have 6 unread messages."
+}

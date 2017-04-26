@@ -1,0 +1,53 @@
+{
+    "_id": "59007787885d6eb2d7e23dd5",
+    "isActive": true,
+    "lastLogin": "Sunday, February 12, 2017 3:04 PM",
+    "balance": "$3,569.10",
+    "age": 28,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Krystal",
+        "last": "Fitzgerald"
+    },
+    "company": "MEGALL",
+    "email": "krystal.fitzgerald@megall.co.uk",
+    "phone": [
+        {
+            "_id": "59007787b1e3e3857e895ce3",
+            "num": "+1 (855) 461-3779",
+            "type": "mobile"
+        },
+        {
+            "_id": "590077878d3be0d3ecb2b032",
+            "num": "+1 (805) 476-3405",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787e08073b3f2cd8ddd",
+        "num": 387,
+        "street": "Lott Street",
+        "city": "Walker",
+        "state": "Oklahoma",
+        "zip": 5265,
+        "latitude": "3.413773",
+        "longitude": "160.083953"
+    },
+    "bio": "Eiusmod mollit est esse ex consectetur irure officia mollit nulla pariatur adipisicing. Consequat et anim quis aliqua. Anim adipisicing fugiat laboris culpa aute ad laboris qui velit ullamco voluptate reprehenderit.",
+    "tags": [
+        "consectetur",
+        "commodo",
+        "voluptate",
+        "esse",
+        "aliquip",
+        "aliquip",
+        "ea"
+    ],
+    "friends": [
+        {
+            "_id": "5900775cf4cadd2208bb3cca"
+        }
+    ],
+    "greeting": "Hello, Krystal! You have 10 unread messages."
+}

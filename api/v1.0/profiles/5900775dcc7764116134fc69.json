@@ -1,0 +1,50 @@
+{
+    "_id": "5900775dcc7764116134fc69",
+    "isActive": false,
+    "lastLogin": "Friday, April 14, 2017 2:06 AM",
+    "balance": "$2,455.88",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Mathis",
+        "last": "Powers"
+    },
+    "company": "AEORA",
+    "email": "mathis.powers@aeora.tv",
+    "phone": [
+        {
+            "_id": "5900775d70314de450f87943",
+            "num": "+1 (914) 479-3444",
+            "type": "work"
+        },
+        {
+            "_id": "5900775d336a3618ac5649f4",
+            "num": "+1 (922) 420-2367",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775dc10100ae42cb9e05",
+        "num": 179,
+        "street": "Monaco Place",
+        "city": "Linganore",
+        "state": "New York",
+        "zip": 1052,
+        "latitude": "70.869284",
+        "longitude": "86.34429"
+    },
+    "bio": "Officia labore qui culpa id cupidatat quis fugiat consectetur irure irure. Incididunt ullamco officia labore labore exercitation labore amet laboris incididunt sit nostrud laborum consequat consequat. Qui tempor ad reprehenderit ea veniam tempor ad mollit et elit. Nulla culpa irure incididunt Lorem fugiat non labore ullamco duis.",
+    "tags": [
+        "quis",
+        "sunt",
+        "Lorem",
+        "est"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d7a459e142ae1822d"
+        }
+    ],
+    "greeting": "Hello, Mathis! You have 9 unread messages."
+}

@@ -1,0 +1,66 @@
+{
+    "_id": "59007787d9ed33e88211759e",
+    "isActive": false,
+    "lastLogin": "Wednesday, January 1, 2014 12:35 AM",
+    "balance": "$2,115.34",
+    "age": 31,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Yolanda",
+        "last": "Kemp"
+    },
+    "company": "SILODYNE",
+    "email": "yolanda.kemp@silodyne.info",
+    "phone": [
+        {
+            "_id": "59007787f6fea787369f71c9",
+            "num": "+1 (801) 547-3610",
+            "type": "home"
+        },
+        {
+            "_id": "5900778705a9fe7307f35976",
+            "num": "+1 (819) 551-2574",
+            "type": "home"
+        },
+        {
+            "_id": "59007787bc0a6a533200e2af",
+            "num": "+1 (921) 557-2496",
+            "type": "work"
+        },
+        {
+            "_id": "590077874f0c30dcd5dc3f58",
+            "num": "+1 (926) 477-3860",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "590077871ba12039af5f4674",
+        "num": 221,
+        "street": "Dwight Street",
+        "city": "Gadsden",
+        "state": "South Dakota",
+        "zip": 527,
+        "latitude": "30.015097",
+        "longitude": "-0.32378"
+    },
+    "bio": "Amet consequat duis enim minim ipsum irure occaecat anim magna cillum. Lorem nulla do amet et non. Irure et do aliquip ullamco quis exercitation. Labore labore elit nisi dolore tempor sit.",
+    "tags": [
+        "mollit",
+        "deserunt",
+        "id",
+        "voluptate"
+    ],
+    "friends": [
+        {
+            "_id": "590077870ebf8e3fa0ef2962"
+        },
+        {
+            "_id": "59007787789d47d48c9a698d"
+        },
+        {
+            "_id": "5900775d98007159b557dfa9"
+        }
+    ],
+    "greeting": "Hello, Yolanda! You have 10 unread messages."
+}

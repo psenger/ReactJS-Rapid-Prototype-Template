@@ -1,0 +1,43 @@
+{
+    "_id": "5900775d676e84ed62322595",
+    "isActive": true,
+    "lastLogin": "Wednesday, December 16, 2015 8:56 PM",
+    "balance": "$3,853.60",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Cote",
+        "last": "Stafford"
+    },
+    "company": "APPLIDECK",
+    "email": "cote.stafford@applideck.ca",
+    "phone": [
+        {
+            "_id": "5900775db321679fcc8bfecc",
+            "num": "+1 (826) 477-2948",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775dc17258119db6262e",
+        "num": 955,
+        "street": "Kingsway Place",
+        "city": "Munjor",
+        "state": "Mississippi",
+        "zip": 485,
+        "latitude": "-71.565402",
+        "longitude": "-108.810251"
+    },
+    "bio": "Ullamco nostrud deserunt incididunt exercitation adipisicing magna. Id sint enim ullamco minim velit cupidatat culpa id ut nulla. Cupidatat ullamco ut culpa sit tempor. Consectetur occaecat reprehenderit amet excepteur ut elit qui nulla dolore officia velit ad cupidatat pariatur.",
+    "tags": [
+        "occaecat",
+        "aliquip"
+    ],
+    "friends": [
+        {
+            "_id": "59007787acd94a7e2d46b4e0"
+        }
+    ],
+    "greeting": "Hello, Cote! You have 9 unread messages."
+}

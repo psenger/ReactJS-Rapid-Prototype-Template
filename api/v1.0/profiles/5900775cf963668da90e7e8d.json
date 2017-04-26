@@ -1,0 +1,51 @@
+{
+    "_id": "5900775cf963668da90e7e8d",
+    "isActive": false,
+    "lastLogin": "Monday, September 26, 2016 5:04 PM",
+    "balance": "$2,247.67",
+    "age": 32,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Jocelyn",
+        "last": "Jacobs"
+    },
+    "company": "QUONK",
+    "email": "jocelyn.jacobs@quonk.info",
+    "phone": [
+        {
+            "_id": "5900775c4fa9755812c0781d",
+            "num": "+1 (827) 538-3058",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775cf16e60f5255722d5",
+        "num": 303,
+        "street": "Ridge Court",
+        "city": "Russellville",
+        "state": "Virgin Islands",
+        "zip": 3046,
+        "latitude": "-46.194362",
+        "longitude": "-163.941052"
+    },
+    "bio": "Veniam id labore id pariatur ipsum exercitation ut eu officia exercitation pariatur. Cillum non non ea in occaecat. Velit aute excepteur esse culpa duis ut veniam tempor consequat.",
+    "tags": [
+        "tempor",
+        "cupidatat",
+        "sint",
+        "proident"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d5ce3c17749b7459d"
+        },
+        {
+            "_id": "5900778883be38318f01e041"
+        },
+        {
+            "_id": "5900775c4d95df64a830899f"
+        }
+    ],
+    "greeting": "Hello, Jocelyn! You have 8 unread messages."
+}

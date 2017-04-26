@@ -1,0 +1,74 @@
+{
+    "_id": "59007787d319bdb5bdbfb400",
+    "isActive": true,
+    "lastLogin": "Sunday, November 16, 2014 5:43 PM",
+    "balance": "$1,026.54",
+    "age": 30,
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Lynn",
+        "last": "Travis"
+    },
+    "company": "PETIGEMS",
+    "email": "lynn.travis@petigems.us",
+    "phone": [
+        {
+            "_id": "59007787117ecad2a2454a74",
+            "num": "+1 (998) 424-2258",
+            "type": "home"
+        },
+        {
+            "_id": "5900778787b8a640b3fd49a5",
+            "num": "+1 (804) 514-3065",
+            "type": "work"
+        },
+        {
+            "_id": "590077873600fba99a94297f",
+            "num": "+1 (824) 469-2708",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "59007787c6cc2ec26af6be6a",
+        "num": 765,
+        "street": "Bergen Street",
+        "city": "Hilltop",
+        "state": "Texas",
+        "zip": 2946,
+        "latitude": "-74.891682",
+        "longitude": "40.093538"
+    },
+    "bio": "Nostrud velit velit sit officia nostrud ad enim incididunt amet. Adipisicing adipisicing veniam consequat consequat tempor eu deserunt. Enim incididunt nulla ex consectetur ipsum. Voluptate amet labore fugiat veniam duis ullamco amet officia exercitation irure Lorem est quis aute.",
+    "tags": [
+        "duis",
+        "ad",
+        "fugiat",
+        "quis",
+        "id",
+        "id",
+        "Lorem",
+        "commodo"
+    ],
+    "friends": [
+        {
+            "_id": "59007787a7b74937229efd0d"
+        },
+        {
+            "_id": "590077876c46032e7830ee20"
+        },
+        {
+            "_id": "5900775c0a020e79ae5013a1"
+        },
+        {
+            "_id": "590077877db1d85cbcb08c3c"
+        },
+        {
+            "_id": "5900775dfef5f9b501d1aada"
+        },
+        {
+            "_id": "590077877db1d85cbcb08c3c"
+        }
+    ],
+    "greeting": "Hello, Lynn! You have 6 unread messages."
+}

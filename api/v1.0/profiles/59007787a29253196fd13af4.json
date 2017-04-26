@@ -1,0 +1,60 @@
+{
+    "_id": "59007787a29253196fd13af4",
+    "isActive": true,
+    "lastLogin": "Sunday, June 19, 2016 12:23 AM",
+    "balance": "$2,892.54",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Giles",
+        "last": "Barr"
+    },
+    "company": "PLUTORQUE",
+    "email": "giles.barr@plutorque.org",
+    "phone": [
+        {
+            "_id": "59007787af9e650bf5a4efe5",
+            "num": "+1 (870) 554-2423",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900778716166a790cd4c2d4",
+            "num": "+1 (902) 435-2713",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "590077878a248e177a307dd6",
+        "num": 436,
+        "street": "Hinsdale Street",
+        "city": "Oley",
+        "state": "American Samoa",
+        "zip": 6411,
+        "latitude": "-45.081326",
+        "longitude": "-157.310751"
+    },
+    "bio": "Id laborum laboris eiusmod qui ex excepteur ea elit sit culpa et quis. Exercitation deserunt aliquip consequat anim aliquip labore amet pariatur proident anim esse. Veniam sit ipsum et enim duis. Cupidatat officia aliquip nulla eiusmod. Consequat do ut excepteur laboris sint Lorem aute eiusmod eu. Est ea in in sunt consectetur.",
+    "tags": [
+        "duis",
+        "esse",
+        "adipisicing",
+        "duis",
+        "officia"
+    ],
+    "friends": [
+        {
+            "_id": "59007787c0aab11884bc0789"
+        },
+        {
+            "_id": "59007787885d6eb2d7e23dd5"
+        },
+        {
+            "_id": "5900775d5ce3c17749b7459d"
+        },
+        {
+            "_id": "590077887b5f7a45b2cbbe02"
+        }
+    ],
+    "greeting": "Hello, Giles! You have 7 unread messages."
+}

@@ -1,0 +1,53 @@
+{
+    "_id": "590077879b23ac971f63917c",
+    "isActive": false,
+    "lastLogin": "Tuesday, September 22, 2015 10:47 PM",
+    "balance": "$3,650.28",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Wilson",
+        "last": "Sanchez"
+    },
+    "company": "MIXERS",
+    "email": "wilson.sanchez@mixers.tv",
+    "phone": [
+        {
+            "_id": "590077874a78db4cc1ed2efd",
+            "num": "+1 (800) 476-2229",
+            "type": "work"
+        },
+        {
+            "_id": "59007787ca7f9324095f5995",
+            "num": "+1 (977) 567-2789",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787aaab9cc60254b637",
+        "num": 779,
+        "street": "Bokee Court",
+        "city": "Rosine",
+        "state": "California",
+        "zip": 1020,
+        "latitude": "4.76811",
+        "longitude": "23.084771"
+    },
+    "bio": "Sint cillum minim adipisicing adipisicing velit nostrud eiusmod ipsum ea. Tempor dolore aliqua cupidatat velit aute. Commodo et mollit aliquip dolor elit non eu. Ut magna mollit ad aliquip.",
+    "tags": [
+        "nulla",
+        "do",
+        "esse",
+        "quis"
+    ],
+    "friends": [
+        {
+            "_id": "59007787ef260a5d851e060f"
+        },
+        {
+            "_id": "5900775d8267dcbbed512806"
+        }
+    ],
+    "greeting": "Hello, Wilson! You have 10 unread messages."
+}

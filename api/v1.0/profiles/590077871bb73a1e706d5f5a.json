@@ -1,0 +1,72 @@
+{
+    "_id": "590077871bb73a1e706d5f5a",
+    "isActive": true,
+    "lastLogin": "Monday, March 3, 2014 11:48 PM",
+    "balance": "$1,447.53",
+    "age": 36,
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Faye",
+        "last": "Harper"
+    },
+    "company": "IMAGEFLOW",
+    "email": "faye.harper@imageflow.tv",
+    "phone": [
+        {
+            "_id": "590077877fd981b65e6c572e",
+            "num": "+1 (828) 467-3267",
+            "type": "mobile"
+        },
+        {
+            "_id": "590077878df03f554cde5875",
+            "num": "+1 (801) 451-3874",
+            "type": "mobile"
+        },
+        {
+            "_id": "590077877820bdb1c8efcc84",
+            "num": "+1 (843) 477-2692",
+            "type": "work"
+        },
+        {
+            "_id": "59007787465d66b45924f99b",
+            "num": "+1 (912) 401-3931",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "59007787b2505ab0910268e5",
+        "num": 426,
+        "street": "Duryea Place",
+        "city": "Jugtown",
+        "state": "Marshall Islands",
+        "zip": 4057,
+        "latitude": "20.354429",
+        "longitude": "70.62612"
+    },
+    "bio": "Esse cupidatat velit enim voluptate anim quis qui laborum nisi ea minim velit laboris. Culpa aliqua do voluptate Lorem tempor esse et magna ullamco duis aliquip ea. Reprehenderit consequat elit esse do culpa. Proident aute eu ullamco occaecat aliqua. Exercitation quis minim excepteur velit officia veniam.",
+    "tags": [
+        "excepteur",
+        "laborum",
+        "officia",
+        "fugiat",
+        "amet",
+        "cillum",
+        "laborum"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d13e102fab2912cfc"
+        },
+        {
+            "_id": "59007787ef260a5d851e060f"
+        },
+        {
+            "_id": "59007787f4905a6c4a718998"
+        },
+        {
+            "_id": "5900775d5595f80d8d3cd737"
+        }
+    ],
+    "greeting": "Hello, Faye! You have 8 unread messages."
+}

@@ -10,10 +10,10 @@ for (var i = 0; i < obj.length; i++) {
 
     for (var j = 0; j < friendCount; j++) {
         var f = obj[getRandomInt(0,obj.length-1)]
-        if ( typeof  obj[i]['friend'] === 'undefined' ) {
-            obj[i]['friend'] = []
+        if ( typeof  obj[i]['friends'] === 'undefined' ) {
+            obj[i]['friends'] = []
         }
-        obj[i]['friend'].push( { _id: f['_id']  } )
+        obj[i]['friends'].push( { _id: f['_id']  } )
     }
 }
 
