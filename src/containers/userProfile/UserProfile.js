@@ -97,7 +97,7 @@ export class UserProfile extends Component {
         }
 
         // this function being returned will execute every
-        // time the render is called. which happens when a 
+        // time the render is called. which happens when a
         // property is updated.
         return function() {
             return ( validateFn.map( (fn)=>fn() ).includes('error') ) ? 'error' : 'success';
