@@ -19,8 +19,20 @@ module.exports = function (plop) {
             },
             {
                 type: 'input',
-                name: 'xxx',
-                message: 'How old are you?',
+                name: 'actionName',
+                message: 'what action name is dedicated to this component? ( it will be ',
+
+            },
+            {
+                type: 'input',
+                name: 'reducer',
+                message: 'what reducer  you want to bind to ',
+
+            },
+            {
+                type: 'input',
+                name: 'reducerProperty',
+                message: 'what reducer property you want to bind to ',
 
             }
             // {
