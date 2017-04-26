@@ -18,6 +18,20 @@ const delayPromise = (ms) => {
     };
 };
 
+const firstNameValidate = () => {
+    if ( this.props.name.first !== '' && this.props.name.first.length <= 20 ) return 'success';
+    return 'error';
+};
+const lastNameValidate = () => {
+    if ( this.props.name.last !== '' && this.props.name.last.length <= 20 ) return 'success';
+    return 'error';
+};
+const emailValidate = () => {
+    let re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    if ( this.props.email !== '' && re.test(this.props.email) ) return 'success';
+    return 'error';
+};
+
 export class UserProfile extends Component {
 
     constructor(props) {
@@ -69,22 +83,24 @@ export class UserProfile extends Component {
     //    Which only happens when props are changed.
     onValidate(name){
         // valid values are ["success","warning","error",null]
-         
+
+        let validateFn = [];
+
+        if ( name === 'name.first' || name === '*' ) {
+            validateFn.push(firstNameValidate);
+        }
+        if ( name === 'name.last' || name === '*' ) {
+            validateFn.push(lastNameValidate);
+        }
+        if ( name === 'email' || name === '*' ) {
+            validateFn.push(emailValidate);
+        }
+
+        // this function being returned will execute every
+        // time the render is called. which happens when a 
+        // property is updated.
         return function() {
-            if ( name === 'name.first') {
-                if ( this.props.name.first !== '' && this.props.name.first.length <= 20 ) return 'success';
-                return 'error';
-            }
-            if ( name === 'name.last') {
-                if ( this.props.name.last !== '' && this.props.name.last.length <= 20 ) return 'success';
-                return 'error';
-            }
-            if ( name === 'email') {
-                var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-                if ( this.props.email !== '' && re.test(this.props.email) ) return 'success';
-                return 'error';
-            }
-            return 'success';
+            return ( validateFn.map( (fn)=>fn() ).includes('error') ) ? 'error' : 'success';
         }.bind(this);
     }
 
