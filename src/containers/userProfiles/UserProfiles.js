@@ -7,7 +7,7 @@ import Form from '../../components/form';
 import {bindActionCreators} from 'redux';
 import {fetchProfiles} from '../../services/api';
 import * as ProfilesActions from '../../actionCreators/profilesAction';
-import {FormGroup,ControlLabel,FormControl,HelpBlock,Button} from 'react-bootstrap';
+import {FormGroup,ControlLabel,FormControl,HelpBlock,Button,Table} from 'react-bootstrap';
 
 const columns = [{key: '_id', name: 'ID'},
     {key: 'name.first', name: 'First'},
@@ -90,7 +90,7 @@ export class UserProfiles extends Component {
 
                 <hr/>
 
-                <table className="table table-bordered">
+                <Table responsive striped bordered condensed>
                     <thead>
                         <tr>
                             {columns.map((row, i) => {
@@ -101,7 +101,7 @@ export class UserProfiles extends Component {
                     <tbody>
                         {this.props.profiles.map(this.renderRow)}
                     </tbody>
-                </table>
+                </Table>
             </div>
         );
     }
