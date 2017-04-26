@@ -53,7 +53,7 @@ export default class App extends Component {
         return (
             <Router>
                 <div>
-                    <Navbar collapseOnSelect>
+                    <Navbar collapseOnSelect role='navigation'>
                         <Navbar.Header>
                             <Navbar.Brand>
                                 <NavLink to="/" className="navbar-brand">ReactJS</NavLink>
@@ -70,7 +70,7 @@ export default class App extends Component {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <main>
+                    <main id="main" role="main">
                         <Switch>
                             {this.state.routes.map((option, index) => {
                                 return (
