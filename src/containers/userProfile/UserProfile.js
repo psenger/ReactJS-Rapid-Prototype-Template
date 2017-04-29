@@ -1,3 +1,4 @@
+
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import React, {Component} from "react";
@@ -7,6 +8,7 @@ import InputText from '../../components/inputText';
 import {fetchProfile} from "../../services/api";
 import * as ProfileAction from "../../actionCreators/profileAction";
 import {Button, ControlLabel, FormControl, FormGroup, HelpBlock, ProgressBar} from "react-bootstrap";
+import validate from 'validate.js';
 
 const delayPromise = (ms) => {
     return (data) => {
@@ -18,18 +20,56 @@ const delayPromise = (ms) => {
     };
 };
 
-const firstNameValidate = () => {
-    if ( this.props.name.first !== '' && this.props.name.first.length <= 20 ) return 'success';
-    return 'error';
+const safeGet = (obj, key, defaultVal) => {
+    if ((obj === undefined) || (obj === null)) return defaultVal;
+    if (typeof obj[key] !== 'undefined') return obj[key];
+    return key.split('.').reduce(function (o, x) {
+        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
+    }, obj);
 };
-const lastNameValidate = () => {
-    if ( this.props.name.last !== '' && this.props.name.last.length <= 20 ) return 'success';
-    return 'error';
+
+const safeSet = (obj, key, value) => {
+    if (!obj || !key)
+        return Object.assign({},obj); // bail out there is no object or no key.
+
+    let properties = key.split(".") || [];
+
+    let curObj = Object.assign({},obj);
+    let ptr = curObj;
+
+    const mapper = ( cv, ind, ar ) => {
+        if ( !ptr[cv] ) {
+            ptr[cv] = {};// initialize the object literal if there is no value in place.
+        }
+        if ( ar.length -1 === ind ) {
+            ptr[cv] = value; // at the end.
+        } else {
+            ptr = ptr[cv]; // move the pointer down.
+        }
+    };
+    properties.map( mapper );
+
+    return curObj;
 };
-const emailValidate = () => {
-    let re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    if ( this.props.email !== '' && re.test(this.props.email) ) return 'success';
-    return 'error';
+
+//  http://validatejs.org/
+let constraints = {
+    'name.first': {
+        presence: true,
+        length: {max: 20},
+    },
+    'name.last': {
+        presence: true,
+        length: {max: 20},
+    },
+    'email': {
+        presence: true,
+        email: true
+    }
+};
+
+let options = {
+    format: "flat"
 };
 
 export class UserProfile extends Component {
@@ -38,8 +78,8 @@ export class UserProfile extends Component {
         super(props);
         this.displayName = 'containers/UserProfile';
         this.onSubmit = this.onSubmit.bind(this);
-        this.onChange = this.onChange.bind(this);
-        this.onValidate = this.onValidate.bind(this);
+        this.createOnChange = this.createOnChange.bind(this);
+        this.createValidator = this.createValidator.bind(this);
     }
 
     componentWillMount() {
@@ -67,42 +107,40 @@ export class UserProfile extends Component {
 
     onSubmit() {
         // @todo PAS working on validation here.
-        // if ( onValidate('*') !== 'success' )
+        // if ( createValidator('*') !== 'success' )
         // console.log('onSubmit', this.props.profileAction.updateEmail('xxxxx') );
         console.log('onSubmit');
        // this.setState({ type: 'info', message: 'Sending...' }, this.sendFormData);
     }
 
-    onChange(fn) {
+    createOnChange(fn) {
        return function(e){
            fn(e.target.value);
        }
     }
 
-    // _validator_ fires every time the render is called on InputText...
+    // The function _validator_ fires every time the render is called on InputText...
     //    Which only happens when props are changed.
-    onValidate(name){
-        // valid values are ["success","warning","error",null]
+    createValidator(relatedModelConstraintPaths, constraints, validatorOptions, scope) {
 
-        let validateFn = [];
+        // Build a cut down copy of the constraints
+        let _constraints = {};
+        relatedModelConstraintPaths.map(function (cv, ind, ar) {
+            _constraints[cv] = safeGet(constraints, cv, null);
+        });
 
-        if ( name === 'name.first' || name === '*' ) {
-            validateFn.push(firstNameValidate);
-        }
-        if ( name === 'name.last' || name === '*' ) {
-            validateFn.push(lastNameValidate);
-        }
-        if ( name === 'email' || name === '*' ) {
-            validateFn.push(emailValidate);
-        }
-
-        // this function being returned will execute every
-        // time the render is called. which happens when a
-        // property is updated.
-        return function() {
-            return ( validateFn.map( (fn)=>fn() ).includes('error') ) ? 'error' : 'success';
-        }.bind(this);
+        // What I would like to see is how to get these messages into some model
+        return function (model) {
+            // validation results will be an array of strings with messages if it fails. undefined if it passes.
+            let validationResults = validate(model, _constraints, validatorOptions);
+            if (validationResults === undefined) {
+                return "success";
+            } else {
+                return "error";
+            }
+        }.bind(scope);
     }
+
 
     render() {
         return (
@@ -120,8 +158,9 @@ export class UserProfile extends Component {
                                     help="The first name is required and can be no larger than 20 characters"
                                     placeholder="First Name"
                                     value={this.props.name.first}
-                                    onChange={this.onChange(this.props.profileActionDispatcher.updateFirstName)}
-                                    validator={this.onValidate('name.first')}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
+                                    getValidationModel={ (value)=>{ return {name:{first:value}}; } }
+                                    validator={ this.createValidator( [ 'name.first' ], constraints, options, this ) }
                                 />
                                 <InputText
                                     fieldId="lastName"
@@ -129,17 +168,19 @@ export class UserProfile extends Component {
                                     help="The last name is required and can be no larger than 20 characters"
                                     placeholder="Last Name"
                                     value={this.props.name.last}
-                                    onChange={this.onChange(this.props.profileActionDispatcher.updateLastName)}
-                                    validator={this.onValidate('name.last')}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
+                                    getValidationModel={ (value)=>{ return {name:{last:value}}; } }
+                                    validator={this.createValidator( [ 'name.last' ], constraints, options, this ) }
                                 />
-                                <InputText
+                               <InputText
                                     fieldId="email"
                                     label="Enter the email"
                                     help="The email is required and must be a valid format"
                                     placeholder="Email"
                                     value={this.props.email}
-                                    onChange={this.onChange(this.props.profileActionDispatcher.updateEmail)}
-                                    validator={this.onValidate('email')}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
+                                    getValidationModel={ (email)=>{ return {email}; } }
+                                    validator={this.createValidator( [ 'email' ], constraints, options, this ) }
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
                             </div>

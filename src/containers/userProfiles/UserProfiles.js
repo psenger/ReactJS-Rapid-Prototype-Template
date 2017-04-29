@@ -22,6 +22,30 @@ const safeGet = (obj, key, defaultVal) => {
     }, obj);
 };
 
+const safeSet = (obj, key, value) => {
+    if (!obj || !key)
+        return Object.assign({},obj); // bail out there is no object or no key.
+
+    let properties = key.split(".") || [];
+
+    let curObj = Object.assign({},obj);
+    let ptr = curObj;
+
+    const mapper = ( cv, ind, ar ) => {
+        if ( !ptr[cv] ) {
+            ptr[cv] = {};// initialize the object literal if there is no value in place.
+        }
+        if ( ar.length -1 === ind ) {
+            ptr[cv] = value; // at the end.
+        } else {
+            ptr = ptr[cv]; // move the pointer down.
+        }
+    };
+    properties.map( mapper );
+
+    return curObj;
+};
+
 export class UserProfiles extends Component {
 
     constructor(props) {

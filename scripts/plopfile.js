@@ -20,7 +20,7 @@ module.exports = function (plop) {
             {
                 type: 'input',
                 name: 'actionName',
-                message: 'what action name is dedicated to this component? ( it will be ',
+                message: 'what action name is dedicated to this component? ',
 
             },
             {
@@ -50,8 +50,8 @@ module.exports = function (plop) {
         ],
         actions: [{
             type: 'add',
-            path: './{{dashCase name}}.txt',
-            templateFile: 'templates/doo.hbs',
+            path: './{{dashCase name}}.js',
+            templateFile: 'templates/component.hbs',
             abortOnFail: true
         }]
     });
