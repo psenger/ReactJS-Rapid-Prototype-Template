@@ -1,0 +1,43 @@
+{
+    "_id": "590077887b5f7a45b2cbbe02",
+    "isActive": false,
+    "lastLogin": "Friday, January 13, 2017 5:22 PM",
+    "balance": "$2,963.84",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Roach",
+        "last": "Dyer"
+    },
+    "company": "TRI@TRIBALOG",
+    "email": "roach.dyer@tri@tribalog.info",
+    "phone": [
+        {
+            "_id": "590077888277b652cbc41856",
+            "num": "+1 (820) 555-2039",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "59007788f70372ad74919749",
+        "num": 606,
+        "street": "Wallabout Street",
+        "city": "Fairlee",
+        "state": "New York",
+        "zip": 4594,
+        "latitude": "-9.849846",
+        "longitude": "-5.246922"
+    },
+    "bio": "Officia minim est pariatur labore nisi nulla aute eu sint ut. Est aliqua in culpa consectetur deserunt. Incididunt laboris ex eiusmod voluptate fugiat irure do laboris amet.",
+    "tags": [
+        "et",
+        "aute"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d5ce3c17749b7459d"
+        }
+    ],
+    "greeting": "Hello, Roach! You have 7 unread messages."
+}

@@ -1,0 +1,77 @@
+{
+    "_id": "5900775d289e73fa7a84a551",
+    "isActive": true,
+    "lastLogin": "Sunday, May 3, 2015 1:10 AM",
+    "balance": "$2,970.07",
+    "age": 32,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Shelby",
+        "last": "Vinson"
+    },
+    "company": "COSMOSIS",
+    "email": "shelby.vinson@cosmosis.io",
+    "phone": [
+        {
+            "_id": "5900775df82b2cdf5842d4d5",
+            "num": "+1 (894) 543-2789",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d391a3aa5f621de79",
+            "num": "+1 (812) 543-2718",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775d4044acf6db144088",
+            "num": "+1 (950) 459-3170",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775d2d14316e1f9c57b0",
+            "num": "+1 (828) 599-2732",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5900775de223f98d448a3600",
+        "num": 919,
+        "street": "Lake Street",
+        "city": "Muir",
+        "state": "Guam",
+        "zip": 3969,
+        "latitude": "-1.711743",
+        "longitude": "44.237391"
+    },
+    "bio": "Quis commodo et esse ullamco eiusmod in deserunt ullamco officia adipisicing enim occaecat. Eu veniam exercitation ullamco labore magna ullamco ipsum adipisicing excepteur quis. Non ex consequat eiusmod ad laborum labore Lorem mollit do sint.",
+    "tags": [
+        "cupidatat",
+        "sunt",
+        "ullamco",
+        "eu",
+        "incididunt",
+        "consectetur",
+        "elit",
+        "sit",
+        "deserunt"
+    ],
+    "friends": [
+        {
+            "_id": "59007787ec0673c2032ddaa9"
+        },
+        {
+            "_id": "5900775de625f3de9fdb54a2"
+        },
+        {
+            "_id": "590077875c0cb5dd144b2229"
+        },
+        {
+            "_id": "5900775c4d95df64a830899f"
+        },
+        {
+            "_id": "5900775d12df8101fd573f2f"
+        }
+    ],
+    "greeting": "Hello, Shelby! You have 10 unread messages."
+}

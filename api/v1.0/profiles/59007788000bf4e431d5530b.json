@@ -1,0 +1,64 @@
+{
+    "_id": "59007788000bf4e431d5530b",
+    "isActive": true,
+    "lastLogin": "Sunday, February 26, 2017 2:45 PM",
+    "balance": "$2,992.01",
+    "age": 31,
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Ford",
+        "last": "Odonnell"
+    },
+    "company": "EDECINE",
+    "email": "ford.odonnell@edecine.com",
+    "phone": [
+        {
+            "_id": "59007788385b59dab786bf01",
+            "num": "+1 (865) 424-2699",
+            "type": "home"
+        },
+        {
+            "_id": "59007788d922a11ebe468f7d",
+            "num": "+1 (910) 423-3992",
+            "type": "mobile"
+        },
+        {
+            "_id": "59007788354e294cad3fb06a",
+            "num": "+1 (848) 568-2436",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900778821d66935629bfae2",
+        "num": 900,
+        "street": "Jodie Court",
+        "city": "Blodgett",
+        "state": "Indiana",
+        "zip": 5120,
+        "latitude": "61.806957",
+        "longitude": "-174.770453"
+    },
+    "bio": "Laboris enim nostrud nostrud dolore excepteur labore non proident ut ex in. Excepteur sit et elit et. Duis consequat Lorem anim proident sit eu. Cillum irure amet minim excepteur. Elit pariatur laboris magna voluptate laborum in velit pariatur cillum excepteur sit do. Consectetur Lorem labore excepteur et elit non aute reprehenderit velit.",
+    "tags": [
+        "eiusmod",
+        "est",
+        "eu",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "5900775c8a05325b3ac8c37f"
+        },
+        {
+            "_id": "5900775c01f20abc4b71ddc5"
+        },
+        {
+            "_id": "5900775d5595f80d8d3cd737"
+        },
+        {
+            "_id": "5900775c4d95df64a830899f"
+        }
+    ],
+    "greeting": "Hello, Ford! You have 5 unread messages."
+}

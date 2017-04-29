@@ -1,0 +1,79 @@
+{
+    "_id": "5900775de89d89d2ccec37de",
+    "isActive": true,
+    "lastLogin": "Sunday, November 20, 2016 4:12 AM",
+    "balance": "$3,914.13",
+    "age": 38,
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Dona",
+        "last": "Mays"
+    },
+    "company": "EXOBLUE",
+    "email": "dona.mays@exoblue.org",
+    "phone": [
+        {
+            "_id": "5900775d61b4d95794de364e",
+            "num": "+1 (846) 554-2722",
+            "type": "work"
+        },
+        {
+            "_id": "5900775ddb6e8778fd775ec5",
+            "num": "+1 (912) 554-3099",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d0c3962f14e02394f",
+            "num": "+1 (856) 469-3201",
+            "type": "work"
+        },
+        {
+            "_id": "5900775d0d4b3691b5c08228",
+            "num": "+1 (857) 551-3593",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775dd9b7b686b49a09ba",
+        "num": 453,
+        "street": "Hubbard Place",
+        "city": "Williston",
+        "state": "Montana",
+        "zip": 5271,
+        "latitude": "-15.549307",
+        "longitude": "160.189105"
+    },
+    "bio": "Aliqua id est tempor aliquip officia fugiat voluptate Lorem occaecat laborum labore nulla mollit id. Culpa laborum laboris ipsum minim ipsum minim ex. Nostrud duis adipisicing labore magna ut veniam ut do nostrud id laboris in velit. Lorem ut do aliquip mollit qui proident.",
+    "tags": [
+        "excepteur",
+        "dolor",
+        "sunt",
+        "veniam",
+        "ad",
+        "do",
+        "excepteur",
+        "mollit"
+    ],
+    "friends": [
+        {
+            "_id": "5900775c8a05325b3ac8c37f"
+        },
+        {
+            "_id": "5900775d4160799919b9593a"
+        },
+        {
+            "_id": "5900775c762eb061888a2755"
+        },
+        {
+            "_id": "590077871bb73a1e706d5f5a"
+        },
+        {
+            "_id": "59007787ec0673c2032ddaa9"
+        },
+        {
+            "_id": "59007787d9ed33e88211759e"
+        }
+    ],
+    "greeting": "Hello, Dona! You have 6 unread messages."
+}

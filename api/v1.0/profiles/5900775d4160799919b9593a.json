@@ -1,0 +1,78 @@
+{
+    "_id": "5900775d4160799919b9593a",
+    "isActive": false,
+    "lastLogin": "Monday, January 23, 2017 8:03 AM",
+    "balance": "$3,018.98",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Colon",
+        "last": "Clarke"
+    },
+    "company": "KRAG",
+    "email": "colon.clarke@krag.ca",
+    "phone": [
+        {
+            "_id": "5900775def1528356c6496fe",
+            "num": "+1 (853) 494-3044",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d42ae6c623cab214a",
+            "num": "+1 (944) 533-3484",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d8f29e905f7a92607",
+            "num": "+1 (958) 584-3916",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d93ecfeb955972bcf",
+            "num": "+1 (895) 594-3978",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5900775d4fa947c7044aaa3d",
+        "num": 872,
+        "street": "Colby Court",
+        "city": "Clara",
+        "state": "Alaska",
+        "zip": 8886,
+        "latitude": "3.459701",
+        "longitude": "103.194837"
+    },
+    "bio": "Quis adipisicing adipisicing labore et anim non deserunt cillum anim dolore exercitation deserunt laboris. Incididunt velit occaecat exercitation esse in reprehenderit ullamco proident aliquip commodo. Pariatur labore exercitation labore est laborum exercitation. Sit cupidatat officia dolore esse irure voluptate ex aute consequat aute duis aute sunt id. Aliqua ipsum consectetur fugiat voluptate nulla anim non aliqua. Voluptate et pariatur tempor enim dolore qui tempor ut.",
+    "tags": [
+        "esse",
+        "ex",
+        "Lorem",
+        "eu",
+        "proident",
+        "aute",
+        "ut"
+    ],
+    "friends": [
+        {
+            "_id": "5900775c8a05325b3ac8c37f"
+        },
+        {
+            "_id": "5900775de89d89d2ccec37de"
+        },
+        {
+            "_id": "590077887b5f7a45b2cbbe02"
+        },
+        {
+            "_id": "5900775de625f3de9fdb54a2"
+        },
+        {
+            "_id": "5900775d8267dcbbed512806"
+        },
+        {
+            "_id": "5900775d1f75d0ce7492ce68"
+        }
+    ],
+    "greeting": "Hello, Colon! You have 9 unread messages."
+}

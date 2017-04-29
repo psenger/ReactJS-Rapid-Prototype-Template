@@ -1,0 +1,49 @@
+{
+    "_id": "590077870ee73b196cc5c907",
+    "isActive": false,
+    "lastLogin": "Tuesday, April 11, 2017 9:38 PM",
+    "balance": "$2,802.19",
+    "age": 26,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Sophia",
+        "last": "Huff"
+    },
+    "company": "OCTOCORE",
+    "email": "sophia.huff@octocore.org",
+    "phone": [
+        {
+            "_id": "59007787bbefb2def2bd48af",
+            "num": "+1 (920) 538-2322",
+            "type": "work"
+        },
+        {
+            "_id": "5900778776e673101d02f266",
+            "num": "+1 (829) 470-3562",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900778706c7c7e5e09d229f",
+        "num": 802,
+        "street": "Middleton Street",
+        "city": "Deltaville",
+        "state": "Maryland",
+        "zip": 295,
+        "latitude": "42.646368",
+        "longitude": "109.244442"
+    },
+    "bio": "Dolore nulla culpa Lorem dolor. Et ipsum sint do officia tempor. Sint pariatur nostrud excepteur officia aliquip incididunt mollit voluptate. Enim pariatur dolore mollit cupidatat commodo dolore et. Eu culpa aliquip tempor laboris anim magna nisi. Non eu esse voluptate elit sit qui anim ut ullamco nisi sint ad ullamco.",
+    "tags": [
+        "duis",
+        "mollit",
+        "eiusmod"
+    ],
+    "friends": [
+        {
+            "_id": "59007787ec0673c2032ddaa9"
+        }
+    ],
+    "greeting": "Hello, Sophia! You have 7 unread messages."
+}

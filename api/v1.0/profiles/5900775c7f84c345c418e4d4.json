@@ -1,0 +1,60 @@
+{
+    "_id": "5900775c7f84c345c418e4d4",
+    "isActive": true,
+    "lastLogin": "Saturday, May 3, 2014 10:18 PM",
+    "balance": "$2,239.73",
+    "age": 22,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Dudley",
+        "last": "Valenzuela"
+    },
+    "company": "UPDAT",
+    "email": "dudley.valenzuela@updat.net",
+    "phone": [
+        {
+            "_id": "5900775c4b8e10038ce5e0b0",
+            "num": "+1 (836) 413-2448",
+            "type": "home"
+        },
+        {
+            "_id": "5900775cad64fe3814c79785",
+            "num": "+1 (922) 418-2693",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775c8c53a40e3ce5954e",
+        "num": 108,
+        "street": "Hornell Loop",
+        "city": "Centerville",
+        "state": "Nevada",
+        "zip": 9627,
+        "latitude": "-34.608892",
+        "longitude": "-68.779361"
+    },
+    "bio": "Ad elit labore velit est ullamco in ea. Officia anim exercitation officia fugiat non nulla irure do elit aliquip commodo sint. Fugiat do nulla esse nostrud magna consectetur mollit. Magna ipsum ipsum ex cupidatat aute. Lorem excepteur aute veniam esse commodo cillum.",
+    "tags": [
+        "irure",
+        "ex",
+        "excepteur",
+        "sit",
+        "proident"
+    ],
+    "friends": [
+        {
+            "_id": "5900775ccc9daa1a279e0dac"
+        },
+        {
+            "_id": "590077874f3f1aae4e1601f8"
+        },
+        {
+            "_id": "590077875c0cb5dd144b2229"
+        },
+        {
+            "_id": "5900775de89d89d2ccec37de"
+        }
+    ],
+    "greeting": "Hello, Dudley! You have 8 unread messages."
+}

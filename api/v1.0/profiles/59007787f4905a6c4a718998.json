@@ -1,0 +1,69 @@
+{
+    "_id": "59007787f4905a6c4a718998",
+    "isActive": true,
+    "lastLogin": "Monday, April 4, 2016 12:04 PM",
+    "balance": "$2,882.19",
+    "age": 26,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Nicole",
+        "last": "Summers"
+    },
+    "company": "MEDMEX",
+    "email": "nicole.summers@medmex.tv",
+    "phone": [
+        {
+            "_id": "590077875cde95471e29f563",
+            "num": "+1 (842) 469-2125",
+            "type": "home"
+        },
+        {
+            "_id": "5900778730c659087a24a2a0",
+            "num": "+1 (942) 445-2333",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787805e8203ce8e3aef",
+        "num": 228,
+        "street": "Tiffany Place",
+        "city": "Epworth",
+        "state": "New Jersey",
+        "zip": 2972,
+        "latitude": "-3.365422",
+        "longitude": "87.420503"
+    },
+    "bio": "Incididunt dolor id ea ea mollit nulla. Ex tempor aliquip et elit excepteur excepteur sit minim incididunt ullamco sunt. Reprehenderit aliquip occaecat labore ea velit aliquip adipisicing do ullamco cillum est labore. Exercitation voluptate laborum Lorem cillum qui consequat aute nulla consectetur. Lorem cillum quis ex Lorem sint esse eiusmod aliquip voluptate aliqua irure. Irure in laboris laboris non ex elit aliqua ipsum aliquip aute. Proident nostrud commodo aliqua aliquip exercitation exercitation anim dolor.",
+    "tags": [
+        "do",
+        "eu",
+        "elit",
+        "cillum",
+        "irure",
+        "dolor",
+        "eu",
+        "voluptate"
+    ],
+    "friends": [
+        {
+            "_id": "5900775c0187bce4affb95cc"
+        },
+        {
+            "_id": "59007787885d6eb2d7e23dd5"
+        },
+        {
+            "_id": "5900778883be38318f01e041"
+        },
+        {
+            "_id": "5900775d13e102fab2912cfc"
+        },
+        {
+            "_id": "5900775dca472bc8c2bcdef4"
+        },
+        {
+            "_id": "59007787d9ed33e88211759e"
+        }
+    ],
+    "greeting": "Hello, Nicole! You have 5 unread messages."
+}

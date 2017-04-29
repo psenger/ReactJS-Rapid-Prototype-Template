@@ -1,15 +1,17 @@
 import React from 'react';
-import { Provider } from 'react-redux'
 import ReactDOM from 'react-dom';
-import configureStore from './store/index';
-import Views from './views/app';
+import { Provider } from 'react-redux';
+import App from './src/containers/app';
+import configureStore from './src/store/index';
+// import rootSaga from './sagas/index'
 
 let store = configureStore({});
+// store.runSaga(rootSaga)
 
 ReactDOM.render(
     <div className="container">
         <Provider store={store}>
-            <Views />
+            <App />
         </Provider>
     </div>,
     document.getElementById('app'));

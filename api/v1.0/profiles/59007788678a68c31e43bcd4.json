@@ -1,0 +1,76 @@
+{
+    "_id": "59007788678a68c31e43bcd4",
+    "isActive": true,
+    "lastLogin": "Friday, January 22, 2016 5:28 AM",
+    "balance": "$1,929.46",
+    "age": 28,
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Glover",
+        "last": "Lynn"
+    },
+    "company": "EMTRAC",
+    "email": "glover.lynn@emtrac.us",
+    "phone": [
+        {
+            "_id": "59007788d56d9efcbfccacf9",
+            "num": "+1 (914) 427-2075",
+            "type": "home"
+        },
+        {
+            "_id": "590077887ea089cf4e377d8d",
+            "num": "+1 (992) 562-3870",
+            "type": "work"
+        },
+        {
+            "_id": "59007788445a5e630ee82a7f",
+            "num": "+1 (886) 509-2708",
+            "type": "home"
+        },
+        {
+            "_id": "590077887e090343f71ce2ca",
+            "num": "+1 (917) 488-2266",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "59007788eae692d88238c789",
+        "num": 737,
+        "street": "Chapel Street",
+        "city": "Cartwright",
+        "state": "North Carolina",
+        "zip": 8541,
+        "latitude": "25.89976",
+        "longitude": "96.410642"
+    },
+    "bio": "Culpa nostrud mollit eiusmod dolore do proident incididunt in nisi dolore ipsum aliquip qui anim. Fugiat dolore cillum qui pariatur reprehenderit dolor ut. Consequat ex reprehenderit aliqua nulla elit esse mollit dolor anim incididunt nostrud. Pariatur nostrud quis et laborum ullamco in nisi do.",
+    "tags": [
+        "officia",
+        "consequat",
+        "occaecat",
+        "aliqua",
+        "veniam"
+    ],
+    "friends": [
+        {
+            "_id": "59007787acd94a7e2d46b4e0"
+        },
+        {
+            "_id": "59007787acd94a7e2d46b4e0"
+        },
+        {
+            "_id": "59007788000bf4e431d5530b"
+        },
+        {
+            "_id": "59007787e6de4eb741bb26f8"
+        },
+        {
+            "_id": "59007787a7b74937229efd0d"
+        },
+        {
+            "_id": "59007787a7b74937229efd0d"
+        }
+    ],
+    "greeting": "Hello, Glover! You have 8 unread messages."
+}

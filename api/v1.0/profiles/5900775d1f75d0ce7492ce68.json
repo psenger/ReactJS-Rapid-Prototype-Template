@@ -1,0 +1,72 @@
+{
+    "_id": "5900775d1f75d0ce7492ce68",
+    "isActive": false,
+    "lastLogin": "Saturday, November 12, 2016 2:13 PM",
+    "balance": "$2,531.59",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Cox",
+        "last": "Henry"
+    },
+    "company": "SURELOGIC",
+    "email": "cox.henry@surelogic.tv",
+    "phone": [
+        {
+            "_id": "5900775dc8f4865016ce6927",
+            "num": "+1 (909) 481-2404",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d4754aa4e79ab7d91",
+            "num": "+1 (832) 411-2611",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775daa4feab3e54853ef",
+            "num": "+1 (973) 460-2587",
+            "type": "work"
+        },
+        {
+            "_id": "5900775d5a7fafca15201768",
+            "num": "+1 (951) 517-3739",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5900775db8d89d9d40ddfaff",
+        "num": 980,
+        "street": "Ash Street",
+        "city": "Eagletown",
+        "state": "New Jersey",
+        "zip": 4137,
+        "latitude": "-68.558751",
+        "longitude": "40.577058"
+    },
+    "bio": "Adipisicing est excepteur consequat elit et culpa. Adipisicing excepteur nulla laborum nostrud. Esse reprehenderit nisi aute in Lorem cillum sint exercitation cillum laboris. Consequat qui duis quis non nulla pariatur do reprehenderit eu ad elit ex. Incididunt nostrud aliqua non nisi sunt excepteur quis aliquip. Laboris sunt eiusmod et eiusmod labore ullamco eiusmod commodo in deserunt labore amet. Duis qui excepteur aliquip labore consectetur consequat.",
+    "tags": [
+        "cupidatat",
+        "dolore",
+        "elit",
+        "proident",
+        "voluptate",
+        "cupidatat",
+        "tempor",
+        "ipsum",
+        "magna",
+        "ad"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d88b16620b9ebd711"
+        },
+        {
+            "_id": "5900775d1f75d0ce7492ce68"
+        },
+        {
+            "_id": "5900775d30d5815c09179e08"
+        }
+    ],
+    "greeting": "Hello, Cox! You have 6 unread messages."
+}

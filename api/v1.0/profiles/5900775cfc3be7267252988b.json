@@ -1,0 +1,66 @@
+{
+    "_id": "5900775cfc3be7267252988b",
+    "isActive": true,
+    "lastLogin": "Thursday, April 10, 2014 3:22 AM",
+    "balance": "$2,629.95",
+    "age": 37,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Brooke",
+        "last": "Richardson"
+    },
+    "company": "CORMORAN",
+    "email": "brooke.richardson@cormoran.ca",
+    "phone": [
+        {
+            "_id": "5900775c8c4522c3c05fc58a",
+            "num": "+1 (935) 472-3786",
+            "type": "home"
+        },
+        {
+            "_id": "5900775c6644c993c671c6ee",
+            "num": "+1 (868) 536-2000",
+            "type": "work"
+        },
+        {
+            "_id": "5900775c21941f5074373a8b",
+            "num": "+1 (891) 409-2387",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775cb37bc1c21cede302",
+        "num": 133,
+        "street": "Jefferson Street",
+        "city": "Jugtown",
+        "state": "Oregon",
+        "zip": 8229,
+        "latitude": "83.559549",
+        "longitude": "-40.683867"
+    },
+    "bio": "Exercitation commodo irure minim nisi quis culpa aute id sunt. Ut pariatur qui ea nulla ullamco. Ex quis nostrud culpa eiusmod ex in. Pariatur exercitation occaecat adipisicing amet consequat consequat esse fugiat nisi consequat labore ex duis magna. Elit esse amet Lorem proident velit eiusmod commodo aliquip officia.",
+    "tags": [
+        "proident",
+        "aute",
+        "esse"
+    ],
+    "friends": [
+        {
+            "_id": "5900775de625f3de9fdb54a2"
+        },
+        {
+            "_id": "5900775c0187bce4affb95cc"
+        },
+        {
+            "_id": "590077872532c6937ef12ab3"
+        },
+        {
+            "_id": "59007787789d47d48c9a698d"
+        },
+        {
+            "_id": "5900775d1f75d0ce7492ce68"
+        }
+    ],
+    "greeting": "Hello, Brooke! You have 9 unread messages."
+}

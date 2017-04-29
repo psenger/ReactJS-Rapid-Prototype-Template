@@ -1,0 +1,73 @@
+{
+    "_id": "5900775d14947b0fabd5bb17",
+    "isActive": false,
+    "lastLogin": "Monday, June 1, 2015 3:29 PM",
+    "balance": "$3,733.55",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Weiss",
+        "last": "Stanton"
+    },
+    "company": "KNOWLYSIS",
+    "email": "weiss.stanton@knowlysis.info",
+    "phone": [
+        {
+            "_id": "5900775da906fdbe83d9979b",
+            "num": "+1 (988) 428-2982",
+            "type": "home"
+        },
+        {
+            "_id": "5900775d6bf6caf8eaf621c7",
+            "num": "+1 (903) 548-2726",
+            "type": "home"
+        },
+        {
+            "_id": "5900775df51d6f2ca11da22a",
+            "num": "+1 (890) 406-3987",
+            "type": "home"
+        },
+        {
+            "_id": "5900775dcdc7e5e59beae66c",
+            "num": "+1 (803) 469-3904",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5900775d0551f84930097a38",
+        "num": 208,
+        "street": "Banner Avenue",
+        "city": "Reno",
+        "state": "New Mexico",
+        "zip": 2369,
+        "latitude": "54.774554",
+        "longitude": "132.904556"
+    },
+    "bio": "Nulla labore est pariatur deserunt eiusmod adipisicing non elit culpa. Id consequat amet do labore ex elit eiusmod. Exercitation cupidatat magna do qui sunt reprehenderit. Irure aute fugiat incididunt nostrud officia voluptate labore labore nulla voluptate ullamco. Irure minim labore incididunt nisi qui enim reprehenderit fugiat ullamco.",
+    "tags": [
+        "quis",
+        "exercitation",
+        "adipisicing",
+        "incididunt",
+        "ullamco"
+    ],
+    "friends": [
+        {
+            "_id": "5900778746a5b4e76aec6d30"
+        },
+        {
+            "_id": "5900775dfef5f9b501d1aada"
+        },
+        {
+            "_id": "59007787885d6eb2d7e23dd5"
+        },
+        {
+            "_id": "5900775de625f3de9fdb54a2"
+        },
+        {
+            "_id": "5900775d289e73fa7a84a551"
+        }
+    ],
+    "greeting": "Hello, Weiss! You have 6 unread messages."
+}

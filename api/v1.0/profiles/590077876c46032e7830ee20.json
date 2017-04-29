@@ -1,0 +1,61 @@
+{
+    "_id": "590077876c46032e7830ee20",
+    "isActive": false,
+    "lastLogin": "Wednesday, November 26, 2014 10:18 AM",
+    "balance": "$1,026.41",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Angelique",
+        "last": "Jacobson"
+    },
+    "company": "QUORDATE",
+    "email": "angelique.jacobson@quordate.ca",
+    "phone": [
+        {
+            "_id": "590077877f6abcfc4ee7b350",
+            "num": "+1 (958) 415-3430",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900778764d542b829f2a07d",
+        "num": 429,
+        "street": "Douglass Street",
+        "city": "Columbus",
+        "state": "Idaho",
+        "zip": 5953,
+        "latitude": "13.414626",
+        "longitude": "-21.407969"
+    },
+    "bio": "Esse magna duis aliquip ut ut occaecat id mollit. Nulla tempor do esse pariatur amet sit et nostrud labore in labore duis sit. Elit veniam nostrud enim tempor quis quis. Veniam laboris esse sit consectetur ad officia veniam aliquip laboris do velit sit non cupidatat. Nulla veniam proident incididunt adipisicing id sunt amet duis. Magna sint qui irure anim quis irure culpa. Dolore et dolor labore excepteur aliqua qui occaecat tempor amet magna laboris nulla commodo non.",
+    "tags": [
+        "esse",
+        "nulla",
+        "elit",
+        "fugiat",
+        "exercitation",
+        "cupidatat",
+        "fugiat",
+        "cillum"
+    ],
+    "friends": [
+        {
+            "_id": "5900775dca472bc8c2bcdef4"
+        },
+        {
+            "_id": "590077874f3f1aae4e1601f8"
+        },
+        {
+            "_id": "5900775c0a020e79ae5013a1"
+        },
+        {
+            "_id": "59007787ec0673c2032ddaa9"
+        },
+        {
+            "_id": "59007788399606cfeab80bfd"
+        }
+    ],
+    "greeting": "Hello, Angelique! You have 9 unread messages."
+}

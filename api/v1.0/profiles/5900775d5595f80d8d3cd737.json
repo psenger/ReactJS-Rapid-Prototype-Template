@@ -1,0 +1,69 @@
+{
+    "_id": "5900775d5595f80d8d3cd737",
+    "isActive": true,
+    "lastLogin": "Monday, January 27, 2014 4:34 AM",
+    "balance": "$1,057.88",
+    "age": 29,
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Noemi",
+        "last": "Workman"
+    },
+    "company": "EQUITOX",
+    "email": "noemi.workman@equitox.us",
+    "phone": [
+        {
+            "_id": "5900775d8f4118eb91064369",
+            "num": "+1 (815) 588-2673",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775d5b7592bc2efa01f1",
+            "num": "+1 (922) 425-3371",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900775dba0b29a4125c9dc2",
+            "num": "+1 (989) 433-2343",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5900775dd768df624aefe321",
+        "num": 564,
+        "street": "Preston Court",
+        "city": "Esmont",
+        "state": "Nebraska",
+        "zip": 7799,
+        "latitude": "-67.920694",
+        "longitude": "-34.93165"
+    },
+    "bio": "Non duis irure amet nostrud duis ea consequat Lorem esse. Aliquip laborum minim aliquip nisi eu elit excepteur anim in est ad. Dolore laborum eiusmod ullamco duis ea amet dolore. Anim amet proident duis voluptate esse eiusmod do enim culpa exercitation exercitation.",
+    "tags": [
+        "consequat",
+        "ipsum",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "59007788b98baba310f3627b"
+        },
+        {
+            "_id": "5900775c4d95df64a830899f"
+        },
+        {
+            "_id": "5900775d30d5815c09179e08"
+        },
+        {
+            "_id": "5900775dcc7764116134fc69"
+        },
+        {
+            "_id": "590077879b23ac971f63917c"
+        },
+        {
+            "_id": "5900775db724568383159a35"
+        }
+    ],
+    "greeting": "Hello, Noemi! You have 10 unread messages."
+}

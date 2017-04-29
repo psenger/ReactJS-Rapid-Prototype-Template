@@ -1,0 +1,65 @@
+{
+    "_id": "59007787c0aab11884bc0789",
+    "isActive": false,
+    "lastLogin": "Saturday, July 2, 2016 11:20 AM",
+    "balance": "$2,249.11",
+    "age": 30,
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Rhoda",
+        "last": "Miles"
+    },
+    "company": "IMMUNICS",
+    "email": "rhoda.miles@immunics.biz",
+    "phone": [
+        {
+            "_id": "5900778703414efe76a1b6e5",
+            "num": "+1 (980) 421-2556",
+            "type": "work"
+        },
+        {
+            "_id": "590077875a337631c7d22f17",
+            "num": "+1 (814) 574-2287",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "59007787b77fe921a39d9c9a",
+        "num": 275,
+        "street": "Butler Street",
+        "city": "Kempton",
+        "state": "Rhode Island",
+        "zip": 9696,
+        "latitude": "-70.3925",
+        "longitude": "5.361492"
+    },
+    "bio": "Ad et Lorem aliquip tempor. Est laboris sint fugiat labore exercitation. Tempor aliquip nulla excepteur occaecat esse eu. Excepteur cillum reprehenderit excepteur qui voluptate. Aliquip pariatur non est consectetur Lorem culpa ullamco. Dolor aliquip nisi cillum qui eiusmod ex dolor Lorem et commodo dolor.",
+    "tags": [
+        "sint",
+        "reprehenderit",
+        "velit",
+        "Lorem"
+    ],
+    "friends": [
+        {
+            "_id": "59007787ef260a5d851e060f"
+        },
+        {
+            "_id": "5900778794f4bf22c3c62dd8"
+        },
+        {
+            "_id": "590077876c46032e7830ee20"
+        },
+        {
+            "_id": "5900775d14947b0fabd5bb17"
+        },
+        {
+            "_id": "5900775d30d5815c09179e08"
+        },
+        {
+            "_id": "5900775cf4cadd2208bb3cca"
+        }
+    ],
+    "greeting": "Hello, Rhoda! You have 9 unread messages."
+}

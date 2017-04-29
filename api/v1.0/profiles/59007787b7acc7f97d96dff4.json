@@ -1,0 +1,75 @@
+{
+    "_id": "59007787b7acc7f97d96dff4",
+    "isActive": true,
+    "lastLogin": "Thursday, March 27, 2014 3:11 AM",
+    "balance": "$1,383.95",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Roseann",
+        "last": "Mckinney"
+    },
+    "company": "IMKAN",
+    "email": "roseann.mckinney@imkan.info",
+    "phone": [
+        {
+            "_id": "5900778756dfa5c6e624ee45",
+            "num": "+1 (839) 445-3480",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900778712bcd048106d733a",
+            "num": "+1 (966) 499-3168",
+            "type": "home"
+        },
+        {
+            "_id": "590077873991a6df7a615ffd",
+            "num": "+1 (933) 479-2198",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59007787de383f1a4aa72ad5",
+        "num": 716,
+        "street": "Beaumont Street",
+        "city": "Emison",
+        "state": "Washington",
+        "zip": 3899,
+        "latitude": "-30.234068",
+        "longitude": "-66.94725"
+    },
+    "bio": "Culpa sit esse officia enim sunt enim ex excepteur amet sit enim reprehenderit laboris. Commodo enim est labore aliqua et eu officia cupidatat dolor sint ad aliquip est est. Nisi deserunt veniam et deserunt officia qui. Ut officia magna incididunt exercitation ipsum in consectetur quis anim consequat aliquip.",
+    "tags": [
+        "Lorem",
+        "do",
+        "et",
+        "ipsum",
+        "reprehenderit",
+        "duis",
+        "est",
+        "commodo",
+        "tempor"
+    ],
+    "friends": [
+        {
+            "_id": "59007787ae821f0845e5ab31"
+        },
+        {
+            "_id": "590077877db1d85cbcb08c3c"
+        },
+        {
+            "_id": "59007787ec0673c2032ddaa9"
+        },
+        {
+            "_id": "5900775de89d89d2ccec37de"
+        },
+        {
+            "_id": "5900775d7f2af17ccc144ad3"
+        },
+        {
+            "_id": "5900775dca472bc8c2bcdef4"
+        }
+    ],
+    "greeting": "Hello, Roseann! You have 5 unread messages."
+}

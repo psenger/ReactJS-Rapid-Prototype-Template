@@ -1,0 +1,73 @@
+{
+    "_id": "59007787789d47d48c9a698d",
+    "isActive": false,
+    "lastLogin": "Sunday, June 15, 2014 4:20 PM",
+    "balance": "$3,535.58",
+    "age": 21,
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Carlson",
+        "last": "Alford"
+    },
+    "company": "RAMJOB",
+    "email": "carlson.alford@ramjob.net",
+    "phone": [
+        {
+            "_id": "59007787daa7e4c6096aba97",
+            "num": "+1 (984) 585-3101",
+            "type": "work"
+        },
+        {
+            "_id": "59007787c1e27707ecf2a8d2",
+            "num": "+1 (809) 511-3192",
+            "type": "mobile"
+        },
+        {
+            "_id": "5900778758747895e52aea27",
+            "num": "+1 (932) 450-2398",
+            "type": "work"
+        },
+        {
+            "_id": "59007787a64103a3b4e68079",
+            "num": "+1 (817) 475-2762",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "59007787a1578ff3b2f4bbff",
+        "num": 608,
+        "street": "Jerome Avenue",
+        "city": "Elwood",
+        "state": "Mississippi",
+        "zip": 4208,
+        "latitude": "-30.60977",
+        "longitude": "-135.404335"
+    },
+    "bio": "Non eiusmod fugiat cillum ad. Velit laboris in voluptate labore Lorem eiusmod sint tempor anim esse. Velit duis reprehenderit anim sit pariatur consectetur aliquip nulla. Enim commodo duis culpa enim reprehenderit irure ad officia eiusmod consectetur incididunt. Ullamco deserunt quis nulla ut cupidatat consectetur.",
+    "tags": [
+        "anim",
+        "eu",
+        "esse",
+        "laboris",
+        "laborum"
+    ],
+    "friends": [
+        {
+            "_id": "5900775d4160799919b9593a"
+        },
+        {
+            "_id": "5900775c0a020e79ae5013a1"
+        },
+        {
+            "_id": "5900775d98007159b557dfa9"
+        },
+        {
+            "_id": "59007787bbb274645a40aaac"
+        },
+        {
+            "_id": "5900775d13e102fab2912cfc"
+        }
+    ],
+    "greeting": "Hello, Carlson! You have 5 unread messages."
+}
