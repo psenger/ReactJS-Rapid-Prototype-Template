@@ -1,0 +1,74 @@
+{
+    "_id": "5903f91c9fb810b9167ff01d",
+    "isActive": false,
+    "lastLogin": "Saturday, March 4, 2017 9:16 AM",
+    "balance": "$1,989.85",
+    "dob": "2014/11/29",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Ferguson",
+        "last": "Stevenson"
+    },
+    "company": "SNIPS",
+    "email": "ferguson.stevenson@snips.us",
+    "phone": [
+        {
+            "_id": "5903f91cbc2c014f0ceee6b2",
+            "num": "+1 (842) 403-2492",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91c0825fd3126383520",
+            "num": "+1 (898) 445-2243",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91c41f7635ead9d9069",
+            "num": "+1 (914) 569-2875",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5903f91c1c8b2b3853eb7e36",
+        "num": 395,
+        "street": "Stryker Court",
+        "city": "Dale",
+        "state": "Federated States Of Micronesia",
+        "zip": 8155,
+        "latitude": "36.116691",
+        "longitude": "173.407867"
+    },
+    "bio": "Nulla nulla enim nostrud consectetur tempor dolore exercitation non minim nisi non anim eiusmod cillum. Sint voluptate dolore irure id mollit sit. Elit Lorem duis do culpa anim aute velit ea. Cupidatat do eu velit aliquip tempor.",
+    "tags": [
+        "minim",
+        "minim",
+        "voluptate",
+        "magna",
+        "id",
+        "officia",
+        "in",
+        "anim"
+    ],
+    "friends": [
+        {
+            "_id": "5903f919fe3c968268ca9fa4"
+        },
+        {
+            "_id": "5903f91a1158565cebb8097e"
+        },
+        {
+            "_id": "5903f91bccdc2bed2e988de7"
+        },
+        {
+            "_id": "5903f91be7b55a909a08a2a8"
+        },
+        {
+            "_id": "5903f91ba0018e45954b4816"
+        },
+        {
+            "_id": "5903f91808e6a4402b4ea371"
+        }
+    ],
+    "greeting": "Hello, Ferguson! You have 9 unread messages."
+}

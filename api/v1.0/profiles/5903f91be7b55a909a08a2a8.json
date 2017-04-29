@@ -1,0 +1,48 @@
+{
+    "_id": "5903f91be7b55a909a08a2a8",
+    "isActive": false,
+    "lastLogin": "Friday, January 13, 2017 2:15 PM",
+    "balance": "$3,800.07",
+    "dob": "2015/03/04",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Woodard",
+        "last": "Alston"
+    },
+    "company": "REPETWIRE",
+    "email": "woodard.alston@repetwire.me",
+    "phone": [
+        {
+            "_id": "5903f91b210e2d0647abf470",
+            "num": "+1 (944) 473-2880",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b574432482598ed1a",
+        "num": 710,
+        "street": "Tampa Court",
+        "city": "Lodoga",
+        "state": "Delaware",
+        "zip": 6313,
+        "latitude": "28.171952",
+        "longitude": "25.646691"
+    },
+    "bio": "Aliqua sint consectetur sint occaecat magna ut labore pariatur magna occaecat reprehenderit proident ex. Commodo ullamco dolore reprehenderit duis consequat quis. Nostrud et veniam cupidatat veniam velit commodo nulla minim officia ex sit elit. Enim ad aliquip commodo eu duis et aliquip aliquip laborum commodo consectetur.",
+    "tags": [
+        "consequat",
+        "culpa"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91bccdc2bed2e988de7"
+        },
+        {
+            "_id": "5903f9181f6bb8f2a242a278"
+        }
+    ],
+    "greeting": "Hello, Woodard! You have 10 unread messages."
+}],
+    "greeting": "Hello, Woodard! You have 10 unread messages."
+}

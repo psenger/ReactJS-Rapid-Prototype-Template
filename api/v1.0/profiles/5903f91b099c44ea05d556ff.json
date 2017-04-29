@@ -1,0 +1,54 @@
+{
+    "_id": "5903f91b099c44ea05d556ff",
+    "isActive": false,
+    "lastLogin": "Sunday, October 4, 2015 10:15 PM",
+    "balance": "$1,781.86",
+    "dob": "2015/07/12",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Mcfadden",
+        "last": "Dorsey"
+    },
+    "company": "TECHMANIA",
+    "email": "mcfadden.dorsey@techmania.biz",
+    "phone": [
+        {
+            "_id": "5903f91bf95366c951fffb37",
+            "num": "+1 (880) 549-3587",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91b685a17351b401982",
+            "num": "+1 (963) 503-3704",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b8ce2fa255708e4d9",
+        "num": 998,
+        "street": "Orange Street",
+        "city": "Websterville",
+        "state": "Nevada",
+        "zip": 9772,
+        "latitude": "35.397273",
+        "longitude": "171.136064"
+    },
+    "bio": "Fugiat ex excepteur ut mollit non do reprehenderit deserunt magna ullamco veniam anim Lorem dolor. Aute aute amet velit velit amet. Est commodo esse eu qui.",
+    "tags": [
+        "eu",
+        "nisi",
+        "aliqua",
+        "duis",
+        "nostrud"
+    ],
+    "friends": [
+        {
+            "_id": "5903f918deb04588686c6121"
+        },
+        {
+            "_id": "5903f91aedd1c05d4ee9db74"
+        }
+    ],
+    "greeting": "Hello, Mcfadden! You have 7 unread messages."
+}

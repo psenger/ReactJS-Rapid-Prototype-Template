@@ -1,0 +1,60 @@
+{
+    "_id": "5903f91bac1aae6fad53696f",
+    "isActive": true,
+    "lastLogin": "Friday, January 22, 2016 11:34 AM",
+    "balance": "$2,359.06",
+    "dob": "2014/07/31",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Sasha",
+        "last": "Long"
+    },
+    "company": "EXODOC",
+    "email": "sasha.long@exodoc.io",
+    "phone": [
+        {
+            "_id": "5903f91beed829d35e5f8b6b",
+            "num": "+1 (911) 534-2874",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91bebcdb719fa9a8145",
+            "num": "+1 (866) 512-3941",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b4ed8ae8195db31d2",
+        "num": 242,
+        "street": "Ditmars Street",
+        "city": "Alfarata",
+        "state": "West Virginia",
+        "zip": 3652,
+        "latitude": "-34.514792",
+        "longitude": "43.446726"
+    },
+    "bio": "Nostrud aliquip anim adipisicing id est irure proident excepteur exercitation esse aute cupidatat. Ex veniam labore commodo et eu aute eiusmod nostrud nostrud exercitation irure magna culpa fugiat. Qui minim minim id id elit anim labore amet veniam esse dolore culpa occaecat commodo. Cillum velit do consequat cupidatat laborum deserunt nulla magna. Cillum nisi officia esse occaecat consectetur incididunt ipsum reprehenderit. Do voluptate commodo nulla adipisicing anim nisi sit pariatur enim. Eu non ex ea adipisicing.",
+    "tags": [
+        "dolor",
+        "veniam"
+    ],
+    "friends": [
+        {
+            "_id": "5903f918180b38c48e87ad6e"
+        },
+        {
+            "_id": "5903f91c9fb810b9167ff01d"
+        },
+        {
+            "_id": "5903f91bac1aae6fad53696f"
+        },
+        {
+            "_id": "5903f91c5ce626b6ff325c5a"
+        },
+        {
+            "_id": "5903f91bac1aae6fad53696f"
+        }
+    ],
+    "greeting": "Hello, Sasha! You have 8 unread messages."
+}

@@ -1,0 +1,62 @@
+{
+    "_id": "5903f91835198ff07a22883d",
+    "isActive": true,
+    "lastLogin": "Monday, September 28, 2015 6:58 AM",
+    "balance": "$2,768.76",
+    "dob": "2016/01/24",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Paula",
+        "last": "Mack"
+    },
+    "company": "OVOLO",
+    "email": "paula.mack@ovolo.me",
+    "phone": [
+        {
+            "_id": "5903f9182a0be47089493450",
+            "num": "+1 (979) 465-2333",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5903f918535304d8ce5a1df4",
+        "num": 728,
+        "street": "Kent Street",
+        "city": "Tecolotito",
+        "state": "Northern Mariana Islands",
+        "zip": 7554,
+        "latitude": "-3.820053",
+        "longitude": "131.745602"
+    },
+    "bio": "Qui non cillum sit qui eiusmod dolor consectetur ea veniam fugiat deserunt duis eiusmod ullamco. Do reprehenderit dolore proident tempor non est sunt. Pariatur culpa culpa do occaecat cupidatat nisi non adipisicing esse tempor. Sunt tempor aliquip elit laboris sunt qui consectetur esse nulla ut nisi. Ipsum sint Lorem Lorem culpa id tempor amet esse voluptate commodo. Irure excepteur est et consectetur esse.",
+    "tags": [
+        "proident",
+        "voluptate",
+        "nostrud",
+        "pariatur",
+        "qui",
+        "nostrud"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91835198ff07a22883d"
+        },
+        {
+            "_id": "5903f91c76b1a7693e160ae6"
+        },
+        {
+            "_id": "5903f919fe3c968268ca9fa4"
+        },
+        {
+            "_id": "5903f91ba0018e45954b4816"
+        },
+        {
+            "_id": "5903f91a569e6b9d486e20f7"
+        },
+        {
+            "_id": "5903f919aae958c2e0457184"
+        }
+    ],
+    "greeting": "Hello, Paula! You have 8 unread messages."
+}

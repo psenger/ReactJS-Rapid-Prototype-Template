@@ -1,0 +1,61 @@
+{
+    "_id": "5903f9184ac2ac25008ffc36",
+    "isActive": false,
+    "lastLogin": "Tuesday, April 11, 2017 7:37 PM",
+    "balance": "$3,922.89",
+    "dob": "2015/07/09",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Rush",
+        "last": "Deleon"
+    },
+    "company": "ZYTRAC",
+    "email": "rush.deleon@zytrac.org",
+    "phone": [
+        {
+            "_id": "5903f918cb63e3c1d8c4c772",
+            "num": "+1 (817) 433-3083",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f918f34bb46de95e532a",
+            "num": "+1 (855) 535-3563",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91819a6b5dd87314487",
+            "num": "+1 (813) 567-3243",
+            "type": "home"
+        },
+        {
+            "_id": "5903f9183837d10e6feec047",
+            "num": "+1 (870) 423-2012",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f918222eebd129ef7861",
+        "num": 225,
+        "street": "Truxton Street",
+        "city": "Titanic",
+        "state": "Georgia",
+        "zip": 8541,
+        "latitude": "-2.680336",
+        "longitude": "38.02668"
+    },
+    "bio": "Amet officia elit laborum ex. Excepteur ut commodo occaecat mollit. Ea ut consectetur cupidatat minim duis incididunt magna. Duis adipisicing excepteur in irure commodo ut in elit fugiat non qui do eiusmod eiusmod. Ullamco anim fugiat velit in velit ad ullamco nulla nisi duis pariatur veniam irure dolor. Amet excepteur consequat incididunt reprehenderit culpa fugiat sit eu eiusmod cillum.",
+    "tags": [
+        "pariatur",
+        "elit",
+        "minim",
+        "non",
+        "mollit"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91ad7edce7e489dbc1b"
+        }
+    ],
+    "greeting": "Hello, Rush! You have 9 unread messages."
+}

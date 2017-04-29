@@ -1,0 +1,70 @@
+{
+    "_id": "5903f91afc1c882d76d69b94",
+    "isActive": false,
+    "lastLogin": "Sunday, January 15, 2017 11:48 PM",
+    "balance": "$1,498.32",
+    "dob": "2015/10/08",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Mccarthy",
+        "last": "Joyner"
+    },
+    "company": "OPTICALL",
+    "email": "mccarthy.joyner@opticall.me",
+    "phone": [
+        {
+            "_id": "5903f91a9c81994deb1858fe",
+            "num": "+1 (977) 493-2594",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91aa03c22011c3887fb",
+            "num": "+1 (849) 481-3948",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91a2332a7c72c0f02ca",
+            "num": "+1 (809) 575-3161",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91a0296a24abf5b390b",
+            "num": "+1 (833) 449-2260",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91a24be9a49d4171b98",
+        "num": 815,
+        "street": "Grand Street",
+        "city": "Homeworth",
+        "state": "Kentucky",
+        "zip": 4708,
+        "latitude": "-35.848854",
+        "longitude": "-128.859905"
+    },
+    "bio": "Deserunt laboris pariatur ex aute. Voluptate aliqua consectetur nostrud aute do ut incididunt non occaecat nulla eiusmod occaecat commodo mollit. Dolore ut aliquip excepteur nisi exercitation duis Lorem laboris nostrud id amet labore sunt. Ut esse ex dolor incididunt elit esse occaecat est deserunt culpa sint. Nisi esse sint quis ipsum. Minim culpa minim exercitation cillum consequat exercitation incididunt cupidatat sit enim adipisicing cupidatat.",
+    "tags": [
+        "sit",
+        "nisi",
+        "consectetur",
+        "Lorem",
+        "laborum",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91af7857a222b8ceb60"
+        },
+        {
+            "_id": "5903f91baf0cf31323731bb7"
+        }
+    ],
+    "greeting": "Hello, Mccarthy! You have 9 unread messages."
+}     {
+            "_id": "5903f9181f6bb8f2a242a278"
+        }
+    ],
+    "greeting": "Hello, Mccarthy! You have 9 unread messages."
+}

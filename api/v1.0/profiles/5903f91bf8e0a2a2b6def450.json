@@ -1,0 +1,65 @@
+{
+    "_id": "5903f91bf8e0a2a2b6def450",
+    "isActive": false,
+    "lastLogin": "Saturday, April 25, 2015 8:30 AM",
+    "balance": "$3,073.71",
+    "dob": "2016/10/05",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Marcy",
+        "last": "Frazier"
+    },
+    "company": "IMAGINART",
+    "email": "marcy.frazier@imaginart.name",
+    "phone": [
+        {
+            "_id": "5903f91bbe17cf2f9afee4c4",
+            "num": "+1 (966) 549-2927",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b2ee46dc5d84a20fc",
+        "num": 304,
+        "street": "Prospect Place",
+        "city": "Eden",
+        "state": "Hawaii",
+        "zip": 8796,
+        "latitude": "-10.21863",
+        "longitude": "-93.114706"
+    },
+    "bio": "Amet ipsum anim aliquip anim est ad elit occaecat labore occaecat do ut enim. Reprehenderit commodo exercitation voluptate ad non qui eiusmod nulla anim qui id consectetur sint fugiat. Enim consequat fugiat dolore tempor eu occaecat id.",
+    "tags": [
+        "eiusmod",
+        "nulla",
+        "ea",
+        "id",
+        "sint",
+        "incididunt",
+        "aliqua",
+        "nisi",
+        "amet"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91a569e6b9d486e20f7"
+        },
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        },
+        {
+            "_id": "5903f918deb04588686c6121"
+        },
+        {
+            "_id": "5903f918180b38c48e87ad6e"
+        },
+        {
+            "_id": "5903f91a1158565cebb8097e"
+        },
+        {
+            "_id": "5903f91b099c44ea05d556ff"
+        }
+    ],
+    "greeting": "Hello, Marcy! You have 6 unread messages."
+}

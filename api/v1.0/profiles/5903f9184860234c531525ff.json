@@ -1,0 +1,80 @@
+{
+    "_id": "5903f9184860234c531525ff",
+    "isActive": true,
+    "lastLogin": "Thursday, July 14, 2016 1:56 AM",
+    "balance": "$1,716.79",
+    "dob": "2014/02/14",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Delgado",
+        "last": "Leon"
+    },
+    "company": "HOMELUX",
+    "email": "delgado.leon@homelux.info",
+    "phone": [
+        {
+            "_id": "5903f9187cadf8983ae8b6d3",
+            "num": "+1 (974) 459-3405",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91847b773c823273d39",
+            "num": "+1 (934) 598-2030",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f918dfbb4540c9b97f1f",
+            "num": "+1 (940) 593-2343",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91848b6d67122092350",
+            "num": "+1 (805) 415-2195",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f918e524556896e8935d",
+        "num": 233,
+        "street": "Dean Street",
+        "city": "Tuskahoma",
+        "state": "Alaska",
+        "zip": 3281,
+        "latitude": "-26.881406",
+        "longitude": "-13.775584"
+    },
+    "bio": "Minim id non ullamco nulla mollit reprehenderit exercitation exercitation aliquip voluptate do id dolor. Laborum in consequat do officia ex officia. In quis labore mollit ea excepteur consequat do dolor reprehenderit commodo nisi. Duis sint reprehenderit ad dolor ex in duis.",
+    "tags": [
+        "id",
+        "cillum",
+        "officia",
+        "aute",
+        "eiusmod",
+        "incididunt",
+        "consectetur",
+        "officia",
+        "nostrud",
+        "magna"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91b5c40e8c72f3a32c9"
+        }
+    ],
+    "greeting": "Hello, Delgado! You have 10 unread messages."
+}     {
+            "_id": "5903f918180b38c48e87ad6e"
+        },
+        {
+            "_id": "5903f9184ac2ac25008ffc36"
+        },
+        {
+            "_id": "5903f919aae958c2e0457184"
+        },
+        {
+            "_id": "5903f91aedd1c05d4ee9db74"
+        }
+    ],
+    "greeting": "Hello, Delgado! You have 10 unread messages."
+}

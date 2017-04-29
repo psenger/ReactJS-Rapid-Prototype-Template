@@ -1,0 +1,65 @@
+{
+    "_id": "5903f91c5ce626b6ff325c5a",
+    "isActive": true,
+    "lastLogin": "Saturday, January 18, 2014 8:54 AM",
+    "balance": "$2,542.65",
+    "dob": "2014/04/19",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Cote",
+        "last": "Mcneil"
+    },
+    "company": "ISOSWITCH",
+    "email": "cote.mcneil@isoswitch.name",
+    "phone": [
+        {
+            "_id": "5903f91c51d6fe6e264930cb",
+            "num": "+1 (891) 540-3620",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91c8ca1c9c791f115e8",
+            "num": "+1 (997) 439-3636",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91cb72ddeef7c331fc0",
+        "num": 996,
+        "street": "Wolf Place",
+        "city": "Lisco",
+        "state": "Illinois",
+        "zip": 209,
+        "latitude": "-13.503167",
+        "longitude": "9.433889"
+    },
+    "bio": "Id id ullamco ut ullamco ea esse id sit eu nostrud elit officia occaecat. Laborum nisi voluptate ex dolor irure commodo do id aliquip officia minim enim fugiat enim. Lorem adipisicing aute Lorem laborum ex deserunt do ad. Veniam proident quis irure consectetur amet qui eu culpa.",
+    "tags": [
+        "eu",
+        "aliquip",
+        "consequat",
+        "aute",
+        "quis",
+        "nostrud",
+        "aliquip",
+        "enim",
+        "magna",
+        "cupidatat"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91b099c44ea05d556ff"
+        },
+        {
+            "_id": "5903f9184ac2ac25008ffc36"
+        },
+        {
+            "_id": "5903f9184860234c531525ff"
+        },
+        {
+            "_id": "5903f918180b38c48e87ad6e"
+        }
+    ],
+    "greeting": "Hello, Cote! You have 6 unread messages."
+}

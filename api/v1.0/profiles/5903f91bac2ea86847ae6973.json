@@ -1,0 +1,76 @@
+{
+    "_id": "5903f91bac2ea86847ae6973",
+    "isActive": false,
+    "lastLogin": "Wednesday, March 16, 2016 4:31 AM",
+    "balance": "$2,572.00",
+    "dob": "2017/04/24",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Flossie",
+        "last": "Wong"
+    },
+    "company": "BLURRYBUS",
+    "email": "flossie.wong@blurrybus.com",
+    "phone": [
+        {
+            "_id": "5903f91b07e02c269b4c8f55",
+            "num": "+1 (847) 441-2570",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91bd5f5b1baba9b5538",
+            "num": "+1 (804) 448-2557",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91b1c846a33630b87e5",
+            "num": "+1 (815) 524-2658",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91b2410da19739f919a",
+            "num": "+1 (866) 501-3128",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91bc34e31571add280e",
+        "num": 782,
+        "street": "Hawthorne Street",
+        "city": "Gallina",
+        "state": "Ohio",
+        "zip": 4890,
+        "latitude": "-11.324137",
+        "longitude": "-164.099943"
+    },
+    "bio": "Qui magna aliquip ut dolor velit nostrud. Proident laboris anim nulla ipsum. Reprehenderit aute nostrud dolor officia ea tempor amet qui cillum irure veniam pariatur minim.",
+    "tags": [
+        "dolore",
+        "quis",
+        "sunt",
+        "consequat",
+        "tempor",
+        "mollit"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91bea3e705e22aee801"
+        },
+        {
+            "_id": "5903f91ba0018e45954b4816"
+        },
+        {
+            "_id": "5903f91ad7edce7e489dbc1b"
+        },
+        {
+            "_id": "5903f91808e6a4402b4ea371"
+        }
+    ],
+    "greeting": "Hello, Flossie! You have 5 unread messages."
+}      {
+            "_id": "5903f91bea3e705e22aee801"
+        }
+    ],
+    "greeting": "Hello, Flossie! You have 5 unread messages."
+}
