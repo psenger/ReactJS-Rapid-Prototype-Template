@@ -1,0 +1,70 @@
+{
+    "_id": "5903f918878402c5e49768ba",
+    "isActive": true,
+    "lastLogin": "Saturday, January 2, 2016 11:49 AM",
+    "balance": "$2,870.17",
+    "dob": "2014/10/16",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Mcknight",
+        "last": "Brewer"
+    },
+    "company": "SARASONIC",
+    "email": "mcknight.brewer@sarasonic.tv",
+    "phone": [
+        {
+            "_id": "5903f91832e75be4a5647fc9",
+            "num": "+1 (820) 472-3585",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f918e549d1fa88e3fe9b",
+            "num": "+1 (896) 429-2265",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f9188690e416f1bc441f",
+        "num": 871,
+        "street": "Times Placez",
+        "city": "Draper",
+        "state": "Virgin Islands",
+        "zip": 1366,
+        "latitude": "71.697959",
+        "longitude": "163.266375"
+    },
+    "bio": "Voluptate et ut veniam eiusmod magna sunt magna nostrud consectetur. Occaecat excepteur ad anim elit aliquip. Esse dolor id est ut exercitation in veniam nostrud exercitation cillum ullamco. Laborum pariatur officia tempor nostrud nulla duis excepteur reprehenderit deserunt. Fugiat voluptate irure enim minim proident est. Tempor proident duis non cupidatat eiusmod reprehenderit reprehenderit.",
+    "tags": [
+        "dolore",
+        "magna",
+        "tempor",
+        "excepteur",
+        "eu",
+        "in",
+        "nisi",
+        "magna",
+        "aliqua"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91afc1c882d76d69b94"
+        },
+        {
+            "_id": "5903f91a6b965b35debdca21"
+        },
+        {
+            "_id": "5903f91af7857a222b8ceb60"
+        },
+        {
+            "_id": "5903f91aedd1c05d4ee9db74"
+        },
+        {
+            "_id": "5903f91a569e6b9d486e20f7"
+        },
+        {
+            "_id": "5903f91835198ff07a22883d"
+        }
+    ],
+    "greeting": "Hello, Mcknight! You have 6 unread messages."
+}

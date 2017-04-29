@@ -1,0 +1,68 @@
+{
+    "_id": "5903f91a1158565cebb8097e",
+    "isActive": false,
+    "lastLogin": "Sunday, August 17, 2014 6:36 PM",
+    "balance": "$1,833.23",
+    "dob": "2014/09/06",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Kathrine",
+        "last": "Torres"
+    },
+    "company": "IDEGO",
+    "email": "kathrine.torres@idego.tv",
+    "phone": [
+        {
+            "_id": "5903f91a64c7376ddde945d6",
+            "num": "+1 (838) 530-2190",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91a80ae072e07c9a910",
+            "num": "+1 (933) 478-2905",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91a776968a4f1a62a73",
+            "num": "+1 (918) 505-3851",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91a69dbcfc79191a41e",
+            "num": "+1 (806) 442-2108",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f91aa6c2d88115aa51ae",
+        "num": 682,
+        "street": "Emerson Place",
+        "city": "Riverton",
+        "state": "Oregon",
+        "zip": 6604,
+        "latitude": "29.258936",
+        "longitude": "77.348406"
+    },
+    "bio": "Elit nostrud duis magna eiusmod eu ad velit excepteur commodo aliqua. Sint voluptate ad sint laboris voluptate reprehenderit magna elit eu. Velit ex cillum voluptate culpa qui exercitation exercitation id. Aliquip officia duis nulla exercitation nulla velit pariatur non dolor. Non sit in qui velit aliquip deserunt in in ut.",
+    "tags": [
+        "eu",
+        "eiusmod",
+        "pariatur",
+        "fugiat"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91a569e6b9d486e20f7"
+        },
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        }
+    ],
+    "greeting": "Hello, Kathrine! You have 7 unread messages."
+}     {
+            "_id": "5903f918878402c5e49768ba"
+        }
+    ],
+    "greeting": "Hello, Kathrine! You have 7 unread messages."
+}

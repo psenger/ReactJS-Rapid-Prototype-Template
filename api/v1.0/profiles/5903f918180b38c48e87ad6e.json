@@ -1,0 +1,62 @@
+{
+    "_id": "5903f918180b38c48e87ad6e",
+    "isActive": false,
+    "lastLogin": "Monday, January 5, 2015 4:24 AM",
+    "balance": "$2,552.31",
+    "dob": "2014/01/02",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Larsen",
+        "last": "Garner"
+    },
+    "company": "DIGIAL",
+    "email": "larsen.garner@digial.us",
+    "phone": [
+        {
+            "_id": "5903f918d1177072fa17e1da",
+            "num": "+1 (915) 419-2773",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f918768b5f40a7377b4d",
+            "num": "+1 (992) 552-2512",
+            "type": "home"
+        },
+        {
+            "_id": "5903f9185e7e53b6d3746afe",
+            "num": "+1 (945) 492-2401",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f918b9a636ca72713459",
+        "num": 611,
+        "street": "Sedgwick Street",
+        "city": "Winfred",
+        "state": "New Jersey",
+        "zip": 7840,
+        "latitude": "85.914362",
+        "longitude": "-61.888505"
+    },
+    "bio": "Tempor anim esse culpa labore tempor voluptate est laborum anim enim in voluptate. Nostrud tempor duis excepteur Lorem proident consequat Lorem quis mollit. Nulla Lorem exercitation voluptate voluptate proident dolor adipisicing enim enim. Consectetur dolore labore anim aliquip mollit excepteur cupidatat labore laboris sint dolore magna cupidatat.",
+    "tags": [
+        "minim",
+        "laboris"
+    ],
+    "friends": [
+        {
+            "_id": "5903f9184ac2ac25008ffc36"
+        },
+        {
+            "_id": "5903f91b8eba066026c00cd5"
+        },
+        {
+            "_id": "5903f91be7b55a909a08a2a8"
+        },
+        {
+            "_id": "5903f9181f6bb8f2a242a278"
+        }
+    ],
+    "greeting": "Hello, Larsen! You have 5 unread messages."
+}

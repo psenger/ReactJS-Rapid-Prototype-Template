@@ -1,0 +1,52 @@
+{
+    "_id": "5903f91aedd1c05d4ee9db74",
+    "isActive": true,
+    "lastLogin": "Saturday, August 16, 2014 6:16 PM",
+    "balance": "$1,021.20",
+    "dob": "2014/06/29",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Ginger",
+        "last": "Rosa"
+    },
+    "company": "OBONES",
+    "email": "ginger.rosa@obones.info",
+    "phone": [
+        {
+            "_id": "5903f91a8a6b3acee440184d",
+            "num": "+1 (888) 431-2772",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91a554acd049d10ffd9",
+        "num": 448,
+        "street": "Randolph Street",
+        "city": "Sunnyside",
+        "state": "Washington",
+        "zip": 6775,
+        "latitude": "28.998569",
+        "longitude": "3.677772"
+    },
+    "bio": "Aliquip nulla excepteur incididunt ullamco nulla in. Dolor excepteur commodo veniam anim voluptate dolore nisi aliquip ad nisi incididunt minim aliqua occaecat. Occaecat veniam mollit sunt Lorem anim. Deserunt minim aliquip id est officia eu sint aute ex adipisicing id aliqua quis.",
+    "tags": [
+        "laborum",
+        "commodo"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91be7b55a909a08a2a8"
+        },
+        {
+            "_id": "5903f91c9fb810b9167ff01d"
+        },
+        {
+            "_id": "5903f91bccdc2bed2e988de7"
+        },
+        {
+            "_id": "5903f91a569e6b9d486e20f7"
+        }
+    ],
+    "greeting": "Hello, Ginger! You have 6 unread messages."
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "5903f91808e6a4402b4ea371",
+    "isActive": true,
+    "lastLogin": "Sunday, August 3, 2014 6:22 PM",
+    "balance": "$1,951.47",
+    "dob": "2015/05/05",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Lina",
+        "last": "Carr"
+    },
+    "company": "PREMIANT",
+    "email": "lina.carr@premiant.net",
+    "phone": [
+        {
+            "_id": "5903f9195755e70f106de9ec",
+            "num": "+1 (821) 570-2191",
+            "type": "work"
+        },
+        {
+            "_id": "5903f919908d082be60ea5e5",
+            "num": "+1 (960) 493-2074",
+            "type": "mobile"
+        },
+        {
+            "_id": "5903f91941db59eb2e568cff",
+            "num": "+1 (959) 494-2362",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5903f919c18ab42224efbae2",
+        "num": 624,
+        "street": "Seba Avenue",
+        "city": "Cassel",
+        "state": "Tennessee",
+        "zip": 521,
+        "latitude": "-45.979921",
+        "longitude": "79.830498"
+    },
+    "bio": "Eu velit amet aliquip officia nisi ipsum aliquip velit mollit irure. Deserunt ipsum amet exercitation ullamco. Quis veniam consequat officia excepteur veniam nostrud elit adipisicing cupidatat occaecat ullamco pariatur sint. Eu tempor nostrud consectetur laboris veniam aliqua. Ad minim enim duis id Lorem magna aliqua pariatur tempor reprehenderit.",
+    "tags": [
+        "voluptate",
+        "enim",
+        "occaecat"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91a1652abe4e994dd52"
+        },
+        {
+            "_id": "5903f91bccdc2bed2e988de7"
+        },
+        {
+            "_id": "5903f917e2dafe5c905b5860"
+        }
+    ],
+    "greeting": "Hello, Lina! You have 6 unread messages."
+}

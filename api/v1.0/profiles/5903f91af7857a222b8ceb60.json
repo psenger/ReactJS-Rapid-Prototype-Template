@@ -1,0 +1,61 @@
+{
+    "_id": "5903f91af7857a222b8ceb60",
+    "isActive": false,
+    "lastLogin": "Thursday, November 17, 2016 1:20 AM",
+    "balance": "$1,490.05",
+    "dob": "2014/03/03",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Finch",
+        "last": "Wise"
+    },
+    "company": "PHORMULA",
+    "email": "finch.wise@phormula.name",
+    "phone": [
+        {
+            "_id": "5903f91ab5143af90d20abc9",
+            "num": "+1 (933) 558-2232",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91a077e20068d69bc9f",
+            "num": "+1 (935) 425-3117",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91a12df6fddcb346c28",
+            "num": "+1 (888) 410-2134",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f91ab2d035e8d038316e",
+        "num": 854,
+        "street": "Greenwood Avenue",
+        "city": "Cumberland",
+        "state": "Maryland",
+        "zip": 9149,
+        "latitude": "0.686296",
+        "longitude": "-114.487856"
+    },
+    "bio": "Aliqua magna aute ut laborum mollit ut duis proident ex enim tempor cupidatat ullamco. Deserunt sunt excepteur cillum cillum magna. In amet tempor ipsum irure ipsum Lorem proident dolor mollit duis id consequat. Deserunt duis cupidatat nulla in sunt ad.",
+    "tags": [
+        "cillum"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        },
+        {
+            "_id": "5903f91bf8e0a2a2b6def450"
+        },
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        },
+        {
+            "_id": "5903f91b8eba066026c00cd5"
+        }
+    ],
+    "greeting": "Hello, Finch! You have 10 unread messages."
+}

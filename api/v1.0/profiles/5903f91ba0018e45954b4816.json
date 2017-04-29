@@ -1,0 +1,54 @@
+{
+    "_id": "5903f91ba0018e45954b4816",
+    "isActive": false,
+    "lastLogin": "Friday, May 16, 2014 10:57 AM",
+    "balance": "$2,558.15",
+    "dob": "2016/02/13",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Vasquez",
+        "last": "Serrano"
+    },
+    "company": "SYBIXTEX",
+    "email": "vasquez.serrano@sybixtex.net",
+    "phone": [
+        {
+            "_id": "5903f91b921cfdb3a9f9bd65",
+            "num": "+1 (838) 535-2757",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b1a9eb922963e12ed",
+        "num": 149,
+        "street": "Holmes Lane",
+        "city": "Blodgett",
+        "state": "New York",
+        "zip": 1628,
+        "latitude": "67.753371",
+        "longitude": "25.141101"
+    },
+    "bio": "Dolor sint dolor irure ea laboris eiusmod anim tempor adipisicing mollit incididunt incididunt aute id. In culpa occaecat nostrud sit officia ullamco. Duis exercitation Lorem ex magna dolore consequat mollit ad qui amet laborum. Est elit et labore aute est labore proident minim commodo cillum incididunt velit aute adipisicing. Voluptate consequat deserunt minim consectetur ipsum aliqua aliqua minim velit proident ullamco proident do cillum. Excepteur eiusmod tempor sit incididunt aliqua labore occaecat incididunt.",
+    "tags": [
+        "occaecat"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91808e6a4402b4ea371"
+        },
+        {
+            "_id": "5903f91b099c44ea05d556ff"
+        },
+        {
+            "_id": "5903f91ad7edce7e489dbc1b"
+        },
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        },
+        {
+            "_id": "5903f919fe3c968268ca9fa4"
+        }
+    ],
+    "greeting": "Hello, Vasquez! You have 10 unread messages."
+}

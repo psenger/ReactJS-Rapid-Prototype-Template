@@ -1,0 +1,51 @@
+{
+    "_id": "5903f91b8eba066026c00cd5",
+    "isActive": false,
+    "lastLogin": "Tuesday, March 24, 2015 8:10 PM",
+    "balance": "$1,925.10",
+    "dob": "2016/11/02",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Kirby",
+        "last": "Combs"
+    },
+    "company": "BEADZZA",
+    "email": "kirby.combs@beadzza.info",
+    "phone": [
+        {
+            "_id": "5903f91be55ff3b3f88864b2",
+            "num": "+1 (863) 518-2527",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91b4123a2a6dfbe1061",
+        "num": 669,
+        "street": "Gunnison Court",
+        "city": "Hailesboro",
+        "state": "New Hampshire",
+        "zip": 4632,
+        "latitude": "-9.063853",
+        "longitude": "-97.159475"
+    },
+    "bio": "Nisi officia cillum in velit mollit officia nulla elit elit et. Incididunt elit occaecat officia culpa consequat mollit dolor sint commodo sunt velit amet. Non tempor id culpa sit nulla do minim tempor ipsum duis minim ipsum Lorem mollit. Aute reprehenderit irure consequat commodo reprehenderit et veniam enim ipsum labore. Culpa enim sunt duis reprehenderit do amet veniam excepteur dolore proident dolore. Officia ad sint excepteur aliqua nostrud consequat cupidatat magna incididunt ad.",
+    "tags": [
+        "proident"
+    ],
+    "friends": [
+        {
+            "_id": "5903f919aae958c2e0457184"
+        },
+        {
+            "_id": "5903f91be7b55a909a08a2a8"
+        },
+        {
+            "_id": "5903f91a1158565cebb8097e"
+        },
+        {
+            "_id": "5903f91bac2ea86847ae6973"
+        }
+    ],
+    "greeting": "Hello, Kirby! You have 5 unread messages."
+}

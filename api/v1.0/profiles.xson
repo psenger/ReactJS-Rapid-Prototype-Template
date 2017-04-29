@@ -9,7 +9,7 @@ The following was used at http://beta.json-generator.com/ to generate the data.j
       isActive: '{{bool()}}',
       lastLogin: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
       balance: '{{floating(1000, 4000, 2, "$0,0.00")}}',
-      age: '{{integer(20, 40)}}',
+      dob: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("YYYY/MM/DD")}}',
       eyeColor: '{{random("blue", "brown", "green")}}',
       name: {
         title: function (tags) {

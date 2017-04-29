@@ -1,0 +1,67 @@
+{
+    "_id": "5903f91a804f35bb812f5083",
+    "isActive": false,
+    "lastLogin": "Sunday, December 11, 2016 5:02 AM",
+    "balance": "$2,394.33",
+    "dob": "2017/02/18",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Cardenas",
+        "last": "Potts"
+    },
+    "company": "ROOFORIA",
+    "email": "cardenas.potts@rooforia.co.uk",
+    "phone": [
+        {
+            "_id": "5903f91ab6ec8b6ff8cd46f1",
+            "num": "+1 (958) 409-2071",
+            "type": "work"
+        },
+        {
+            "_id": "5903f91acfabbcb6031a32c1",
+            "num": "+1 (809) 518-3368",
+            "type": "home"
+        },
+        {
+            "_id": "5903f91a5e6ecaf4a3ab53e0",
+            "num": "+1 (808) 413-2827",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5903f91adc98da91c7103e10",
+        "num": 816,
+        "street": "Ridge Court",
+        "city": "Tyro",
+        "state": "Alabama",
+        "zip": 688,
+        "latitude": "33.001697",
+        "longitude": "30.655133"
+    },
+    "bio": "Culpa irure nulla occaecat amet occaecat duis velit. In adipisicing commodo qui velit est et veniam Lorem labore. Aute ipsum culpa enim dolore sit ad consequat duis ex ipsum dolore ad voluptate reprehenderit. Dolore enim Lorem ex aliquip dolore ullamco laborum commodo enim. Anim ullamco nostrud dolor laborum.",
+    "tags": [
+        "nulla",
+        "cupidatat",
+        "veniam",
+        "excepteur"
+    ],
+    "friends": [
+        {
+            "_id": "5903f91b55a94fa5bd49a48a"
+        },
+        {
+            "_id": "5903f918e5217f0cb2848b2c"
+        },
+        {
+            "_id": "5903f9184860234c531525ff"
+        },
+        {
+            "_id": "5903f91bad665cde7ee35125"
+        },
+        {
+            "_id": "5903f91baf0cf31323731bb7"
+        }
+    ],
+    "greeting": "Hello, Cardenas! You have 10 unread messages."
+}
