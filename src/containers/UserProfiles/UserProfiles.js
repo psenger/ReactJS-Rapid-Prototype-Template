@@ -1,11 +1,11 @@
 
+import {safeGet}from '../../utils';
 import {connect} from "react-redux";
 import {Link} from 'react-router-dom';
 import React, {Component} from 'react';
 import {withRouter} from 'react-router';
 import Form from '../../components/form';
 import {bindActionCreators} from 'redux';
-import {fetchProfiles} from '../../services/api';
 import * as ProfilesActions from '../../actionCreators/profilesAction';
 import {FormGroup,ControlLabel,FormControl,HelpBlock,Button,Table} from 'react-bootstrap';
 
@@ -13,38 +13,6 @@ const columns = [{key: '_id', name: 'ID'},
     {key: 'name.first', name: 'First'},
     {key: 'name.last', name: 'Last'},
     {key: 'email', name: 'Email'}];
-
-const safeGet = (obj, key, defaultVal) => {
-    if ((obj === undefined) || (obj === null)) return defaultVal;
-    if (typeof obj[key] !== 'undefined') return obj[key];
-    return key.split('.').reduce(function (o, x) {
-        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
-    }, obj);
-};
-
-const safeSet = (obj, key, value) => {
-    if (!obj || !key)
-        return Object.assign({},obj); // bail out there is no object or no key.
-
-    let properties = key.split(".") || [];
-
-    let curObj = Object.assign({},obj);
-    let ptr = curObj;
-
-    const mapper = ( cv, ind, ar ) => {
-        if ( !ptr[cv] ) {
-            ptr[cv] = {};// initialize the object literal if there is no value in place.
-        }
-        if ( ar.length -1 === ind ) {
-            ptr[cv] = value; // at the end.
-        } else {
-            ptr = ptr[cv]; // move the pointer down.
-        }
-    };
-    properties.map( mapper );
-
-    return curObj;
-};
 
 export class UserProfiles extends Component {
 
@@ -58,11 +26,8 @@ export class UserProfiles extends Component {
         this.getValidationState = this.getValidationState.bind(this);
     }
 
-    onSubmit(e) {
-        fetchProfiles()
-            .then((data) => {
-                return this.props.profilesActionDispatcher.updateProfiles(data);
-            });
+    onSubmit() {
+        this.props.profilesActionDispatcher.requestProfiles();
     }
 
     onChange(){
@@ -70,7 +35,6 @@ export class UserProfiles extends Component {
     }
 
     getValidationState(){
-        console.log('getValidationState');
         // valid values are ["success","warning","error",null]
         return null;
     }
@@ -131,11 +95,16 @@ export class UserProfiles extends Component {
     }
 }
 
-let mapStateToProps = (store, ownProps) => {
-    return {profiles: store.profilesReducer.profiles}
+let mapStateToProps = (store /*, ownProps */) => {
+    return {
+        profiles: store.profilesReducer.profiles
+    }
 };
+
 let mapDispatchToProps = (dispatch) => {
-    return {profilesActionDispatcher: bindActionCreators(ProfilesActions, dispatch)};
+    return {
+        profilesActionDispatcher: bindActionCreators(ProfilesActions, dispatch)
+    };
 };
 
 /**

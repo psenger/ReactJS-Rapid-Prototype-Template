@@ -9,8 +9,8 @@ let chai       = require('chai');
 let assert     = require('chai').assert;
 let expect     = require('chai').expect;
 
-import reducer from './profileReducer';
-import * as profileActions from '../actionCreators/profileAction';
+import reducer from './ProfileReducer';
+import * as profileActions from '../actionCreators/ProfileAction';
 
 describe('REDUCER: ', () => {
 

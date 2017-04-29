@@ -1,14 +1,17 @@
 
+
+import {safeGet}from '../../utils';
 import PropTypes from "prop-types";
+import validate from 'validate.js';
 import {connect} from "react-redux";
 import React, {Component} from "react";
 import {bindActionCreators} from "redux";
 import Form from "../../components/form";
-import InputText from '../../components/inputText';
 import {fetchProfile} from "../../services/api";
+import InputText from '../../components/inputText';
+import {Button, ProgressBar} from "react-bootstrap";
+import DateFields from "../../components/DateFields";
 import * as ProfileAction from "../../actionCreators/profileAction";
-import {Button, ControlLabel, FormControl, FormGroup, HelpBlock, ProgressBar} from "react-bootstrap";
-import validate from 'validate.js';
 
 const delayPromise = (ms) => {
     return (data) => {
@@ -20,38 +23,6 @@ const delayPromise = (ms) => {
     };
 };
 
-const safeGet = (obj, key, defaultVal) => {
-    if ((obj === undefined) || (obj === null)) return defaultVal;
-    if (typeof obj[key] !== 'undefined') return obj[key];
-    return key.split('.').reduce(function (o, x) {
-        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
-    }, obj);
-};
-
-const safeSet = (obj, key, value) => {
-    if (!obj || !key)
-        return Object.assign({},obj); // bail out there is no object or no key.
-
-    let properties = key.split(".") || [];
-
-    let curObj = Object.assign({},obj);
-    let ptr = curObj;
-
-    const mapper = ( cv, ind, ar ) => {
-        if ( !ptr[cv] ) {
-            ptr[cv] = {};// initialize the object literal if there is no value in place.
-        }
-        if ( ar.length -1 === ind ) {
-            ptr[cv] = value; // at the end.
-        } else {
-            ptr = ptr[cv]; // move the pointer down.
-        }
-    };
-    properties.map( mapper );
-
-    return curObj;
-};
-
 //  http://validatejs.org/
 let constraints = {
     'name.first': {
@@ -59,8 +30,7 @@ let constraints = {
         length: {max: 20},
     },
     'name.last': {
-        presence: true,
-        length: {max: 20},
+        length: {min: 4},
     },
     'email': {
         presence: true,
@@ -125,7 +95,7 @@ export class UserProfile extends Component {
 
         // Build a cut down copy of the constraints
         let _constraints = {};
-        relatedModelConstraintPaths.map(function (cv, ind, ar) {
+        relatedModelConstraintPaths.forEach(function (cv) {
             _constraints[cv] = safeGet(constraints, cv, null);
         });
 
@@ -158,6 +128,7 @@ export class UserProfile extends Component {
                                     help="The first name is required and can be no larger than 20 characters"
                                     placeholder="First Name"
                                     value={this.props.name.first}
+                                    required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
                                     getValidationModel={ (value)=>{ return {name:{first:value}}; } }
                                     validator={ this.createValidator( [ 'name.first' ], constraints, options, this ) }
@@ -168,6 +139,7 @@ export class UserProfile extends Component {
                                     help="The last name is required and can be no larger than 20 characters"
                                     placeholder="Last Name"
                                     value={this.props.name.last}
+                                    required={false}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
                                     getValidationModel={ (value)=>{ return {name:{last:value}}; } }
                                     validator={this.createValidator( [ 'name.last' ], constraints, options, this ) }
@@ -178,9 +150,18 @@ export class UserProfile extends Component {
                                     help="The email is required and must be a valid format"
                                     placeholder="Email"
                                     value={this.props.email}
+                                    required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
                                     getValidationModel={ (email)=>{ return {email}; } }
                                     validator={this.createValidator( [ 'email' ], constraints, options, this ) }
+                                />
+                                <DateFields
+                                    fieldId="dob"
+                                    label="Enter the Date of Birth"
+                                    help="The Date of Birth is required"
+                                    placeholder="dob"
+                                    value={this.props.dob}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.dob)}
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
                             </div>
@@ -201,7 +182,8 @@ let mapStateToProps = (state /** , ownProps **/) => {
     return {
         profileReducer: state.profileReducer,
         name: state.profileReducer.name,
-        email: state.profileReducer.email
+        email: state.profileReducer.email,
+        dob: state.profileReducer.dob
     };
 };
 

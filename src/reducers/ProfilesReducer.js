@@ -1,5 +1,5 @@
 
-import * as actionConst from "../actionCreators/actionTypes/profiles";
+import * as actionConst from "../actionCreators/actionTypes/Profiles";
 
 /**
  * When you use immutable, it locks down the state, by wrapping the object
@@ -16,7 +16,7 @@ export default function profilesReducer(state = initialState, action) {
 
 
     switch (action.type) {
-        case actionConst.PROFILES_UPDATE:
+        case actionConst.PROFILES_REQUEST_SUCCESS:
 
             // let newProfiles = List.mergeDeep(initialState.profiles, value ); // initialState.profiles.merge( value );
             // return initialState.set('profiles', newProfiles).set('message','');
@@ -24,7 +24,7 @@ export default function profilesReducer(state = initialState, action) {
 
             // return initialState.set('profiles', value );
 
-        case actionConst.PROFILES_MESSAGE:
+        case actionConst.PROFILES_REQUEST_FAIL:
             return Object.assign({}, state, { message: value });
         default:
             return state
