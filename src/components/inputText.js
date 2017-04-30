@@ -37,7 +37,6 @@ export default class InputText extends Component {
                         </div>
                     </div>)
                     :(<HelpBlock>{this.props.help}</HelpBlock>)}
-                {this.props.children}
             </FormGroup>
         )
     }
