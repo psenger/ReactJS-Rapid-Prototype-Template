@@ -33,7 +33,7 @@ export default class InputText extends Component {
                 {(this.props.required)
                     ?(<div className="container-fluid" style={{padding:0}}>
                         <div className="row">
-                            <div className="col-xs-8"><HelpBlock id={this.props.fieldId + '_help'}>{this.props.help}</HelpBlock></div>
+                            <div className="col-xs-8"><HelpBlock id={this.props.fieldId + '_help'} role="tooltip">{this.props.help}</HelpBlock></div>
                             <div className="col-xs-4"><span className="text-danger text-info pull-right">Required</span></div>
                         </div>
                     </div>)
