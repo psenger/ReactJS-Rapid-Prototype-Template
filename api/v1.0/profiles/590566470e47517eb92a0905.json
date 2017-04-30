@@ -1,0 +1,61 @@
+{
+    "_id": "590566470e47517eb92a0905",
+    "isActive": false,
+    "lastLogin": "Tuesday, June 23, 2015 10:25 AM",
+    "balance": "$2,621.35",
+    "dob": "2015/09/08",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Kathie",
+        "last": "Obrien"
+    },
+    "company": "ICOLOGY",
+    "email": "kathie.obrien@icology.me",
+    "phone": [
+        {
+            "_id": "590566471a7f7b25cc6ad069",
+            "num": "+1 (854) 583-2718",
+            "type": "work"
+        },
+        {
+            "_id": "59056647f681ecf6835e28f4",
+            "num": "+1 (925) 447-2859",
+            "type": "work"
+        },
+        {
+            "_id": "59056647af35659090968fd2",
+            "num": "+1 (977) 503-2707",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "590566470913b159b3bd633a",
+        "num": 363,
+        "street": "Anchorage Place",
+        "city": "Rehrersburg",
+        "state": "Guam",
+        "zip": 2097,
+        "latitude": "63.753116",
+        "longitude": "-58.798696"
+    },
+    "bio": "Dolore proident excepteur eu amet amet in et. Reprehenderit reprehenderit minim mollit exercitation deserunt deserunt labore consectetur voluptate non cupidatat. Exercitation cupidatat elit irure consectetur. Culpa incididunt officia nisi veniam aliquip dolor anim aliquip do.",
+    "tags": [
+        "aliqua",
+        "adipisicing",
+        "sunt",
+        "sit",
+        "deserunt",
+        "pariatur",
+        "est"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b2a6fe4e16748f4da"
+        },
+        {
+            "_id": "5905664b6cac4a2a2011c47f"
+        }
+    ],
+    "greeting": "Hello, Kathie! You have 10 unread messages."
+}

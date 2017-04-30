@@ -1,0 +1,59 @@
+{
+    "_id": "5905664bb1b98b17f410690d",
+    "isActive": false,
+    "lastLogin": "Thursday, March 23, 2017 9:09 AM",
+    "balance": "$2,436.58",
+    "dob": "2015/01/25",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Richard",
+        "last": "Brown"
+    },
+    "company": "MYOPIUM",
+    "email": "richard.brown@myopium.biz",
+    "phone": [
+        {
+            "_id": "5905664b04b9ade2df3b3574",
+            "num": "+1 (965) 516-3985",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664bac1b7742708a5ae6",
+            "num": "+1 (858) 443-3609",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b61bea293a447979a",
+            "num": "+1 (942) 496-2552",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b97c43c1b4bf531fc",
+        "num": 148,
+        "street": "Alabama Avenue",
+        "city": "Shrewsbury",
+        "state": "Minnesota",
+        "zip": 9971,
+        "latitude": "-24.181967",
+        "longitude": "84.227364"
+    },
+    "bio": "Enim magna sit voluptate reprehenderit labore. Ad amet culpa qui ad duis non incididunt consequat do. Minim aliqua irure nostrud laborum elit commodo occaecat. Sit irure ea dolore dolore cillum ea veniam elit ad. Amet ea est voluptate voluptate cillum sunt ex commodo aliquip tempor culpa. Consequat est ea eu nostrud cupidatat aliqua dolor ut pariatur incididunt consectetur do cillum aliquip. Elit nulla commodo culpa eiusmod irure Lorem.",
+    "tags": [
+        "pariatur",
+        "dolor",
+        "elit",
+        "sunt",
+        "aliquip"
+    ],
+    "friends": [
+        {
+            "_id": "5905664bc0f93b2ab111ec00"
+        },
+        {
+            "_id": "5905664b9af8637de6dea1a2"
+        }
+    ],
+    "greeting": "Hello, Richard! You have 5 unread messages."
+}

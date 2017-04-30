@@ -1,15 +1,19 @@
-import { createStore, applyMiddleware } from 'redux';
-import thunkMiddleware from 'redux-thunk';
 import reduxLogger from 'redux-logger';
 import reducers from '../reducers/index';
-// import {toMmutable} from '../middleware/toMmutable';
-//
-// let middleware = [thunkMiddleware, reduxLogger, toMmutable];
+import createSagaMiddleware from 'redux-saga';
+import {fetchProfilesSaga} from '../sagas/sagas';
+import {createStore, applyMiddleware} from 'redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
 
-let middleware = [thunkMiddleware, reduxLogger];
+const sagaMiddleware = createSagaMiddleware();
 
-const createStoreWithMiddleware = applyMiddleware(...middleware)(createStore);
+let middleware = [sagaMiddleware, reduxLogger];
 
-export default function configureStore(initialState){
-    return createStoreWithMiddleware(reducers, initialState)
-}
+const store = createStore(
+    reducers,
+    composeWithDevTools( applyMiddleware(...middleware) )
+);
+
+sagaMiddleware.run(fetchProfilesSaga);
+
+export default store;

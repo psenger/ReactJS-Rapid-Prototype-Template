@@ -1,0 +1,51 @@
+{
+    "_id": "5905664b2c63867ded1a0430",
+    "isActive": false,
+    "lastLogin": "Thursday, April 13, 2017 9:55 AM",
+    "balance": "$3,185.41",
+    "dob": "2015/01/31",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Kristie",
+        "last": "Mills"
+    },
+    "company": "VELOS",
+    "email": "kristie.mills@velos.ca",
+    "phone": [
+        {
+            "_id": "5905664bc47997ff49b122d3",
+            "num": "+1 (920) 498-3539",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bf95e8e91a82fc697",
+        "num": 422,
+        "street": "Gatling Place",
+        "city": "Dunnavant",
+        "state": "Maine",
+        "zip": 2518,
+        "latitude": "52.366785",
+        "longitude": "44.523487"
+    },
+    "bio": "Dolore ea veniam voluptate ut nostrud mollit fugiat proident reprehenderit quis aliqua reprehenderit officia. Ex tempor tempor quis eiusmod dolor cillum. Et adipisicing velit culpa labore est veniam magna in aute adipisicing adipisicing veniam nisi pariatur. Pariatur culpa tempor occaecat irure irure dolor esse elit qui officia ea ex dolor nostrud. Laborum aliquip non nostrud pariatur aliquip reprehenderit culpa adipisicing ipsum.",
+    "tags": [
+        "sunt",
+        "esse",
+        "incididunt",
+        "eiusmod",
+        "esse",
+        "aute",
+        "veniam"
+    ],
+    "friends": [
+        {
+            "_id": "5905664ad7f5749cfb636f83"
+        },
+        {
+            "_id": "5905664b14bf322dfe31c964"
+        }
+    ],
+    "greeting": "Hello, Kristie! You have 5 unread messages."
+}

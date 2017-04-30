@@ -1,0 +1,56 @@
+{
+    "_id": "5905664b4555453510394d0e",
+    "isActive": false,
+    "lastLogin": "Monday, April 3, 2017 10:50 AM",
+    "balance": "$1,046.64",
+    "dob": "2015/04/25",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Oneill",
+        "last": "Bryant"
+    },
+    "company": "DIGIQUE",
+    "email": "oneill.bryant@digique.info",
+    "phone": [
+        {
+            "_id": "5905664b86b5eda0fe05cfa4",
+            "num": "+1 (999) 442-3349",
+            "type": "work"
+        },
+        {
+            "_id": "5905664beeb5445897f6e8e6",
+            "num": "+1 (901) 580-3565",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bf0c5cc4151d5f29a",
+        "num": 937,
+        "street": "Morgan Avenue",
+        "city": "Catherine",
+        "state": "Vermont",
+        "zip": 3579,
+        "latitude": "-37.09551",
+        "longitude": "8.713461"
+    },
+    "bio": "Lorem aliquip do veniam elit ea consequat ea culpa minim officia exercitation est in. Sint sint cillum et ad adipisicing est nostrud do ut esse eiusmod. Ea dolore velit magna officia ipsum ipsum eu anim nostrud in commodo fugiat esse. Laborum Lorem aliquip eiusmod Lorem proident consectetur non laboris consectetur ullamco. Ut ipsum irure cillum deserunt commodo. Do proident consequat elit enim officia aliquip do do irure proident commodo nisi eu in.",
+    "tags": [
+        "deserunt",
+        "ad",
+        "consectetur",
+        "reprehenderit",
+        "magna",
+        "excepteur",
+        "pariatur"
+    ],
+    "friends": [
+        {
+            "_id": "5905664ba71f693be3d9bff1"
+        },
+        {
+            "_id": "59056649a03306384b7bd5ae"
+        }
+    ],
+    "greeting": "Hello, Oneill! You have 6 unread messages."
+}

@@ -1,0 +1,66 @@
+{
+    "_id": "5905664727553ed6970df4d1",
+    "isActive": true,
+    "lastLogin": "Friday, January 31, 2014 11:49 AM",
+    "balance": "$2,806.00",
+    "dob": "2014/07/21",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Higgins",
+        "last": "Cohen"
+    },
+    "company": "ORBALIX",
+    "email": "higgins.cohen@orbalix.com",
+    "phone": [
+        {
+            "_id": "59056647a09f4b27c18357a8",
+            "num": "+1 (939) 469-3979",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59056647d9f0c6af6ef3afcb",
+        "num": 685,
+        "street": "Henry Street",
+        "city": "Rockbridge",
+        "state": "Pennsylvania",
+        "zip": 7780,
+        "latitude": "-55.427227",
+        "longitude": "97.963358"
+    },
+    "bio": "Laborum tempor non est pariatur reprehenderit ut veniam ex. Cupidatat nostrud commodo aliquip non. Velit qui veniam veniam voluptate eiusmod ad consectetur voluptate sit. Et in magna voluptate veniam culpa sunt esse officia elit. Deserunt fugiat nulla adipisicing aliqua aliqua sunt nostrud ullamco aliquip officia officia deserunt qui. Sit enim sint Lorem qui quis ea est tempor veniam nisi laborum aute labore non. Eiusmod nisi proident anim do voluptate in.",
+    "tags": [
+        "nisi",
+        "occaecat",
+        "in",
+        "sit",
+        "ex",
+        "duis",
+        "exercitation",
+        "commodo",
+        "nulla",
+        "sint"
+    ],
+    "friends": [
+        {
+            "_id": "5905664bb8410ffb5811fce4"
+        },
+        {
+            "_id": "5905664bf096d5f690493780"
+        },
+        {
+            "_id": "5905664be129a3a3eca7d15d"
+        },
+        {
+            "_id": "5905664b02407f066e9271ae"
+        },
+        {
+            "_id": "5905664aa59a224cd2a5d9ea"
+        },
+        {
+            "_id": "5905664912ef09e2cc735606"
+        }
+    ],
+    "greeting": "Hello, Higgins! You have 8 unread messages."
+}

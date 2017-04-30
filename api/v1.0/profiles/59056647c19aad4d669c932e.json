@@ -1,0 +1,43 @@
+{
+    "_id": "59056647c19aad4d669c932e",
+    "isActive": true,
+    "lastLogin": "Saturday, May 28, 2016 8:16 AM",
+    "balance": "$1,140.55",
+    "dob": "2014/08/20",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Fry",
+        "last": "Noble"
+    },
+    "company": "BITENDREX",
+    "email": "fry.noble@bitendrex.net",
+    "phone": [
+        {
+            "_id": "590566473e342302a8953e1f",
+            "num": "+1 (970) 581-2491",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "590566476d48d4f7dab8bf16",
+        "num": 229,
+        "street": "Manhattan Avenue",
+        "city": "Woodruff",
+        "state": "American Samoa",
+        "zip": 1599,
+        "latitude": "-53.400762",
+        "longitude": "-46.772154"
+    },
+    "bio": "Fugiat reprehenderit nulla deserunt dolor. Tempor pariatur amet culpa culpa pariatur do proident. Et cillum nisi anim excepteur cupidatat. Dolor eu qui cupidatat culpa.",
+    "tags": [
+        "amet",
+        "tempor"
+    ],
+    "friends": [
+        {
+            "_id": "590566483aedcefb0cd4a334"
+        }
+    ],
+    "greeting": "Hello, Fry! You have 9 unread messages."
+}

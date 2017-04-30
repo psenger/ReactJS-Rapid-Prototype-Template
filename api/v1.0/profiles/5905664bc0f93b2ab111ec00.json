@@ -1,0 +1,56 @@
+{
+    "_id": "5905664bc0f93b2ab111ec00",
+    "isActive": true,
+    "lastLogin": "Sunday, August 17, 2014 3:28 PM",
+    "balance": "$2,338.34",
+    "dob": "2016/06/26",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Robert",
+        "last": "Oneil"
+    },
+    "company": "SOLGAN",
+    "email": "robert.oneil@solgan.net",
+    "phone": [
+        {
+            "_id": "5905664bd71b7e89f43d5211",
+            "num": "+1 (876) 450-2011",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b0072863d00085bed",
+            "num": "+1 (803) 541-2963",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664bded710a83ce7215b",
+        "num": 440,
+        "street": "Thomas Street",
+        "city": "Weedville",
+        "state": "Hawaii",
+        "zip": 4470,
+        "latitude": "75.915918",
+        "longitude": "-66.834018"
+    },
+    "bio": "Veniam enim dolor aliquip quis exercitation incididunt consequat ut. In dolor dolor culpa culpa nostrud occaecat ea ea mollit sunt dolore nostrud enim officia. Do excepteur et sint aute consectetur aliquip exercitation. Do laborum pariatur Lorem est dolor veniam mollit Lorem aliqua anim labore laborum.",
+    "tags": [
+        "id",
+        "laboris",
+        "non",
+        "fugiat",
+        "incididunt",
+        "deserunt",
+        "eu",
+        "do",
+        "nostrud",
+        "ea"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b407780ec75e6b814"
+        }
+    ],
+    "greeting": "Hello, Robert! You have 7 unread messages."
+}

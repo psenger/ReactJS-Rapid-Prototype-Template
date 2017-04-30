@@ -1,0 +1,42 @@
+{
+    "_id": "59056649a03306384b7bd5ae",
+    "isActive": false,
+    "lastLogin": "Sunday, August 10, 2014 3:06 PM",
+    "balance": "$2,547.11",
+    "dob": "2015/07/14",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Atkins",
+        "last": "Hernandez"
+    },
+    "company": "OLUCORE",
+    "email": "atkins.hernandez@olucore.ca",
+    "phone": [
+        {
+            "_id": "59056649b639587ef55e2900",
+            "num": "+1 (929) 474-2971",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "59056649c688bfdcc95c71cb",
+        "num": 849,
+        "street": "Pineapple Street",
+        "city": "Tioga",
+        "state": "Michigan",
+        "zip": 4093,
+        "latitude": "-21.041195",
+        "longitude": "15.455769"
+    },
+    "bio": "Et dolore magna quis cupidatat do occaecat ullamco enim esse excepteur ut tempor nostrud. Adipisicing excepteur sint velit anim. Ex et cupidatat ex reprehenderit irure laborum aute qui Lorem nulla aliquip. Nulla culpa aliquip irure consequat qui duis et nulla deserunt. Ut veniam nisi enim in id non irure nisi ipsum id ad. Eu id eiusmod minim anim aute mollit mollit mollit laborum amet minim aliqua. Deserunt aute eu sint cillum tempor.",
+    "tags": [
+        "est"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b9f8ff05c333c038f"
+        }
+    ],
+    "greeting": "Hello, Atkins! You have 9 unread messages."
+}

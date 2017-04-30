@@ -1,0 +1,54 @@
+{
+    "_id": "5905664b6cac4a2a2011c47f",
+    "isActive": true,
+    "lastLogin": "Sunday, February 1, 2015 11:25 PM",
+    "balance": "$2,446.06",
+    "dob": "2016/11/08",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Heidi",
+        "last": "Figueroa"
+    },
+    "company": "JUNIPOOR",
+    "email": "heidi.figueroa@junipoor.com",
+    "phone": [
+        {
+            "_id": "5905664ba1f0608030b46bb8",
+            "num": "+1 (840) 473-2929",
+            "type": "work"
+        },
+        {
+            "_id": "5905664ba860ce629d6d4044",
+            "num": "+1 (854) 469-2288",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664b29745040d572e77a",
+        "num": 248,
+        "street": "Fayette Street",
+        "city": "Enlow",
+        "state": "Washington",
+        "zip": 4373,
+        "latitude": "14.155899",
+        "longitude": "64.25259"
+    },
+    "bio": "Id anim cupidatat officia duis sit consectetur laboris nulla commodo. Eu mollit anim ex velit fugiat id voluptate. Lorem pariatur quis est culpa excepteur elit veniam ea esse. Tempor irure eiusmod do commodo eu laborum. Lorem amet consectetur ut eiusmod laboris quis. Consectetur dolore eu elit dolor ea cupidatat aliqua fugiat eu dolor proident.",
+    "tags": [
+        "do",
+        "aliquip"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b942243658583641f"
+        },
+        {
+            "_id": "5905664b2562cc1ea884c4d8"
+        },
+        {
+            "_id": "5905664bf51fc6a8a74d69c0"
+        }
+    ],
+    "greeting": "Hello, Heidi! You have 5 unread messages."
+}

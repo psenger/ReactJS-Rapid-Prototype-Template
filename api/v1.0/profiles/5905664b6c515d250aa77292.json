@@ -1,0 +1,67 @@
+{
+    "_id": "5905664b6c515d250aa77292",
+    "isActive": true,
+    "lastLogin": "Saturday, February 7, 2015 3:48 PM",
+    "balance": "$3,562.87",
+    "dob": "2015/01/30",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Alisa",
+        "last": "Roberts"
+    },
+    "company": "ORBIFLEX",
+    "email": "alisa.roberts@orbiflex.name",
+    "phone": [
+        {
+            "_id": "5905664bac26446bbf038aa8",
+            "num": "+1 (982) 526-2014",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664be7819ba913b022dd",
+            "num": "+1 (850) 577-2630",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b26bcfe3ffff58eb2",
+            "num": "+1 (996) 400-3403",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664ba4b9dbb96db4a6f3",
+        "num": 355,
+        "street": "Bethel Loop",
+        "city": "Axis",
+        "state": "Puerto Rico",
+        "zip": 1282,
+        "latitude": "-41.426123",
+        "longitude": "-168.067075"
+    },
+    "bio": "Proident adipisicing non labore adipisicing eu ipsum dolore laboris fugiat. Sunt elit fugiat sit reprehenderit velit ut duis proident culpa et velit dolor. Nostrud reprehenderit esse amet irure magna fugiat incididunt et aliquip quis magna ipsum fugiat in. Nostrud id consequat nisi magna exercitation tempor tempor et pariatur laborum adipisicing. Elit cupidatat laboris laborum veniam elit ut reprehenderit labore consequat laboris anim do. Dolore et laborum dolore sint et commodo sint eu deserunt aliquip consequat.",
+    "tags": [
+        "elit",
+        "excepteur",
+        "officia",
+        "enim",
+        "ea",
+        "exercitation",
+        "esse"
+    ],
+    "friends": [
+        {
+            "_id": "590566479266db3a3606b194"
+        },
+        {
+            "_id": "590566481c69c37f9b3aea42"
+        },
+        {
+            "_id": "5905664ba60b0693dcf554b7"
+        },
+        {
+            "_id": "5905664bde75df2ab27e9cdb"
+        }
+    ],
+    "greeting": "Hello, Alisa! You have 10 unread messages."
+}

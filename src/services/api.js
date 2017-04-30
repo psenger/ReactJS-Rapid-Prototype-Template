@@ -1,7 +1,7 @@
 
 // import { Schema, arrayOf, normalize } from 'normalizr'
 // import { camelizeKeys } from 'humps'
-import 'isomorphic-fetch'
+import 'isomorphic-fetch';
 
 // // Extracts the next page URL from Github API response.
 // function getNextPageUrl(response) {
@@ -83,17 +83,12 @@ function callApi(endpoint) {
     const fullUrl = (endpoint.indexOf(API_ROOT) === -1) ? API_ROOT + endpoint : endpoint;
 
     return fetch(fullUrl)
-        .then(response => response.json().then(json => ({ json, response })))
-        .then(({ json, response }) => {
-            if (!response.ok) {
-                return Promise.reject(json)
+        .then(function(response) {
+            if(response.ok) {
+                return response.json();
             }
-            return json;
+            return Promise.reject(response);
         })
-        .then(
-            response => (response),
-            error => ({error: error.message || 'Something bad happened'})
-        )
 
 }
 

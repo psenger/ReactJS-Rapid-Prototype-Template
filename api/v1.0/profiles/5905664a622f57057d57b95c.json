@@ -1,0 +1,59 @@
+{
+    "_id": "5905664a622f57057d57b95c",
+    "isActive": true,
+    "lastLogin": "Tuesday, October 7, 2014 12:33 AM",
+    "balance": "$3,769.14",
+    "dob": "2016/04/02",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Francis",
+        "last": "Cain"
+    },
+    "company": "FORTEAN",
+    "email": "francis.cain@fortean.name",
+    "phone": [
+        {
+            "_id": "5905664a486488db07ff512b",
+            "num": "+1 (819) 539-3326",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664a0a460ebe585d9b22",
+            "num": "+1 (972) 436-3396",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664a051563308aadb332",
+        "num": 870,
+        "street": "Little Street",
+        "city": "Manitou",
+        "state": "Virgin Islands",
+        "zip": 7803,
+        "latitude": "44.265902",
+        "longitude": "-92.826518"
+    },
+    "bio": "Veniam proident sit occaecat nulla amet minim ut. Veniam tempor occaecat ipsum est laborum incididunt ea sunt excepteur. Excepteur consectetur elit pariatur ut nisi est consectetur officia fugiat excepteur aute ut voluptate amet. Sunt dolore mollit qui enim sunt deserunt est Lorem irure do minim aliqua pariatur reprehenderit. Est cupidatat cupidatat nostrud sint qui ea et irure deserunt Lorem reprehenderit esse sunt. Incididunt eu pariatur commodo elit in deserunt dolore est magna. Ullamco nostrud non consectetur proident veniam et laborum reprehenderit in et fugiat sint.",
+    "tags": [
+        "ea",
+        "in",
+        "pariatur",
+        "ut",
+        "laborum",
+        "quis",
+        "fugiat"
+    ],
+    "friends": [
+        {
+            "_id": "590566487a70050411ee1c8b"
+        },
+        {
+            "_id": "5905664b6cac4a2a2011c47f"
+        },
+        {
+            "_id": "5905664a431358fd08bd456d"
+        }
+    ],
+    "greeting": "Hello, Francis! You have 5 unread messages."
+}

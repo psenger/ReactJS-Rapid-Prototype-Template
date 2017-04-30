@@ -1,0 +1,55 @@
+{
+    "_id": "5905664a1b78b34231b1025c",
+    "isActive": true,
+    "lastLogin": "Thursday, September 10, 2015 3:30 AM",
+    "balance": "$1,731.13",
+    "dob": "2014/10/16",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Christensen",
+        "last": "Butler"
+    },
+    "company": "STELAECOR",
+    "email": "christensen.butler@stelaecor.me",
+    "phone": [
+        {
+            "_id": "5905664a548062fafb2e8bc9",
+            "num": "+1 (815) 412-3803",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664aa638977fb6343dbb",
+        "num": 492,
+        "street": "Clove Road",
+        "city": "Remington",
+        "state": "Texas",
+        "zip": 5735,
+        "latitude": "26.190526",
+        "longitude": "-92.107778"
+    },
+    "bio": "Nisi cupidatat culpa sunt dolore cillum culpa sit in esse proident aute culpa qui ullamco. Qui esse aute consectetur laboris adipisicing ullamco nisi sit ullamco sint commodo culpa. Eiusmod amet veniam veniam duis excepteur do minim consectetur excepteur eiusmod ullamco fugiat. Tempor voluptate nisi proident aliqua.",
+    "tags": [
+        "qui",
+        "excepteur"
+    ],
+    "friends": [
+        {
+            "_id": "59056647de8e6ca476c87394"
+        },
+        {
+            "_id": "5905664b6dad176a2819d3d1"
+        },
+        {
+            "_id": "590566486039f63dffed5172"
+        },
+        {
+            "_id": "5905664b6dad176a2819d3d1"
+        },
+        {
+            "_id": "5905664b16d79e0fa4f291f6"
+        }
+    ],
+    "greeting": "Hello, Christensen! You have 9 unread messages."
+}

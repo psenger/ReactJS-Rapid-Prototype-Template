@@ -1,0 +1,69 @@
+{
+    "_id": "590566486b38bca07a35304e",
+    "isActive": true,
+    "lastLogin": "Monday, January 12, 2015 8:59 PM",
+    "balance": "$1,941.37",
+    "dob": "2016/09/23",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Mcguire",
+        "last": "Blackburn"
+    },
+    "company": "TERRAGEN",
+    "email": "mcguire.blackburn@terragen.biz",
+    "phone": [
+        {
+            "_id": "59056648e78c7e0b83c35e91",
+            "num": "+1 (929) 579-2517",
+            "type": "home"
+        },
+        {
+            "_id": "590566489fe70da0d75e770d",
+            "num": "+1 (864) 595-2601",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "590566484452d2be5e8c57f8",
+        "num": 379,
+        "street": "Sheffield Avenue",
+        "city": "Hendersonville",
+        "state": "Montana",
+        "zip": 9482,
+        "latitude": "39.750568",
+        "longitude": "145.086714"
+    },
+    "bio": "In et quis ex exercitation est duis Lorem consectetur non. Ex nisi anim tempor duis incididunt cupidatat do et elit exercitation. Nisi adipisicing est officia aute incididunt commodo anim nostrud cillum cillum aliqua laborum mollit ullamco. Tempor occaecat elit adipisicing deserunt dolore aliqua nostrud magna commodo nulla reprehenderit ex ad velit. Incididunt id do aliqua id consequat id anim qui qui. Ea sit velit tempor esse do ea. Anim culpa non quis ex laborum reprehenderit Lorem deserunt sunt enim ullamco.",
+    "tags": [
+        "eiusmod",
+        "elit",
+        "commodo",
+        "sit",
+        "incididunt",
+        "irure",
+        "Lorem",
+        "consequat"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a383307590f77fc29"
+        },
+        {
+            "_id": "59056649a03306384b7bd5ae"
+        },
+        {
+            "_id": "59056649406ad10e79a85ad5"
+        },
+        {
+            "_id": "5905664a40d8ce791341a523"
+        },
+        {
+            "_id": "5905664805d2cc20d164be36"
+        },
+        {
+            "_id": "5905664a0a2ba273145ced90"
+        }
+    ],
+    "greeting": "Hello, Mcguire! You have 8 unread messages."
+}

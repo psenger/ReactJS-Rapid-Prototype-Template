@@ -1,0 +1,46 @@
+{
+    "_id": "5905664bc52c217d980e98c2",
+    "isActive": false,
+    "lastLogin": "Friday, June 19, 2015 11:05 AM",
+    "balance": "$3,577.70",
+    "dob": "2016/04/23",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Nola",
+        "last": "Christian"
+    },
+    "company": "FRENEX",
+    "email": "nola.christian@frenex.biz",
+    "phone": [
+        {
+            "_id": "5905664b84424469d2a27af3",
+            "num": "+1 (937) 420-2435",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664bbc77832f89d57f11",
+        "num": 607,
+        "street": "Battery Avenue",
+        "city": "Riner",
+        "state": "Oklahoma",
+        "zip": 9578,
+        "latitude": "-8.920996",
+        "longitude": "132.560302"
+    },
+    "bio": "Enim reprehenderit cupidatat irure velit Lorem est quis laboris et pariatur excepteur amet in. Excepteur ex mollit Lorem consectetur. Sint aliquip eiusmod sint quis. Voluptate veniam dolor labore enim esse nisi ea commodo magna nulla nisi adipisicing excepteur. Velit id laborum culpa id fugiat eu Lorem fugiat aliqua ad ut sit deserunt. Ut ut tempor commodo dolor tempor et velit id duis enim. Sit non id ut exercitation sint officia eiusmod qui eiusmod laborum nulla aliquip proident.",
+    "tags": [
+        "voluptate",
+        "consectetur",
+        "laboris",
+        "ex",
+        "aliqua"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a383307590f77fc29"
+        }
+    ],
+    "greeting": "Hello, Nola! You have 5 unread messages."
+}

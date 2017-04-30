@@ -1,0 +1,71 @@
+{
+    "_id": "5905664b7a29ffa2ea98e682",
+    "isActive": true,
+    "lastLogin": "Sunday, December 18, 2016 11:32 AM",
+    "balance": "$3,138.63",
+    "dob": "2015/02/19",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Virginia",
+        "last": "Knox"
+    },
+    "company": "ECLIPTO",
+    "email": "virginia.knox@eclipto.name",
+    "phone": [
+        {
+            "_id": "5905664bb22e7045a1cfc25f",
+            "num": "+1 (873) 572-2080",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b0051b48ff7e1b76f",
+            "num": "+1 (868) 581-2553",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664ba886fae27d708ee0",
+            "num": "+1 (842) 566-3031",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664bf92d291644981f12",
+            "num": "+1 (846) 598-3030",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664b71ac645e8b9387a7",
+        "num": 601,
+        "street": "Madison Street",
+        "city": "Sutton",
+        "state": "Nebraska",
+        "zip": 9902,
+        "latitude": "-24.807889",
+        "longitude": "-122.332321"
+    },
+    "bio": "Aliqua in anim laborum dolor elit. Esse tempor laboris voluptate officia sit sunt nulla non occaecat. Enim ex dolore ullamco sit voluptate tempor tempor.",
+    "tags": [
+        "exercitation",
+        "nostrud",
+        "non"
+    ],
+    "friends": [
+        {
+            "_id": "5905664ad7f5749cfb636f83"
+        },
+        {
+            "_id": "5905664bacd2b8a8f1a7836d"
+        },
+        {
+            "_id": "5905664b9af8637de6dea1a2"
+        },
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        },
+        {
+            "_id": "5905664b2c63867ded1a0430"
+        }
+    ],
+    "greeting": "Hello, Virginia! You have 7 unread messages."
+}

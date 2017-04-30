@@ -1,0 +1,62 @@
+{
+    "_id": "5905664be5efda4d831efca0",
+    "isActive": false,
+    "lastLogin": "Thursday, January 9, 2014 7:28 PM",
+    "balance": "$2,715.14",
+    "dob": "2016/04/24",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Amparo",
+        "last": "Vasquez"
+    },
+    "company": "ANARCO",
+    "email": "amparo.vasquez@anarco.net",
+    "phone": [
+        {
+            "_id": "5905664ba1c553207ceebc40",
+            "num": "+1 (927) 557-2050",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664b3603334cf3e3bd57",
+        "num": 812,
+        "street": "Everit Street",
+        "city": "Stouchsburg",
+        "state": "Arkansas",
+        "zip": 8241,
+        "latitude": "17.268912",
+        "longitude": "70.14516"
+    },
+    "bio": "Veniam culpa mollit incididunt commodo esse. In adipisicing enim laboris non aliquip cupidatat ullamco eiusmod. Deserunt labore aliquip cillum reprehenderit tempor cupidatat elit aliqua adipisicing ad. Enim velit tempor est ullamco non nisi eu sint veniam labore enim irure do do. Enim est eiusmod sint velit id et in eu deserunt quis elit quis. Aliqua Lorem sit tempor dolore aliquip ad eiusmod nulla quis laborum sunt fugiat. Lorem est sint ullamco quis tempor proident ut ut irure quis.",
+    "tags": [
+        "proident",
+        "dolor",
+        "cupidatat",
+        "exercitation",
+        "adipisicing",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "590566478d7174766dbcaeea"
+        },
+        {
+            "_id": "5905664bbd65aac05343faa9"
+        },
+        {
+            "_id": "5905664a113a6f8d3b57754d"
+        },
+        {
+            "_id": "5905664bf2d183e711697184"
+        },
+        {
+            "_id": "590566486039f63dffed5172"
+        },
+        {
+            "_id": "5905664a87dbbfaac589d228"
+        }
+    ],
+    "greeting": "Hello, Amparo! You have 6 unread messages."
+}

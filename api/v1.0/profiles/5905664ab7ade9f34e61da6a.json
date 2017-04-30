@@ -1,0 +1,61 @@
+{
+    "_id": "5905664ab7ade9f34e61da6a",
+    "isActive": false,
+    "lastLogin": "Wednesday, September 16, 2015 7:05 PM",
+    "balance": "$3,802.59",
+    "dob": "2015/12/01",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Rhodes",
+        "last": "Holman"
+    },
+    "company": "LIQUICOM",
+    "email": "rhodes.holman@liquicom.biz",
+    "phone": [
+        {
+            "_id": "5905664a1bed153b92b59ebb",
+            "num": "+1 (945) 401-3062",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664a608d1f7860557e6a",
+            "num": "+1 (924) 546-3962",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664afbc8b939282de858",
+        "num": 347,
+        "street": "Seagate Terrace",
+        "city": "Manila",
+        "state": "Puerto Rico",
+        "zip": 3656,
+        "latitude": "-13.231169",
+        "longitude": "-98.338459"
+    },
+    "bio": "Consectetur nostrud in minim aliquip voluptate laborum proident culpa occaecat commodo tempor voluptate. Excepteur irure aliqua labore nostrud id nostrud cillum excepteur amet Lorem non aute cillum tempor. Enim ut magna labore proident non amet cupidatat culpa deserunt.",
+    "tags": [
+        "eu",
+        "cillum",
+        "nulla"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b9af8637de6dea1a2"
+        },
+        {
+            "_id": "5905664aa59a224cd2a5d9ea"
+        },
+        {
+            "_id": "5905664b942243658583641f"
+        },
+        {
+            "_id": "5905664ba1660914890e946b"
+        },
+        {
+            "_id": "5905664a1b78b34231b1025c"
+        }
+    ],
+    "greeting": "Hello, Rhodes! You have 5 unread messages."
+}

@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import {ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
 // import {Validator}  from '../decorator/Validator';
 
+
 // @Validator()
 export default class InputText extends Component {
 
@@ -25,9 +26,17 @@ export default class InputText extends Component {
                              placeholder={this.props.placeholder}
                              onChange={this.props.onChange}
                              aria-invalid={this.ariaInvalid()}
-                             tabIndex="0"/>
+                             tabIndex="0"
+                             required={this.props.required} />
                 <FormControl.Feedback aria-hidden="true" role="presentation"/>
-                <HelpBlock>{this.props.help}</HelpBlock>
+                {(this.props.required)
+                    ?(<div className="container-fluid" style={{padding:0}}>
+                        <div className="row">
+                            <div className="col-xs-8"><HelpBlock>{this.props.help}</HelpBlock></div>
+                            <div className="col-xs-4"><span className="text-danger text-info pull-right">Required</span></div>
+                        </div>
+                    </div>)
+                    :(<HelpBlock>{this.props.help}</HelpBlock>)}
                 {this.props.children}
             </FormGroup>
         )
@@ -36,6 +45,7 @@ export default class InputText extends Component {
 
 InputText.propTypes = {
     fieldId: PropTypes.string.isRequired,
+    required: PropTypes.bool.isRequired,
     validator: PropTypes.func.isRequired,
     getValidationModel: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,

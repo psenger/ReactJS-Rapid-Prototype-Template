@@ -1,0 +1,53 @@
+{
+    "_id": "59056647229731049c0fe85f",
+    "isActive": false,
+    "lastLogin": "Tuesday, August 5, 2014 11:11 PM",
+    "balance": "$2,619.01",
+    "dob": "2014/09/16",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Suzanne",
+        "last": "Schultz"
+    },
+    "company": "ELPRO",
+    "email": "suzanne.schultz@elpro.biz",
+    "phone": [
+        {
+            "_id": "590566476afc0f76256c1e5c",
+            "num": "+1 (957) 436-2866",
+            "type": "mobile"
+        },
+        {
+            "_id": "590566477c0f597d95d904e6",
+            "num": "+1 (929) 449-3469",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "590566471c42ff38cd1e12b5",
+        "num": 265,
+        "street": "Seacoast Terrace",
+        "city": "Zeba",
+        "state": "Colorado",
+        "zip": 7203,
+        "latitude": "-77.427788",
+        "longitude": "-44.344252"
+    },
+    "bio": "Non fugiat nostrud id fugiat aliquip. Consectetur magna laborum eu mollit nisi aliqua dolor laboris. Proident nulla ea mollit aute eiusmod ipsum proident incididunt sunt nisi cillum occaecat non duis. Id velit voluptate excepteur qui laborum. Mollit excepteur nulla laboris voluptate laborum irure.",
+    "tags": [
+        "elit"
+    ],
+    "friends": [
+        {
+            "_id": "5905664727553ed6970df4d1"
+        },
+        {
+            "_id": "59056647229731049c0fe85f"
+        },
+        {
+            "_id": "5905664a622f57057d57b95c"
+        }
+    ],
+    "greeting": "Hello, Suzanne! You have 8 unread messages."
+}

@@ -1,0 +1,65 @@
+{
+    "_id": "5905664805d2cc20d164be36",
+    "isActive": true,
+    "lastLogin": "Thursday, September 24, 2015 11:38 AM",
+    "balance": "$3,630.10",
+    "dob": "2017/03/23",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Audrey",
+        "last": "Franks"
+    },
+    "company": "SPRINGBEE",
+    "email": "audrey.franks@springbee.info",
+    "phone": [
+        {
+            "_id": "59056648ee536207d310d0b4",
+            "num": "+1 (840) 455-2938",
+            "type": "work"
+        },
+        {
+            "_id": "59056648120842af36ce3d52",
+            "num": "+1 (972) 567-2449",
+            "type": "mobile"
+        },
+        {
+            "_id": "59056648ad751d9aca6617a0",
+            "num": "+1 (848) 421-2571",
+            "type": "work"
+        },
+        {
+            "_id": "59056648984bf6d0a3e57db7",
+            "num": "+1 (966) 501-3702",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "590566482961cb14bbf00747",
+        "num": 661,
+        "street": "Canal Avenue",
+        "city": "Garnet",
+        "state": "Federated States Of Micronesia",
+        "zip": 7371,
+        "latitude": "-16.504422",
+        "longitude": "170.428753"
+    },
+    "bio": "Fugiat officia commodo adipisicing reprehenderit aute exercitation consectetur occaecat adipisicing. Magna exercitation ullamco tempor mollit. Aliquip reprehenderit ea aliqua ullamco nulla cillum tempor nisi sint id eiusmod irure.",
+    "tags": [
+        "ipsum",
+        "ipsum",
+        "duis",
+        "consectetur",
+        "ullamco",
+        "cillum",
+        "laboris",
+        "amet",
+        "ut"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a113a6f8d3b57754d"
+        }
+    ],
+    "greeting": "Hello, Audrey! You have 5 unread messages."
+}

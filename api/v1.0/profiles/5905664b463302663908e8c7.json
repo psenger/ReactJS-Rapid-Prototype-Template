@@ -1,0 +1,46 @@
+{
+    "_id": "5905664b463302663908e8c7",
+    "isActive": false,
+    "lastLogin": "Friday, January 20, 2017 2:55 PM",
+    "balance": "$3,402.70",
+    "dob": "2016/12/09",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Collins",
+        "last": "Rogers"
+    },
+    "company": "ARTWORLDS",
+    "email": "collins.rogers@artworlds.name",
+    "phone": [
+        {
+            "_id": "5905664b131dc4ae1398e973",
+            "num": "+1 (887) 541-2475",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bf0d63c496fc91574",
+        "num": 858,
+        "street": "Butler Place",
+        "city": "Lithium",
+        "state": "Montana",
+        "zip": 6864,
+        "latitude": "63.322215",
+        "longitude": "70.411666"
+    },
+    "bio": "Qui irure laboris quis in. Consectetur pariatur nisi quis elit anim dolor consequat. Laborum ea aliquip aliquip id commodo nostrud aliquip officia et exercitation nisi id est. Reprehenderit pariatur ut et ex esse adipisicing. Occaecat et sunt labore minim qui Lorem esse ullamco tempor duis eu et. Laborum non voluptate officia Lorem deserunt non.",
+    "tags": [
+        "aliquip",
+        "anim",
+        "ex",
+        "nulla",
+        "incididunt"
+    ],
+    "friends": [
+        {
+            "_id": "5905664ad7f5749cfb636f83"
+        }
+    ],
+    "greeting": "Hello, Collins! You have 9 unread messages."
+}

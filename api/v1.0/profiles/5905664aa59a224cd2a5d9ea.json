@@ -1,0 +1,52 @@
+{
+    "_id": "5905664aa59a224cd2a5d9ea",
+    "isActive": true,
+    "lastLogin": "Tuesday, December 22, 2015 6:42 AM",
+    "balance": "$1,320.92",
+    "dob": "2016/05/25",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Mullins",
+        "last": "Alvarez"
+    },
+    "company": "CORIANDER",
+    "email": "mullins.alvarez@coriander.net",
+    "phone": [
+        {
+            "_id": "5905664a7e2cb522c1ef1811",
+            "num": "+1 (980) 404-2358",
+            "type": "home"
+        },
+        {
+            "_id": "5905664ad404f9de516f6a1f",
+            "num": "+1 (930) 459-3093",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664ad5c60b8b8add5c0b",
+        "num": 236,
+        "street": "Paerdegat Avenue",
+        "city": "Colton",
+        "state": "Utah",
+        "zip": 3206,
+        "latitude": "-21.265631",
+        "longitude": "55.575225"
+    },
+    "bio": "Consectetur enim et aliqua sit deserunt exercitation duis ut laborum aliquip. Aliquip minim velit aute aliquip magna excepteur mollit dolore laborum elit elit cupidatat ullamco. Pariatur occaecat commodo voluptate sint sunt laborum exercitation fugiat voluptate voluptate occaecat tempor irure. Esse consequat ex mollit sunt occaecat fugiat fugiat duis esse enim quis et excepteur amet. Nostrud Lorem ut ea enim dolore velit exercitation aliqua ullamco irure ea commodo do.",
+    "tags": [
+        "sit",
+        "commodo",
+        "anim",
+        "pariatur",
+        "aliqua",
+        "nostrud"
+    ],
+    "friends": [
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        }
+    ],
+    "greeting": "Hello, Mullins! You have 8 unread messages."
+}

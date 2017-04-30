@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import App from './src/containers/app';
-import configureStore from './src/store/index';
-// import rootSaga from './sagas/index'
-
-let store = configureStore({});
-// store.runSaga(rootSaga)
+import App from './src/containers/index';
+import store from './src/store/index';
 
 ReactDOM.render(
     <div className="container">

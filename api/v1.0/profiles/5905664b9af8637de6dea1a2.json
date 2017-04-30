@@ -1,0 +1,64 @@
+{
+    "_id": "5905664b9af8637de6dea1a2",
+    "isActive": true,
+    "lastLogin": "Thursday, April 10, 2014 6:39 PM",
+    "balance": "$2,774.51",
+    "dob": "2015/03/03",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Garcia",
+        "last": "Wise"
+    },
+    "company": "ISOSWITCH",
+    "email": "garcia.wise@isoswitch.co.uk",
+    "phone": [
+        {
+            "_id": "5905664bfbc818ab2f190f48",
+            "num": "+1 (913) 500-3907",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b4e7d38d395d6e3ea",
+            "num": "+1 (960) 481-2988",
+            "type": "work"
+        },
+        {
+            "_id": "5905664b3389921777ffecc3",
+            "num": "+1 (862) 435-3944",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664b2e2bd4119029ae15",
+        "num": 420,
+        "street": "Stockton Street",
+        "city": "Fredericktown",
+        "state": "Delaware",
+        "zip": 203,
+        "latitude": "27.230695",
+        "longitude": "94.536276"
+    },
+    "bio": "Officia adipisicing excepteur ea laborum excepteur qui qui. Dolore officia excepteur do exercitation. Dolor tempor elit veniam reprehenderit veniam reprehenderit anim eiusmod cillum. Non laborum eu velit ea. Eiusmod Lorem commodo et nisi cupidatat deserunt deserunt in. Fugiat eu eu cupidatat ea aliquip adipisicing eiusmod est magna duis deserunt. Ut non excepteur minim enim adipisicing.",
+    "tags": [
+        "nisi"
+    ],
+    "friends": [
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        },
+        {
+            "_id": "5905664b3be60ae76368d708"
+        },
+        {
+            "_id": "5905664be5efda4d831efca0"
+        },
+        {
+            "_id": "5905664804a9a69cc4e0fd82"
+        },
+        {
+            "_id": "5905664a87dbbfaac589d228"
+        }
+    ],
+    "greeting": "Hello, Garcia! You have 7 unread messages."
+}

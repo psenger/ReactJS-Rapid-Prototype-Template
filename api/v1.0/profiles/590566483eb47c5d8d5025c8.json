@@ -1,0 +1,51 @@
+{
+    "_id": "590566483eb47c5d8d5025c8",
+    "isActive": false,
+    "lastLogin": "Sunday, July 10, 2016 2:11 AM",
+    "balance": "$2,955.06",
+    "dob": "2014/09/25",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Charmaine",
+        "last": "Richard"
+    },
+    "company": "NAMEGEN",
+    "email": "charmaine.richard@namegen.us",
+    "phone": [
+        {
+            "_id": "590566485c4c4ee20194c76d",
+            "num": "+1 (923) 436-2061",
+            "type": "mobile"
+        },
+        {
+            "_id": "59056648d6bef5879044a8ee",
+            "num": "+1 (854) 592-3441",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664864b3510d4005065c",
+        "num": 588,
+        "street": "Beaumont Street",
+        "city": "Ellerslie",
+        "state": "Illinois",
+        "zip": 581,
+        "latitude": "-82.471381",
+        "longitude": "-82.889755"
+    },
+    "bio": "Qui qui laborum cillum officia culpa dolore tempor laboris. Pariatur elit ullamco occaecat ea et aliquip amet. Enim sunt nostrud sit sint aliqua aliquip nisi ad magna ut fugiat nisi proident.",
+    "tags": [
+        "ut",
+        "elit",
+        "ex",
+        "ut",
+        "sit"
+    ],
+    "friends": [
+        {
+            "_id": "59056648559425484ca4cf3f"
+        }
+    ],
+    "greeting": "Hello, Charmaine! You have 6 unread messages."
+}

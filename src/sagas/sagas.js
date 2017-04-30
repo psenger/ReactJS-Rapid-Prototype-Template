@@ -1,11 +1,24 @@
-import { take, call, put, select } from 'redux-saga/effects';
+import 'babel-polyfill'
+import { call, put, takeLatest } from 'redux-saga/effects'
+import {PROFILES_REQUEST} from '../actionCreators/actionTypes/profiles';
+import {requestProfilesSuccess,requestProfilesFail} from '../actionCreators/profilesAction';
+import * as api from '../services/api';
 
-// Individual exports for testing
-export function* defaultSaga() {
-    return;
+export function* fetchProfiles() {
+    try {
+        const topics = yield call(api.fetchProfiles);
+        yield put(requestProfilesSuccess(topics));
+    } catch (e) {
+        console.log(e);
+        if ( e.status === 500 ) {
+            yield put(requestProfilesFail( 'System failure' ) );
+        } else {
+            yield put(requestProfilesFail( 'System is off-line' ) );
+        }
+    }
 }
 
-// All sagas to be loaded
-export default [
-    defaultSaga,
-];
+export function* fetchProfilesSaga() {
+    // takeLatest does not allow concurrent fetches of PROFILES_REQUEST
+    yield takeLatest(PROFILES_REQUEST, fetchProfiles);
+}

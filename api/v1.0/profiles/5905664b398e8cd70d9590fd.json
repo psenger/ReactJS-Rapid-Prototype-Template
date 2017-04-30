@@ -1,0 +1,62 @@
+{
+    "_id": "5905664b398e8cd70d9590fd",
+    "isActive": true,
+    "lastLogin": "Saturday, January 10, 2015 12:19 AM",
+    "balance": "$1,197.49",
+    "dob": "2017/02/06",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Gilliam",
+        "last": "Meyer"
+    },
+    "company": "ZOGAK",
+    "email": "gilliam.meyer@zogak.me",
+    "phone": [
+        {
+            "_id": "5905664b178f889f1ff66811",
+            "num": "+1 (842) 480-2077",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b62dcac72374767b4",
+            "num": "+1 (850) 513-3198",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b319657a3eca62f40",
+            "num": "+1 (992) 452-2045",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b53c973800c2be74a",
+        "num": 744,
+        "street": "Newkirk Placez",
+        "city": "Lumberton",
+        "state": "Alabama",
+        "zip": 244,
+        "latitude": "-83.883919",
+        "longitude": "59.751723"
+    },
+    "bio": "Exercitation esse sunt veniam Lorem mollit qui eiusmod nostrud qui aliquip elit consectetur. Minim quis nulla id laboris aute eiusmod fugiat. Laborum minim id est in commodo consectetur elit deserunt. Tempor proident labore elit ea incididunt dolor adipisicing.",
+    "tags": [
+        "Lorem",
+        "veniam",
+        "commodo",
+        "labore",
+        "adipisicing"
+    ],
+    "friends": [
+        {
+            "_id": "590566483eb47c5d8d5025c8"
+        },
+        {
+            "_id": "5905664bacd2b8a8f1a7836d"
+        },
+        {
+            "_id": "5905664b91c9e8545c199ef9"
+        }
+    ],
+    "greeting": "Hello, Gilliam! You have 10 unread messages."
+}
