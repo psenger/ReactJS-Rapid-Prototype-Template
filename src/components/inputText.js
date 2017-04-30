@@ -26,13 +26,14 @@ export default class InputText extends Component {
                              placeholder={this.props.placeholder}
                              onChange={this.props.onChange}
                              aria-invalid={this.ariaInvalid()}
+                             aria-describedby={this.props.fieldId + '_help'}
                              tabIndex="0"
                              required={this.props.required} />
                 <FormControl.Feedback aria-hidden="true" role="presentation"/>
                 {(this.props.required)
                     ?(<div className="container-fluid" style={{padding:0}}>
                         <div className="row">
-                            <div className="col-xs-8"><HelpBlock>{this.props.help}</HelpBlock></div>
+                            <div className="col-xs-8"><HelpBlock id={this.props.fieldId + '_help'}>{this.props.help}</HelpBlock></div>
                             <div className="col-xs-4"><span className="text-danger text-info pull-right">Required</span></div>
                         </div>
                     </div>)
