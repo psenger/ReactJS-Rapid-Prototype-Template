@@ -1,6 +1,7 @@
 
 import Home from './Home/home';
 import About from './About/about';
+import PropTypes from "prop-types";
 import React, {Component} from 'react';
 import NotFound from './NotFound/notFound';
 import {Navbar,Nav,NavItem} from 'react-bootstrap';
@@ -15,11 +16,12 @@ const viewMap = [
     {path: '/about',            component: About,        label: 'About',    }
 ];
 
-
 export default class App extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor(props,context) {
+        super(props,context);
+        console.log( 'App#constructor props=', props );
+        console.log( 'App#constructor context=', this.context  );
         this.displayName = 'views/App';
         this.state = { routes: flatViewMap( viewMap ) };
     }
@@ -59,6 +61,12 @@ export default class App extends Component {
             </Router>);
     }
 }
+
+
+// needed to allow specific context to be brought down.
+App.contextTypes = {
+    theme: PropTypes.object.isRequired
+};
 
 /**
 

@@ -1,5 +1,6 @@
 
 import {safeGet}from '../../utils';
+import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {Link} from 'react-router-dom';
 import React, {Component} from 'react';
@@ -94,6 +95,11 @@ export class UserProfiles extends Component {
         );
     }
 }
+
+// needed to allow specific context to be brought down.
+UserProfiles.contextTypes = {
+    theme: PropTypes.object.isRequired
+};
 
 let mapStateToProps = (store /*, ownProps */) => {
     return {

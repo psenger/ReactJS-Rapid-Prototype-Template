@@ -1,5 +1,4 @@
 
-
 import {safeGet}from '../../utils';
 import PropTypes from "prop-types";
 import validate from 'validate.js';
@@ -176,6 +175,11 @@ export class UserProfile extends Component {
 // Use props to create warnings in the console if they are missing.
 UserProfile.propTypes = {
     profileReducer: PropTypes.object.isRequired
+};
+
+// needed to allow specific context to be brought down.
+UserProfile.contextTypes = {
+    theme: PropTypes.object.isRequired
 };
 
 let mapStateToProps = (state /** , ownProps **/) => {
