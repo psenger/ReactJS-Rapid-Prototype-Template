@@ -1,0 +1,49 @@
+{
+    "_id": "5905664bb48ad18e12c4b242",
+    "isActive": false,
+    "lastLogin": "Saturday, March 15, 2014 3:16 AM",
+    "balance": "$3,280.63",
+    "dob": "2014/12/31",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Cantu",
+        "last": "Hampton"
+    },
+    "company": "IDEGO",
+    "email": "cantu.hampton@idego.us",
+    "phone": [
+        {
+            "_id": "5905664b21ef0b449977a67b",
+            "num": "+1 (971) 408-3736",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664ba578df893ffe8662",
+        "num": 455,
+        "street": "McClancy Place",
+        "city": "Wildwood",
+        "state": "Ohio",
+        "zip": 7267,
+        "latitude": "-47.69479",
+        "longitude": "52.854496"
+    },
+    "bio": "Duis aute sint laborum ullamco consequat. Nisi irure id ipsum laboris eiusmod pariatur deserunt incididunt. Nostrud veniam id est fugiat adipisicing qui nulla aute cupidatat pariatur esse excepteur.",
+    "tags": [
+        "ut",
+        "irure",
+        "consequat",
+        "anim",
+        "labore"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a0a2ba273145ced90"
+        },
+        {
+            "_id": "5905664b14bf322dfe31c964"
+        }
+    ],
+    "greeting": "Hello, Cantu! You have 10 unread messages."
+}

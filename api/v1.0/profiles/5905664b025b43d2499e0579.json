@@ -1,0 +1,64 @@
+{
+    "_id": "5905664b025b43d2499e0579",
+    "isActive": false,
+    "lastLogin": "Sunday, August 7, 2016 5:33 AM",
+    "balance": "$3,666.75",
+    "dob": "2014/05/04",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Diann",
+        "last": "George"
+    },
+    "company": "MALATHION",
+    "email": "diann.george@malathion.us",
+    "phone": [
+        {
+            "_id": "5905664b155cc2554bcb78c0",
+            "num": "+1 (851) 405-2435",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b757ea26dca693484",
+            "num": "+1 (802) 590-2817",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b9da1433a7b11e88b",
+        "num": 570,
+        "street": "Bank Street",
+        "city": "Yardville",
+        "state": "Virgin Islands",
+        "zip": 6412,
+        "latitude": "54.070739",
+        "longitude": "37.488877"
+    },
+    "bio": "Labore ut quis consectetur consequat magna Lorem aute fugiat. Consectetur qui cupidatat commodo ad commodo duis cupidatat Lorem eu reprehenderit eiusmod. Consequat culpa et irure duis irure exercitation dolor ipsum. Dolor non incididunt exercitation laboris ullamco sit tempor qui. Minim eiusmod est non sunt sunt.",
+    "tags": [
+        "incididunt",
+        "id",
+        "reprehenderit",
+        "esse",
+        "veniam",
+        "mollit",
+        "irure",
+        "ad",
+        "tempor"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b4555453510394d0e"
+        },
+        {
+            "_id": "5905664bf67ab521072231c4"
+        },
+        {
+            "_id": "5905664b57248e6fc697ddc9"
+        },
+        {
+            "_id": "5905664a6afbf1ee8b0e7c12"
+        }
+    ],
+    "greeting": "Hello, Diann! You have 8 unread messages."
+}

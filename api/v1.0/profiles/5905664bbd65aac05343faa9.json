@@ -1,0 +1,60 @@
+{
+    "_id": "5905664bbd65aac05343faa9",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 15, 2016 12:09 PM",
+    "balance": "$2,514.74",
+    "dob": "2015/07/21",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Kline",
+        "last": "Harmon"
+    },
+    "company": "VINCH",
+    "email": "kline.harmon@vinch.tv",
+    "phone": [
+        {
+            "_id": "5905664b05d778956b0b925d",
+            "num": "+1 (984) 484-2208",
+            "type": "work"
+        },
+        {
+            "_id": "5905664b3c55611b4c36a0f8",
+            "num": "+1 (940) 457-3302",
+            "type": "work"
+        },
+        {
+            "_id": "5905664bbb3db0a03fd8345c",
+            "num": "+1 (800) 536-3537",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b0e18d51348b73114",
+        "num": 538,
+        "street": "Oriental Court",
+        "city": "Century",
+        "state": "Idaho",
+        "zip": 5526,
+        "latitude": "-2.035954",
+        "longitude": "95.58921"
+    },
+    "bio": "Ad reprehenderit non reprehenderit nisi labore amet aliqua reprehenderit pariatur labore fugiat amet non officia. Lorem minim consequat ullamco ea sit dolor deserunt quis esse ex ex. Mollit cupidatat dolore mollit duis laboris voluptate cillum magna deserunt non dolore ex. Est occaecat consectetur duis tempor esse eiusmod magna anim reprehenderit ut. Ex id cupidatat Lorem eu sint ullamco duis labore culpa ipsum commodo incididunt.",
+    "tags": [
+        "id",
+        "quis",
+        "excepteur",
+        "culpa",
+        "aute",
+        "incididunt",
+        "magna",
+        "commodo",
+        "ea"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a431358fd08bd456d"
+        }
+    ],
+    "greeting": "Hello, Kline! You have 6 unread messages."
+}

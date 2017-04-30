@@ -1,0 +1,59 @@
+{
+    "_id": "5905664b16d79e0fa4f291f6",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 31, 2015 12:56 AM",
+    "balance": "$2,482.99",
+    "dob": "2016/12/07",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Harding",
+        "last": "Oconnor"
+    },
+    "company": "PARCOE",
+    "email": "harding.oconnor@parcoe.io",
+    "phone": [
+        {
+            "_id": "5905664b291ec5f67aa17739",
+            "num": "+1 (812) 590-3373",
+            "type": "work"
+        },
+        {
+            "_id": "5905664b4d25c77e0096eea4",
+            "num": "+1 (898) 456-3566",
+            "type": "work"
+        },
+        {
+            "_id": "5905664bc47d7e8a87fcab1c",
+            "num": "+1 (971) 480-3262",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b8f0e72677efaea44",
+            "num": "+1 (905) 523-3014",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bf7928d402daa69a0",
+        "num": 150,
+        "street": "Wakeman Place",
+        "city": "Dennard",
+        "state": "Illinois",
+        "zip": 2097,
+        "latitude": "51.874198",
+        "longitude": "-27.535209"
+    },
+    "bio": "Ullamco incididunt qui do culpa qui nisi nisi veniam pariatur velit. Eu aliqua commodo sint amet aute cupidatat pariatur ipsum laborum. Tempor do voluptate magna nisi ex dolore dolor quis enim eiusmod. Aliquip qui duis voluptate exercitation voluptate veniam velit enim mollit et proident. Enim pariatur ex Lorem amet occaecat in commodo. Commodo qui amet ad laboris proident. Consectetur occaecat qui veniam esse.",
+    "tags": [
+        "magna",
+        "nostrud",
+        "aliquip"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b2119900f37d25df8"
+        }
+    ],
+    "greeting": "Hello, Harding! You have 5 unread messages."
+}

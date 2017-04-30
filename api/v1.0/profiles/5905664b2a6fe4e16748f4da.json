@@ -1,0 +1,54 @@
+{
+    "_id": "5905664b2a6fe4e16748f4da",
+    "isActive": false,
+    "lastLogin": "Saturday, April 4, 2015 3:31 PM",
+    "balance": "$3,141.35",
+    "dob": "2017/01/31",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Lowery",
+        "last": "Cobb"
+    },
+    "company": "INTERGEEK",
+    "email": "lowery.cobb@intergeek.ca",
+    "phone": [
+        {
+            "_id": "5905664bd350a2a1ebc0a373",
+            "num": "+1 (849) 576-3011",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664be0928a92d59bb120",
+        "num": 631,
+        "street": "Judge Street",
+        "city": "Gibbsville",
+        "state": "South Dakota",
+        "zip": 5187,
+        "latitude": "10.433289",
+        "longitude": "41.853682"
+    },
+    "bio": "Nisi commodo aute esse pariatur. Mollit tempor non qui cillum proident eiusmod sint eu in consectetur ullamco cillum cupidatat minim. Irure commodo non nulla ipsum incididunt ipsum esse commodo consequat.",
+    "tags": [
+        "dolor",
+        "ullamco",
+        "culpa",
+        "laboris"
+    ],
+    "friends": [
+        {
+            "_id": "5905664ab7ade9f34e61da6a"
+        },
+        {
+            "_id": "5905664805d2cc20d164be36"
+        },
+        {
+            "_id": "5905664bacd2b8a8f1a7836d"
+        },
+        {
+            "_id": "5905664b7a29ffa2ea98e682"
+        }
+    ],
+    "greeting": "Hello, Lowery! You have 5 unread messages."
+}

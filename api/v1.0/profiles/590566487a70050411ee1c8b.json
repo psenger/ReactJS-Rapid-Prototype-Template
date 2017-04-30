@@ -1,0 +1,60 @@
+{
+    "_id": "590566487a70050411ee1c8b",
+    "isActive": false,
+    "lastLogin": "Tuesday, July 26, 2016 10:20 AM",
+    "balance": "$2,069.69",
+    "dob": "2015/08/21",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Rogers",
+        "last": "Summers"
+    },
+    "company": "HOTCAKES",
+    "email": "rogers.summers@hotcakes.com",
+    "phone": [
+        {
+            "_id": "590566488ae3148b4d404556",
+            "num": "+1 (847) 560-2003",
+            "type": "mobile"
+        },
+        {
+            "_id": "590566484143748ead434d3c",
+            "num": "+1 (915) 481-3694",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "59056648be853079e78e7370",
+        "num": 311,
+        "street": "Dinsmore Place",
+        "city": "Enoree",
+        "state": "Oregon",
+        "zip": 7700,
+        "latitude": "14.065393",
+        "longitude": "25.552046"
+    },
+    "bio": "Consequat occaecat et id pariatur est in officia ipsum ullamco. Deserunt ad proident ullamco ad proident laboris enim dolore enim veniam reprehenderit ex. Deserunt do laboris incididunt ullamco ipsum. Veniam duis non qui anim nulla anim nisi ad excepteur amet mollit adipisicing pariatur. Irure cupidatat pariatur est mollit consequat enim minim veniam et eu aute.",
+    "tags": [
+        "non",
+        "laboris",
+        "magna",
+        "esse",
+        "deserunt",
+        "et",
+        "irure",
+        "irure"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b9067fbed1db53763"
+        },
+        {
+            "_id": "5905664a9a80f1fbeaba3bab"
+        },
+        {
+            "_id": "5905664b6956ef3286e4bcef"
+        }
+    ],
+    "greeting": "Hello, Rogers! You have 10 unread messages."
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "5905664ba71f693be3d9bff1",
+    "isActive": true,
+    "lastLogin": "Thursday, September 29, 2016 12:07 AM",
+    "balance": "$2,866.98",
+    "dob": "2016/08/08",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Kerry",
+        "last": "Zimmerman"
+    },
+    "company": "LUMBREX",
+    "email": "kerry.zimmerman@lumbrex.net",
+    "phone": [
+        {
+            "_id": "5905664b080ac5a7d09cb29f",
+            "num": "+1 (926) 514-2436",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b33e5a57f761f69a2",
+            "num": "+1 (826) 580-3809",
+            "type": "home"
+        },
+        {
+            "_id": "5905664ba0fae3e254752136",
+            "num": "+1 (934) 450-2710",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b14136ecb6eb018a2",
+            "num": "+1 (982) 439-3365",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664be7ed546281f42ead",
+        "num": 986,
+        "street": "Kathleen Court",
+        "city": "Ticonderoga",
+        "state": "Missouri",
+        "zip": 7269,
+        "latitude": "64.915606",
+        "longitude": "73.312612"
+    },
+    "bio": "Sit ad ut ad qui cupidatat labore quis adipisicing cillum anim elit Lorem eu exercitation. Incididunt cillum qui anim proident aliqua excepteur eiusmod amet duis in reprehenderit. Ut nisi cillum irure ea occaecat aliqua et tempor reprehenderit sit quis duis. Enim officia dolore et eiusmod sint dolore non commodo magna aute dolor consequat aliquip enim. Duis exercitation eiusmod ad Lorem pariatur. Elit proident nulla aliqua consequat veniam Lorem qui nostrud non labore magna deserunt enim. Exercitation ad labore Lorem velit aute non ullamco tempor.",
+    "tags": [
+        "cillum"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b942243658583641f"
+        },
+        {
+            "_id": "5905664ba71f693be3d9bff1"
+        }
+    ],
+    "greeting": "Hello, Kerry! You have 6 unread messages."
+}

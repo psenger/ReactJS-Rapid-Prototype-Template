@@ -1,0 +1,66 @@
+{
+    "_id": "5905664a87dbbfaac589d228",
+    "isActive": true,
+    "lastLogin": "Friday, August 26, 2016 11:59 AM",
+    "balance": "$3,077.64",
+    "dob": "2017/01/24",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Debra",
+        "last": "Horn"
+    },
+    "company": "FLYBOYZ",
+    "email": "debra.horn@flyboyz.co.uk",
+    "phone": [
+        {
+            "_id": "5905664ab4159a9bfd417fd7",
+            "num": "+1 (845) 432-2887",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664ac4f0966351873bab",
+            "num": "+1 (899) 567-2803",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664a3519bd4130045301",
+            "num": "+1 (943) 414-3956",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664ae2621006a6e47103",
+            "num": "+1 (851) 424-3514",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664b3326e6d269f08f12",
+        "num": 131,
+        "street": "Overbaugh Place",
+        "city": "Denio",
+        "state": "Iowa",
+        "zip": 2083,
+        "latitude": "33.851102",
+        "longitude": "101.163446"
+    },
+    "bio": "Est occaecat labore consectetur proident irure eiusmod. Officia in sint anim non reprehenderit aliquip culpa velit sint. Elit eiusmod deserunt dolor quis qui laboris commodo esse magna. Elit est veniam ex esse magna. Ad cupidatat dolor ipsum culpa sint proident esse ullamco id excepteur sunt anim.",
+    "tags": [
+        "dolor",
+        "non",
+        "deserunt",
+        "quis",
+        "reprehenderit",
+        "velit",
+        "enim",
+        "qui",
+        "proident",
+        "culpa"
+    ],
+    "friends": [
+        {
+            "_id": "5905664be129a3a3eca7d15d"
+        }
+    ],
+    "greeting": "Hello, Debra! You have 7 unread messages."
+}

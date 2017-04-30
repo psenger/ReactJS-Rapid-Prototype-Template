@@ -1,0 +1,57 @@
+{
+    "_id": "5905664b942243658583641f",
+    "isActive": true,
+    "lastLogin": "Sunday, July 24, 2016 8:31 AM",
+    "balance": "$1,436.88",
+    "dob": "2014/02/07",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Tamika",
+        "last": "Mccarthy"
+    },
+    "company": "BIOTICA",
+    "email": "tamika.mccarthy@biotica.io",
+    "phone": [
+        {
+            "_id": "5905664b4846afe0ace2a91e",
+            "num": "+1 (839) 545-3705",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664b8b7639e3e26e6ca9",
+        "num": 478,
+        "street": "Visitation Place",
+        "city": "Juarez",
+        "state": "Kansas",
+        "zip": 7958,
+        "latitude": "-64.789961",
+        "longitude": "-84.016688"
+    },
+    "bio": "Qui aute culpa pariatur ullamco velit officia irure deserunt ullamco. Consequat magna ullamco labore exercitation anim labore eu in sint ea in qui pariatur. Excepteur non esse irure consectetur qui et dolore quis est deserunt commodo id consectetur pariatur. Ex est qui esse enim est nulla duis tempor exercitation eiusmod do. Consectetur sunt duis tempor et eu sint enim elit et sint pariatur est irure dolor. Aute id velit ea deserunt qui nostrud. Voluptate elit mollit et cupidatat dolor dolor Lorem mollit consectetur cillum.",
+    "tags": [
+        "non",
+        "adipisicing",
+        "et",
+        "pariatur",
+        "proident",
+        "incididunt",
+        "id"
+    ],
+    "friends": [
+        {
+            "_id": "590566486039f63dffed5172"
+        },
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        },
+        {
+            "_id": "5905664b133ee06766d77b75"
+        },
+        {
+            "_id": "5905664727553ed6970df4d1"
+        }
+    ],
+    "greeting": "Hello, Tamika! You have 5 unread messages."
+}

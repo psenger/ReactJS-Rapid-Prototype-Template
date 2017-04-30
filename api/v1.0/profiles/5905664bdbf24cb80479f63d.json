@@ -1,0 +1,42 @@
+{
+    "_id": "5905664bdbf24cb80479f63d",
+    "isActive": false,
+    "lastLogin": "Saturday, October 18, 2014 1:43 AM",
+    "balance": "$3,327.88",
+    "dob": "2014/04/27",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Cindy",
+        "last": "Mooney"
+    },
+    "company": "OCTOCORE",
+    "email": "cindy.mooney@octocore.ca",
+    "phone": [
+        {
+            "_id": "5905664b73fafb189343ce84",
+            "num": "+1 (831) 484-2375",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664bf4eafff5a16e6edc",
+        "num": 457,
+        "street": "Truxton Street",
+        "city": "Biehle",
+        "state": "Federated States Of Micronesia",
+        "zip": 4768,
+        "latitude": "48.182767",
+        "longitude": "93.414686"
+    },
+    "bio": "Consequat ut est quis qui laborum esse est reprehenderit sit ex eu in velit. Fugiat irure irure exercitation consectetur et. Ad sit proident commodo fugiat laboris consequat nisi ullamco.",
+    "tags": [
+        "consequat"
+    ],
+    "friends": [
+        {
+            "_id": "59056649c53a3d8f458e7200"
+        }
+    ],
+    "greeting": "Hello, Cindy! You have 8 unread messages."
+}

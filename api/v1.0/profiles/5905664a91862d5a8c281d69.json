@@ -1,0 +1,61 @@
+{
+    "_id": "5905664a91862d5a8c281d69",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 24, 2015 10:52 AM",
+    "balance": "$2,392.56",
+    "dob": "2017/01/28",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Bartlett",
+        "last": "Mathis"
+    },
+    "company": "NEWCUBE",
+    "email": "bartlett.mathis@newcube.co.uk",
+    "phone": [
+        {
+            "_id": "5905664a22f4120dec967a5b",
+            "num": "+1 (901) 585-3356",
+            "type": "work"
+        },
+        {
+            "_id": "5905664ac737ef8a756e657d",
+            "num": "+1 (965) 401-2030",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664af01008135d601c00",
+        "num": 872,
+        "street": "Dank Court",
+        "city": "Healy",
+        "state": "Arkansas",
+        "zip": 8860,
+        "latitude": "31.865786",
+        "longitude": "-42.39919"
+    },
+    "bio": "Commodo dolor sit anim mollit culpa officia ex. Ex eiusmod laboris officia Lorem. Dolore enim elit laboris minim. Mollit ea dolor quis ea do cillum laboris ad mollit duis exercitation elit est. Magna non amet duis esse deserunt est ex nulla esse consectetur dolor.",
+    "tags": [
+        "aliquip",
+        "sit",
+        "duis"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b0ba4cb2f56fc2b8d"
+        },
+        {
+            "_id": "5905664a6afbf1ee8b0e7c12"
+        },
+        {
+            "_id": "5905664a9a80f1fbeaba3bab"
+        },
+        {
+            "_id": "590566483eb47c5d8d5025c8"
+        },
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        }
+    ],
+    "greeting": "Hello, Bartlett! You have 10 unread messages."
+}

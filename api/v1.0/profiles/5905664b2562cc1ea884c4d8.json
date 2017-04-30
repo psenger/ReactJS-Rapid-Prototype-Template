@@ -1,0 +1,66 @@
+{
+    "_id": "5905664b2562cc1ea884c4d8",
+    "isActive": true,
+    "lastLogin": "Thursday, April 13, 2017 5:48 PM",
+    "balance": "$3,536.39",
+    "dob": "2015/02/26",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Noel",
+        "last": "Gilliam"
+    },
+    "company": "PLEXIA",
+    "email": "noel.gilliam@plexia.tv",
+    "phone": [
+        {
+            "_id": "5905664b725caed175245e2f",
+            "num": "+1 (842) 599-2436",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664bcbbcd0ada0f50cac",
+        "num": 480,
+        "street": "Eckford Street",
+        "city": "Rockhill",
+        "state": "Palau",
+        "zip": 8746,
+        "latitude": "-52.747893",
+        "longitude": "155.303757"
+    },
+    "bio": "Eu deserunt commodo aute incididunt aute. Officia ipsum excepteur Lorem sint reprehenderit sint mollit labore incididunt reprehenderit. Ea magna nostrud sit commodo nostrud. Est commodo magna aute ipsum culpa fugiat do enim consectetur. Ex aliquip minim consectetur id in.",
+    "tags": [
+        "in",
+        "ex",
+        "labore",
+        "esse",
+        "duis",
+        "pariatur",
+        "irure",
+        "labore",
+        "elit",
+        "elit"
+    ],
+    "friends": [
+        {
+            "_id": "5905664bc52c217d980e98c2"
+        },
+        {
+            "_id": "590566493b46d4d02d9c3f5c"
+        },
+        {
+            "_id": "5905664804a9a69cc4e0fd82"
+        },
+        {
+            "_id": "5905664bbd65aac05343faa9"
+        },
+        {
+            "_id": "5905664bf096d5f690493780"
+        },
+        {
+            "_id": "5905664b6c515d250aa77292"
+        }
+    ],
+    "greeting": "Hello, Noel! You have 5 unread messages."
+}

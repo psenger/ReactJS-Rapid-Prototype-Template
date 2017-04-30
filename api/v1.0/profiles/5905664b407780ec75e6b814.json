@@ -1,0 +1,65 @@
+{
+    "_id": "5905664b407780ec75e6b814",
+    "isActive": false,
+    "lastLogin": "Sunday, September 18, 2016 3:39 AM",
+    "balance": "$3,918.37",
+    "dob": "2016/09/06",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Gregory",
+        "last": "Fowler"
+    },
+    "company": "MARVANE",
+    "email": "gregory.fowler@marvane.biz",
+    "phone": [
+        {
+            "_id": "5905664b8af7fa3f8e8fbf05",
+            "num": "+1 (904) 400-3394",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bd80484d6d7fcc2a5",
+        "num": 664,
+        "street": "Boardwalk ",
+        "city": "Tonopah",
+        "state": "American Samoa",
+        "zip": 8385,
+        "latitude": "-62.302945",
+        "longitude": "141.503518"
+    },
+    "bio": "Quis qui Lorem cillum excepteur culpa ipsum tempor cupidatat ipsum irure quis. Ipsum consequat ex dolor sint Lorem consectetur laboris labore minim. Ea ex aute qui deserunt culpa deserunt dolor eu ex ullamco dolore. Occaecat non elit Lorem fugiat tempor esse eu Lorem est nostrud fugiat aliquip et do. Proident consectetur irure labore dolore tempor proident ea ad dolor ea fugiat ea fugiat voluptate. Officia mollit tempor consectetur mollit.",
+    "tags": [
+        "esse",
+        "aliqua",
+        "Lorem",
+        "dolor",
+        "ut",
+        "officia",
+        "aliquip",
+        "sint",
+        "magna"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b2a6fe4e16748f4da"
+        },
+        {
+            "_id": "5905664ab7ade9f34e61da6a"
+        },
+        {
+            "_id": "5905664b407780ec75e6b814"
+        },
+        {
+            "_id": "590566484b345f473b722f4c"
+        },
+        {
+            "_id": "59056647de8e6ca476c87394"
+        },
+        {
+            "_id": "5905664bf67ab521072231c4"
+        }
+    ],
+    "greeting": "Hello, Gregory! You have 8 unread messages."
+}

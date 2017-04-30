@@ -1,0 +1,57 @@
+{
+    "_id": "5905664a3f1561c6d3193e6a",
+    "isActive": true,
+    "lastLogin": "Sunday, June 5, 2016 2:04 AM",
+    "balance": "$2,009.12",
+    "dob": "2015/12/26",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Lakisha",
+        "last": "Huff"
+    },
+    "company": "NORSUP",
+    "email": "lakisha.huff@norsup.us",
+    "phone": [
+        {
+            "_id": "5905664a3b0438a2ac4471c1",
+            "num": "+1 (940) 419-3883",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664a316b237331913b2d",
+        "num": 362,
+        "street": "Conduit Boulevard",
+        "city": "Layhill",
+        "state": "New Jersey",
+        "zip": 8110,
+        "latitude": "18.162715",
+        "longitude": "-68.799942"
+    },
+    "bio": "In magna eu duis eu amet. Exercitation tempor culpa adipisicing veniam. Eu velit quis cupidatat ea minim sint laborum non ea deserunt consequat. Incididunt ipsum elit cillum fugiat enim esse dolor consequat.",
+    "tags": [
+        "nulla",
+        "proident",
+        "mollit",
+        "officia"
+    ],
+    "friends": [
+        {
+            "_id": "59056649c53a3d8f458e7200"
+        },
+        {
+            "_id": "5905664bb8410ffb5811fce4"
+        },
+        {
+            "_id": "590566486b38bca07a35304e"
+        },
+        {
+            "_id": "590566493b46d4d02d9c3f5c"
+        },
+        {
+            "_id": "5905664b398e8cd70d9590fd"
+        }
+    ],
+    "greeting": "Hello, Lakisha! You have 9 unread messages."
+}

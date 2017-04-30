@@ -1,0 +1,54 @@
+{
+    "_id": "5905664bf51fc6a8a74d69c0",
+    "isActive": false,
+    "lastLogin": "Tuesday, June 21, 2016 3:15 PM",
+    "balance": "$1,746.02",
+    "dob": "2014/08/31",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Chandler",
+        "last": "Sanford"
+    },
+    "company": "HATOLOGY",
+    "email": "chandler.sanford@hatology.us",
+    "phone": [
+        {
+            "_id": "5905664b09ee834d2207beaf",
+            "num": "+1 (934) 483-3193",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664be347251ef577163b",
+        "num": 402,
+        "street": "Macdougal Street",
+        "city": "Davenport",
+        "state": "Indiana",
+        "zip": 4492,
+        "latitude": "21.295952",
+        "longitude": "-55.78995"
+    },
+    "bio": "Quis est aute reprehenderit consectetur nostrud Lorem reprehenderit. Occaecat proident occaecat voluptate aute adipisicing laborum enim ipsum deserunt elit. Ullamco est enim commodo mollit exercitation. Enim consectetur occaecat laborum Lorem excepteur. Voluptate irure consequat nisi labore magna nostrud eu et dolor adipisicing ipsum anim. Eiusmod sunt eu et id amet.",
+    "tags": [
+        "nostrud",
+        "sit",
+        "tempor",
+        "sint",
+        "elit",
+        "ad",
+        "ullamco",
+        "in",
+        "exercitation",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b7a29ffa2ea98e682"
+        },
+        {
+            "_id": "5905664a9a80f1fbeaba3bab"
+        }
+    ],
+    "greeting": "Hello, Chandler! You have 8 unread messages."
+}

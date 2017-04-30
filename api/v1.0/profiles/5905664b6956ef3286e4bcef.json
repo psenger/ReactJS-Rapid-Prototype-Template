@@ -1,0 +1,58 @@
+{
+    "_id": "5905664b6956ef3286e4bcef",
+    "isActive": false,
+    "lastLogin": "Friday, August 5, 2016 3:02 PM",
+    "balance": "$2,752.86",
+    "dob": "2016/03/14",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Carlson",
+        "last": "King"
+    },
+    "company": "ZOUNDS",
+    "email": "carlson.king@zounds.info",
+    "phone": [
+        {
+            "_id": "5905664b251c2e3d20bce42a",
+            "num": "+1 (908) 580-2466",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b05be9a1c2cc1023b",
+            "num": "+1 (885) 493-3508",
+            "type": "work"
+        },
+        {
+            "_id": "5905664baa236aa58b2b8c83",
+            "num": "+1 (868) 491-2239",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664bdabda67be7ce54dc",
+        "num": 621,
+        "street": "Erasmus Street",
+        "city": "Lawrence",
+        "state": "Guam",
+        "zip": 2373,
+        "latitude": "-78.038333",
+        "longitude": "-56.91614"
+    },
+    "bio": "Ex sit occaecat dolore et consectetur ut. Lorem Lorem pariatur aliqua labore et magna irure cupidatat incididunt ipsum aliquip officia. Do anim sunt veniam veniam et mollit ullamco laboris consequat Lorem adipisicing commodo Lorem cillum. Incididunt non officia laborum veniam.",
+    "tags": [
+        "est"
+    ],
+    "friends": [
+        {
+            "_id": "590566487a70050411ee1c8b"
+        },
+        {
+            "_id": "59056648559425484ca4cf3f"
+        },
+        {
+            "_id": "5905664b16f71d1f27b6f36d"
+        }
+    ],
+    "greeting": "Hello, Carlson! You have 10 unread messages."
+}

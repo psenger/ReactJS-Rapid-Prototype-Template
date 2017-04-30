@@ -1,0 +1,59 @@
+{
+    "_id": "5905664bde75df2ab27e9cdb",
+    "isActive": true,
+    "lastLogin": "Wednesday, May 14, 2014 8:38 PM",
+    "balance": "$3,914.94",
+    "dob": "2016/04/27",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Cherry",
+        "last": "Mclean"
+    },
+    "company": "RUGSTARS",
+    "email": "cherry.mclean@rugstars.me",
+    "phone": [
+        {
+            "_id": "5905664bbbf516ccf8e16bc4",
+            "num": "+1 (869) 573-3049",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b1d36e34bf0aa50d7",
+            "num": "+1 (915) 475-3286",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664b9015f230b80d14d6",
+        "num": 317,
+        "street": "Herkimer Court",
+        "city": "Guilford",
+        "state": "Oregon",
+        "zip": 9697,
+        "latitude": "-26.52748",
+        "longitude": "39.843797"
+    },
+    "bio": "Eiusmod consequat nostrud tempor qui cupidatat incididunt sunt tempor adipisicing non minim nostrud consequat. Ipsum nisi anim aute amet. Labore amet esse laborum aliqua esse do nisi eu. Sint consequat nostrud aliquip cupidatat ex irure qui aute fugiat quis et nulla adipisicing tempor. Culpa minim do minim elit qui veniam. Pariatur laborum ut cillum nostrud ullamco enim magna esse officia nulla ipsum. Dolor id cupidatat irure labore officia ad duis irure est eu veniam.",
+    "tags": [
+        "magna",
+        "excepteur",
+        "aliquip",
+        "eu",
+        "excepteur",
+        "in",
+        "reprehenderit"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a7aa1705ce941a49c"
+        },
+        {
+            "_id": "5905664b661a81e6c1b9c6e8"
+        },
+        {
+            "_id": "5905664a91862d5a8c281d69"
+        }
+    ],
+    "greeting": "Hello, Cherry! You have 10 unread messages."
+}

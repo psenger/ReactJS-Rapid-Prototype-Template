@@ -1,0 +1,77 @@
+{
+    "_id": "5905664a113a6f8d3b57754d",
+    "isActive": true,
+    "lastLogin": "Sunday, July 27, 2014 9:52 AM",
+    "balance": "$3,412.96",
+    "dob": "2014/06/10",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Maxwell",
+        "last": "Erickson"
+    },
+    "company": "PROSURE",
+    "email": "maxwell.erickson@prosure.tv",
+    "phone": [
+        {
+            "_id": "5905664ad23a8e49d509930b",
+            "num": "+1 (849) 597-2113",
+            "type": "home"
+        },
+        {
+            "_id": "5905664ab5115ff04e2d7f7c",
+            "num": "+1 (914) 513-3570",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664a05bcba49c5191065",
+            "num": "+1 (929) 533-2342",
+            "type": "work"
+        },
+        {
+            "_id": "5905664ae5d9a3af6e7f1c41",
+            "num": "+1 (877) 567-2339",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664a0df066b81f3c100d",
+        "num": 997,
+        "street": "Malbone Street",
+        "city": "Cobbtown",
+        "state": "Tennessee",
+        "zip": 5368,
+        "latitude": "65.86879",
+        "longitude": "-35.283239"
+    },
+    "bio": "Fugiat proident sint Lorem enim nulla esse voluptate et amet aliquip adipisicing sint in. Sint sunt in do officia ipsum tempor aliquip. Veniam dolor pariatur culpa elit magna mollit qui veniam culpa nisi Lorem exercitation ex. Dolor occaecat excepteur laboris pariatur ullamco laboris aliqua sit aliquip aliquip ad dolore ut qui. Excepteur consectetur exercitation dolor ut proident qui commodo enim.",
+    "tags": [
+        "exercitation",
+        "laborum",
+        "exercitation",
+        "mollit",
+        "fugiat",
+        "Lorem",
+        "aliqua",
+        "tempor",
+        "consequat"
+    ],
+    "friends": [
+        {
+            "_id": "59056649a607f2c02d33bd4f"
+        },
+        {
+            "_id": "5905664bb48ad18e12c4b242"
+        },
+        {
+            "_id": "5905664a91862d5a8c281d69"
+        },
+        {
+            "_id": "5905664a071d879fb3ef4279"
+        },
+        {
+            "_id": "59056649406ad10e79a85ad5"
+        }
+    ],
+    "greeting": "Hello, Maxwell! You have 9 unread messages."
+}

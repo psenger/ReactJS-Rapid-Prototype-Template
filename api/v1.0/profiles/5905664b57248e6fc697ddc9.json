@@ -1,0 +1,63 @@
+{
+    "_id": "5905664b57248e6fc697ddc9",
+    "isActive": false,
+    "lastLogin": "Monday, January 12, 2015 3:44 AM",
+    "balance": "$1,795.37",
+    "dob": "2016/03/01",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Mitzi",
+        "last": "Kidd"
+    },
+    "company": "TYPHONICA",
+    "email": "mitzi.kidd@typhonica.co.uk",
+    "phone": [
+        {
+            "_id": "5905664b1e3e5546f9abd91e",
+            "num": "+1 (950) 518-2447",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664ba29fc6f7127c15bc",
+            "num": "+1 (832) 465-3987",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b3221036a3d90af00",
+            "num": "+1 (998) 402-2282",
+            "type": "home"
+        },
+        {
+            "_id": "5905664b2a0989c0db625ce7",
+            "num": "+1 (973) 528-3694",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b31ac2c33450675ee",
+        "num": 256,
+        "street": "Caton Avenue",
+        "city": "Klondike",
+        "state": "Arizona",
+        "zip": 7215,
+        "latitude": "-22.853731",
+        "longitude": "38.561759"
+    },
+    "bio": "Sit labore do eu aliqua eiusmod est esse adipisicing reprehenderit ex mollit nisi laborum irure. Sint eiusmod nulla veniam voluptate nisi id anim velit. Ex aliquip pariatur labore duis qui labore aliqua. Magna sit laboris magna qui qui laborum. Veniam ullamco aliqua non et eu adipisicing incididunt sint cillum ex labore sit eu. Eu eu Lorem pariatur sunt tempor ea duis irure mollit sunt.",
+    "tags": [
+        "consequat",
+        "irure",
+        "ullamco",
+        "sit",
+        "dolore",
+        "eiusmod",
+        "non"
+    ],
+    "friends": [
+        {
+            "_id": "590566493b46d4d02d9c3f5c"
+        }
+    ],
+    "greeting": "Hello, Mitzi! You have 9 unread messages."
+}

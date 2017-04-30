@@ -1,0 +1,67 @@
+{
+    "_id": "590566493b46d4d02d9c3f5c",
+    "isActive": true,
+    "lastLogin": "Thursday, July 23, 2015 7:49 PM",
+    "balance": "$3,072.11",
+    "dob": "2014/04/23",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Brewer",
+        "last": "Sheppard"
+    },
+    "company": "UTARA",
+    "email": "brewer.sheppard@utara.us",
+    "phone": [
+        {
+            "_id": "59056649a698827592c0fa4c",
+            "num": "+1 (910) 542-2524",
+            "type": "work"
+        },
+        {
+            "_id": "590566492d88841b5986de9c",
+            "num": "+1 (866) 558-3896",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664928f05b8916426ecf",
+        "num": 813,
+        "street": "Holt Court",
+        "city": "Chicopee",
+        "state": "Massachusetts",
+        "zip": 2881,
+        "latitude": "-73.918105",
+        "longitude": "33.114854"
+    },
+    "bio": "Ea qui non deserunt minim nulla cillum consequat quis labore labore Lorem id. Eu duis officia consequat quis excepteur occaecat excepteur sint. Velit ea nisi cupidatat ea. Pariatur nostrud ea commodo aute cillum.",
+    "tags": [
+        "cillum",
+        "anim",
+        "mollit",
+        "non",
+        "laborum",
+        "cillum"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a8769f9a14701fd5f"
+        },
+        {
+            "_id": "5905664ba71f693be3d9bff1"
+        },
+        {
+            "_id": "5905664bf51fc6a8a74d69c0"
+        },
+        {
+            "_id": "5905664b67243cd41315b1fe"
+        },
+        {
+            "_id": "5905664a113a6f8d3b57754d"
+        },
+        {
+            "_id": "5905664b38f672834eb0f05f"
+        }
+    ],
+    "greeting": "Hello, Brewer! You have 7 unread messages."
+}

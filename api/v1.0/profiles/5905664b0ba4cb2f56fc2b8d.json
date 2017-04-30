@@ -1,0 +1,66 @@
+{
+    "_id": "5905664b0ba4cb2f56fc2b8d",
+    "isActive": true,
+    "lastLogin": "Wednesday, December 14, 2016 3:29 AM",
+    "balance": "$2,263.58",
+    "dob": "2016/01/27",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Dee",
+        "last": "Quinn"
+    },
+    "company": "ENOMEN",
+    "email": "dee.quinn@enomen.biz",
+    "phone": [
+        {
+            "_id": "5905664b4ea4996d92172633",
+            "num": "+1 (823) 401-2617",
+            "type": "work"
+        },
+        {
+            "_id": "5905664b89fe7a4a0e4a984a",
+            "num": "+1 (940) 585-3183",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664b07fb0a5491a8c54a",
+            "num": "+1 (864) 417-2969",
+            "type": "home"
+        },
+        {
+            "_id": "5905664bea660aff848dd0d1",
+            "num": "+1 (888) 435-3266",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664ba606d6b9f11556e1",
+        "num": 619,
+        "street": "Hunts Lane",
+        "city": "Blende",
+        "state": "District Of Columbia",
+        "zip": 1131,
+        "latitude": "-15.739128",
+        "longitude": "32.234656"
+    },
+    "bio": "Velit nulla incididunt magna Lorem magna sunt irure duis minim laboris consectetur elit. Sint sunt qui labore sit adipisicing aliqua. Anim est cillum duis velit culpa dolor. Aliquip exercitation ex non dolor minim laboris. Aliqua sit occaecat labore Lorem. Qui non officia irure cupidatat commodo ad eu Lorem.",
+    "tags": [
+        "dolor",
+        "aute",
+        "voluptate",
+        "id"
+    ],
+    "friends": [
+        {
+            "_id": "590566486b38bca07a35304e"
+        },
+        {
+            "_id": "5905664bf2d183e711697184"
+        },
+        {
+            "_id": "5905664bf67ab521072231c4"
+        }
+    ],
+    "greeting": "Hello, Dee! You have 10 unread messages."
+}

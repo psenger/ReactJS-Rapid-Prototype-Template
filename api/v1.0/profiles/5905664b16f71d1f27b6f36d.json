@@ -1,0 +1,53 @@
+{
+    "_id": "5905664b16f71d1f27b6f36d",
+    "isActive": false,
+    "lastLogin": "Monday, June 9, 2014 9:53 AM",
+    "balance": "$1,238.27",
+    "dob": "2015/01/18",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Donaldson",
+        "last": "Dennis"
+    },
+    "company": "KNEEDLES",
+    "email": "donaldson.dennis@kneedles.biz",
+    "phone": [
+        {
+            "_id": "5905664bf04b839f0a421cb7",
+            "num": "+1 (964) 578-3578",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664bdd1b8e1aaa48693e",
+        "num": 219,
+        "street": "Shale Street",
+        "city": "Temperanceville",
+        "state": "Nevada",
+        "zip": 198,
+        "latitude": "-40.958752",
+        "longitude": "-35.044933"
+    },
+    "bio": "Esse duis proident id sunt ullamco sunt deserunt sint irure eiusmod esse. Dolor cupidatat non elit nulla consequat. Consectetur qui eiusmod pariatur in. Incididunt mollit minim mollit excepteur eu ea ipsum culpa mollit dolor qui amet. Velit dolor voluptate pariatur sunt nisi incididunt est. Enim dolore exercitation irure est ea ea commodo consectetur ex occaecat ipsum ea ipsum.",
+    "tags": [
+        "ipsum",
+        "exercitation",
+        "anim",
+        "pariatur",
+        "velit",
+        "Lorem",
+        "ullamco",
+        "id",
+        "nulla"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b6ea9e3907817e0af"
+        },
+        {
+            "_id": "5905664b8b900211dec51eeb"
+        }
+    ],
+    "greeting": "Hello, Donaldson! You have 10 unread messages."
+}

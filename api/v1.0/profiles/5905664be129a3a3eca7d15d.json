@@ -1,0 +1,48 @@
+{
+    "_id": "5905664be129a3a3eca7d15d",
+    "isActive": false,
+    "lastLogin": "Monday, September 14, 2015 1:28 AM",
+    "balance": "$3,784.45",
+    "dob": "2014/07/15",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Banks",
+        "last": "Solis"
+    },
+    "company": "RECRISYS",
+    "email": "banks.solis@recrisys.co.uk",
+    "phone": [
+        {
+            "_id": "5905664b610861781ca3434e",
+            "num": "+1 (845) 512-2879",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5905664b8fd1ff22853c0a6d",
+        "num": 901,
+        "street": "Vandam Street",
+        "city": "Deseret",
+        "state": "Mississippi",
+        "zip": 9319,
+        "latitude": "74.912069",
+        "longitude": "-35.504617"
+    },
+    "bio": "Ipsum nostrud velit fugiat amet anim adipisicing eu cupidatat cillum commodo ullamco eu ipsum. Excepteur qui ullamco et ea est cupidatat commodo do sunt veniam amet. Ea laboris officia occaecat dolore sunt. Esse nulla aliquip fugiat id. Magna nostrud labore proident reprehenderit amet aute sint laborum irure labore mollit eiusmod.",
+    "tags": [
+        "duis",
+        "eu",
+        "anim",
+        "adipisicing",
+        "sint",
+        "et",
+        "id"
+    ],
+    "friends": [
+        {
+            "_id": "5905664bc0f93b2ab111ec00"
+        }
+    ],
+    "greeting": "Hello, Banks! You have 6 unread messages."
+}

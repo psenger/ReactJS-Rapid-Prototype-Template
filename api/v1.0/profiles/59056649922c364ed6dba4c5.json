@@ -1,0 +1,67 @@
+{
+    "_id": "59056649922c364ed6dba4c5",
+    "isActive": false,
+    "lastLogin": "Thursday, December 8, 2016 6:23 AM",
+    "balance": "$3,543.77",
+    "dob": "2014/09/11",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Gabriela",
+        "last": "Waters"
+    },
+    "company": "EXOBLUE",
+    "email": "gabriela.waters@exoblue.tv",
+    "phone": [
+        {
+            "_id": "59056649c652573ca5efa674",
+            "num": "+1 (910) 555-2924",
+            "type": "mobile"
+        },
+        {
+            "_id": "590566491b19cab9e0d4cd95",
+            "num": "+1 (831) 436-2385",
+            "type": "home"
+        },
+        {
+            "_id": "59056649b55f1ebe096e8edc",
+            "num": "+1 (874) 553-3096",
+            "type": "mobile"
+        },
+        {
+            "_id": "59056649c29d73b6c246d96a",
+            "num": "+1 (811) 515-3993",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5905664998712e046dee6599",
+        "num": 556,
+        "street": "Varick Street",
+        "city": "Nutrioso",
+        "state": "North Dakota",
+        "zip": 5978,
+        "latitude": "-7.863207",
+        "longitude": "-38.571725"
+    },
+    "bio": "Duis voluptate culpa sint voluptate proident laboris in et Lorem Lorem nisi aliqua. Ut nulla voluptate aliqua minim aliqua culpa pariatur qui laborum id. Magna nisi voluptate in do reprehenderit. Officia amet voluptate culpa proident ex qui voluptate est ad. Exercitation deserunt commodo est ut sint sunt nostrud proident. Ut est occaecat duis dolor laborum pariatur ad in dolor sunt ad tempor.",
+    "tags": [
+        "consectetur",
+        "cillum",
+        "qui",
+        "irure",
+        "voluptate"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b6dad176a2819d3d1"
+        },
+        {
+            "_id": "5905664ab7ade9f34e61da6a"
+        },
+        {
+            "_id": "5905664b133ee06766d77b75"
+        }
+    ],
+    "greeting": "Hello, Gabriela! You have 7 unread messages."
+}

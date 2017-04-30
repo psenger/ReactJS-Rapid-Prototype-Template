@@ -1,0 +1,78 @@
+{
+    "_id": "5905664a40d8ce791341a523",
+    "isActive": false,
+    "lastLogin": "Thursday, May 15, 2014 12:20 AM",
+    "balance": "$1,215.88",
+    "dob": "2016/04/12",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Jarvis",
+        "last": "Saunders"
+    },
+    "company": "ACCUPHARM",
+    "email": "jarvis.saunders@accupharm.com",
+    "phone": [
+        {
+            "_id": "5905664ad01080a4d4dc4f0d",
+            "num": "+1 (987) 450-2998",
+            "type": "home"
+        },
+        {
+            "_id": "5905664acc5587fd66bb39df",
+            "num": "+1 (865) 524-3443",
+            "type": "home"
+        },
+        {
+            "_id": "5905664ad62d015ee55472eb",
+            "num": "+1 (987) 507-3534",
+            "type": "mobile"
+        },
+        {
+            "_id": "5905664a2a792fa799606bcb",
+            "num": "+1 (877) 512-3498",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5905664abaa6c4de0e0a753a",
+        "num": 720,
+        "street": "Willow Place",
+        "city": "Vicksburg",
+        "state": "New Hampshire",
+        "zip": 7603,
+        "latitude": "6.598717",
+        "longitude": "-19.365638"
+    },
+    "bio": "Culpa fugiat ipsum sunt cupidatat eu officia. Elit Lorem voluptate excepteur irure pariatur. Culpa Lorem duis est amet enim sit. Nisi eu amet laborum id. Anim laborum voluptate velit occaecat fugiat.",
+    "tags": [
+        "veniam",
+        "ex",
+        "culpa",
+        "dolor",
+        "dolore",
+        "nostrud",
+        "nulla"
+    ],
+    "friends": [
+        {
+            "_id": "5905664b6cac4a2a2011c47f"
+        },
+        {
+            "_id": "5905664b57248e6fc697ddc9"
+        },
+        {
+            "_id": "5905664b025b43d2499e0579"
+        },
+        {
+            "_id": "5905664a7aa1705ce941a49c"
+        },
+        {
+            "_id": "5905664bde75df2ab27e9cdb"
+        },
+        {
+            "_id": "5905664be5efda4d831efca0"
+        }
+    ],
+    "greeting": "Hello, Jarvis! You have 7 unread messages."
+}

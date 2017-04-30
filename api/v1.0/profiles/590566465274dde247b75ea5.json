@@ -1,0 +1,58 @@
+{
+    "_id": "590566465274dde247b75ea5",
+    "isActive": false,
+    "lastLogin": "Tuesday, June 30, 2015 5:02 AM",
+    "balance": "$1,886.05",
+    "dob": "2014/02/18",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Frances",
+        "last": "Ross"
+    },
+    "company": "ENERSOL",
+    "email": "frances.ross@enersol.us",
+    "phone": [
+        {
+            "_id": "59056647bb2f72de2b7132a0",
+            "num": "+1 (961) 495-3411",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "590566476badc99fff68dad3",
+        "num": 645,
+        "street": "Ross Street",
+        "city": "Moquino",
+        "state": "Kansas",
+        "zip": 1343,
+        "latitude": "-9.538559",
+        "longitude": "-115.279447"
+    },
+    "bio": "Enim proident deserunt ipsum aliquip aliquip ad do adipisicing incididunt eiusmod amet do amet. Velit ipsum nulla sint labore consequat nisi consectetur ad sint duis deserunt eiusmod. Irure ipsum duis ipsum voluptate. Magna id pariatur amet ex.",
+    "tags": [
+        "aliquip",
+        "culpa"
+    ],
+    "friends": [
+        {
+            "_id": "5905664a891950baf569518d"
+        },
+        {
+            "_id": "5905664bef7523cb5fab0a66"
+        },
+        {
+            "_id": "5905664b6ea9e3907817e0af"
+        },
+        {
+            "_id": "5905664bde75df2ab27e9cdb"
+        },
+        {
+            "_id": "5905664a6afbf1ee8b0e7c12"
+        },
+        {
+            "_id": "5905664727553ed6970df4d1"
+        }
+    ],
+    "greeting": "Hello, Frances! You have 8 unread messages."
+}
