@@ -10,7 +10,7 @@ import Form from "../../components/form";
 import {fetchProfile} from "../../services/api";
 import InputText from '../../components/inputText';
 import {Button, ProgressBar} from "react-bootstrap";
-import DateFields from "../../components/DateFields";
+import DateFields from "../../components/dateFields";
 import * as ProfileAction from "../../actionCreators/profileAction";
 
 const delayPromise = (ms) => {

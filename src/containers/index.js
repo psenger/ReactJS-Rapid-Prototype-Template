@@ -1,11 +1,11 @@
 
-import Home from './Home/Home';
-import About from './About/About';
+import Home from './Home/home';
+import About from './About/about';
 import React, {Component} from 'react';
-import NotFound from './NotFound/NotFound';
+import NotFound from './NotFound/notFound';
 import {Navbar,Nav,NavItem} from 'react-bootstrap';
-import UserProfile from './UserProfile/UserProfile';
-import UserProfiles from './UserProfiles/UserProfiles';
+import UserProfile from './UserProfile/userProfile';
+import UserProfiles from './UserProfiles/userProfiles';
 import {HashRouter as Router, Route, Switch,NavLink} from 'react-router-dom';
 import {flatViewMap} from '../utils';
 

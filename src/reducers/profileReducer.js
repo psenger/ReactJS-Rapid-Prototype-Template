@@ -1,5 +1,5 @@
 
-import * as actionConst from "../actionCreators/actionTypes/Profile";
+import * as actionConst from "../actionCreators/actionTypes/profile";
 
 let initialState = { };
 

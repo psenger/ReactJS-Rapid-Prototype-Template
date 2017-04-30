@@ -1,5 +1,5 @@
 
-import * as actionConst from "../actionCreators/actionTypes/Profiles";
+import * as actionConst from "../actionCreators/actionTypes/profiles";
 
 /**
  * When you use immutable, it locks down the state, by wrapping the object
