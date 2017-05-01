@@ -1,0 +1,64 @@
+{
+    "_id": "5906f72a7cc3ac4f541c03f5",
+    "isActive": false,
+    "lastLogin": "Monday, April 11, 2016 11:32 AM",
+    "balance": "$3,656.63",
+    "dob": "2015-07-07",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Thornton",
+        "last": "Knight"
+    },
+    "company": "ROCKABYE",
+    "email": "thornton.knight@rockabye.me",
+    "phone": [
+        {
+            "_id": "5906f72aab751c3b8716eb1c",
+            "num": "+1 (889) 473-3628",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72af6569f749b7c2e7c",
+            "num": "+1 (896) 409-3030",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ab6db84d568866807",
+        "num": 355,
+        "street": "Newport Street",
+        "city": "Longbranch",
+        "state": "Montana",
+        "zip": 6990,
+        "latitude": "82.117674",
+        "longitude": "169.050797"
+    },
+    "bio": "Est eiusmod nostrud ex magna. Deserunt ea pariatur esse veniam sunt exercitation qui eiusmod cupidatat amet labore ut proident culpa. Incididunt anim adipisicing adipisicing esse sit. Laboris est proident deserunt eiusmod minim nostrud quis dolore amet.",
+    "tags": [
+        "proident",
+        "minim",
+        "eiusmod",
+        "adipisicing",
+        "et",
+        "aliqua"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c21d7ee19048c4d69"
+        },
+        {
+            "_id": "5906f72c8a90a2fb5322170b"
+        },
+        {
+            "_id": "5906f729d19664069f475c7f"
+        },
+        {
+            "_id": "5906f72bea369d81268d783b"
+        },
+        {
+            "_id": "5906f72bdf0e5b24f0bcd788"
+        }
+    ],
+    "greeting": "Hello, Thornton! You have 5 unread messages."
+}

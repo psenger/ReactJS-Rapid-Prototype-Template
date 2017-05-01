@@ -1,0 +1,65 @@
+{
+    "_id": "5906f72c463dad0f71a4ccc5",
+    "isActive": false,
+    "lastLogin": "Wednesday, February 25, 2015 5:58 PM",
+    "balance": "$3,349.59",
+    "dob": "2014-12-17",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Constance",
+        "last": "Velez"
+    },
+    "company": "UXMOX",
+    "email": "constance.velez@uxmox.org",
+    "phone": [
+        {
+            "_id": "5906f72c3e3bcf6f7dc4771f",
+            "num": "+1 (812) 505-3157",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72cd7438309216005af",
+            "num": "+1 (809) 533-2398",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72c8dea07d0f4036f70",
+            "num": "+1 (871) 432-3092",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c16c81831832607b7",
+        "num": 436,
+        "street": "Jerome Street",
+        "city": "Boonville",
+        "state": "Idaho",
+        "zip": 4991,
+        "latitude": "-85.224766",
+        "longitude": "84.096885"
+    },
+    "bio": "Tempor laboris esse et excepteur ad mollit officia do laborum. Irure veniam laboris cillum non velit. Mollit magna eiusmod cillum ipsum dolore proident et nostrud amet sit ullamco adipisicing.",
+    "tags": [
+        "laborum",
+        "dolore",
+        "ut",
+        "tempor",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72dfa8fd4bd3e9a21bf"
+        },
+        {
+            "_id": "5906f72c843ef9229b6151df"
+        },
+        {
+            "_id": "5906f72af23d7244406b8905"
+        },
+        {
+            "_id": "5906f72bea369d81268d783b"
+        }
+    ],
+    "greeting": "Hello, Constance! You have 8 unread messages."
+}

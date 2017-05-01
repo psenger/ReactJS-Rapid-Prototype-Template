@@ -1,0 +1,65 @@
+{
+    "_id": "5906f72ca168a92cf08f85ae",
+    "isActive": false,
+    "lastLogin": "Wednesday, December 14, 2016 2:12 AM",
+    "balance": "$2,514.37",
+    "dob": "2014-01-24",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Snyder",
+        "last": "Middleton"
+    },
+    "company": "XYQAG",
+    "email": "snyder.middleton@xyqag.tv",
+    "phone": [
+        {
+            "_id": "5906f72c37557022c195653a",
+            "num": "+1 (893) 533-2141",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72c8ea74e88a52800cf",
+            "num": "+1 (894) 461-2831",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72ca9cf1b4da2aa80d5",
+            "num": "+1 (821) 429-2383",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c6c3c2eead4d1b03f",
+        "num": 650,
+        "street": "Gerald Court",
+        "city": "Walker",
+        "state": "Virgin Islands",
+        "zip": 9889,
+        "latitude": "-68.44406",
+        "longitude": "-5.295928"
+    },
+    "bio": "Deserunt eiusmod sint fugiat id tempor adipisicing mollit dolor minim ipsum. Velit consectetur ipsum magna reprehenderit proident culpa laborum ex. Veniam est consectetur minim culpa pariatur cupidatat ullamco. Consequat do dolor occaecat irure eu quis laboris enim et. Sit sunt veniam ipsum non velit exercitation Lorem est irure commodo aliqua.",
+    "tags": [
+        "amet",
+        "incididunt"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a659f0076b151f150"
+        },
+        {
+            "_id": "5906f72a3aa13a621f904d04"
+        },
+        {
+            "_id": "5906f72b6e10dafd17eff99e"
+        },
+        {
+            "_id": "5906f72c2d625ee9df8ef406"
+        },
+        {
+            "_id": "5906f7291bac83e1e49191c2"
+        }
+    ],
+    "greeting": "Hello, Snyder! You have 10 unread messages."
+}

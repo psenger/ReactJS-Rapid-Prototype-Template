@@ -1,0 +1,48 @@
+{
+    "_id": "5906f72c40efaecfa4925c88",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 22, 2016 11:55 AM",
+    "balance": "$3,981.17",
+    "dob": "2015-01-13",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Angelique",
+        "last": "Weaver"
+    },
+    "company": "AMRIL",
+    "email": "angelique.weaver@amril.com",
+    "phone": [
+        {
+            "_id": "5906f72cfdb36dded47919a5",
+            "num": "+1 (804) 556-3723",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72cd54aaa79c012362f",
+        "num": 950,
+        "street": "Noll Street",
+        "city": "Greenwich",
+        "state": "Alaska",
+        "zip": 9534,
+        "latitude": "-44.020312",
+        "longitude": "99.713985"
+    },
+    "bio": "Minim culpa occaecat nostrud in sit sint nulla officia dolore consequat adipisicing id. Officia ad veniam nostrud irure proident enim. Ad cupidatat minim et velit occaecat cillum reprehenderit est amet commodo consequat ipsum. Irure est aute ex laborum incididunt. Consectetur sunt anim minim adipisicing qui irure duis. Et consequat reprehenderit sit mollit anim velit eiusmod laboris.",
+    "tags": [
+        "laborum",
+        "Lorem",
+        "laboris",
+        "mollit",
+        "et",
+        "enim",
+        "aliquip"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c78f494fc1364d73e"
+        }
+    ],
+    "greeting": "Hello, Angelique! You have 5 unread messages."
+}

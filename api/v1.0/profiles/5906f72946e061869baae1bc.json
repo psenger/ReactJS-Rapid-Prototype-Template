@@ -1,0 +1,62 @@
+{
+    "_id": "5906f72946e061869baae1bc",
+    "isActive": true,
+    "lastLogin": "Friday, November 13, 2015 7:27 PM",
+    "balance": "$2,494.11",
+    "dob": "2016-04-16",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Cohen",
+        "last": "Ayala"
+    },
+    "company": "FIBRODYNE",
+    "email": "cohen.ayala@fibrodyne.name",
+    "phone": [
+        {
+            "_id": "5906f729fd04c72b6d0eb6c2",
+            "num": "+1 (833) 518-2120",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f729d087288b607f88fd",
+            "num": "+1 (813) 519-2646",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f7297cbff881af7e8c38",
+        "num": 358,
+        "street": "Sheffield Avenue",
+        "city": "Leola",
+        "state": "Mississippi",
+        "zip": 7447,
+        "latitude": "11.328188",
+        "longitude": "27.530939"
+    },
+    "bio": "Ipsum labore et ad dolore cillum nostrud commodo. Eiusmod mollit et incididunt ad nisi. Eiusmod magna nulla ullamco irure exercitation amet aute non aliqua laboris commodo laboris. Et ex eiusmod enim cillum nulla magna voluptate nulla ipsum aliqua esse Lorem. Magna non sunt officia et aliquip ipsum ut. Nisi labore ad tempor elit reprehenderit qui amet fugiat ipsum culpa consequat culpa magna. Ipsum quis ex in nulla dolor nisi laborum culpa qui officia pariatur eiusmod.",
+    "tags": [
+        "incididunt",
+        "nisi",
+        "laboris",
+        "nisi"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c653069aa61a02a36"
+        },
+        {
+            "_id": "5906f72c584e9ee4b570e36b"
+        },
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        },
+        {
+            "_id": "5906f72a3332c29fa22a1ae3"
+        },
+        {
+            "_id": "5906f72a87545d8f4416fbde"
+        }
+    ],
+    "greeting": "Hello, Cohen! You have 10 unread messages."
+}

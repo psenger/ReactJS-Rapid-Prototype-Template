@@ -1,5 +1,8 @@
+
+import {lpad} from '../utils';
 import PropTypes from "prop-types";
 import React, {Component} from "react";
+
 import {ControlLabel, FormControl, FormGroup, HelpBlock,} from "react-bootstrap";
 
 export default class DateFields extends Component {
@@ -7,64 +10,51 @@ export default class DateFields extends Component {
     constructor(props) {
         super(props);
         this.displayName = 'components/DateFields';
-        this.state = {
-            day: 0,
-            month: 0,
-            year: 0
-        }
+        this.onChangeProxy = this.onChangeProxy.bind(this);
     }
 
     ariaInvalid() {
         return '';
     }
 
-    /**
-     * Is invoked before a mounted component receives new props. If you need to update the state in response to prop
-     * changes (for example, to reset it), you may compare this.props and nextProps and perform state transitions
-     * using this.setState() in this method. Note that React may call this method even if the props have not changed,
-     * so make sure to compare the current and next values if you only want to handle changes. This may occur when
-     * the parent component causes your component to re-render. React doesn't call componentWillReceiveProps with
-     * initial props during mounting. It only calls this method if some of component's props may update. Calling
-     * this.setState generally doesn't trigger componentWillReceiveProps.
-     */
-    componentWillReceiveProps(nextProps) {
-        console.log('<<<>>>', nextProps);
-        this.setState({
-            day: 0,
-            month: 0,
-            year: 0
-        });
+    onChangeProxy( datePart ) {
+        return function (e) {
+            let year = (datePart === 'year') ? e.target.value : this.props.year;
+            let month = (datePart === 'month') ? e.target.value : this.props.month;
+            let day = (datePart === 'day') ? e.target.value : this.props.day;
+            this.props.onChange({target: {value: lpad(year,4) + '-' + lpad(month,2) + '-' + lpad(day,2) }});
+        }.bind(this);
     }
 
     render() {
         return (
             <FormGroup controlId={this.props.fieldId}
-                // validationState={this.props.validator(this.props.value)}
-            >
+                       validationState={ this.props.validator( this.props.getValidationModel( this.props.value ) ) }
+                >
                 <ControlLabel>{this.props.label}</ControlLabel>
                 <div className="container-fluid" style={{padding: 0}}>
                     <div className="row">
                         <div className="col-xs-4">
                             <FormControl type="number"
-                                         value={this.props.value}
+                                         value={this.props.day}
                                          placeholder='Day'
-                                         onChange={this.props.onChange}
+                                         onChange={this.onChangeProxy('day')}
                                          aria-invalid={this.ariaInvalid()}
                                          tabIndex="0"/>
                         </div>
                         <div className="col-xs-4">
                             <FormControl type="number"
-                                         value={this.props.value}
+                                         value={this.props.month}
                                          placeholder='Month'
-                                         onChange={this.props.onChange}
+                                         onChange={this.onChangeProxy('month')}
                                          aria-invalid={this.ariaInvalid()}
                                          tabIndex="0"/>
                         </div>
                         <div className="col-xs-4">
                             <FormControl type="number"
-                                         value={this.props.value}
+                                         value={this.props.year}
                                          placeholder='Year'
-                                         onChange={this.props.onChange}
+                                         onChange={this.onChangeProxy('year')}
                                          aria-invalid={this.ariaInvalid()}
                                          tabIndex="0"/>
                         </div>
@@ -78,10 +68,14 @@ export default class DateFields extends Component {
 
 DateFields.propTypes = {
     fieldId: PropTypes.string.isRequired,
-    // validator: PropTypes.func.isRequired,
+    validator: PropTypes.func.isRequired,
+    getValidationModel: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
     placeholder: PropTypes.string.isRequired,
     onChange: PropTypes.func.isRequired,
-    help: PropTypes.string.isRequired
+    help: PropTypes.string.isRequired,
+    day: PropTypes.number.isRequired,
+    month: PropTypes.number.isRequired,
+    year: PropTypes.number.isRequired
 };

@@ -1,0 +1,61 @@
+{
+    "_id": "5906f72be03473eab90e791b",
+    "isActive": false,
+    "lastLogin": "Monday, July 21, 2014 1:51 AM",
+    "balance": "$2,704.18",
+    "dob": "2014-05-03",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Hernandez",
+        "last": "Cortez"
+    },
+    "company": "OZEAN",
+    "email": "hernandez.cortez@ozean.us",
+    "phone": [
+        {
+            "_id": "5906f72bc23b9ae248320c25",
+            "num": "+1 (906) 593-3965",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72bbfedfc8cbf9532aa",
+            "num": "+1 (853) 532-2131",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bbd7fca1c0b7619f4",
+        "num": 553,
+        "street": "Maple Street",
+        "city": "Deltaville",
+        "state": "District Of Columbia",
+        "zip": 6551,
+        "latitude": "46.004015",
+        "longitude": "72.860345"
+    },
+    "bio": "Labore exercitation dolore ea in ex laborum dolore nostrud anim irure est nostrud id. Deserunt nisi ad dolore ipsum labore tempor anim in dolore esse et labore. Reprehenderit reprehenderit labore aliqua anim qui proident nisi mollit quis sint elit incididunt. Sit reprehenderit do labore magna commodo incididunt aute ipsum esse esse culpa ex. Consequat ullamco commodo elit cillum duis. Aliqua nisi nostrud ipsum mollit sint eiusmod sint et irure nostrud elit qui dolore sit.",
+    "tags": [
+        "commodo",
+        "qui",
+        "dolor",
+        "sit",
+        "dolore",
+        "veniam"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b9c650f237dfe8868"
+        },
+        {
+            "_id": "5906f72b606de87b0e0eb300"
+        },
+        {
+            "_id": "5906f72c2d625ee9df8ef406"
+        },
+        {
+            "_id": "5906f72bbdc46d8a5d516ecf"
+        }
+    ],
+    "greeting": "Hello, Hernandez! You have 7 unread messages."
+}

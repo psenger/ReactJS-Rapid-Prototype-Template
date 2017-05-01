@@ -1,0 +1,46 @@
+{
+    "_id": "5906f72a87545d8f4416fbde",
+    "isActive": false,
+    "lastLogin": "Friday, June 20, 2014 12:32 PM",
+    "balance": "$2,775.31",
+    "dob": "2015-04-15",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MR",
+        "first": "Moss",
+        "last": "Rosales"
+    },
+    "company": "BOILICON",
+    "email": "moss.rosales@boilicon.name",
+    "phone": [
+        {
+            "_id": "5906f72a5cb227deeee10e43",
+            "num": "+1 (867) 597-3128",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ae8bf31ee81842543",
+        "num": 888,
+        "street": "Halsey Street",
+        "city": "Smock",
+        "state": "Federated States Of Micronesia",
+        "zip": 5606,
+        "latitude": "86.311578",
+        "longitude": "70.061231"
+    },
+    "bio": "Irure anim quis aliquip dolore tempor. Esse ullamco anim fugiat irure veniam anim. Labore culpa sit mollit sunt magna amet elit enim. Consectetur exercitation aliquip magna non reprehenderit nostrud cillum pariatur et reprehenderit proident officia sint. Mollit ullamco culpa enim sunt enim magna id cupidatat reprehenderit. Commodo ut enim ullamco adipisicing nostrud aute culpa dolore incididunt ullamco. Mollit aliqua id et excepteur voluptate duis.",
+    "tags": [
+        "voluptate",
+        "in"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        },
+        {
+            "_id": "5906f72ca168a92cf08f85ae"
+        }
+    ],
+    "greeting": "Hello, Moss! You have 10 unread messages."
+}

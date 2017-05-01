@@ -1,0 +1,48 @@
+{
+    "_id": "5906f72cc4acbf58fef7075e",
+    "isActive": true,
+    "lastLogin": "Tuesday, January 5, 2016 10:19 AM",
+    "balance": "$3,999.47",
+    "dob": "2016-09-27",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Terra",
+        "last": "Hendrix"
+    },
+    "company": "NSPIRE",
+    "email": "terra.hendrix@nspire.tv",
+    "phone": [
+        {
+            "_id": "5906f72c3a20f55b5a246a36",
+            "num": "+1 (908) 420-2152",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c3a3c7756062e64e8",
+        "num": 682,
+        "street": "Fayette Street",
+        "city": "Ebro",
+        "state": "Utah",
+        "zip": 296,
+        "latitude": "-22.922413",
+        "longitude": "-21.003142"
+    },
+    "bio": "Laborum incididunt aute incididunt incididunt incididunt minim ea nisi consectetur aute proident veniam nisi eu. Commodo incididunt sunt sint eiusmod cillum ut. Dolore quis in laboris minim adipisicing amet nostrud laboris dolor anim et officia deserunt sint. Exercitation ad Lorem sint ullamco aute dolor aliquip adipisicing ex.",
+    "tags": [
+        "Lorem"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cd2a1e188b296f0c4"
+        },
+        {
+            "_id": "5906f72a351bcbf8e4d1defd"
+        },
+        {
+            "_id": "5906f72a8d4850de952bdcbd"
+        }
+    ],
+    "greeting": "Hello, Terra! You have 6 unread messages."
+}

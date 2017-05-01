@@ -1,0 +1,60 @@
+{
+    "_id": "5906f729c166b929995f7970",
+    "isActive": true,
+    "lastLogin": "Saturday, June 6, 2015 9:18 PM",
+    "balance": "$1,361.12",
+    "dob": "2015-08-10",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Reese",
+        "last": "Santiago"
+    },
+    "company": "PARLEYNET",
+    "email": "reese.santiago@parleynet.ca",
+    "phone": [
+        {
+            "_id": "5906f729a59d85035c423dd2",
+            "num": "+1 (880) 442-2416",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f7290e44ea0c5025cf58",
+        "num": 936,
+        "street": "Bridge Street",
+        "city": "Echo",
+        "state": "Arizona",
+        "zip": 381,
+        "latitude": "-42.186388",
+        "longitude": "98.486533"
+    },
+    "bio": "Occaecat incididunt cupidatat et sit laboris occaecat. Duis culpa velit aliqua dolore nulla officia Lorem magna non aliquip esse duis ut. Mollit anim et non dolore dolor irure nisi exercitation consectetur est Lorem ullamco. Sunt sit aute voluptate labore do eiusmod labore reprehenderit adipisicing reprehenderit voluptate nisi non.",
+    "tags": [
+        "officia",
+        "in",
+        "ullamco",
+        "duis",
+        "enim",
+        "anim",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cbd02380d644af0cc"
+        },
+        {
+            "_id": "5906f729c166b929995f7970"
+        },
+        {
+            "_id": "5906f72a5d404d15e6489166"
+        },
+        {
+            "_id": "5906f7289e73aac5604a0534"
+        },
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        }
+    ],
+    "greeting": "Hello, Reese! You have 8 unread messages."
+}

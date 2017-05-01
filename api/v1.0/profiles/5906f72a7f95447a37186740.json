@@ -1,0 +1,58 @@
+{
+    "_id": "5906f72a7f95447a37186740",
+    "isActive": false,
+    "lastLogin": "Sunday, January 5, 2014 4:29 AM",
+    "balance": "$3,511.79",
+    "dob": "2014-03-21",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Terri",
+        "last": "Fischer"
+    },
+    "company": "LYRICHORD",
+    "email": "terri.fischer@lyrichord.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72a3aabf310955430d1",
+            "num": "+1 (999) 527-3573",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72aba22fefa659ae95e",
+            "num": "+1 (887) 515-3122",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72ad0320e36ea73c83a",
+            "num": "+1 (867) 541-2320",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a3975159feb5fcc25",
+        "num": 385,
+        "street": "Manhattan Court",
+        "city": "Castleton",
+        "state": "New Hampshire",
+        "zip": 2109,
+        "latitude": "-9.751199",
+        "longitude": "-16.88918"
+    },
+    "bio": "Est aute nulla officia aliqua. Tempor eiusmod aliquip eu non dolore enim quis in ex aute qui dolore sint. Lorem nulla quis ullamco cillum dolor esse. Fugiat consequat commodo anim proident.",
+    "tags": [
+        "ad"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c21d7ee19048c4d69"
+        },
+        {
+            "_id": "5906f72bdf0e5b24f0bcd788"
+        },
+        {
+            "_id": "5906f72bea369d81268d783b"
+        }
+    ],
+    "greeting": "Hello, Terri! You have 8 unread messages."
+}

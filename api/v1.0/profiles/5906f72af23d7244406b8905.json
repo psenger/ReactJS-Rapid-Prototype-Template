@@ -1,0 +1,62 @@
+{
+    "_id": "5906f72af23d7244406b8905",
+    "isActive": false,
+    "lastLogin": "Friday, April 1, 2016 4:24 AM",
+    "balance": "$1,912.92",
+    "dob": "2016-07-28",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Lloyd",
+        "last": "Lamb"
+    },
+    "company": "DEMINIMUM",
+    "email": "lloyd.lamb@deminimum.org",
+    "phone": [
+        {
+            "_id": "5906f72a8f1b041bf382723e",
+            "num": "+1 (948) 506-2592",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72ad381af70b2043242",
+            "num": "+1 (987) 517-3193",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72a009fc92ffce04465",
+            "num": "+1 (952) 591-3773",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a8082ea9883dd861d",
+        "num": 528,
+        "street": "Kenmore Terrace",
+        "city": "Hollins",
+        "state": "American Samoa",
+        "zip": 1045,
+        "latitude": "-87.762639",
+        "longitude": "176.1279"
+    },
+    "bio": "Anim ea sint ullamco nisi adipisicing ipsum ullamco quis est magna do qui. Excepteur id sint consectetur cupidatat adipisicing fugiat amet incididunt veniam nostrud tempor non. Aliqua non mollit fugiat ex deserunt dolor fugiat pariatur cillum. Cillum eu incididunt esse velit velit ex. Velit adipisicing fugiat et deserunt laborum irure.",
+    "tags": [
+        "eiusmod",
+        "veniam",
+        "exercitation",
+        "ex",
+        "ad"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c314027ed98063b7d"
+        },
+        {
+            "_id": "5906f72946e061869baae1bc"
+        },
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        }
+    ],
+    "greeting": "Hello, Lloyd! You have 9 unread messages."
+}

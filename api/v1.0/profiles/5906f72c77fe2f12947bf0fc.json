@@ -1,0 +1,58 @@
+{
+    "_id": "5906f72c77fe2f12947bf0fc",
+    "isActive": false,
+    "lastLogin": "Friday, May 16, 2014 1:00 PM",
+    "balance": "$3,945.95",
+    "dob": "2016-06-19",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Guerrero",
+        "last": "Jefferson"
+    },
+    "company": "COMSTRUCT",
+    "email": "guerrero.jefferson@comstruct.ca",
+    "phone": [
+        {
+            "_id": "5906f72ce934906216ea516f",
+            "num": "+1 (916) 466-3860",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72c292373a24f81dda6",
+            "num": "+1 (918) 543-2747",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72c873888b68e44ae2f",
+            "num": "+1 (832) 491-2261",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c5c4e0d1d436509b7",
+        "num": 333,
+        "street": "Anthony Street",
+        "city": "Outlook",
+        "state": "Louisiana",
+        "zip": 6973,
+        "latitude": "69.242934",
+        "longitude": "123.434388"
+    },
+    "bio": "Esse mollit Lorem Lorem ullamco labore nisi. Proident elit mollit do et. Cupidatat ex labore voluptate ipsum labore ea culpa reprehenderit. In quis culpa ex non aliqua dolor sint nostrud. Elit eu pariatur laborum amet eiusmod excepteur sint. Est adipisicing ut id aute aute enim deserunt dolore exercitation laboris magna esse occaecat quis. Adipisicing do aliqua ea eiusmod labore aliquip deserunt et irure enim fugiat.",
+    "tags": [
+        "magna",
+        "veniam",
+        "reprehenderit",
+        "est"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72dfa8fd4bd3e9a21bf"
+        },
+        {
+            "_id": "5906f729c166b929995f7970"
+        }
+    ],
+    "greeting": "Hello, Guerrero! You have 10 unread messages."
+}

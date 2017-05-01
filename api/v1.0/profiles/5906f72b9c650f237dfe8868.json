@@ -1,0 +1,56 @@
+{
+    "_id": "5906f72b9c650f237dfe8868",
+    "isActive": false,
+    "lastLogin": "Thursday, February 4, 2016 11:41 PM",
+    "balance": "$1,156.62",
+    "dob": "2014-02-08",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Queen",
+        "last": "Zamora"
+    },
+    "company": "PYRAMIS",
+    "email": "queen.zamora@pyramis.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72b49132d48c6bc01ca",
+            "num": "+1 (885) 535-3919",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72b42d1f6b32e2aa73b",
+            "num": "+1 (947) 413-2489",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72b1e4e7e720b31adb0",
+            "num": "+1 (926) 433-3073",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bc8f33224d0fab7aa",
+        "num": 159,
+        "street": "Clinton Street",
+        "city": "Stockdale",
+        "state": "Arizona",
+        "zip": 8692,
+        "latitude": "-38.069835",
+        "longitude": "167.235616"
+    },
+    "bio": "Do Lorem irure ipsum esse qui minim. Anim adipisicing occaecat qui id anim est. Est sunt sit magna sit pariatur fugiat mollit cillum ex culpa reprehenderit.",
+    "tags": [
+        "laborum",
+        "ad",
+        "ea",
+        "magna",
+        "laborum"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72905403ede7aa7d0c2"
+        }
+    ],
+    "greeting": "Hello, Queen! You have 6 unread messages."
+}

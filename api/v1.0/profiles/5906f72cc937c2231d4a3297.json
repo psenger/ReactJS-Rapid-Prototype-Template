@@ -1,0 +1,59 @@
+{
+    "_id": "5906f72cc937c2231d4a3297",
+    "isActive": true,
+    "lastLogin": "Sunday, August 30, 2015 3:40 AM",
+    "balance": "$1,215.95",
+    "dob": "2015-03-04",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Juanita",
+        "last": "Hinton"
+    },
+    "company": "TALKOLA",
+    "email": "juanita.hinton@talkola.io",
+    "phone": [
+        {
+            "_id": "5906f72ce7f8fbf8799a041f",
+            "num": "+1 (993) 496-3097",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72cf7ab9c19d0d5d364",
+            "num": "+1 (839) 507-2779",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ce1e23cf062812a32",
+        "num": 408,
+        "street": "Coventry Road",
+        "city": "Grimsley",
+        "state": "Indiana",
+        "zip": 3012,
+        "latitude": "86.916852",
+        "longitude": "166.614314"
+    },
+    "bio": "Irure magna ut aliquip ex eiusmod aute in anim reprehenderit minim amet officia. Eu dolore ut adipisicing ut laborum ipsum reprehenderit labore anim occaecat enim. Ipsum Lorem esse minim laborum culpa sit ullamco nulla officia laborum anim ipsum deserunt pariatur. Nulla proident sit qui eiusmod consequat mollit commodo magna nisi dolor nostrud mollit proident. Commodo mollit reprehenderit ullamco enim. Culpa nisi commodo velit anim nostrud.",
+    "tags": [
+        "fugiat",
+        "aliquip",
+        "elit",
+        "dolore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cb0bd9a7b476e90f1"
+        },
+        {
+            "_id": "5906f72bea369d81268d783b"
+        },
+        {
+            "_id": "5906f72a659f0076b151f150"
+        },
+        {
+            "_id": "5906f72a8d4850de952bdcbd"
+        }
+    ],
+    "greeting": "Hello, Juanita! You have 9 unread messages."
+}

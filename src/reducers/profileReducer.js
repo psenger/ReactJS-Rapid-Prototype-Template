@@ -29,6 +29,8 @@ export default function profileReducer(state = initialState, action) {
             return modifyPath( state, value, 'name' );
         case actionConst.PROFILE_MODIFY_LAST_NAME:
             return modifyPath( state, value, 'name' );
+        case actionConst.PROFILE_MODIFY_DATE_OF_BIRTH:
+            return Object.assign({}, state, {dob: value});
         default:
             return state
     }

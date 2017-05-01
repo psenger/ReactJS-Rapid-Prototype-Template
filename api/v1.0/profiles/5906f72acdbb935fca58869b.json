@@ -1,0 +1,63 @@
+{
+    "_id": "5906f72acdbb935fca58869b",
+    "isActive": true,
+    "lastLogin": "Friday, November 14, 2014 2:39 PM",
+    "balance": "$2,440.26",
+    "dob": "2016-05-10",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Vicki",
+        "last": "Mcguire"
+    },
+    "company": "QIMONK",
+    "email": "vicki.mcguire@qimonk.biz",
+    "phone": [
+        {
+            "_id": "5906f72a97bab90a91d9a6f9",
+            "num": "+1 (883) 550-3852",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72a2e34f712fc38fb9d",
+            "num": "+1 (863) 509-2753",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72aee3fdbfc42e0565b",
+        "num": 587,
+        "street": "Kiely Place",
+        "city": "Lydia",
+        "state": "New Jersey",
+        "zip": 5485,
+        "latitude": "8.709327",
+        "longitude": "8.375821"
+    },
+    "bio": "Nostrud ad duis est et sit duis ea exercitation in duis. Nulla proident ullamco labore irure laboris proident excepteur dolore reprehenderit. Sunt cillum commodo adipisicing exercitation aliqua. Reprehenderit enim id sit aute consectetur consectetur cupidatat in non Lorem. Labore veniam exercitation occaecat laborum consequat mollit.",
+    "tags": [
+        "ut",
+        "magna"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a3aa13a621f904d04"
+        },
+        {
+            "_id": "5906f729717fcc211284e90f"
+        },
+        {
+            "_id": "5906f72a5d404d15e6489166"
+        },
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        },
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        },
+        {
+            "_id": "5906f72c653069aa61a02a36"
+        }
+    ],
+    "greeting": "Hello, Vicki! You have 10 unread messages."
+}

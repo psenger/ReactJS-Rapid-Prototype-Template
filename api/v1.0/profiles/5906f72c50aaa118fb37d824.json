@@ -1,0 +1,73 @@
+{
+    "_id": "5906f72c50aaa118fb37d824",
+    "isActive": true,
+    "lastLogin": "Friday, June 26, 2015 9:03 AM",
+    "balance": "$1,002.73",
+    "dob": "2015-12-01",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Roslyn",
+        "last": "Bowen"
+    },
+    "company": "RECRITUBE",
+    "email": "roslyn.bowen@recritube.io",
+    "phone": [
+        {
+            "_id": "5906f72c7e1543d3fc3a8e37",
+            "num": "+1 (906) 554-3419",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72c62a827c10cfe9328",
+            "num": "+1 (840) 490-3724",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72cb98b91f4c49c1275",
+            "num": "+1 (915) 559-2791",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72c281b26cb834825b7",
+            "num": "+1 (937) 495-3318",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72cfc7596d887bad9a4",
+        "num": 347,
+        "street": "Boerum Place",
+        "city": "Falconaire",
+        "state": "New Hampshire",
+        "zip": 3072,
+        "latitude": "-51.349636",
+        "longitude": "69.467063"
+    },
+    "bio": "Ea duis enim sit fugiat consequat adipisicing. Ullamco ex et magna tempor enim deserunt reprehenderit deserunt id sit laboris nulla. Excepteur amet sit voluptate et ad enim anim magna cupidatat commodo exercitation mollit eu. Sit ad cillum laborum Lorem enim officia dolor ex adipisicing consequat nulla aute velit. Ex nostrud cupidatat deserunt dolor non.",
+    "tags": [
+        "nisi",
+        "cillum",
+        "nostrud",
+        "ex",
+        "eiusmod",
+        "aute",
+        "sint",
+        "do"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72bdf0e5b24f0bcd788"
+        },
+        {
+            "_id": "5906f72a0be2cc3934858c6f"
+        },
+        {
+            "_id": "5906f72acdbb935fca58869b"
+        },
+        {
+            "_id": "5906f72b9a143a2d5e77fc8b"
+        }
+    ],
+    "greeting": "Hello, Roslyn! You have 5 unread messages."
+}

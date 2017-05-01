@@ -1,4 +1,5 @@
 
+import moment from 'moment';
 import {safeGet}from '../../utils';
 import PropTypes from "prop-types";
 import validate from 'validate.js';
@@ -22,6 +23,18 @@ const delayPromise = (ms) => {
     };
 };
 
+validate.extend(validate.validators.datetime, {
+    // The value is guaranteed not to be null or undefined but otherwise it
+    // could be anything.
+    parse: function(value) {
+        return +moment(value,'YYYY-MM-DD');
+    },
+    // Input is a unix timestamp
+    format: function(value) {
+        return moment.utc(value).format("YYYY-MM-DD");
+    }
+});
+
 //  http://validatejs.org/
 let constraints = {
     'name.first': {
@@ -34,6 +47,12 @@ let constraints = {
     'email': {
         presence: true,
         email: true
+    },
+    'dob': {
+        datetime: {
+            dateOnly: true
+        },
+        presence: true
     }
 };
 
@@ -160,7 +179,12 @@ export class UserProfile extends Component {
                                     help="The Date of Birth is required"
                                     placeholder="dob"
                                     value={this.props.dob}
-                                    onChange={this.createOnChange(this.props.profileActionDispatcher.dob)}
+                                    day={this.props.day}
+                                    month={this.props.month}
+                                    year={this.props.year}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.updateDob)}
+                                    getValidationModel={ (dob)=>{ return { dob }; } }
+                                    validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
                             </div>
@@ -182,12 +206,18 @@ UserProfile.contextTypes = {
     theme: PropTypes.object.isRequired
 };
 
-let mapStateToProps = (state /** , ownProps **/) => {
+let mapStateToProps = (state) => {
+
+    let def = moment(new Date()).format("YYYY-MM-DD");
+
     return {
         profileReducer: state.profileReducer,
         name: state.profileReducer.name,
         email: state.profileReducer.email,
-        dob: state.profileReducer.dob
+        dob: state.profileReducer.dob,
+        year: Number( (state.profileReducer.dob||def).split('-')[0] ),
+        month: Number( (state.profileReducer.dob||def).split('-')[1] ),
+        day: Number( (state.profileReducer.dob||def).split('-')[2] )
     };
 };
 

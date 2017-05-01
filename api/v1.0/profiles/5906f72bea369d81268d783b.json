@@ -1,0 +1,60 @@
+{
+    "_id": "5906f72bea369d81268d783b",
+    "isActive": true,
+    "lastLogin": "Friday, February 14, 2014 12:36 PM",
+    "balance": "$3,449.24",
+    "dob": "2014-09-03",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Kaye",
+        "last": "Hodge"
+    },
+    "company": "FITCORE",
+    "email": "kaye.hodge@fitcore.com",
+    "phone": [
+        {
+            "_id": "5906f72b3a30d3c60b0de442",
+            "num": "+1 (888) 523-3647",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b9057b76f95963d3b",
+        "num": 463,
+        "street": "Dahlgreen Place",
+        "city": "Alfarata",
+        "state": "Illinois",
+        "zip": 4070,
+        "latitude": "-10.798997",
+        "longitude": "-80.485291"
+    },
+    "bio": "Amet proident in do deserunt Lorem id aliquip quis. Nisi exercitation do incididunt culpa nisi exercitation excepteur aliquip dolor non ullamco. Excepteur do ea et reprehenderit in sint occaecat ipsum elit velit officia. Ea commodo officia ipsum sint ullamco qui consectetur ad.",
+    "tags": [
+        "sunt",
+        "dolore",
+        "velit",
+        "Lorem"
+    ],
+    "friends": [
+        {
+            "_id": "5906f729da306567d1c8812d"
+        },
+        {
+            "_id": "5906f72cd2a1e188b296f0c4"
+        },
+        {
+            "_id": "5906f72be06b555602c8bac2"
+        },
+        {
+            "_id": "5906f72be90f3c95224d0ed3"
+        },
+        {
+            "_id": "5906f72c19cb6f837b7dc364"
+        },
+        {
+            "_id": "5906f72a7cdefe66d528de83"
+        }
+    ],
+    "greeting": "Hello, Kaye! You have 6 unread messages."
+}

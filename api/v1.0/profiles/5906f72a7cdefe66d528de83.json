@@ -1,0 +1,72 @@
+{
+    "_id": "5906f72a7cdefe66d528de83",
+    "isActive": true,
+    "lastLogin": "Sunday, June 14, 2015 5:45 PM",
+    "balance": "$1,430.01",
+    "dob": "2014-05-19",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Taylor",
+        "last": "Mathews"
+    },
+    "company": "XEREX",
+    "email": "taylor.mathews@xerex.us",
+    "phone": [
+        {
+            "_id": "5906f72a31915b7f8eceb7ff",
+            "num": "+1 (806) 530-2158",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72a7945c2ed18b10ed9",
+            "num": "+1 (863) 404-2708",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72afdf5bd8357390a4d",
+            "num": "+1 (851) 415-2941",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a91443e3ff18199d5",
+        "num": 246,
+        "street": "Willoughby Avenue",
+        "city": "Sisquoc",
+        "state": "Texas",
+        "zip": 1242,
+        "latitude": "2.020934",
+        "longitude": "-11.625301"
+    },
+    "bio": "Ad esse consequat veniam sit do minim fugiat in irure dolor fugiat. Cupidatat sit ex cupidatat aute officia veniam consequat pariatur irure occaecat commodo. Anim quis ut pariatur aliqua ut Lorem voluptate irure ex. Id culpa sit aliquip anim deserunt veniam aute qui.",
+    "tags": [
+        "commodo",
+        "voluptate",
+        "nostrud",
+        "amet",
+        "ullamco",
+        "ex",
+        "reprehenderit",
+        "sint",
+        "cillum"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        },
+        {
+            "_id": "5906f72a63c342234397ecd0"
+        },
+        {
+            "_id": "5906f72b1597044a2b9c551b"
+        },
+        {
+            "_id": "5906f72ae6dfacfe3e18eb95"
+        },
+        {
+            "_id": "5906f72c19cb6f837b7dc364"
+        }
+    ],
+    "greeting": "Hello, Taylor! You have 10 unread messages."
+}

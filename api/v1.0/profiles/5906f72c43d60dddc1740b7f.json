@@ -1,0 +1,61 @@
+{
+    "_id": "5906f72c43d60dddc1740b7f",
+    "isActive": true,
+    "lastLogin": "Saturday, November 21, 2015 7:50 AM",
+    "balance": "$2,246.14",
+    "dob": "2015-01-02",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Oliver",
+        "last": "Sutton"
+    },
+    "company": "PARAGONIA",
+    "email": "oliver.sutton@paragonia.org",
+    "phone": [
+        {
+            "_id": "5906f72c432da622a1981c63",
+            "num": "+1 (958) 487-2667",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72c027e6e40c192525b",
+            "num": "+1 (857) 480-3103",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72cd4f9d674f05e2160",
+            "num": "+1 (859) 467-2679",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c1470f708be030c3e",
+        "num": 683,
+        "street": "Hamilton Avenue",
+        "city": "Thornport",
+        "state": "Northern Mariana Islands",
+        "zip": 6925,
+        "latitude": "-31.122807",
+        "longitude": "-158.286561"
+    },
+    "bio": "Sint pariatur eiusmod anim duis. Sint commodo nisi est irure non Lorem. Deserunt eu do cillum sit officia anim occaecat Lorem.",
+    "tags": [
+        "dolore",
+        "est",
+        "ex",
+        "minim"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c99ae2c173e6e8d5d"
+        },
+        {
+            "_id": "5906f72c584e9ee4b570e36b"
+        },
+        {
+            "_id": "5906f72a1a42d4512ed49a02"
+        }
+    ],
+    "greeting": "Hello, Oliver! You have 6 unread messages."
+}

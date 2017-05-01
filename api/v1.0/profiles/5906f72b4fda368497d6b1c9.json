@@ -1,0 +1,69 @@
+{
+    "_id": "5906f72b4fda368497d6b1c9",
+    "isActive": true,
+    "lastLogin": "Tuesday, September 29, 2015 3:52 AM",
+    "balance": "$3,681.76",
+    "dob": "2015-08-12",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Hopkins",
+        "last": "Serrano"
+    },
+    "company": "GOGOL",
+    "email": "hopkins.serrano@gogol.org",
+    "phone": [
+        {
+            "_id": "5906f72b474257fcec976f2c",
+            "num": "+1 (907) 543-3543",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72b373d542edfcb7370",
+            "num": "+1 (963) 564-2562",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b8f7e8eaaef3bc3c9",
+            "num": "+1 (992) 407-2618",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72b627a7fcfd86612fd",
+            "num": "+1 (859) 454-2510",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72beec852994f09c715",
+        "num": 124,
+        "street": "Sands Street",
+        "city": "Salix",
+        "state": "Tennessee",
+        "zip": 8693,
+        "latitude": "51.696161",
+        "longitude": "-5.138742"
+    },
+    "bio": "Deserunt et duis non qui aliqua laboris dolore non exercitation esse consectetur. Consequat eiusmod esse et dolore quis pariatur elit duis enim deserunt commodo ullamco proident. Sunt veniam ullamco officia duis irure magna consectetur ex labore enim ipsum magna laborum. Deserunt dolor enim voluptate consectetur. Excepteur culpa cupidatat in voluptate labore. Qui ad excepteur reprehenderit quis ea ullamco consectetur occaecat sint consectetur esse.",
+    "tags": [
+        "commodo",
+        "velit",
+        "sint",
+        "aliquip",
+        "dolore",
+        "in",
+        "pariatur",
+        "laboris",
+        "laborum",
+        "labore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f729d19664069f475c7f"
+        },
+        {
+            "_id": "5906f72c463dad0f71a4ccc5"
+        }
+    ],
+    "greeting": "Hello, Hopkins! You have 6 unread messages."
+}

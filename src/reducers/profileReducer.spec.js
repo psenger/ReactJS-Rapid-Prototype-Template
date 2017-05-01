@@ -74,6 +74,18 @@ describe('REDUCER: ', () => {
             });
         });
 
+        describe('PROFILE_MODIFY_DATE_OF_BIRTH', () => {
+            it("should update the DOB to an otherwise missing value", () => {
+                Object.freeze(initialState);
+                expect(reducer(initialState,profileActions.updateDob('2016/04/12'))).to.deep.equal({ dob: '2016/04/12' });
+            });
+            it("should update the dob of an existing value", () => {
+                let oldState = { name:  { first: 'bob', last: 'smith' }, dob: '2016/04/12' };
+                Object.freeze(oldState);
+                expect( reducer(oldState,profileActions.updateDob('2017/07/07')) ).to.deep.equal( { name:  { first: 'bob', last: 'smith' }, dob: '2017/07/07' } );
+            });
+        });
+
         describe('SEQUENCE', () => {
             it("should modify the last name to john, then bob, an change the isActive to true", () => {
                 let stateOne = Object.freeze({

@@ -1,0 +1,53 @@
+{
+    "_id": "5906f72bbdc46d8a5d516ecf",
+    "isActive": true,
+    "lastLogin": "Sunday, December 11, 2016 1:56 AM",
+    "balance": "$2,665.95",
+    "dob": "2015-08-11",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Coleen",
+        "last": "Justice"
+    },
+    "company": "APPLICA",
+    "email": "coleen.justice@applica.biz",
+    "phone": [
+        {
+            "_id": "5906f72bebf64fbfff85dfcc",
+            "num": "+1 (808) 457-3425",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72bf9aedda883f90b1f",
+            "num": "+1 (891) 410-2739",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72b080503fa038ba994",
+            "num": "+1 (946) 584-3971",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b0f88b9f9953a197c",
+        "num": 110,
+        "street": "Remsen Avenue",
+        "city": "Elrama",
+        "state": "North Dakota",
+        "zip": 562,
+        "latitude": "-3.026356",
+        "longitude": "-90.310122"
+    },
+    "bio": "Pariatur voluptate sunt velit laborum. Fugiat aute duis mollit irure reprehenderit occaecat velit nostrud. Ullamco do consectetur officia sunt minim est et minim in voluptate qui irure ex incididunt. Veniam irure tempor consequat nisi minim mollit ad aute aliqua voluptate quis excepteur laborum. Quis ea nostrud excepteur tempor ullamco eiusmod commodo laborum consequat nulla.",
+    "tags": [
+        "aliquip",
+        "labore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cb21939d6f67c4668"
+        }
+    ],
+    "greeting": "Hello, Coleen! You have 10 unread messages."
+}

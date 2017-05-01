@@ -1,0 +1,62 @@
+{
+    "_id": "5906f72c33fd48aedb25c2f0",
+    "isActive": true,
+    "lastLogin": "Tuesday, February 16, 2016 1:33 AM",
+    "balance": "$2,983.98",
+    "dob": "2015-05-06",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Mable",
+        "last": "Cleveland"
+    },
+    "company": "COMTOURS",
+    "email": "mable.cleveland@comtours.ca",
+    "phone": [
+        {
+            "_id": "5906f72c810a4d7394fa0f90",
+            "num": "+1 (974) 593-3360",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72c8115f0d7d0e7f21e",
+            "num": "+1 (963) 465-3834",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c3eaa3285424e6f4f",
+        "num": 310,
+        "street": "Hooper Street",
+        "city": "Mathews",
+        "state": "New Jersey",
+        "zip": 1695,
+        "latitude": "69.76354",
+        "longitude": "61.47716"
+    },
+    "bio": "Exercitation amet velit enim id eiusmod Lorem deserunt laboris voluptate nostrud. Anim laboris eiusmod nulla non. Nostrud sunt enim in culpa incididunt adipisicing amet magna eu fugiat sunt anim enim.",
+    "tags": [
+        "excepteur"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        },
+        {
+            "_id": "5906f72dfa8fd4bd3e9a21bf"
+        },
+        {
+            "_id": "5906f72af23d7244406b8905"
+        },
+        {
+            "_id": "5906f729d19664069f475c7f"
+        },
+        {
+            "_id": "5906f72c19cb6f837b7dc364"
+        },
+        {
+            "_id": "5906f72b368e2415781dadc3"
+        }
+    ],
+    "greeting": "Hello, Mable! You have 10 unread messages."
+}

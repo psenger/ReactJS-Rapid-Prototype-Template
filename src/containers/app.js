@@ -20,8 +20,6 @@ export default class App extends Component {
 
     constructor(props,context) {
         super(props,context);
-        console.log( 'App#constructor props=', props );
-        console.log( 'App#constructor context=', this.context  );
         this.displayName = 'views/App';
         this.state = { routes: flatViewMap( viewMap ) };
     }

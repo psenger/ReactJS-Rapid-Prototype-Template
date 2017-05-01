@@ -1,0 +1,63 @@
+{
+    "_id": "5906f72a57461fc6cbc33b4d",
+    "isActive": true,
+    "lastLogin": "Thursday, January 9, 2014 9:17 AM",
+    "balance": "$3,976.58",
+    "dob": "2014-10-24",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Tamika",
+        "last": "Atkins"
+    },
+    "company": "SLUMBERIA",
+    "email": "tamika.atkins@slumberia.net",
+    "phone": [
+        {
+            "_id": "5906f72a01b394d12756a9a9",
+            "num": "+1 (979) 579-3702",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72a8455c1c0694b8486",
+            "num": "+1 (881) 400-3043",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72a437c8f86d8a6fa75",
+            "num": "+1 (801) 588-2127",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a471e5aaf0bdf8803",
+        "num": 437,
+        "street": "Ridgewood Place",
+        "city": "Kapowsin",
+        "state": "Maryland",
+        "zip": 6293,
+        "latitude": "27.356539",
+        "longitude": "93.588001"
+    },
+    "bio": "Ea nisi eu duis do dolore anim non adipisicing Lorem quis irure cillum. Labore quis pariatur nostrud irure sunt adipisicing veniam eiusmod velit anim culpa in proident magna. Sint do pariatur quis non aliqua esse laboris consectetur.",
+    "tags": [
+        "excepteur",
+        "et",
+        "nulla",
+        "sint",
+        "sunt",
+        "elit"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b29eef45f4cff551d"
+        },
+        {
+            "_id": "5906f72a3332c29fa22a1ae3"
+        },
+        {
+            "_id": "5906f72b6e10dafd17eff99e"
+        }
+    ],
+    "greeting": "Hello, Tamika! You have 6 unread messages."
+}

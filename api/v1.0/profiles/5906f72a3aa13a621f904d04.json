@@ -1,0 +1,64 @@
+{
+    "_id": "5906f72a3aa13a621f904d04",
+    "isActive": false,
+    "lastLogin": "Saturday, October 3, 2015 3:39 PM",
+    "balance": "$1,652.79",
+    "dob": "2014-08-01",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Lindsay",
+        "last": "Burch"
+    },
+    "company": "ZBOO",
+    "email": "lindsay.burch@zboo.ca",
+    "phone": [
+        {
+            "_id": "5906f72a73e1483f6644a3c2",
+            "num": "+1 (944) 500-2738",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72aa9a6e46598627b35",
+            "num": "+1 (969) 480-3418",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72ac7c99b3a4658b690",
+            "num": "+1 (985) 523-2786",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a7b76719022063afb",
+        "num": 996,
+        "street": "Metrotech Courtr",
+        "city": "Bangor",
+        "state": "West Virginia",
+        "zip": 3710,
+        "latitude": "-80.558609",
+        "longitude": "-29.06509"
+    },
+    "bio": "Voluptate ad est laboris aliqua qui elit ut ex aliquip consequat. Ut tempor et proident et ad eiusmod aute amet id. Adipisicing consequat sunt voluptate officia. Incididunt aliquip commodo sunt enim eu culpa eiusmod do enim laborum nulla cillum ut. Anim esse proident quis cillum magna sit anim nulla exercitation enim. Fugiat excepteur eiusmod tempor et. Anim ad esse deserunt est reprehenderit.",
+    "tags": [
+        "cupidatat"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a57461fc6cbc33b4d"
+        },
+        {
+            "_id": "5906f72946e061869baae1bc"
+        },
+        {
+            "_id": "5906f72ac39505a4374df067"
+        },
+        {
+            "_id": "5906f72ca837036940d76ff1"
+        },
+        {
+            "_id": "5906f72c40efaecfa4925c88"
+        }
+    ],
+    "greeting": "Hello, Lindsay! You have 9 unread messages."
+}

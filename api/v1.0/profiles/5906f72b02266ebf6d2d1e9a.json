@@ -1,0 +1,59 @@
+{
+    "_id": "5906f72b02266ebf6d2d1e9a",
+    "isActive": true,
+    "lastLogin": "Friday, July 29, 2016 7:28 AM",
+    "balance": "$3,976.70",
+    "dob": "2014-01-19",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Renee",
+        "last": "Sparks"
+    },
+    "company": "OPTYK",
+    "email": "renee.sparks@optyk.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72b2bf17b34a8b325e2",
+            "num": "+1 (830) 454-3565",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b04dab5a0523b703e",
+            "num": "+1 (878) 599-3668",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ba8309da44622c478",
+        "num": 704,
+        "street": "Seigel Court",
+        "city": "Cassel",
+        "state": "Pennsylvania",
+        "zip": 3506,
+        "latitude": "-41.22129",
+        "longitude": "82.339489"
+    },
+    "bio": "Dolor quis elit id non consectetur voluptate sunt est fugiat irure. Ullamco fugiat qui laboris dolor dolor pariatur Lorem. Commodo enim aute occaecat pariatur mollit ullamco nulla aute tempor ut aliqua. Culpa enim laboris Lorem dolor magna dolor reprehenderit aliqua. Nostrud exercitation ipsum velit nisi sunt laborum Lorem laborum irure. Deserunt do reprehenderit labore aliquip. Nostrud ullamco et ex quis duis minim in ullamco in deserunt laboris occaecat in.",
+    "tags": [
+        "ea",
+        "est",
+        "nulla",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c584e9ee4b570e36b"
+        },
+        {
+            "_id": "5906f72b29eef45f4cff551d"
+        },
+        {
+            "_id": "5906f72a0be2cc3934858c6f"
+        },
+        {
+            "_id": "5906f72c43d60dddc1740b7f"
+        }
+    ],
+    "greeting": "Hello, Renee! You have 8 unread messages."
+}

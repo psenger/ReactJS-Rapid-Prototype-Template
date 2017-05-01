@@ -1,0 +1,69 @@
+{
+    "_id": "5906f72b606de87b0e0eb300",
+    "isActive": true,
+    "lastLogin": "Tuesday, July 5, 2016 5:17 AM",
+    "balance": "$1,180.76",
+    "dob": "2014-01-09",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Mai",
+        "last": "Wade"
+    },
+    "company": "EZENTIA",
+    "email": "mai.wade@ezentia.com",
+    "phone": [
+        {
+            "_id": "5906f72bc3bc840cf01ad534",
+            "num": "+1 (971) 427-2868",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b73c129af54b76117",
+            "num": "+1 (958) 575-3795",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b3a071be1aef73deb",
+            "num": "+1 (843) 547-2951",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72b4176129bdb15780e",
+            "num": "+1 (824) 545-2998",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b80fa5378c9dd0bc3",
+        "num": 220,
+        "street": "Garland Court",
+        "city": "Bannock",
+        "state": "Florida",
+        "zip": 9381,
+        "latitude": "-85.870333",
+        "longitude": "-59.895326"
+    },
+    "bio": "Tempor nulla exercitation ut aute magna reprehenderit quis eu tempor proident. Sunt commodo quis amet minim deserunt elit eu aliqua anim deserunt reprehenderit. Aute et eiusmod et Lorem non deserunt cillum. Ullamco mollit eu nulla labore minim.",
+    "tags": [
+        "quis"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72bce5be6224508a2bf"
+        },
+        {
+            "_id": "5906f72a659f0076b151f150"
+        },
+        {
+            "_id": "5906f72a7cc3ac4f541c03f5"
+        },
+        {
+            "_id": "5906f72af1e640b8583f4a13"
+        },
+        {
+            "_id": "5906f729ee317b1795f28453"
+        }
+    ],
+    "greeting": "Hello, Mai! You have 8 unread messages."
+}

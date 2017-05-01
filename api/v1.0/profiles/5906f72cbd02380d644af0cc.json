@@ -1,0 +1,56 @@
+{
+    "_id": "5906f72cbd02380d644af0cc",
+    "isActive": true,
+    "lastLogin": "Friday, February 12, 2016 11:11 PM",
+    "balance": "$1,394.43",
+    "dob": "2015-09-29",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Angelita",
+        "last": "Watkins"
+    },
+    "company": "LEXICONDO",
+    "email": "angelita.watkins@lexicondo.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72c7b51377b5577b164",
+            "num": "+1 (895) 507-3857",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72cea375f293adb9447",
+        "num": 645,
+        "street": "Emerson Place",
+        "city": "Bridgetown",
+        "state": "West Virginia",
+        "zip": 2282,
+        "latitude": "20.874175",
+        "longitude": "44.190827"
+    },
+    "bio": "Tempor id dolor officia excepteur ipsum deserunt tempor deserunt sit aliquip. Labore voluptate commodo adipisicing consectetur elit ullamco cupidatat in. Fugiat aute id excepteur aliquip consectetur proident commodo aliquip exercitation nostrud laborum fugiat cupidatat. Et nulla sint voluptate duis. Magna velit labore est commodo qui ea minim eu culpa.",
+    "tags": [
+        "proident",
+        "proident",
+        "aliqua",
+        "esse",
+        "nisi",
+        "veniam"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b4fda368497d6b1c9"
+        },
+        {
+            "_id": "5906f72af1e640b8583f4a13"
+        },
+        {
+            "_id": "5906f72c5fdd18c4b845e993"
+        },
+        {
+            "_id": "5906f72ca84fa0c72dc6b965"
+        }
+    ],
+    "greeting": "Hello, Angelita! You have 5 unread messages."
+}

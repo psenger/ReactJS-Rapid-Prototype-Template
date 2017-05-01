@@ -1,0 +1,58 @@
+{
+    "_id": "5906f72bce5be6224508a2bf",
+    "isActive": true,
+    "lastLogin": "Wednesday, June 3, 2015 12:32 PM",
+    "balance": "$3,217.49",
+    "dob": "2016-01-31",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Wynn",
+        "last": "Snider"
+    },
+    "company": "BARKARAMA",
+    "email": "wynn.snider@barkarama.biz",
+    "phone": [
+        {
+            "_id": "5906f72b094ae765898e9511",
+            "num": "+1 (836) 470-2191",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72b9fb8e22bc08e6017",
+            "num": "+1 (985) 578-3223",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72bc2387c5fff0e6038",
+            "num": "+1 (820) 456-3102",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bd352f8391db3c32a",
+        "num": 441,
+        "street": "Townsend Street",
+        "city": "Homeworth",
+        "state": "Oregon",
+        "zip": 5582,
+        "latitude": "72.385448",
+        "longitude": "100.151699"
+    },
+    "bio": "Commodo qui sit ut laboris sunt ex aliqua enim culpa. Non labore dolor labore labore quis proident mollit do fugiat aliqua. In labore quis magna ex culpa. Amet incididunt magna quis elit labore cupidatat consectetur esse reprehenderit ad sint labore consequat cillum.",
+    "tags": [
+        "dolore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a7f95447a37186740"
+        },
+        {
+            "_id": "5906f72c8a90a2fb5322170b"
+        },
+        {
+            "_id": "5906f72c99ae2c173e6e8d5d"
+        }
+    ],
+    "greeting": "Hello, Wynn! You have 5 unread messages."
+}

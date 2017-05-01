@@ -1,0 +1,53 @@
+{
+    "_id": "5906f72ac39505a4374df067",
+    "isActive": false,
+    "lastLogin": "Friday, January 1, 2016 10:35 PM",
+    "balance": "$2,195.10",
+    "dob": "2015-05-29",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Nannie",
+        "last": "Walton"
+    },
+    "company": "CINASTER",
+    "email": "nannie.walton@cinaster.net",
+    "phone": [
+        {
+            "_id": "5906f72b5414f25e4271d34e",
+            "num": "+1 (915) 419-2715",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72bcf9b5b1514433e1c",
+            "num": "+1 (952) 501-2730",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bc7e975fa0cad6611",
+        "num": 501,
+        "street": "Tiffany Place",
+        "city": "Hemlock",
+        "state": "South Carolina",
+        "zip": 4719,
+        "latitude": "10.416492",
+        "longitude": "154.855675"
+    },
+    "bio": "Laborum officia minim laboris ullamco laborum labore. Aute et mollit adipisicing exercitation enim consectetur magna. Aliqua consectetur magna culpa aute culpa. Irure eu sint veniam qui proident tempor sit commodo est. Commodo in anim aliquip quis sint. Labore amet pariatur non adipisicing mollit enim ad in ullamco reprehenderit enim laboris consequat.",
+    "tags": [
+        "aute",
+        "laboris",
+        "officia",
+        "et"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        },
+        {
+            "_id": "5906f72c5fdd18c4b845e993"
+        }
+    ],
+    "greeting": "Hello, Nannie! You have 6 unread messages."
+}

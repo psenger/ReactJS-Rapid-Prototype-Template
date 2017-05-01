@@ -1,0 +1,56 @@
+{
+    "_id": "5906f72bb23417554d46aa03",
+    "isActive": false,
+    "lastLogin": "Monday, July 11, 2016 1:55 AM",
+    "balance": "$1,313.44",
+    "dob": "2015-01-23",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Livingston",
+        "last": "Mcclure"
+    },
+    "company": "AUSTEX",
+    "email": "livingston.mcclure@austex.name",
+    "phone": [
+        {
+            "_id": "5906f72bbc6fdc7649b16b83",
+            "num": "+1 (824) 520-3976",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72bbe0b6a58ac79384c",
+            "num": "+1 (825) 551-3789",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72bc60e5605d3607d97",
+            "num": "+1 (995) 437-3993",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b8d1541e4b6c159ea",
+        "num": 798,
+        "street": "Ovington Avenue",
+        "city": "Boyd",
+        "state": "Marshall Islands",
+        "zip": 4650,
+        "latitude": "-49.071094",
+        "longitude": "137.660229"
+    },
+    "bio": "Nisi fugiat aliqua nostrud eiusmod anim minim sit. Voluptate proident laboris nulla amet dolore velit. Esse magna laboris nostrud esse tempor in deserunt enim. Deserunt exercitation et qui tempor quis consectetur Lorem adipisicing laboris exercitation. Aliquip velit aliqua ex pariatur voluptate. Ex culpa cupidatat anim aute pariatur fugiat sint dolore fugiat. Labore dolore aliquip eu labore mollit consectetur adipisicing culpa.",
+    "tags": [
+        "amet",
+        "nostrud",
+        "culpa",
+        "ut",
+        "do"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a3e74a96493dbeba5"
+        }
+    ],
+    "greeting": "Hello, Livingston! You have 10 unread messages."
+}

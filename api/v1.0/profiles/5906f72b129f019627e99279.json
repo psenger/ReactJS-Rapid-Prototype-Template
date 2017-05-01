@@ -1,0 +1,46 @@
+{
+    "_id": "5906f72b129f019627e99279",
+    "isActive": false,
+    "lastLogin": "Saturday, July 11, 2015 1:37 PM",
+    "balance": "$3,641.75",
+    "dob": "2016-07-29",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Suzette",
+        "last": "Weeks"
+    },
+    "company": "XYMONK",
+    "email": "suzette.weeks@xymonk.tv",
+    "phone": [
+        {
+            "_id": "5906f72b678b27d2b17823f0",
+            "num": "+1 (897) 416-2248",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bd37080de384c9d5d",
+        "num": 169,
+        "street": "Madison Place",
+        "city": "Hoehne",
+        "state": "Kentucky",
+        "zip": 9297,
+        "latitude": "36.429295",
+        "longitude": "107.908093"
+    },
+    "bio": "In dolore pariatur cupidatat labore cupidatat qui ea sunt nisi tempor adipisicing. Sint cupidatat pariatur officia ad aliqua. Ullamco tempor deserunt consequat anim tempor magna ad dolor minim cillum minim ea est aliqua. Sint et elit est in irure non. Aliqua velit amet nulla ut reprehenderit minim voluptate aute do. Minim mollit dolore eu nostrud Lorem adipisicing nostrud incididunt duis pariatur. Exercitation cillum consectetur incididunt ad incididunt magna.",
+    "tags": [
+        "dolor",
+        "proident"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a42c8999d5aebc73a"
+        },
+        {
+            "_id": "5906f72b9a143a2d5e77fc8b"
+        }
+    ],
+    "greeting": "Hello, Suzette! You have 8 unread messages."
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "5906f72ca837036940d76ff1",
+    "isActive": true,
+    "lastLogin": "Tuesday, March 11, 2014 2:10 PM",
+    "balance": "$2,660.35",
+    "dob": "2017-03-10",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Adriana",
+        "last": "Dominguez"
+    },
+    "company": "EVIDENDS",
+    "email": "adriana.dominguez@evidends.net",
+    "phone": [
+        {
+            "_id": "5906f72c812937ab8947ae12",
+            "num": "+1 (917) 476-2001",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72cceb7890c3411f570",
+        "num": 348,
+        "street": "Lafayette Avenue",
+        "city": "Aberdeen",
+        "state": "Texas",
+        "zip": 2620,
+        "latitude": "5.74665",
+        "longitude": "133.377165"
+    },
+    "bio": "Magna dolor tempor aute aliqua ipsum aute quis. Laborum velit non dolor ullamco laborum Lorem duis aliqua consectetur. Proident do cillum consectetur officia nulla. Magna irure duis qui aliquip nostrud in qui occaecat. Aliquip dolore consectetur amet aute non ea reprehenderit voluptate est nisi.",
+    "tags": [
+        "magna",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a04ed9f020c517461"
+        }
+    ],
+    "greeting": "Hello, Adriana! You have 8 unread messages."
+}

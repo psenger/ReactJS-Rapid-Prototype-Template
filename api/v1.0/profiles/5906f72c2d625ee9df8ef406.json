@@ -1,0 +1,57 @@
+{
+    "_id": "5906f72c2d625ee9df8ef406",
+    "isActive": true,
+    "lastLogin": "Monday, June 15, 2015 3:21 PM",
+    "balance": "$2,506.88",
+    "dob": "2015-06-26",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Salazar",
+        "last": "Webb"
+    },
+    "company": "MUSAPHICS",
+    "email": "salazar.webb@musaphics.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72c64f61fd51d29ab84",
+            "num": "+1 (869) 522-2563",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c9deaa30058a8ad78",
+        "num": 506,
+        "street": "Powers Street",
+        "city": "Chesapeake",
+        "state": "Wisconsin",
+        "zip": 1567,
+        "latitude": "21.741058",
+        "longitude": "-24.438102"
+    },
+    "bio": "Nulla consectetur qui nostrud occaecat ullamco Lorem cupidatat reprehenderit cillum. Aute nulla laborum dolor aliqua sit aute. Cupidatat cupidatat aliquip ea sunt minim cillum non eu non labore ea veniam.",
+    "tags": [
+        "labore",
+        "ullamco",
+        "anim",
+        "sit",
+        "velit",
+        "qui",
+        "proident",
+        "nisi",
+        "Lorem",
+        "excepteur"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cb0bd9a7b476e90f1"
+        },
+        {
+            "_id": "5906f72c935784edab218725"
+        },
+        {
+            "_id": "5906f72a8d4850de952bdcbd"
+        }
+    ],
+    "greeting": "Hello, Salazar! You have 9 unread messages."
+}

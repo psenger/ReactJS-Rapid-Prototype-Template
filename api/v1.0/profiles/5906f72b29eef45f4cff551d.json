@@ -1,0 +1,71 @@
+{
+    "_id": "5906f72b29eef45f4cff551d",
+    "isActive": true,
+    "lastLogin": "Saturday, April 1, 2017 5:14 AM",
+    "balance": "$1,266.63",
+    "dob": "2014-06-22",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Juana",
+        "last": "Roberson"
+    },
+    "company": "COMBOT",
+    "email": "juana.roberson@combot.me",
+    "phone": [
+        {
+            "_id": "5906f72be9de60d24027e69a",
+            "num": "+1 (982) 467-2028",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b0e85012aea9e427c",
+            "num": "+1 (879) 557-2585",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72b1597493551336e99",
+            "num": "+1 (830) 468-2169",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b5ec0f20103f878a4",
+        "num": 301,
+        "street": "Havens Place",
+        "city": "Venice",
+        "state": "Maine",
+        "zip": 8041,
+        "latitude": "-61.318671",
+        "longitude": "72.830876"
+    },
+    "bio": "Elit anim dolore irure eiusmod laboris non eiusmod. Quis labore nisi culpa ut ullamco irure qui qui aute aliquip. Sit excepteur eu minim voluptate exercitation ex occaecat culpa do commodo aliquip aliqua.",
+    "tags": [
+        "adipisicing",
+        "ut",
+        "proident",
+        "quis",
+        "occaecat"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72ac39505a4374df067"
+        },
+        {
+            "_id": "5906f72a57461fc6cbc33b4d"
+        },
+        {
+            "_id": "5906f72cd2a1e188b296f0c4"
+        },
+        {
+            "_id": "5906f72a8d4850de952bdcbd"
+        },
+        {
+            "_id": "5906f72cc4acbf58fef7075e"
+        },
+        {
+            "_id": "5906f72dfa8fd4bd3e9a21bf"
+        }
+    ],
+    "greeting": "Hello, Juana! You have 8 unread messages."
+}

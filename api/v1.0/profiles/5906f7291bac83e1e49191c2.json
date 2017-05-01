@@ -1,0 +1,66 @@
+{
+    "_id": "5906f7291bac83e1e49191c2",
+    "isActive": false,
+    "lastLogin": "Monday, February 27, 2017 6:17 PM",
+    "balance": "$1,933.53",
+    "dob": "2015-01-24",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MISS",
+        "first": "Lucia",
+        "last": "Bates"
+    },
+    "company": "ROTODYNE",
+    "email": "lucia.bates@rotodyne.co.uk",
+    "phone": [
+        {
+            "_id": "5906f729fedcbe014fa6c35a",
+            "num": "+1 (868) 597-3018",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f729e1642457324e56d6",
+            "num": "+1 (884) 451-2600",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f729a0b9591fe45dda97",
+            "num": "+1 (836) 494-2568",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72914d660942334f963",
+        "num": 486,
+        "street": "Drew Street",
+        "city": "Haena",
+        "state": "Arkansas",
+        "zip": 2013,
+        "latitude": "-63.873081",
+        "longitude": "-98.507225"
+    },
+    "bio": "Veniam consequat ipsum sint qui culpa cupidatat labore mollit anim reprehenderit nulla magna cillum. Aute in cillum do elit tempor laborum deserunt exercitation pariatur nulla. Incididunt ad labore laboris duis sint aliquip. Occaecat minim excepteur cillum fugiat aliquip deserunt irure elit exercitation reprehenderit.",
+    "tags": [
+        "proident",
+        "exercitation",
+        "officia"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c463dad0f71a4ccc5"
+        },
+        {
+            "_id": "5906f72ac20c3c35441af725"
+        },
+        {
+            "_id": "5906f72b129f019627e99279"
+        },
+        {
+            "_id": "5906f72b606de87b0e0eb300"
+        },
+        {
+            "_id": "5906f72a7cc3ac4f541c03f5"
+        }
+    ],
+    "greeting": "Hello, Lucia! You have 6 unread messages."
+}
