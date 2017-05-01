@@ -24,14 +24,13 @@ const delayPromise = (ms) => {
 };
 
 validate.extend(validate.validators.datetime, {
-    // The value is guaranteed not to be null or undefined but otherwise it
-    // could be anything.
+    // The value is guaranteed not to be null or undefined but otherwise it could be anything. needs to be UTC Unix Timestamp (milliseconds)
     parse: function(value) {
-        return +moment(value,'YYYY-MM-DD');
+        return moment.utc(value).valueOf();
     },
-    // Input is a unix timestamp
+    // Input is a utc unix timestamp. this example only assumes the format is the date part of a ISO 8601
     format: function(value) {
-        return moment.utc(value).format("YYYY-MM-DD");
+        return moment.utc().unix(value).format("YYYY-MM-DD");
     }
 });
 
@@ -51,8 +50,7 @@ let constraints = {
     'dob': {
         datetime: {
             dateOnly: true
-        },
-        presence: true
+        }
     }
 };
 
@@ -183,7 +181,7 @@ export class UserProfile extends Component {
                                     month={this.props.month}
                                     year={this.props.year}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateDob)}
-                                    getValidationModel={ (dob)=>{ return { dob }; } }
+                                    getValidationModel={ (dob)=>{ console.log('getValidationModel',dob); return { dob:dob }; } }
                                     validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
