@@ -146,7 +146,7 @@ export class UserProfile extends Component {
                                     value={this.props.name.first}
                                     required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
-                                    getValidationModel={ (value)=>{ return {name:{first:value}}; } }
+                                    getModelToValidate={ (value)=>{ return {name:{first:value}}; } }
                                     validator={ this.createValidator( [ 'name.first' ], constraints, options, this ) }
                                 />
                                 <InputText
@@ -157,7 +157,7 @@ export class UserProfile extends Component {
                                     value={this.props.name.last}
                                     required={false}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
-                                    getValidationModel={ (value)=>{ return {name:{last:value}}; } }
+                                    getModelToValidate={ (value)=>{ return {name:{last:value}}; } }
                                     validator={this.createValidator( [ 'name.last' ], constraints, options, this ) }
                                 />
                                <InputText
@@ -168,7 +168,7 @@ export class UserProfile extends Component {
                                     value={this.props.email}
                                     required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
-                                    getValidationModel={ (email)=>{ return {email}; } }
+                                    getModelToValidate={ (email)=>{ return {email}; } }
                                     validator={this.createValidator( [ 'email' ], constraints, options, this ) }
                                 />
                                 <DateFields
@@ -181,7 +181,7 @@ export class UserProfile extends Component {
                                     month={this.props.month}
                                     year={this.props.year}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateDob)}
-                                    getValidationModel={ (dob)=>{ console.log('getValidationModel',dob); return { dob:dob }; } }
+                                    getModelToValidate={ (dob)=>{ return { dob:dob }; } }
                                     validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>

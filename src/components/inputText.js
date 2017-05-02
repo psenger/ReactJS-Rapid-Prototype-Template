@@ -13,13 +13,13 @@ export default class InputText extends Component {
     }
 
     ariaInvalid() {
-        return ( this.props.validator( this.props.getValidationModel( this.props.value ) ) === "warning" || this.props.validator( this.props.getValidationModel( this.props.value ) ) ==="error" );
+        return ( this.props.validator( this.props.getModelToValidate( this.props.value ) ) === "warning" || this.props.validator( this.props.getModelToValidate( this.props.value ) ) ==="error" );
     }
 
     render(){
         return (
             <FormGroup controlId={this.props.fieldId}
-                       validationState={ this.props.validator( this.props.getValidationModel( this.props.value ) ) }>
+                       validationState={ this.props.validator( this.props.getModelToValidate( this.props.value ) ) }>
                 <ControlLabel>{this.props.label}</ControlLabel>
                 <FormControl type="text"
                              value={this.props.value}
@@ -29,7 +29,7 @@ export default class InputText extends Component {
                              aria-describedby={this.props.fieldId + '_help'}
                              tabIndex="0"
                              required={this.props.required} />
-                <FormControl.Feedback aria-hidden="true" role="presentation"/>
+                <FormControl.Feedback aria-hidden="true"/>
                 {(this.props.required)
                     ?(<div className="container-fluid" style={{padding:0}}>
                         <div className="row">
@@ -47,7 +47,7 @@ InputText.propTypes = {
     fieldId: PropTypes.string.isRequired,
     required: PropTypes.bool.isRequired,
     validator: PropTypes.func.isRequired,
-    getValidationModel: PropTypes.func.isRequired,
+    getModelToValidate: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
     placeholder: PropTypes.string.isRequired,
