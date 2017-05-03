@@ -1,0 +1,55 @@
+{
+    "_id": "5906f72a8d4850de952bdcbd",
+    "isActive": false,
+    "lastLogin": "Sunday, September 20, 2015 5:10 PM",
+    "balance": "$3,628.75",
+    "dob": "2016-01-05",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Barker",
+        "last": "Grimes"
+    },
+    "company": "GYNK",
+    "email": "barker.grimes@gynk.name",
+    "phone": [
+        {
+            "_id": "5906f72ab91d0c8f34d2ab0a",
+            "num": "+1 (929) 456-2097",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72a9afe08ccfdeceebb",
+            "num": "+1 (989) 535-3737",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ae172f044800a1484",
+        "num": 597,
+        "street": "Erasmus Street",
+        "city": "Norvelt",
+        "state": "Nevada",
+        "zip": 3947,
+        "latitude": "32.846707",
+        "longitude": "-157.390486"
+    },
+    "bio": "Eu commodo occaecat do laborum officia dolor consectetur. Do duis est tempor laboris amet voluptate eu quis ea amet excepteur esse duis. Et ad cupidatat nisi aute nostrud excepteur sunt minim deserunt est nulla dolor ut. Adipisicing Lorem officia anim aliqua Lorem ea occaecat proident. Id ex anim eiusmod id qui tempor labore quis dolore eiusmod.",
+    "tags": [
+        "commodo",
+        "exercitation",
+        "deserunt"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c843ef9229b6151df"
+        },
+        {
+            "_id": "5906f72ac39505a4374df067"
+        },
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        }
+    ],
+    "greeting": "Hello, Barker! You have 10 unread messages."
+}

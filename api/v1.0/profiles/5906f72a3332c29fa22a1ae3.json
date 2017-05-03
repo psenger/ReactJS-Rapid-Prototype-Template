@@ -1,0 +1,47 @@
+{
+    "_id": "5906f72a3332c29fa22a1ae3",
+    "isActive": false,
+    "lastLogin": "Saturday, April 5, 2014 2:05 AM",
+    "balance": "$2,221.70",
+    "dob": "2014-11-28",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Williamson",
+        "last": "Mercer"
+    },
+    "company": "EQUITAX",
+    "email": "williamson.mercer@equitax.net",
+    "phone": [
+        {
+            "_id": "5906f72af8f9406e2d05a6a5",
+            "num": "+1 (957) 521-3537",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72ab85b16ddc40b9e87",
+            "num": "+1 (817) 433-3793",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ac438b01c0a8338a0",
+        "num": 511,
+        "street": "Village Court",
+        "city": "Albany",
+        "state": "Vermont",
+        "zip": 6525,
+        "latitude": "1.086885",
+        "longitude": "113.894402"
+    },
+    "bio": "Esse do ullamco veniam officia eu est deserunt nostrud qui ut esse ad enim aliqua. Sunt adipisicing exercitation et irure duis quis nulla non esse. Sint elit eu dolore aute eu elit et ea consequat eiusmod pariatur amet. Voluptate aute in id id pariatur culpa sint eu dolore ipsum adipisicing laborum voluptate. Non mollit cillum sint qui mollit amet ex et ex eiusmod.",
+    "tags": [
+        "dolore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cbd02380d644af0cc"
+        }
+    ],
+    "greeting": "Hello, Williamson! You have 9 unread messages."
+}

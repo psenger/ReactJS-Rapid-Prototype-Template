@@ -1,7 +1,9 @@
 
+import PropTypes from "prop-types";
 import React, {Component} from 'react';
 
 export default class Home extends Component {
+
     constructor(props) {
         super(props);
         this.displayName = 'containers/Home';
@@ -15,3 +17,8 @@ export default class Home extends Component {
         );
     }
 }
+
+// needed to allow context to be brought down.
+Home.contextTypes = {
+    theme: PropTypes.object.isRequired
+};

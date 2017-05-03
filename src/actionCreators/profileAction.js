@@ -26,4 +26,8 @@ export const updateLastName = last => ({
     value: {name: {last}}
 });
 
+export const updateDob = dob => ({
+    type: actionConstants.PROFILE_MODIFY_DATE_OF_BIRTH,
+    value: dob
+});
 

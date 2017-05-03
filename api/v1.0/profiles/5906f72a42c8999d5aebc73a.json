@@ -1,0 +1,73 @@
+{
+    "_id": "5906f72a42c8999d5aebc73a",
+    "isActive": true,
+    "lastLogin": "Wednesday, January 25, 2017 11:15 AM",
+    "balance": "$2,626.75",
+    "dob": "2015-10-21",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Felecia",
+        "last": "Crawford"
+    },
+    "company": "ANARCO",
+    "email": "felecia.crawford@anarco.org",
+    "phone": [
+        {
+            "_id": "5906f72ab13fa04eeb6361b6",
+            "num": "+1 (875) 454-3648",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72aa3f6634e168e64e3",
+            "num": "+1 (903) 458-2330",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72a8262c4f1646b8697",
+            "num": "+1 (872) 418-3719",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72a98a05530e30c51cb",
+            "num": "+1 (941) 497-2508",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a572304f8178f3df7",
+        "num": 794,
+        "street": "Bradford Street",
+        "city": "Salvo",
+        "state": "Missouri",
+        "zip": 8915,
+        "latitude": "-63.995994",
+        "longitude": "134.526152"
+    },
+    "bio": "Ex reprehenderit dolor ad nulla sint occaecat do adipisicing. Id elit excepteur adipisicing cupidatat tempor sunt occaecat anim ex et occaecat non. Adipisicing duis occaecat amet exercitation ut laboris consequat dolore sunt. Sit adipisicing reprehenderit dolor consectetur dolore in deserunt sit. Elit id ullamco irure sit magna ut mollit dolor id laborum ullamco aliquip laborum proident. Laborum irure officia sunt fugiat magna tempor fugiat amet ea.",
+    "tags": [
+        "in",
+        "Lorem"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b02266ebf6d2d1e9a"
+        },
+        {
+            "_id": "5906f72a83be03e371da7322"
+        },
+        {
+            "_id": "5906f72a5d404d15e6489166"
+        },
+        {
+            "_id": "5906f72a83be03e371da7322"
+        },
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        },
+        {
+            "_id": "5906f72a0be2cc3934858c6f"
+        }
+    ],
+    "greeting": "Hello, Felecia! You have 8 unread messages."
+}

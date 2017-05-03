@@ -1,0 +1,73 @@
+{
+    "_id": "5906f72bdf0e5b24f0bcd788",
+    "isActive": false,
+    "lastLogin": "Sunday, November 16, 2014 9:42 PM",
+    "balance": "$2,742.70",
+    "dob": "2016-01-23",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Rogers",
+        "last": "Tate"
+    },
+    "company": "SILODYNE",
+    "email": "rogers.tate@silodyne.ca",
+    "phone": [
+        {
+            "_id": "5906f72b3afdf616cd9b4f12",
+            "num": "+1 (936) 423-3447",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72bfe162a544d8d469b",
+            "num": "+1 (876) 558-3779",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72bbeacb8224e280677",
+            "num": "+1 (855) 546-2159",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b868f9dbbd9a08746",
+        "num": 895,
+        "street": "Ashford Street",
+        "city": "Bladensburg",
+        "state": "South Dakota",
+        "zip": 4168,
+        "latitude": "-44.723692",
+        "longitude": "-91.091998"
+    },
+    "bio": "Labore proident nisi occaecat non. Voluptate ex nostrud dolore incididunt ullamco do eu eu irure consectetur exercitation tempor minim proident. Elit non eu incididunt irure amet. Deserunt mollit incididunt velit eu esse. Ea duis ex do pariatur in nulla consectetur ad eiusmod id deserunt id labore in. Dolor dolore adipisicing velit in in est laborum qui in. Sint voluptate culpa labore eiusmod aliquip veniam qui.",
+    "tags": [
+        "ad",
+        "nulla",
+        "non",
+        "proident",
+        "minim",
+        "magna",
+        "dolore"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c843ef9229b6151df"
+        },
+        {
+            "_id": "5906f72af1e640b8583f4a13"
+        },
+        {
+            "_id": "5906f72c843ef9229b6151df"
+        },
+        {
+            "_id": "5906f72c43d60dddc1740b7f"
+        },
+        {
+            "_id": "5906f72cb0bd9a7b476e90f1"
+        },
+        {
+            "_id": "5906f72cb21939d6f67c4668"
+        }
+    ],
+    "greeting": "Hello, Rogers! You have 6 unread messages."
+}

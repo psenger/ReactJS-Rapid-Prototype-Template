@@ -1,0 +1,48 @@
+{
+    "_id": "5906f72a5d404d15e6489166",
+    "isActive": false,
+    "lastLogin": "Monday, December 1, 2014 12:32 PM",
+    "balance": "$1,890.90",
+    "dob": "2015-10-27",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Lester",
+        "last": "Cunningham"
+    },
+    "company": "TRANSLINK",
+    "email": "lester.cunningham@translink.tv",
+    "phone": [
+        {
+            "_id": "5906f72a89946e621980ff1f",
+            "num": "+1 (909) 406-3977",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a71126ae7d6711963",
+        "num": 212,
+        "street": "Kane Street",
+        "city": "Bentonville",
+        "state": "Alaska",
+        "zip": 6983,
+        "latitude": "25.871664",
+        "longitude": "156.860652"
+    },
+    "bio": "Elit ea do deserunt sunt laborum eu ipsum sunt fugiat in laborum do. Commodo proident in enim adipisicing aute ipsum. Ullamco commodo nisi fugiat esse ipsum. Eu id ipsum proident dolor laboris ad do laboris id cupidatat. Labore et est minim est quis dolore sit et culpa.",
+    "tags": [
+        "ex",
+        "laborum",
+        "officia",
+        "nisi"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b63fc7d8bfa59c7df"
+        },
+        {
+            "_id": "5906f72c21d7ee19048c4d69"
+        }
+    ],
+    "greeting": "Hello, Lester! You have 7 unread messages."
+}

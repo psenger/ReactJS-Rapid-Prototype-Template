@@ -1,0 +1,50 @@
+{
+    "_id": "5906f72af1e640b8583f4a13",
+    "isActive": true,
+    "lastLogin": "Monday, May 4, 2015 9:07 PM",
+    "balance": "$2,299.52",
+    "dob": "2015-03-19",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Madeleine",
+        "last": "Townsend"
+    },
+    "company": "FUTURIS",
+    "email": "madeleine.townsend@futuris.tv",
+    "phone": [
+        {
+            "_id": "5906f72aab71b6b3301306d8",
+            "num": "+1 (915) 572-3109",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a2113298160510b91",
+        "num": 636,
+        "street": "Hampton Place",
+        "city": "Chloride",
+        "state": "Delaware",
+        "zip": 4724,
+        "latitude": "62.803538",
+        "longitude": "-102.090394"
+    },
+    "bio": "In tempor deserunt nostrud elit ullamco consequat elit. Esse aliqua proident ut ullamco voluptate voluptate eiusmod. Duis fugiat ad ipsum mollit amet non cillum mollit nisi ipsum sunt eu exercitation commodo. Exercitation reprehenderit ipsum adipisicing aliquip excepteur consequat. Laboris nisi est sint aute nostrud. Exercitation aliqua id nulla fugiat magna dolore est do qui nostrud.",
+    "tags": [
+        "laborum",
+        "sit",
+        "eu",
+        "pariatur",
+        "nostrud",
+        "do",
+        "fugiat",
+        "nisi",
+        "cupidatat"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72cb0bd9a7b476e90f1"
+        }
+    ],
+    "greeting": "Hello, Madeleine! You have 9 unread messages."
+}

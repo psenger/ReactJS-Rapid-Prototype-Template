@@ -1,0 +1,52 @@
+{
+    "_id": "5906f72a83be03e371da7322",
+    "isActive": false,
+    "lastLogin": "Wednesday, March 5, 2014 5:09 AM",
+    "balance": "$2,237.25",
+    "dob": "2014-03-21",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Lee",
+        "last": "Figueroa"
+    },
+    "company": "ZILLANET",
+    "email": "lee.figueroa@zillanet.com",
+    "phone": [
+        {
+            "_id": "5906f72a0394d03d3a2ccbd9",
+            "num": "+1 (912) 472-2372",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72a15ffa1d5f95308f8",
+            "num": "+1 (859) 569-3370",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ae001941c94ad6f87",
+        "num": 466,
+        "street": "Richmond Street",
+        "city": "Gilmore",
+        "state": "Ohio",
+        "zip": 8326,
+        "latitude": "-26.796792",
+        "longitude": "-90.957872"
+    },
+    "bio": "Fugiat nisi consectetur ipsum et sit tempor dolor. Dolore tempor ipsum enim minim minim exercitation. Qui duis Lorem non ex mollit aliqua consectetur dolor exercitation quis esse fugiat. In ut reprehenderit et ea officia reprehenderit commodo Lorem. Et ut fugiat adipisicing nostrud esse Lorem ea.",
+    "tags": [
+        "sunt",
+        "occaecat",
+        "incididunt",
+        "magna",
+        "cupidatat",
+        "ullamco"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b4f0430a101ec205b"
+        }
+    ],
+    "greeting": "Hello, Lee! You have 9 unread messages."
+}

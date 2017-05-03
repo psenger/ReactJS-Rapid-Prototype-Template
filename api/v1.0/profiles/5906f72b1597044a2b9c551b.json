@@ -1,0 +1,62 @@
+{
+    "_id": "5906f72b1597044a2b9c551b",
+    "isActive": false,
+    "lastLogin": "Tuesday, June 23, 2015 4:19 AM",
+    "balance": "$3,494.24",
+    "dob": "2015-04-30",
+    "eyeColor": "green",
+    "name": {
+        "title": "MRS",
+        "first": "Poole",
+        "last": "Hess"
+    },
+    "company": "SYNKGEN",
+    "email": "poole.hess@synkgen.io",
+    "phone": [
+        {
+            "_id": "5906f72bf9e65843a28f777e",
+            "num": "+1 (867) 528-2785",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72b2ae6f64735dbea43",
+            "num": "+1 (904) 525-2451",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b22ba942ee708f073",
+        "num": 507,
+        "street": "Windsor Place",
+        "city": "Brownlee",
+        "state": "New York",
+        "zip": 6322,
+        "latitude": "-31.864502",
+        "longitude": "93.926821"
+    },
+    "bio": "Aute fugiat elit ullamco elit sint duis excepteur. Aliquip reprehenderit adipisicing quis irure esse. Anim nostrud dolor velit id ad magna est amet Lorem culpa elit tempor reprehenderit veniam. Ipsum ullamco consectetur eiusmod quis occaecat nisi. Mollit officia labore occaecat Lorem et labore non ullamco est aliquip. Pariatur qui exercitation eu adipisicing anim est pariatur Lorem dolor voluptate quis. Ex mollit consectetur non labore labore cupidatat irure non aliqua.",
+    "tags": [
+        "sit",
+        "anim",
+        "fugiat",
+        "id",
+        "duis",
+        "ad",
+        "nisi",
+        "ipsum",
+        "ea",
+        "ad"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72905403ede7aa7d0c2"
+        },
+        {
+            "_id": "5906f72a4f471fa6568436b6"
+        },
+        {
+            "_id": "5906f72a7cdefe66d528de83"
+        }
+    ],
+    "greeting": "Hello, Poole! You have 6 unread messages."
+}

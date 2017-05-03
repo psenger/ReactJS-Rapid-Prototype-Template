@@ -1,0 +1,62 @@
+{
+    "_id": "5906f72c584e9ee4b570e36b",
+    "isActive": false,
+    "lastLogin": "Sunday, June 7, 2015 9:17 AM",
+    "balance": "$2,879.22",
+    "dob": "2015-04-28",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Hansen",
+        "last": "Watson"
+    },
+    "company": "DREAMIA",
+    "email": "hansen.watson@dreamia.name",
+    "phone": [
+        {
+            "_id": "5906f72c83bc3ed12f5b1b32",
+            "num": "+1 (878) 414-2312",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c21d9c98a04b3812e",
+        "num": 114,
+        "street": "Maujer Street",
+        "city": "Inkerman",
+        "state": "Kansas",
+        "zip": 9432,
+        "latitude": "-27.342498",
+        "longitude": "105.318329"
+    },
+    "bio": "Quis ipsum esse proident magna. Ullamco cupidatat cillum proident qui irure pariatur non. Pariatur excepteur nostrud sit voluptate duis reprehenderit sint labore eu tempor deserunt pariatur sunt. Nisi qui sunt non deserunt cillum cillum Lorem fugiat nulla do.",
+    "tags": [
+        "labore",
+        "aliquip",
+        "nisi",
+        "irure",
+        "pariatur",
+        "aliqua",
+        "occaecat",
+        "consequat",
+        "culpa"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c653069aa61a02a36"
+        },
+        {
+            "_id": "5906f72b4f0430a101ec205b"
+        },
+        {
+            "_id": "5906f72c87ec72746cfe8728"
+        },
+        {
+            "_id": "5906f72c314027ed98063b7d"
+        },
+        {
+            "_id": "5906f72946e061869baae1bc"
+        }
+    ],
+    "greeting": "Hello, Hansen! You have 5 unread messages."
+}

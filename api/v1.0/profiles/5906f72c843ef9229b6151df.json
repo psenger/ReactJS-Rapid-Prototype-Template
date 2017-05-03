@@ -1,0 +1,64 @@
+{
+    "_id": "5906f72c843ef9229b6151df",
+    "isActive": true,
+    "lastLogin": "Monday, January 20, 2014 2:59 AM",
+    "balance": "$2,382.86",
+    "dob": "2016-05-20",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Gena",
+        "last": "Dunlap"
+    },
+    "company": "DADABASE",
+    "email": "gena.dunlap@dadabase.us",
+    "phone": [
+        {
+            "_id": "5906f72c7f87f7eb9141f673",
+            "num": "+1 (915) 464-2726",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72c1cf14a7d608b3cb4",
+            "num": "+1 (965) 564-3516",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c85dbde8077950aac",
+        "num": 530,
+        "street": "Tilden Avenue",
+        "city": "Cowiche",
+        "state": "California",
+        "zip": 3396,
+        "latitude": "-48.005828",
+        "longitude": "-168.942486"
+    },
+    "bio": "Laboris cupidatat ad non veniam laborum Lorem sunt aute ullamco. Nostrud ipsum aliquip tempor aliqua labore veniam ut dolor consequat. Duis culpa sunt ex officia enim consequat esse aute aliqua do ad.",
+    "tags": [
+        "voluptate",
+        "enim",
+        "commodo",
+        "occaecat",
+        "aliqua",
+        "in",
+        "reprehenderit",
+        "veniam",
+        "esse"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c8a90a2fb5322170b"
+        },
+        {
+            "_id": "5906f729c166b929995f7970"
+        },
+        {
+            "_id": "5906f72a7cdefe66d528de83"
+        },
+        {
+            "_id": "5906f72ca84fa0c72dc6b965"
+        }
+    ],
+    "greeting": "Hello, Gena! You have 7 unread messages."
+}

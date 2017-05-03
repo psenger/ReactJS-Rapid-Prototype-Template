@@ -1,0 +1,72 @@
+{
+    "_id": "5906f729e42d3fe5f7c547a7",
+    "isActive": true,
+    "lastLogin": "Tuesday, January 28, 2014 2:02 PM",
+    "balance": "$2,580.45",
+    "dob": "2015-05-02",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Fannie",
+        "last": "Wilson"
+    },
+    "company": "ENOMEN",
+    "email": "fannie.wilson@enomen.io",
+    "phone": [
+        {
+            "_id": "5906f7296175fd52663a517b",
+            "num": "+1 (824) 512-3337",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f729b2e2b3c957406fae",
+            "num": "+1 (809) 533-3290",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f7292be5821290712723",
+            "num": "+1 (847) 426-2868",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f729d43f3a22c6826ecb",
+        "num": 271,
+        "street": "Schenck Avenue",
+        "city": "Dorneyville",
+        "state": "Nebraska",
+        "zip": 5582,
+        "latitude": "42.173358",
+        "longitude": "77.692344"
+    },
+    "bio": "Ex elit sint aute culpa esse enim officia amet proident culpa eiusmod nostrud Lorem. Id voluptate ipsum non non nisi nisi eu laborum Lorem id incididunt Lorem Lorem sit. Anim ipsum ut et deserunt aliquip pariatur minim in enim duis irure.",
+    "tags": [
+        "exercitation",
+        "incididunt",
+        "ullamco",
+        "nisi",
+        "et",
+        "velit",
+        "excepteur",
+        "amet",
+        "in"
+    ],
+    "friends": [
+        {
+            "_id": "5906f729f709f101fa01badb"
+        },
+        {
+            "_id": "5906f72a7cdefe66d528de83"
+        },
+        {
+            "_id": "5906f72b1597044a2b9c551b"
+        },
+        {
+            "_id": "5906f72bce5be6224508a2bf"
+        },
+        {
+            "_id": "5906f72ae6dfacfe3e18eb95"
+        }
+    ],
+    "greeting": "Hello, Fannie! You have 10 unread messages."
+}

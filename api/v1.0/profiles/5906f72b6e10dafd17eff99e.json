@@ -1,0 +1,64 @@
+{
+    "_id": "5906f72b6e10dafd17eff99e",
+    "isActive": false,
+    "lastLogin": "Tuesday, May 19, 2015 11:45 PM",
+    "balance": "$1,624.59",
+    "dob": "2015-04-18",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MRS",
+        "first": "Valencia",
+        "last": "Castillo"
+    },
+    "company": "MACRONAUT",
+    "email": "valencia.castillo@macronaut.name",
+    "phone": [
+        {
+            "_id": "5906f72b05ce04991f9122a5",
+            "num": "+1 (868) 435-2835",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72b61ee8bb8820e4dee",
+            "num": "+1 (998) 593-2982",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72bac57a1f582657eb2",
+            "num": "+1 (919) 504-3328",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72bf58d094bf406370a",
+            "num": "+1 (858) 508-2377",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72bd45f61aa090f5e1c",
+        "num": 130,
+        "street": "Oxford Walk",
+        "city": "Grayhawk",
+        "state": "Rhode Island",
+        "zip": 2573,
+        "latitude": "-5.187649",
+        "longitude": "133.706776"
+    },
+    "bio": "Do reprehenderit consequat veniam et sint aute non qui dolore amet ad. Velit pariatur ipsum esse laborum aute proident nulla ut. Fugiat incididunt in cillum deserunt ad sint cupidatat incididunt non do adipisicing ullamco culpa sunt. Culpa sint cillum est et ex aute.",
+    "tags": [
+        "amet",
+        "reprehenderit",
+        "cupidatat",
+        "tempor",
+        "id"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        },
+        {
+            "_id": "5906f72a7cc3ac4f541c03f5"
+        }
+    ],
+    "greeting": "Hello, Valencia! You have 7 unread messages."
+}

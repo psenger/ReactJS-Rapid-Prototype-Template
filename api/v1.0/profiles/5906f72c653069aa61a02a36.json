@@ -1,0 +1,70 @@
+{
+    "_id": "5906f72c653069aa61a02a36",
+    "isActive": true,
+    "lastLogin": "Sunday, June 14, 2015 12:58 AM",
+    "balance": "$2,429.29",
+    "dob": "2016-10-16",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Sophia",
+        "last": "Baxter"
+    },
+    "company": "CAPSCREEN",
+    "email": "sophia.baxter@capscreen.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72d1506c03b1d5bc195",
+            "num": "+1 (853) 506-2826",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72d1b2386d349639739",
+            "num": "+1 (910) 437-3552",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72de71e175c0edb32f6",
+        "num": 523,
+        "street": "Lancaster Avenue",
+        "city": "Rowe",
+        "state": "Connecticut",
+        "zip": 5813,
+        "latitude": "-45.136884",
+        "longitude": "-10.902889"
+    },
+    "bio": "Adipisicing pariatur nulla labore qui aliquip. Deserunt culpa sint dolor ex est adipisicing Lorem deserunt ullamco est et mollit. Aliqua exercitation ea id id elit nulla aliqua tempor eu.",
+    "tags": [
+        "pariatur",
+        "magna",
+        "proident",
+        "do",
+        "adipisicing",
+        "fugiat",
+        "mollit",
+        "esse",
+        "qui"
+    ],
+    "friends": [
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        },
+        {
+            "_id": "5906f72cd2a1e188b296f0c4"
+        },
+        {
+            "_id": "5906f72acdbb935fca58869b"
+        },
+        {
+            "_id": "5906f72b4f0430a101ec205b"
+        },
+        {
+            "_id": "5906f72af1e640b8583f4a13"
+        },
+        {
+            "_id": "5906f7291bac83e1e49191c2"
+        }
+    ],
+    "greeting": "Hello, Sophia! You have 6 unread messages."
+}

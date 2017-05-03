@@ -65,3 +65,12 @@ export const safeSet = (obj, key, value) => {
 
     return curObj;
 };
+
+/**
+ * left pad a number with zeros
+ * @param number the base number
+ * @param max max number of padding
+ */
+export const lpad = ( number, max ) => {
+    return ( (Array(max).fill('0').join('')) + number).slice(-max);
+};

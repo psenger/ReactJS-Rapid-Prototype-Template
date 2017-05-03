@@ -1,0 +1,54 @@
+{
+    "_id": "5906f72a76995b84b74b5342",
+    "isActive": false,
+    "lastLogin": "Saturday, August 15, 2015 4:47 AM",
+    "balance": "$1,420.88",
+    "dob": "2016-02-20",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MS",
+        "first": "Everett",
+        "last": "Heath"
+    },
+    "company": "ZISIS",
+    "email": "everett.heath@zisis.io",
+    "phone": [
+        {
+            "_id": "5906f72a4ba780d6316b5473",
+            "num": "+1 (824) 522-2614",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72aba3028f9661e1838",
+            "num": "+1 (805) 459-3227",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72abfed00b93d392b54",
+        "num": 595,
+        "street": "Debevoise Street",
+        "city": "Lavalette",
+        "state": "California",
+        "zip": 3162,
+        "latitude": "44.892807",
+        "longitude": "65.987033"
+    },
+    "bio": "Dolore aliquip dolore nostrud ut esse. Elit aliquip irure ut mollit consectetur tempor ipsum laborum excepteur. Nisi consequat officia cillum ea do. Eiusmod occaecat officia cillum irure commodo. Aute cupidatat voluptate deserunt in adipisicing est eu do reprehenderit consequat deserunt. Id commodo dolor sint ipsum ex consectetur eiusmod aliquip. Culpa magna esse esse cupidatat excepteur incididunt aute esse voluptate voluptate nostrud proident.",
+    "tags": [
+        "reprehenderit",
+        "consequat"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        },
+        {
+            "_id": "5906f72a0be2cc3934858c6f"
+        },
+        {
+            "_id": "5906f72acdbb935fca58869b"
+        }
+    ],
+    "greeting": "Hello, Everett! You have 10 unread messages."
+}

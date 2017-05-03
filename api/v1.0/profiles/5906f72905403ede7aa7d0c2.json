@@ -1,0 +1,49 @@
+{
+    "_id": "5906f72905403ede7aa7d0c2",
+    "isActive": false,
+    "lastLogin": "Friday, December 18, 2015 12:56 AM",
+    "balance": "$3,240.23",
+    "dob": "2014-10-27",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MR",
+        "first": "Pearl",
+        "last": "Terrell"
+    },
+    "company": "QUALITEX",
+    "email": "pearl.terrell@qualitex.tv",
+    "phone": [
+        {
+            "_id": "5906f7290a3a47a69be80695",
+            "num": "+1 (937) 402-3919",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72951053b75a6bfb643",
+        "num": 677,
+        "street": "Wythe Avenue",
+        "city": "Golconda",
+        "state": "Oklahoma",
+        "zip": 1335,
+        "latitude": "-17.912996",
+        "longitude": "-163.571"
+    },
+    "bio": "Non irure nostrud dolore consectetur Lorem ipsum aliqua Lorem consectetur qui sunt anim. Culpa pariatur veniam in labore aute officia. Nisi id nisi do aliquip fugiat culpa ullamco officia occaecat ad. Qui occaecat ullamco culpa mollit amet mollit et enim reprehenderit consectetur ex. Anim tempor aute sunt aliqua laborum nisi magna velit veniam minim occaecat adipisicing voluptate sit. Magna magna anim id veniam anim nulla ea reprehenderit Lorem aute ad nisi labore veniam.",
+    "tags": [
+        "sint",
+        "consequat",
+        "officia",
+        "laborum",
+        "dolor"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a76995b84b74b5342"
+        },
+        {
+            "_id": "5906f72bbdc46d8a5d516ecf"
+        }
+    ],
+    "greeting": "Hello, Pearl! You have 9 unread messages."
+}

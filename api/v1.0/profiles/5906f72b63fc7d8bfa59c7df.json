@@ -1,0 +1,70 @@
+{
+    "_id": "5906f72b63fc7d8bfa59c7df",
+    "isActive": false,
+    "lastLogin": "Saturday, September 3, 2016 4:43 PM",
+    "balance": "$1,839.99",
+    "dob": "2015-03-18",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Patel",
+        "last": "Huffman"
+    },
+    "company": "DIGITALUS",
+    "email": "patel.huffman@digitalus.biz",
+    "phone": [
+        {
+            "_id": "5906f72b14df460db3aa4f79",
+            "num": "+1 (848) 428-2188",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72bf631d3e41fb3e06d",
+            "num": "+1 (945) 501-3312",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72bc52601a0d5969678",
+            "num": "+1 (958) 530-2753",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72b3980a83c10bd70e7",
+            "num": "+1 (886) 590-2640",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72b4c31693eb5ccf251",
+        "num": 303,
+        "street": "Monaco Place",
+        "city": "Finderne",
+        "state": "Puerto Rico",
+        "zip": 7099,
+        "latitude": "5.369471",
+        "longitude": "6.814753"
+    },
+    "bio": "Qui ipsum ea ullamco cillum Lorem reprehenderit do reprehenderit Lorem in pariatur irure. Aute voluptate fugiat veniam fugiat ipsum velit culpa. Nostrud irure est do quis minim. Quis eu proident non fugiat nostrud qui.",
+    "tags": [
+        "qui",
+        "nisi"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72bbdc46d8a5d516ecf"
+        },
+        {
+            "_id": "5906f72c935784edab218725"
+        },
+        {
+            "_id": "5906f72a8d4850de952bdcbd"
+        },
+        {
+            "_id": "5906f72a3e74a96493dbeba5"
+        },
+        {
+            "_id": "5906f72be0e6a384e55373cc"
+        }
+    ],
+    "greeting": "Hello, Patel! You have 7 unread messages."
+}

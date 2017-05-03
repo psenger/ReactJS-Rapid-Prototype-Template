@@ -1,0 +1,69 @@
+{
+    "_id": "5906f72ae6dfacfe3e18eb95",
+    "isActive": false,
+    "lastLogin": "Saturday, May 16, 2015 6:33 PM",
+    "balance": "$3,039.07",
+    "dob": "2014-02-24",
+    "eyeColor": "green",
+    "name": {
+        "title": "MR",
+        "first": "Lacey",
+        "last": "Cote"
+    },
+    "company": "ZERBINA",
+    "email": "lacey.cote@zerbina.me",
+    "phone": [
+        {
+            "_id": "5906f72a65f9a6f0c4a9961a",
+            "num": "+1 (852) 429-2557",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72af520c0ffd2a62ebf",
+            "num": "+1 (998) 534-3148",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72a0c549ee927c58eb4",
+            "num": "+1 (887) 516-3915",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72ac082fcc94a3c89f9",
+        "num": 898,
+        "street": "Vine Street",
+        "city": "Loyalhanna",
+        "state": "Northern Mariana Islands",
+        "zip": 7705,
+        "latitude": "3.411296",
+        "longitude": "-175.176256"
+    },
+    "bio": "Ullamco enim quis tempor ullamco mollit amet ullamco cillum eiusmod nulla consectetur. Cupidatat nostrud ex et do proident veniam deserunt ullamco ut. Esse esse mollit Lorem ex. Proident qui aliqua laborum qui enim ullamco incididunt aliqua Lorem Lorem labore mollit commodo. Minim sunt nulla commodo adipisicing id quis aute ad ex officia elit. Fugiat aliqua amet qui consectetur minim officia sunt cupidatat. Excepteur laborum reprehenderit esse ex sunt ea veniam mollit.",
+    "tags": [
+        "anim",
+        "est",
+        "ullamco",
+        "pariatur",
+        "amet",
+        "culpa"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a351bcbf8e4d1defd"
+        },
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        },
+        {
+            "_id": "5906f72a42c8999d5aebc73a"
+        },
+        {
+            "_id": "5906f72a868d9c91d6fdfd5b"
+        },
+        {
+            "_id": "5906f72af1e640b8583f4a13"
+        }
+    ],
+    "greeting": "Hello, Lacey! You have 6 unread messages."
+}

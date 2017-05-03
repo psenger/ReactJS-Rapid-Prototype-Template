@@ -1,0 +1,56 @@
+{
+    "_id": "5906f72c78f494fc1364d73e",
+    "isActive": true,
+    "lastLogin": "Sunday, March 13, 2016 12:16 PM",
+    "balance": "$1,035.24",
+    "dob": "2015-12-31",
+    "eyeColor": "green",
+    "name": {
+        "title": "MISS",
+        "first": "Burt",
+        "last": "Reynolds"
+    },
+    "company": "VURBO",
+    "email": "burt.reynolds@vurbo.tv",
+    "phone": [
+        {
+            "_id": "5906f72c5bc45288cd4b1a02",
+            "num": "+1 (811) 497-2328",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72c1c0f567d2028805d",
+            "num": "+1 (928) 528-2618",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c828b571fc4b45c0d",
+        "num": 455,
+        "street": "Ryder Street",
+        "city": "Bergoo",
+        "state": "Guam",
+        "zip": 1130,
+        "latitude": "33.95875",
+        "longitude": "146.563801"
+    },
+    "bio": "Laboris qui id exercitation nulla mollit eiusmod id est est Lorem consequat. Occaecat ipsum fugiat consectetur proident veniam id anim ipsum. Labore ex non sunt ullamco minim sint consequat deserunt velit velit officia veniam deserunt magna. Irure tempor et cillum aliqua occaecat. Labore labore laborum consequat anim eiusmod reprehenderit reprehenderit voluptate ullamco ea eiusmod labore anim. Cillum adipisicing do incididunt et excepteur cillum consequat sit et dolor qui consequat eu. Exercitation in mollit ex occaecat veniam cupidatat.",
+    "tags": [
+        "adipisicing",
+        "enim",
+        "aliquip",
+        "id"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b1597044a2b9c551b"
+        },
+        {
+            "_id": "5906f72a5d404d15e6489166"
+        },
+        {
+            "_id": "5906f72be03473eab90e791b"
+        }
+    ],
+    "greeting": "Hello, Burt! You have 7 unread messages."
+}

@@ -1,0 +1,52 @@
+{
+    "_id": "5906f729ee317b1795f28453",
+    "isActive": false,
+    "lastLogin": "Thursday, October 29, 2015 3:52 AM",
+    "balance": "$1,880.49",
+    "dob": "2014-03-03",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MS",
+        "first": "Ward",
+        "last": "Woodard"
+    },
+    "company": "ECRAZE",
+    "email": "ward.woodard@ecraze.co.uk",
+    "phone": [
+        {
+            "_id": "5906f72a64b3ec1b5fb4d162",
+            "num": "+1 (937) 554-3072",
+            "type": "work"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a1f9d33faf2145116",
+        "num": 534,
+        "street": "Beaumont Street",
+        "city": "Vowinckel",
+        "state": "Massachusetts",
+        "zip": 4494,
+        "latitude": "-9.433547",
+        "longitude": "130.971597"
+    },
+    "bio": "Mollit eiusmod quis culpa do laborum ea est. Anim cillum consectetur occaecat laboris Lorem dolore et id ut mollit deserunt laboris ullamco eu. Sint et deserunt cillum exercitation consectetur cillum. Elit tempor magna ut laborum ad.",
+    "tags": [
+        "do",
+        "velit"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72c399e4ecb3886f03a"
+        },
+        {
+            "_id": "5906f72b1597044a2b9c551b"
+        },
+        {
+            "_id": "5906f7294f291f11bce19408"
+        },
+        {
+            "_id": "5906f72c33fd48aedb25c2f0"
+        }
+    ],
+    "greeting": "Hello, Ward! You have 7 unread messages."
+}

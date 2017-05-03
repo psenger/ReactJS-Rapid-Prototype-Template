@@ -1,0 +1,75 @@
+{
+    "_id": "5906f72c99ae2c173e6e8d5d",
+    "isActive": false,
+    "lastLogin": "Wednesday, June 10, 2015 2:32 PM",
+    "balance": "$3,420.33",
+    "dob": "2014-04-26",
+    "eyeColor": "green",
+    "name": {
+        "title": "MS",
+        "first": "Odom",
+        "last": "House"
+    },
+    "company": "CINCYR",
+    "email": "odom.house@cincyr.biz",
+    "phone": [
+        {
+            "_id": "5906f72c9e8b87525c9164de",
+            "num": "+1 (825) 441-2088",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72ccec406c8e8d3f244",
+            "num": "+1 (869) 592-3909",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72c27f214874b536d0f",
+            "num": "+1 (987) 593-3198",
+            "type": "home"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c73c485f53fddf936",
+        "num": 767,
+        "street": "Aitken Place",
+        "city": "Moscow",
+        "state": "Hawaii",
+        "zip": 3345,
+        "latitude": "72.129191",
+        "longitude": "102.449528"
+    },
+    "bio": "Exercitation esse veniam ex aliquip quis labore laboris anim officia nisi. Exercitation nulla eiusmod irure culpa dolor ad cillum enim dolore do reprehenderit labore. Nulla est reprehenderit deserunt enim cupidatat et consequat nulla ea quis ea commodo. Reprehenderit labore laborum magna minim ex reprehenderit anim proident enim adipisicing adipisicing pariatur sunt labore. Enim ea nisi non incididunt commodo enim nostrud Lorem. Dolor ea consectetur anim ullamco consequat. Ipsum ullamco enim deserunt exercitation deserunt quis deserunt ad.",
+    "tags": [
+        "ea",
+        "reprehenderit",
+        "officia",
+        "occaecat",
+        "officia",
+        "minim",
+        "ea",
+        "tempor",
+        "eiusmod"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72905403ede7aa7d0c2"
+        },
+        {
+            "_id": "5906f729f709f101fa01badb"
+        },
+        {
+            "_id": "5906f72cb21939d6f67c4668"
+        },
+        {
+            "_id": "5906f72a659f0076b151f150"
+        },
+        {
+            "_id": "5906f72946e061869baae1bc"
+        },
+        {
+            "_id": "5906f72a57461fc6cbc33b4d"
+        }
+    ],
+    "greeting": "Hello, Odom! You have 5 unread messages."
+}

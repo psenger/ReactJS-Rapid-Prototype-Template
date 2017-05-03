@@ -1,0 +1,61 @@
+{
+    "_id": "5906f72a0be2cc3934858c6f",
+    "isActive": true,
+    "lastLogin": "Tuesday, August 4, 2015 12:21 PM",
+    "balance": "$3,751.87",
+    "dob": "2016-02-05",
+    "eyeColor": "blue",
+    "name": {
+        "title": "MISS",
+        "first": "Maldonado",
+        "last": "Benson"
+    },
+    "company": "SULTRAXIN",
+    "email": "maldonado.benson@sultraxin.biz",
+    "phone": [
+        {
+            "_id": "5906f72ad781deac98f779bb",
+            "num": "+1 (974) 490-2751",
+            "type": "home"
+        },
+        {
+            "_id": "5906f72a92328cbd7957dfe1",
+            "num": "+1 (826) 422-2426",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72a4665799e00cf3f8a",
+            "num": "+1 (922) 444-2384",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72a13872a9337b16f82",
+        "num": 542,
+        "street": "Buffalo Avenue",
+        "city": "Orick",
+        "state": "Utah",
+        "zip": 4980,
+        "latitude": "-42.680998",
+        "longitude": "77.31987"
+    },
+    "bio": "Dolor fugiat ex duis cillum sunt nulla veniam ut aliquip id. Ipsum mollit velit reprehenderit tempor commodo ex labore elit dolor. Sit dolor labore adipisicing nostrud qui veniam reprehenderit cupidatat tempor id.",
+    "tags": [
+        "voluptate"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72a1a42d4512ed49a02"
+        },
+        {
+            "_id": "5906f72c50aaa118fb37d824"
+        },
+        {
+            "_id": "5906f72c78f494fc1364d73e"
+        },
+        {
+            "_id": "5906f72c8a90a2fb5322170b"
+        }
+    ],
+    "greeting": "Hello, Maldonado! You have 6 unread messages."
+}

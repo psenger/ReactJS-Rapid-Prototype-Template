@@ -1,0 +1,78 @@
+{
+    "_id": "5906f72cb0bd9a7b476e90f1",
+    "isActive": true,
+    "lastLogin": "Thursday, March 16, 2017 12:41 AM",
+    "balance": "$3,825.23",
+    "dob": "2015-06-20",
+    "eyeColor": "brown",
+    "name": {
+        "title": "MRS",
+        "first": "Opal",
+        "last": "Abbott"
+    },
+    "company": "PATHWAYS",
+    "email": "opal.abbott@pathways.biz",
+    "phone": [
+        {
+            "_id": "5906f72c1b1f8f6956005625",
+            "num": "+1 (892) 426-3006",
+            "type": "mobile"
+        },
+        {
+            "_id": "5906f72c13634dd8a0d42fad",
+            "num": "+1 (994) 462-2321",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72cc1b2e637384905c0",
+            "num": "+1 (827) 539-2086",
+            "type": "work"
+        },
+        {
+            "_id": "5906f72cd559c5091471e3de",
+            "num": "+1 (803) 460-3846",
+            "type": "mobile"
+        }
+    ],
+    "address": {
+        "_id": "5906f72c338d673c5a5b6ba0",
+        "num": 192,
+        "street": "Ditmas Avenue",
+        "city": "Katonah",
+        "state": "Maryland",
+        "zip": 7068,
+        "latitude": "-29.442474",
+        "longitude": "73.640272"
+    },
+    "bio": "Aliquip do sit est non. Consequat ullamco nulla dolor enim eiusmod irure deserunt et consequat consectetur qui ea sint non. Esse ex enim non est. Irure tempor nisi ex veniam dolore exercitation adipisicing dolore cillum.",
+    "tags": [
+        "reprehenderit",
+        "nulla",
+        "Lorem",
+        "est",
+        "reprehenderit",
+        "aliquip",
+        "exercitation"
+    ],
+    "friends": [
+        {
+            "_id": "5906f72b1597044a2b9c551b"
+        },
+        {
+            "_id": "5906f72a868d9c91d6fdfd5b"
+        },
+        {
+            "_id": "5906f72a109690cdb0472d07"
+        },
+        {
+            "_id": "5906f72a7cdefe66d528de83"
+        },
+        {
+            "_id": "5906f72c77fe2f12947bf0fc"
+        },
+        {
+            "_id": "5906f729e42d3fe5f7c547a7"
+        }
+    ],
+    "greeting": "Hello, Opal! You have 5 unread messages."
+}

@@ -1,5 +1,5 @@
 
-
+import moment from 'moment';
 import {safeGet}from '../../utils';
 import PropTypes from "prop-types";
 import validate from 'validate.js';
@@ -23,6 +23,17 @@ const delayPromise = (ms) => {
     };
 };
 
+validate.extend(validate.validators.datetime, {
+    // The value is guaranteed not to be null or undefined but otherwise it could be anything. needs to be UTC Unix Timestamp (milliseconds)
+    parse: function(value) {
+        return moment.utc(value).valueOf();
+    },
+    // Input is a utc unix timestamp. this example only assumes the format is the date part of a ISO 8601
+    format: function(value) {
+        return moment.utc().unix(value).format("YYYY-MM-DD");
+    }
+});
+
 //  http://validatejs.org/
 let constraints = {
     'name.first': {
@@ -35,6 +46,11 @@ let constraints = {
     'email': {
         presence: true,
         email: true
+    },
+    'dob': {
+        datetime: {
+            dateOnly: true
+        }
     }
 };
 
@@ -130,7 +146,7 @@ export class UserProfile extends Component {
                                     value={this.props.name.first}
                                     required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
-                                    getValidationModel={ (value)=>{ return {name:{first:value}}; } }
+                                    getModelToValidate={ (value)=>{ return {name:{first:value}}; } }
                                     validator={ this.createValidator( [ 'name.first' ], constraints, options, this ) }
                                 />
                                 <InputText
@@ -141,7 +157,7 @@ export class UserProfile extends Component {
                                     value={this.props.name.last}
                                     required={false}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
-                                    getValidationModel={ (value)=>{ return {name:{last:value}}; } }
+                                    getModelToValidate={ (value)=>{ return {name:{last:value}}; } }
                                     validator={this.createValidator( [ 'name.last' ], constraints, options, this ) }
                                 />
                                <InputText
@@ -152,7 +168,7 @@ export class UserProfile extends Component {
                                     value={this.props.email}
                                     required={true}
                                     onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
-                                    getValidationModel={ (email)=>{ return {email}; } }
+                                    getModelToValidate={ (email)=>{ return {email}; } }
                                     validator={this.createValidator( [ 'email' ], constraints, options, this ) }
                                 />
                                 <DateFields
@@ -161,7 +177,12 @@ export class UserProfile extends Component {
                                     help="The Date of Birth is required"
                                     placeholder="dob"
                                     value={this.props.dob}
-                                    onChange={this.createOnChange(this.props.profileActionDispatcher.dob)}
+                                    day={this.props.day}
+                                    month={this.props.month}
+                                    year={this.props.year}
+                                    onChange={this.createOnChange(this.props.profileActionDispatcher.updateDob)}
+                                    getModelToValidate={ (dob)=>{ return { dob:dob }; } }
+                                    validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                                 />
                                 <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
                             </div>
@@ -178,12 +199,23 @@ UserProfile.propTypes = {
     profileReducer: PropTypes.object.isRequired
 };
 
-let mapStateToProps = (state /** , ownProps **/) => {
+// needed to allow specific context to be brought down.
+UserProfile.contextTypes = {
+    theme: PropTypes.object.isRequired
+};
+
+let mapStateToProps = (state) => {
+
+    let def = moment(new Date()).format("YYYY-MM-DD");
+
     return {
         profileReducer: state.profileReducer,
         name: state.profileReducer.name,
         email: state.profileReducer.email,
-        dob: state.profileReducer.dob
+        dob: state.profileReducer.dob,
+        year: Number( (state.profileReducer.dob||def).split('-')[0] ),
+        month: Number( (state.profileReducer.dob||def).split('-')[1] ),
+        day: Number( (state.profileReducer.dob||def).split('-')[2] )
     };
 };
 
