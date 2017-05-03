@@ -17,9 +17,11 @@ describe('REDUCER: ', () => {
     const initialState = undefined;
 
     describe('profileReducer.js', () => {
+
         it('should return the current state when action actionConstants is of unknown', () => {
             expect(reducer(initialState, {})).to.deep.equal({ profile: null, message: '' });
         });
+
         describe('PROFILE_LOAD', () => {
             it("should change the whole object", () => {
                 Object.freeze(initialState);
@@ -30,6 +32,7 @@ describe('REDUCER: ', () => {
                 expect(reducer(initialState, profileActions.updateActivity(false))).to.deep.equal({profile:{ isActive: false },message:''});
             });
         });
+
         describe('PROFILE_MODIFY_ACTIVE', () => {
             it("should change the active state to true", () => {
                 Object.freeze(initialState);
@@ -40,6 +43,7 @@ describe('REDUCER: ', () => {
                 expect(reducer(initialState, profileActions.updateActivity(false))).to.deep.equal({profile:{  isActive: false },message:''});
             });
         });
+
         describe('PROFILE_MODIFY_EMAIL', () => {
             it("should add a new email to an otherwise missing value", () => {
                 Object.freeze(initialState);
@@ -51,6 +55,7 @@ describe('REDUCER: ', () => {
                 expect(reducer(oldState,profileActions.updateEmail('a@a.com'))).to.deep.equal({profile:{  email: 'a@a.com'},message:''});
             });
         });
+
         describe('PROFILE_MODIFY_FIRST_NAME', () => {
             it("should add a the first name to an otherwise missing value", () => {
                 Object.freeze(initialState);
@@ -62,6 +67,7 @@ describe('REDUCER: ', () => {
                 expect( reducer(oldState,profileActions.updateFirstName('larry')) ).to.deep.equal( { profile: { name: { first: 'larry', last: 'smith' }, dob: '09/09/2017' }, message: '' } );
             });
         });
+
         describe('PROFILE_MODIFY_LAST_NAME', () => {
             it("should add the last name to an otherwise missing value", () => {
                 Object.freeze(initialState);
@@ -86,45 +92,60 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe.skip('SEQUENCE', () => {
+        describe('SEQUENCE', () => {
             it("should modify the last name to john, then bob, an change the isActive to true", () => {
                 let stateOne = Object.freeze({
-                    name: {
-                        first: 'bob',
-                        last: 'smith'
+                    profile: {
+                        name: {
+                            first: 'bob',
+                            last: 'smith'
+                        },
+                        isActive: false
                     },
-                    isActive: false
+                    message: ''
                 });
                 expect(stateOne).to.deep.equal({
-                    name: {
-                        first: 'bob',
-                        last: 'smith'
+                    profile: {
+                        name: {
+                            first: 'bob',
+                            last: 'smith'
+                        },
+                        isActive: false
                     },
-                    isActive: false
+                    message: ''
                 });
                 let stateTwo = Object.freeze(reducer(stateOne, profileActions.updateLastName('john')));
                 expect(stateTwo).to.deep.equal({
-                    name: {
-                        first: 'bob',
-                        last: 'john'
+                    profile: {
+                        name: {
+                            first: 'bob',
+                            last: 'john'
+                        },
+                        isActive: false
                     },
-                    isActive: false
+                    message: ''
                 });
                 let stateThree = Object.freeze(reducer(stateTwo, profileActions.updateLastName('bob')));
                 expect(stateThree).to.deep.equal({
-                    name: {
-                        first: 'bob',
-                        last: 'bob'
+                    profile: {
+                        name: {
+                            first: 'bob',
+                            last: 'bob'
+                        },
+                        isActive: false
                     },
-                    isActive: false
+                    message: ''
                 });
                 let stateFour = Object.freeze(reducer(stateThree, profileActions.updateLastName('bob')));
                 expect(reducer(stateFour, profileActions.updateActivity(true))).to.deep.equal({
-                    name: {
-                        first: 'bob',
-                        last: 'bob'
+                    profile: {
+                        name: {
+                            first: 'bob',
+                            last: 'bob'
+                        },
+                        isActive: true
                     },
-                    isActive: true
+                    message: ''
                 });
             });
         });

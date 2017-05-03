@@ -1,39 +1,47 @@
+
+import merge from "lodash/merge";
 import * as actionConst from "../actionCreators/actionTypes/profile";
-import {safeGet,safeSet} from "../utils";
 
 let initialState = { profile: null, message: '' };
 
-function modifyPath(state, action, path) {
-    let name = Object.assign({}, safeGet(state.profile, path, {}), safeGet(action, path));
-    let profile = Object.assign({}, state.profile, {name});
-    return Object.assign({}, state, {profile});
-}
+/**
+ * When you use immutable, it locks down the state, by wrapping the object
+ * with mutable functions that track the state change, returning the new
+ * state of the object.
+ *    Consequently Object.assign will destroy the immutable object.
+ *    Therefore, .......
+ *
+ * Lessons Learned:
+ *   1.) No need for immutable.js. Good programming and testing can replace this functionality.
+ *   2.) Normalizr looks really good, it is a water shed of good ideas. However, wrapping and unwrapping the data or even re-working the services and apis requires work.
+ *   3.) Keep Payload manipulation here... close to the code.
+ */
 
 export default function profileReducer(state = initialState, action) {
     let value = action.value;
-    // if ( state === null ) state = initialState;
+
     switch (action.type) {
 
         case actionConst.PROFILE_REQUEST_FAIL:
-            return Object.assign( {}, state, { message: value });
+            return merge( {}, state , { message: value } );
 
         case actionConst.PROFILE_LOAD:
-            return Object.assign( {}, state, { profile: value } );
+            return merge( {}, state , { profile: value } );
 
         case actionConst.PROFILE_MODIFY_ACTIVE:
-            return Object.assign( {}, state, { profile: { isActive: value } } );
+            return merge( {}, state , { profile: { isActive: value } } );
 
         case actionConst.PROFILE_MODIFY_EMAIL:
-            return Object.assign( {}, state, { profile: { email: value } } );
+            return merge( {}, state , { profile: { email: value } } );
 
         case actionConst.PROFILE_MODIFY_DATE_OF_BIRTH:
-            return Object.assign( {}, state, { profile: { dob: value } } );
+            return merge( {}, state , { profile: { dob: value } } );
 
         case actionConst.PROFILE_MODIFY_FIRST_NAME:
-            return modifyPath( state, value, 'name' );
+            return merge( {}, state , { profile: { name: { first: value } } } );
 
         case actionConst.PROFILE_MODIFY_LAST_NAME:
-            return modifyPath( state, value, 'name' );
+            return merge( {}, state , { profile: { name: { last: value } } } );
 
         default:
             return state

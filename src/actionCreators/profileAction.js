@@ -1,6 +1,13 @@
 
 import * as actionConstants from "./actionTypes/profile";
 
+/**
+ * Lessons Learned:
+ *   1.) Never make your action form the data for a reducer in an expected shape. Because this creates tight coupling ( an Anti-Pattern )
+ *   2.) Consistence wins, use one convention and stick with it. For example, the action specification does not require a "value:*" but rather "*". This creates deviations and can expand complexity for maintenance and refactoring.
+ */
+
+
 export const requestProfile = id => ({
     type: actionConstants.PROFILE_REQUEST,
     value: id
@@ -33,12 +40,12 @@ export const updateActivity = isActive => ({
 
 export const updateFirstName = first => ({
     type: actionConstants.PROFILE_MODIFY_FIRST_NAME,
-    value: {name: {first}}
+    value: first
 });
 
 export const updateLastName = last => ({
     type: actionConstants.PROFILE_MODIFY_LAST_NAME,
-    value: {name: {last}}
+    value: last
 });
 
 export const updateDob = dob => ({

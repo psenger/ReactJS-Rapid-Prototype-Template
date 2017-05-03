@@ -21,33 +21,28 @@ describe('REDUCER: ', () => {
             expect(reducer(initialState, {})).to.deep.equal({profiles: [], message: ''});
         });
 
-        // describe('PROFILES_UPDATE', () => {
-        //     it("should replace array of profiles and blank out the message", () => {
-        //         Object.freeze(initialState);
-        //         expect(reducer(initialState, profileActions.updateProfiles([{id:100},{id:200}]))).to.deep.equal( { profiles:[ { id: 100 }, { id: 200 } ], message:''}  );
-        //     });
-        // });
+        describe('PROFILES_LOAD', () => {
+            it("should replace array of profiles and blank out the message", () => {
+                Object.freeze(initialState);
+                expect(reducer(initialState, profileActions.loadProfiles( [ {id:100},{id:200} ] ))).to.deep.equal( { profiles:[ { id: 100 }, { id: 200 } ], message:''}  );
+            });
+        });
 
-        // describe('PROFILES_MESSAGE', () => {
-        //     it("should not tamper with array of profiles and set the message", () => {
-        //         let newState = Object.assign({}, initialState );
-        //         newState.profiles.push({id:100});
-        //         Object.freeze(newState);
-        //         expect(reducer(newState, profileActions.updateMessage('Big Fat Error'))).to.deep.equal( { profiles:[{id:100}], message:'Big Fat Error'}  );
-        //     });
-        // });
+        describe('PROFILES_REQUEST_SUCCESS', () => {
+            it("should not tamper with array of profiles and set the message", () => {
+                let newState = { profiles:[{id:100}], message:'xxxx'}
+                Object.freeze(newState);
+                expect(reducer(newState, profileActions.requestProfilesSuccess('Big Fat Error'))).to.deep.equal( { profiles:[{id:100}], message:'Big Fat Error'}  );
+            });
+        });
 
-        // describe('PROFILE_MODIFY_LAST_NAME', () => {
-        //     it("should add the last name to an otherwise missing value", () => {
-        //         Object.freeze(lockDown);
-        //         expect(reducer(lockDown,profileActions.updateLastName('smith'))).to.deep.equal({ name: { last: 'smith'} });
-        //     });
-        //     it("should update the last name of an existing value", () => {
-        //         let oldState = { name:  { first: 'bob', last: 'smith' } };
-        //         Object.freeze(oldState);
-        //         expect( reducer(oldState,profileActions.updateLastName('john')) ).to.deep.equal( { name: { first: 'bob', last: 'john' } } );
-        //     });
-        // });
+        describe('PROFILES_REQUEST_FAIL', () => {
+            it("should not tamper with array of profiles and set the message", () => {
+                let newState = { profiles:[{id:100}], message:'xxxx'}
+                Object.freeze(newState);
+                expect(reducer(newState, profileActions.requestProfilesFail('Big Fat Error'))).to.deep.equal( { profiles:[{id:100}], message:'Big Fat Error'}  );
+            });
+        });
  
     });
 });
