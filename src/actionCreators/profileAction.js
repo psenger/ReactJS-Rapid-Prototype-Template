@@ -1,8 +1,23 @@
 
 import * as actionConstants from "./actionTypes/profile";
 
-export const updateProfile = profile => ({
-    type: actionConstants.PROFILE_UPDATE,
+export const requestProfile = id => ({
+    type: actionConstants.PROFILE_REQUEST,
+    value: id
+});
+
+export const requestProfileSuccess = message => ({
+    type: actionConstants.PROFILE_REQUEST_SUCCESS,
+    value: message
+});
+
+export const requestProfileFail = message => ({
+    type: actionConstants.PROFILE_REQUEST_FAIL,
+    value: message
+});
+
+export const loadProfile = profile => ({
+    type: actionConstants.PROFILE_LOAD,
     value: profile
 });
 

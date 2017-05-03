@@ -14,11 +14,11 @@ import * as profileActions from '../actionCreators/profilesAction';
 
 describe('REDUCER: ', () => {
 
-    const initialState = {profiles: [], message: ''};
+    const initialState = undefined;
 
     describe('profilesReducer.js', () => {
         it('should return the current state when action actionConstants is of unknown', () => {
-            expect(reducer(initialState, {})).to.deep.equal(initialState);
+            expect(reducer(initialState, {})).to.deep.equal({profiles: [], message: ''});
         });
 
         // describe('PROFILES_UPDATE', () => {

@@ -31,7 +31,7 @@ export const flatViewMap = ( items ) => {
  *
  * @param {*} obj - the object to get the value(s) out of.
  * @param {string} key - the dot noted path into the object ( note this will not work if the properties are 'aaa.bbb.fff' )
- * @param {*} defaultVal - the default value, if undefined.
+ * @param {*} [defaultVal] - the default value, if undefined.
  * @returns {*}
  */
 export const safeGet = (obj, key, defaultVal) => {
@@ -42,6 +42,13 @@ export const safeGet = (obj, key, defaultVal) => {
     }, obj);
 };
 
+/**
+ *
+ * @param {object} obj - target object
+ * @param {string} key = key
+ * @param {object} value - the value to set.
+ * @returns {*}
+ */
 export const safeSet = (obj, key, value) => {
     if (!obj || !key)
         return Object.assign({},obj); // bail out there is no object or no key.

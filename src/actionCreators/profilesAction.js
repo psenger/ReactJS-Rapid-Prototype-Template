@@ -5,9 +5,13 @@ import * as actionConstants from "./actionTypes/profiles";
 export const requestProfiles = () => ({
     type: actionConstants.PROFILES_REQUEST
 });
-export const requestProfilesSuccess = profiles => ({
-    type: actionConstants.PROFILES_REQUEST_SUCCESS,
+export const loadProfiles = profiles => ({
+    type: actionConstants.PROFILES_LOAD,
     value: profiles
+});
+export const requestProfilesSuccess = message => ({
+    type: actionConstants.PROFILES_REQUEST_SUCCESS,
+    value: message
 });
 export const requestProfilesFail = message => ({
     type: actionConstants.PROFILES_REQUEST_FAIL,

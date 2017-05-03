@@ -32,7 +32,7 @@ export class UserProfiles extends Component {
     }
 
     onChange(){
-        console.log('onChange');
+
     }
 
     getValidationState(){

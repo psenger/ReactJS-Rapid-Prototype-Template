@@ -80,10 +80,15 @@ export const fetchStargazers = url => callApi(url, userSchemaArray)
 **/
 
 function callApi(endpoint) {
+    console.log('endpoint=', endpoint );
+
     const fullUrl = (endpoint.indexOf(API_ROOT) === -1) ? API_ROOT + endpoint : endpoint;
+
+    console.log('fullUrl=', fullUrl );
 
     return fetch(fullUrl)
         .then(function(response) {
+            console.log('response=  ',response);
             if(response.ok) {
                 return response.json();
             }

@@ -7,7 +7,7 @@ import {connect} from "react-redux";
 import React, {Component} from "react";
 import {bindActionCreators} from "redux";
 import Form from "../../components/form";
-import {fetchProfile} from "../../services/api";
+import {requestProfile} from "../../services/api";
 import InputText from '../../components/inputText';
 import {Button, ProgressBar} from "react-bootstrap";
 import DateFields from "../../components/dateFields";
@@ -66,6 +66,7 @@ export class UserProfile extends Component {
         this.onSubmit = this.onSubmit.bind(this);
         this.createOnChange = this.createOnChange.bind(this);
         this.createValidator = this.createValidator.bind(this);
+        this.state= {loading:false};
     }
 
     componentWillMount() {
@@ -76,19 +77,7 @@ export class UserProfile extends Component {
     }
 
     load(id) {
-        this.setState({loading: true},
-            () => {
-                fetchProfile(id)
-                    .then(delayPromise(1000))
-                    .then((data) => {
-                        return this.props.profileActionDispatcher.updateProfile(data);
-                    })
-                    .then(() => {
-                        this.setState({loading: false})
-                    });
-            }
-        )
-
+        this.props.profileActionDispatcher.requestProfile(id);
     }
 
     onSubmit() {
@@ -133,7 +122,7 @@ export class UserProfile extends Component {
             <section>
                 <h1>Profile Edit</h1>
                 <Form>
-                    {(this.state.loading) ?
+                    {(typeof this.props.name === 'undefined') ?
                         (
                             <ProgressBar now={10} label="10" srOnly/>
                         ):(
@@ -189,6 +178,9 @@ export class UserProfile extends Component {
                         )
                     }
                 </Form>
+               {/* <pre>
+                    {JSON.stringify(this.props,'\t',4)}
+                </pre>*/}
             </section>
         );
     }

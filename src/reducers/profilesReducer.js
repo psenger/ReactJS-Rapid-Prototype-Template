@@ -16,14 +16,10 @@ export default function profilesReducer(state = initialState, action) {
 
 
     switch (action.type) {
+        case actionConst.PROFILES_LOAD:
+            return Object.assign({}, state, { profiles: value });
         case actionConst.PROFILES_REQUEST_SUCCESS:
-
-            // let newProfiles = List.mergeDeep(initialState.profiles, value ); // initialState.profiles.merge( value );
-            // return initialState.set('profiles', newProfiles).set('message','');
-            return Object.assign({}, state, { profiles: value, message: ''});
-
-            // return initialState.set('profiles', value );
-
+            return Object.assign({}, state, { message: value });
         case actionConst.PROFILES_REQUEST_FAIL:
             return Object.assign({}, state, { message: value });
         default:
