@@ -13,7 +13,7 @@ import * as api from '../services/api';
 function* call_fetchProfiles () {
     try {
         const profiles = yield call( api.fetchProfiles );
-        yield put( loadProfiles( profiles)  );
+        yield put( loadProfiles( profiles )  );
         yield put( requestProfilesSuccess( '' ) );
     } catch (e) {
         if ( e.status === 500 ) {

@@ -1,6 +1,6 @@
 
 import moment from 'moment';
-import {safeGet}from '../../utils';
+import {safeGet,ifPathExists}from '../../utils';
 import PropTypes from "prop-types";
 import validate from 'validate.js';
 import {connect} from "react-redux";
@@ -121,7 +121,7 @@ export class UserProfile extends Component {
         return (
             <section>
                 <h1>Profile Edit</h1>
-                <Form>
+                {/*<Form>
                     {(typeof this.props.name === 'undefined') ?
                         (
                             <ProgressBar now={10} label="10" srOnly/>
@@ -177,6 +177,57 @@ export class UserProfile extends Component {
                             </div>
                         )
                     }
+                </Form>*/}
+                <Form>
+                    <div>
+                        <InputText
+                            fieldId="firstName"
+                            label="Enter the first name"
+                            help="The first name is required and can be no larger than 20 characters"
+                            placeholder="First Name"
+                            value={this.props.first}
+                            required={true}
+                            onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
+                            getModelToValidate={ (value)=>{ return {name:{first:value}}; } }
+                            validator={ this.createValidator( [ 'name.first' ], constraints, options, this ) }
+                        />
+                        <InputText
+                            fieldId="lastName"
+                            label="Enter the last name"
+                            help="The last name is required and can be no larger than 20 characters"
+                            placeholder="Last Name"
+                            value={this.props.last}
+                            required={false}
+                            onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
+                            getModelToValidate={ (value)=>{ return {name:{last:value}}; } }
+                            validator={this.createValidator( [ 'name.last' ], constraints, options, this ) }
+                        />
+                        <InputText
+                            fieldId="email"
+                            label="Enter the email"
+                            help="The email is required and must be a valid format"
+                            placeholder="Email"
+                            value={this.props.email}
+                            required={true}
+                            onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
+                            getModelToValidate={ (email)=>{ return {email}; } }
+                            validator={this.createValidator( [ 'email' ], constraints, options, this ) }
+                        />
+                        <DateFields
+                            fieldId="dob"
+                            label="Enter the Date of Birth"
+                            help="The Date of Birth is required"
+                            placeholder="dob"
+                            value={this.props.dob}
+                            day={this.props.day}
+                            month={this.props.month}
+                            year={this.props.year}
+                            onChange={this.createOnChange(this.props.profileActionDispatcher.updateDob)}
+                            getModelToValidate={ (dob)=>{ return { dob:dob }; } }
+                            validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
+                        />
+                        <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
+                    </div>
                 </Form>
                {/* <pre>
                     {JSON.stringify(this.props,'\t',4)}
@@ -196,18 +247,43 @@ UserProfile.contextTypes = {
     theme: PropTypes.object.isRequired
 };
 
-let mapStateToProps = (state) => {
+UserProfile.defaultProps = {
+    first: '',
+    last:'',
+    email: '',
+    dob: '2017-01-01',
+    year: 2017,
+    month: 1,
+    day: 1
+};
+
+let mapStateToProps = (state, ownProps) => {
 
     let def = moment(new Date()).format("YYYY-MM-DD");
 
+    /**
+     * ownProp is the props, this component was created with https://github.com/reactjs/redux/issues/693
+     */
+
+
     return {
         profileReducer: state.profileReducer,
-        name: state.profileReducer.name,
-        email: state.profileReducer.email,
-        dob: state.profileReducer.dob,
-        year: Number( (state.profileReducer.dob||def).split('-')[0] ),
-        month: Number( (state.profileReducer.dob||def).split('-')[1] ),
-        day: Number( (state.profileReducer.dob||def).split('-')[2] )
+
+        // first: ( ifPathExists(state.profileReducer,'profile.name.first') )? state.profileReducer.profile.name.first : '',
+        // last:  ( ifPathExists(state.profileReducer,'profile.name.last') )? state.profileReducer.profile.name.last : '',
+        // email: ( ifPathExists(state.profileReducer,'profile.email') ) ? state.profileReducer.profile.email : '',
+        // dob:   ( ifPathExists(state.profileReducer,'profile.dob') ) ? state.profileReducer.profile.dob : '',
+        // year:  Number( (ifPathExists(state.profileReducer,'profile.dob')||def).split('-')[0] ),
+        // month: Number( (ifPathExists(state.profileReducer,'profile.dob')||def).split('-')[1] ),
+        // day:   Number( (ifPathExists(state.profileReducer,'profile.dob')||def).split('-')[2] )
+
+        first: safeGet( state,'profileReducer.profile.name.first', null ),
+        last:  safeGet( state,'profileReducer.profile.name.last', null ),
+        email: safeGet( state,'profileReducer.profile.email', null ),
+        dob:   safeGet( state,'profileReducer.profile.dob', null ),
+        year:  Number( safeGet( state,'profileReducer.profile.dob', def ).split('-')[0] ),
+        month: Number( safeGet( state,'profileReducer.profile.dob', def ).split('-')[1] ),
+        day:   Number( safeGet( state,'profileReducer.profile.dob', def ).split('-')[2] )
     };
 };
 
@@ -217,4 +293,27 @@ let mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(UserProfile);
+/**
+ * @TODO: needs more research, I cant figure this out right now.
+ *
+ *
+ * @param stateProps
+ * @param dispatchProps
+ * @param ownProps
+ * @returns {{profileReducer: *, state: *, actions: *}}
+ */
+let mergeProps = (stateProps, dispatchProps, ownProps) => {
+    // console.log( 'mergeProps', stateProps, dispatchProps, ownProps);
+    /**
+     * Here is where we determine the default values or link them up.
+     */
+    return {
+        // ...ownProps,
+        profileReducer: stateProps.profileReducer,
+        state: stateProps,
+        actions: dispatchProps
+    };
+};
+
+
+export default connect(mapStateToProps, mapDispatchToProps /**, mergeProps **/ )(UserProfile);

@@ -1,5 +1,4 @@
 
-
 /**
  * Recursively flatten the map, pulling the deepest child to the top of the array.
  * Router-Switch recognizes the order of the route path's with the intent of specificity.
@@ -80,4 +79,25 @@ export const safeSet = (obj, key, value) => {
  */
 export const lpad = ( number, max ) => {
     return ( (Array(max).fill('0').join('')) + number).slice(-max);
+};
+
+/**
+ * test if a path exists in an object
+ * @param {*} obj - the object to drill into.
+ * @param {String} key - the dot path into the object.
+ * @returns {boolean}
+ */
+export const ifPathExists = ( obj, key ) => {
+    if ( obj === null || typeof obj === 'undefined' || key === null || typeof key === 'undefined') return false;
+    let path = (key||'').split(".") || [];
+    let ptr = obj;
+
+    return path.reduce( ( ac, cv ) => {
+        if ( ac === false ) return false;
+        if ( typeof ptr === 'undefined' || ptr === null || typeof ptr[cv] === 'undefined' || ptr[cv] === null ) {
+            return false;
+        }
+        ptr = ptr[cv];
+        return ac;
+    }, true );
 };
