@@ -4,6 +4,15 @@ import {ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
 // import {Validator}  from '../decorator/Validator';
 
 
+const helpWithRequired = (fieldId,help) => (<div className="container-fluid" style={{padding:0}}>
+                                                <div className="row">
+                                                    <div className="col-xs-8"><HelpBlock id={fieldId + '_help'} role="tooltip">{help}</HelpBlock></div>
+                                                    <div className="col-xs-4"><span className="text-danger text-info pull-right">Required</span></div>
+                                                </div>
+                                            </div>);
+
+const help = (help) => (<HelpBlock>{help}</HelpBlock>);
+
 // @Validator()
 /**
  * This class has a default state of dirty = false.
@@ -20,13 +29,13 @@ export default class InputText extends Component {
     ariaInvalid() {
         // console.log( '#ariaInvalid, state = ', this.state.dirty, this.props.value );
         return ( this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) === "warning" ||
-                 this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) ==="error" );
+                 this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) === "error" );
     }
 
     onChangeProxy( fn ) {
         let self = this;
         return function( e ) {
-            this.setState({ dirty: this.props.value !== e.target.value }, fn(e) );
+            this.setState( { dirty: this.props.value !== e.target.value }, fn(e) );
         }.bind(self);
     }
 
@@ -52,15 +61,8 @@ export default class InputText extends Component {
                              aria-describedby={this.props.fieldId + '_help'}
                              tabIndex="0"
                              required={this.props.required} />
-                <FormControl.Feedback aria-hidden="true"/>
-                {(this.props.required)
-                    ?(<div className="container-fluid" style={{padding:0}}>
-                        <div className="row">
-                            <div className="col-xs-8"><HelpBlock id={this.props.fieldId + '_help'} role="tooltip">{this.props.help}</HelpBlock></div>
-                            <div className="col-xs-4"><span className="text-danger text-info pull-right">Required</span></div>
-                        </div>
-                    </div>)
-                    :(<HelpBlock>{this.props.help}</HelpBlock>)}
+                <FormControl.Feedback aria-hidden="true" />
+                { this.props.required ? helpWithRequired( this.props.fieldId, this.props.help) : help( this.props.help ) }
             </FormGroup>
         )
     }
