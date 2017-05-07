@@ -5,26 +5,49 @@ import {ControlLabel, FormControl, FormGroup, HelpBlock} from "react-bootstrap";
 
 
 // @Validator()
+/**
+ * This class has a default state of dirty = false.
+ * When onchange fires, and the target value does not match the props value, it is set to true, false if they match.
+ */
 export default class InputText extends Component {
 
     constructor(props) {
         super(props);
         this.displayName = 'components/InputText';
+        this.state = { dirty: false };
     }
 
     ariaInvalid() {
-        return ( this.props.validator( this.props.getModelToValidate( this.props.value ) ) === "warning" || this.props.validator( this.props.getModelToValidate( this.props.value ) ) ==="error" );
+        // console.log( '#ariaInvalid, state = ', this.state.dirty, this.props.value );
+        return ( this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) === "warning" ||
+                 this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) ==="error" );
+    }
+
+    onChangeProxy( fn ) {
+        let self = this;
+        return function( e ) {
+            this.setState({ dirty: this.props.value !== e.target.value }, fn(e) );
+        }.bind(self);
+    }
+
+    componentWillReceiveProps (nextProps) {
+        console.log( 'componentWillReceiveProps this.props.value= ' , this.props.value );
+        console.log( 'componentWillReceiveProps nextProps.value= ' , nextProps.value );
+        if ( this.props.value === null ) {
+            return;
+        }
+        this.setState( { dirty: this.props.value !== nextProps.value }  );
     }
 
     render(){
         return (
             <FormGroup controlId={this.props.fieldId}
-                       validationState={ this.props.validator( this.props.getModelToValidate( this.props.value ) ) }>
+                       validationState={ this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) }>
                 <ControlLabel>{this.props.label}</ControlLabel>
                 <FormControl type="text"
                              value={this.props.value}
                              placeholder={this.props.placeholder}
-                             onChange={this.props.onChange}
+                             onChange={this.onChangeProxy(this.props.onChange)}
                              aria-invalid={this.ariaInvalid()}
                              aria-describedby={this.props.fieldId + '_help'}
                              tabIndex="0"

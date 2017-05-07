@@ -105,7 +105,9 @@ export class UserProfile extends Component {
         });
 
         // What I would like to see is how to get these messages into some model
-        return function (model) {
+        return function ( model, dirty = false ) {
+            if ( !dirty ) return "success";
+
             // validation results will be an array of strings with messages if it fails. undefined if it passes.
             let validationResults = validate(model, _constraints, validatorOptions);
             if (validationResults === undefined) {
@@ -264,7 +266,8 @@ let mapStateToProps = (state, ownProps) => {
     /**
      * ownProp is the props, this component was created with https://github.com/reactjs/redux/issues/693
      */
-
+    console.log( safeGet( state,'profileReducer.profile.dob', def ) );
+    console.log( safeGet( state,'profileReducer.profile.dob', def ).split('-')[0] );
 
     return {
         profileReducer: state.profileReducer,
