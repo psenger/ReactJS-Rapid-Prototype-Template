@@ -50,7 +50,8 @@ export default class InputText extends Component {
 
     render(){
         return (
-            <FormGroup controlId={this.props.fieldId}
+            <FormGroup data-component-name={this.displayName}
+                       controlId={this.props.fieldId}
                        validationState={ this.props.validator( this.props.getModelToValidate( this.props.value ), this.state.dirty ) }>
                 <ControlLabel>{this.props.label}</ControlLabel>
                 <FormControl type="text"

@@ -9,7 +9,7 @@ export default class Form extends Component {
 
     render() {
         return (
-            <form>
+            <form data-component-name={this.displayName}>
                 {this.props.children}
             </form>
         );

@@ -7,7 +7,7 @@ import ThemeProvider from './src/containers/ThemeProvider/themeProvider'
 
 let theme = { name:"hello world" };
 ReactDOM.render(
-    <div className="container">
+    <div className="container" data-component-name='index'>
         <ThemeProvider theme={theme} >
             <Provider store={store}>
                 <App />

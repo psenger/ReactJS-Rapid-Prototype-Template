@@ -121,7 +121,7 @@ export class UserProfile extends Component {
 
     render() {
         return (
-            <section>
+            <section data-component-name={this.displayName}>
                 <h1>Profile Edit</h1>
                 {/*<Form>
                     {(typeof this.props.name === 'undefined') ?

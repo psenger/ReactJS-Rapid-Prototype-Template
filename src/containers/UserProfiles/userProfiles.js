@@ -66,7 +66,7 @@ export class UserProfiles extends Component {
 
     render() {
         return (
-            <div>
+            <div data-component-name={this.displayName}>
                 <Form>
                     <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
                         <ControlLabel>Search Name</ControlLabel>

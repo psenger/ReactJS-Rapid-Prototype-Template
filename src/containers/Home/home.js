@@ -11,7 +11,7 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div>
+            <div data-component-name={this.displayName}>
                 Welcome home.
             </div>
         );

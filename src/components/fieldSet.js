@@ -10,7 +10,7 @@ export default class FieldSet extends Component {
 
     render(){
         return (
-            <fieldset className={classNames(this.props.classNames)}>
+            <fieldset className={classNames(this.props.classNames)} data-component-name={this.displayName}>
                 <legend>{this.props.legend}</legend>
                 {this.props.children}
             </fieldset>

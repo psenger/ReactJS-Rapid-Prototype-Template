@@ -28,7 +28,8 @@ export default class DateFields extends Component {
 
     render() {
         return (
-            <FormGroup controlId={this.props.fieldId}
+            <FormGroup data-component-name={this.displayName}
+                       controlId={this.props.fieldId}
                        validationState={ this.props.validator( this.props.getModelToValidate( this.props.value ) ) }
                 >
                 <ControlLabel aria-hidden="true">{this.props.label}</ControlLabel>

@@ -11,7 +11,7 @@ export default class NotFound extends Component {
 
     render() {
         return (
-            <div>
+            <div data-component-name={this.displayName}>
                 404 Not found
             </div>
         );

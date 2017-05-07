@@ -1,3 +1,4 @@
+
 import {jsdom} from "jsdom";
 global.document = jsdom('<!doctype html><html><head></head><body></body></html>');
 global.window = document.defaultView;

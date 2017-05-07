@@ -11,7 +11,7 @@ export default class SystemError extends Component {
 
     render() {
         return (
-            <div>
+            <div data-component-name={this.displayName}>
                 System Error
             </div>
         );
