@@ -68,7 +68,7 @@ export class UserProfiles extends Component {
         let _t = this.context.i18n;
         return (
             <div data-component-name={this.displayName}>
-                <h2>{_t.translate('Profiles Search')}</h2>
+                <h1>{_t.translate('Profiles Search')}</h1>
                 <Form>
                     <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
                         <ControlLabel>{_t.translate('Search Name')}</ControlLabel>
