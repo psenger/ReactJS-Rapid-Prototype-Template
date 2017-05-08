@@ -2,11 +2,11 @@
 import PropTypes from "prop-types";
 import { Component, Children } from 'react';
 
-class ThemeProvider extends Component {
+class LabelProvider extends Component {
 
     constructor(props, context) {
         super(props,context);
-        this.displayName = 'containers/ThemeProvider';
+        this.displayName = 'containers/labelsProvider';
     }
 
     getChildContext() {
@@ -21,18 +21,18 @@ class ThemeProvider extends Component {
     }
 }
 
-ThemeProvider.propTypes = {
+LabelProvider.propTypes = {
     i18n: PropTypes.object.isRequired,
     children: PropTypes.element.isRequired
 };
 
-ThemeProvider.contextTypes = {
+LabelProvider.contextTypes = {
     i18n: PropTypes.object
 };
 
 // you must specify what you’re adding to the context
-ThemeProvider.childContextTypes = {
+LabelProvider.childContextTypes = {
     i18n: PropTypes.object.isRequired,
 };
 
-export default ThemeProvider
+export default LabelProvider;
