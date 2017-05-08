@@ -66,7 +66,7 @@ export default class App extends Component {
 
 // needed to allow specific context to be brought down.
 App.contextTypes = {
-    theme: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired
 };
 
 /**

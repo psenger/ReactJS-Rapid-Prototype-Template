@@ -10,7 +10,8 @@ class ThemeProvider extends Component {
     }
 
     getChildContext() {
-        return {theme: this.props.theme};
+        console.log('inserting the i18n');
+        return { i18n: this.props.i18n };
     }
 
     render() {
@@ -21,17 +22,17 @@ class ThemeProvider extends Component {
 }
 
 ThemeProvider.propTypes = {
-    theme: PropTypes.object.isRequired,
+    i18n: PropTypes.object.isRequired,
     children: PropTypes.element.isRequired
 };
 
 ThemeProvider.contextTypes = {
-    theme: PropTypes.object
+    i18n: PropTypes.object
 };
 
 // you must specify what you’re adding to the context
 ThemeProvider.childContextTypes = {
-    theme: PropTypes.object.isRequired,
+    i18n: PropTypes.object.isRequired,
 };
 
 export default ThemeProvider

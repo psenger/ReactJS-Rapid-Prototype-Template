@@ -20,5 +20,5 @@ export default class NotFound extends Component {
 
 // needed to allow specific context to be brought down.
 NotFound.contextTypes = {
-    theme: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired
 };

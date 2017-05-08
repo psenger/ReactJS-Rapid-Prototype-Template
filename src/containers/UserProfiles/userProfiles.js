@@ -98,7 +98,7 @@ export class UserProfiles extends Component {
 
 // needed to allow specific context to be brought down.
 UserProfiles.contextTypes = {
-    theme: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired
 };
 
 let mapStateToProps = (store /*, ownProps */) => {

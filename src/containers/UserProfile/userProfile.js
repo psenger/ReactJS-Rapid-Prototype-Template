@@ -246,7 +246,7 @@ UserProfile.propTypes = {
 
 // needed to allow specific context to be brought down.
 UserProfile.contextTypes = {
-    theme: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired
 };
 
 UserProfile.defaultProps = {

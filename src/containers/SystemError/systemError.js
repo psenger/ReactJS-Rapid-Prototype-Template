@@ -20,5 +20,5 @@ export default class SystemError extends Component {
 
 // needed to allow specific context to be brought down.
 SystemError.contextTypes = {
-    theme: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired
 };
