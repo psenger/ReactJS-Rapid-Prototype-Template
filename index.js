@@ -1,10 +1,11 @@
+
 import React from 'react';
 import I18N from './src/i18n';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import App from './src/containers/app';
 import store from './src/store/index';
-import ThemeProvider from './src/containers/ThemeProvider/themeProvider'
+import LabelProvider from './src/containers/labelsProvider/labelProvider'
 
 let i18n = new I18N( {
     "values": {
@@ -59,10 +60,10 @@ let i18n = new I18N( {
 } );
 ReactDOM.render(
     <div className="container" data-component-name='index'>
-        <ThemeProvider i18n={i18n} >
+        <LabelProvider i18n={i18n} >
             <Provider store={store}>
                 <App />
             </Provider>
-        </ThemeProvider>
+        </LabelProvider>
     </div>,
     document.getElementById('app'));

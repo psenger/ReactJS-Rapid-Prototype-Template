@@ -1,18 +1,20 @@
 
-import Home from './Home/home';
-import About from './About/about';
+import Home from './home/home';
+import SignUp from './signUp/signUp';
+import About from './about/about';
 import PropTypes from "prop-types";
 import React, {Component} from 'react';
 import NotFound from './NotFound/notFound';
 import {Navbar,Nav,NavItem} from 'react-bootstrap';
-import UserProfile from './UserProfile/userProfile';
-import UserProfiles from './UserProfiles/userProfiles';
+import UserProfile from './userProfile/userProfile';
+import UserProfiles from './userProfiles/userProfiles';
 import {HashRouter as Router, Route, Switch,NavLink} from 'react-router-dom';
 import {flatViewMap} from '../utils';
 
 const viewMap = [
     {path: '/',                 component: Home,         label: 'Home',     },
     {path: '/userProfiles',     component: UserProfiles, label: 'Profiles', children: [ { path: '/userProfiles/:id', component: UserProfile, label: 'Profiles'} ] },
+    {path: '/signUp',           component: SignUp,       label: 'Sign Up',  },
     {path: '/about',            component: About,        label: 'About',    }
 ];
 
