@@ -1,7 +1,9 @@
 
+import PropTypes from "prop-types";
 import React, {Component} from 'react';
 
 export default class About extends Component {
+
     constructor(props) {
         super(props);
         this.displayName = 'containers/About';
@@ -29,3 +31,6 @@ export default class About extends Component {
         );
     }
 }
+About.contextTypes = {
+    i18n: PropTypes.object.isRequired
+};

@@ -65,16 +65,18 @@ export class UserProfiles extends Component {
     }
 
     render() {
+        let _t = this.context.i18n;
         return (
             <div data-component-name={this.displayName}>
+                <h2>{_t.translate('Profiles Search')}</h2>
                 <Form>
                     <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
-                        <ControlLabel>Search Name</ControlLabel>
-                        <FormControl type="text" placeholder="Enter search name" onChange={this.onChange}/>
+                        <ControlLabel>{_t.translate('Search Name')}</ControlLabel>
+                        <FormControl type="text" placeholder={_t.translate('Enter search name')} onChange={this.onChange}/>
                         <FormControl.Feedback />
-                        <HelpBlock>Enter a name to search</HelpBlock>
+                        <HelpBlock>{_t.translate('Enter a name to search')}</HelpBlock>
                     </FormGroup>
-                    <Button bsStyle="primary" onClick={this.onSubmit}>Submit</Button>
+                    <Button bsStyle="primary" onClick={this.onSubmit}>{_t.translate('Submit')}</Button>
                 </Form>
 
                 <hr/>

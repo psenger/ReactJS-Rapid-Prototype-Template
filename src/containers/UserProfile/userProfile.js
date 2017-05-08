@@ -7,7 +7,6 @@ import {connect} from "react-redux";
 import React, {Component} from "react";
 import {bindActionCreators} from "redux";
 import Form from "../../components/form";
-import {requestProfile} from "../../services/api";
 import InputText from '../../components/inputText';
 import {Button, ProgressBar} from "react-bootstrap";
 import DateFields from "../../components/dateFields";
@@ -118,11 +117,11 @@ export class UserProfile extends Component {
         }.bind(scope);
     }
 
-
     render() {
+        let _t = this.context.i18n;
         return (
             <section data-component-name={this.displayName}>
-                <h1>Profile Edit</h1>
+                <h1>{_t.translate('Profile Edit')}</h1>
                 {/*<Form>
                     {(typeof this.props.name === 'undefined') ?
                         (
@@ -184,9 +183,9 @@ export class UserProfile extends Component {
                     <div>
                         <InputText
                             fieldId="firstName"
-                            label="Enter the first name"
-                            help="The first name is required and can be no larger than 20 characters"
-                            placeholder="First Name"
+                            label={_t.translate('Enter the first name')}
+                            help={_t.translate('The first name is required and can be no larger than %n characters',20)}
+                            placeholder={_t.translate('First Name')}
                             value={this.props.first}
                             required={true}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
@@ -195,9 +194,9 @@ export class UserProfile extends Component {
                         />
                         <InputText
                             fieldId="lastName"
-                            label="Enter the last name"
-                            help="The last name is required and can be no larger than 20 characters"
-                            placeholder="Last Name"
+                            label={_t.translate('Enter the last name')}
+                            help={_t.translate('The last name is required and can be no larger than %n characters',20)}
+                            placeholder={_t.translate('Last Name')}
                             value={this.props.last}
                             required={false}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
@@ -206,9 +205,9 @@ export class UserProfile extends Component {
                         />
                         <InputText
                             fieldId="email"
-                            label="Enter the email"
-                            help="The email is required and must be a valid format"
-                            placeholder="Email"
+                            label={_t.translate('Enter the email')}
+                            help={_t.translate('The email is required and must be a valid format')}
+                            placeholder={_t.translate('Email')}
                             value={this.props.email}
                             required={true}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
@@ -217,9 +216,9 @@ export class UserProfile extends Component {
                         />
                         <DateFields
                             fieldId="dob"
-                            label="Enter the Date of Birth"
-                            help="The Date of Birth is required"
-                            placeholder="dob"
+                            label={_t.translate('Enter the Date of Birth')}
+                            help={_t.translate('The Date of Birth is required')}
+                            placeholder={_t.translate('dob')}
                             value={this.props.dob}
                             day={this.props.day}
                             month={this.props.month}
@@ -228,7 +227,7 @@ export class UserProfile extends Component {
                             getModelToValidate={ (dob)=>{ return { dob:dob }; } }
                             validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                         />
-                        <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>Submit</Button>
+                        <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>{_t.translate('Submit')}</Button>
                     </div>
                 </Form>
                {/* <pre>
@@ -266,8 +265,8 @@ let mapStateToProps = (state, ownProps) => {
     /**
      * ownProp is the props, this component was created with https://github.com/reactjs/redux/issues/693
      */
-    console.log( safeGet( state,'profileReducer.profile.dob', def ) );
-    console.log( safeGet( state,'profileReducer.profile.dob', def ).split('-')[0] );
+    // console.log( safeGet( state,'profileReducer.profile.dob', def ) );
+    // console.log( safeGet( state,'profileReducer.profile.dob', def ).split('-')[0] );
 
     return {
         profileReducer: state.profileReducer,

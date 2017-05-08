@@ -24,6 +24,10 @@ export default class App extends Component {
         this.state = { routes: flatViewMap( viewMap ) };
     }
 
+    getChildContext() {
+        return { i18n: this.context.i18n };
+    }
+
     render() {
         return (
             <div data-component-name={this.displayName}>
@@ -67,6 +71,10 @@ export default class App extends Component {
 // needed to allow specific context to be brought down.
 App.contextTypes = {
     i18n: PropTypes.object.isRequired
+};
+
+App.childContextTypes = {
+    i18n: PropTypes.object.isRequired,
 };
 
 /**

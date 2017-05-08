@@ -40,8 +40,8 @@ export default class InputText extends Component {
     }
 
     componentWillReceiveProps (nextProps) {
-        console.log( 'componentWillReceiveProps this.props.value= ' , this.props.value );
-        console.log( 'componentWillReceiveProps nextProps.value= ' , nextProps.value );
+        // console.log( 'componentWillReceiveProps this.props.value= ' , this.props.value );
+        // console.log( 'componentWillReceiveProps nextProps.value= ' , nextProps.value );
         if ( this.props.value === null ) {
             return;
         }
