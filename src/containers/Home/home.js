@@ -1,24 +1,23 @@
 
-import PropTypes from "prop-types";
 import React, {Component} from 'react';
+import I18NInjector from '../../decorator/i18nInjector';
 
-export default class Home extends Component {
+@I18NInjector()
+export class Home extends Component {
 
-    constructor(props) {
-        super(props);
-        this.displayName = 'containers/Home';
-    }
+  constructor(props) {
+    super(props);
+    this.displayName = 'containers/Home';
+  }
 
-    render() {
-        return (
-            <div data-component-name={this.displayName}>
-                Welcome home.
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div data-component-name={this.displayName}>
+        <h1>{ this.props.i18n.translate('Home') }</h1>
+        <p>{ this.props.i18n.translate('Welcome Home %{name}', {name: 'Larry'}) }</p>
+      </div>
+    );
+  }
 }
 
-// needed to allow context to be brought down.
-Home.contextTypes = {
-    i18n: PropTypes.object.isRequired
-};
+export {Home as default};

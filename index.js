@@ -2,68 +2,55 @@
 import React from 'react';
 import I18N from './src/i18n';
 import ReactDOM from 'react-dom';
+import store from './src/store/index';
 import { Provider } from 'react-redux';
 import App from './src/containers/app';
-import store from './src/store/index';
-import LabelProvider from './src/containers/labelsProvider/labelProvider'
+import I18NProvider from './src/provider/i18nProvider';
 
 let i18n = new I18N( {
-    "values": {
+    'values': {
         /** ----------------------------------- **/
-        "Profiles Search":"Profiles Search",
-        "Search Name":"Search Name",
-        "Enter search name":"Enter search name",
-        "Enter a name to search":"Enter a name to search",
+        'Welcome Home %{name}': 'Welcome Home %{name}',
         /** ----------------------------------- **/
-        "Profile Edit": "Profile Edit",
-        "Enter the first name":"Enter the first name",
-        "The first name is required and can be no larger than %n characters":"The first name is required and can be no larger than %n characters",
-        "First Name": "First Name",
-        "Enter the last name":"Enter the last name",
-        "The last name is required and can be no larger than %n characters":"The last name is required and can be no larger than %n characters",
-        "Last Name":"Last Name",
-        "Enter the email":"Enter the email",
-        "The email is required and must be a valid format":"The email is required and must be a valid format",
-        "Email":"Email",
-        "Enter the Date of Birth":"Enter the Date of Birth",
-        "The Date of Birth is required":"The Date of Birth is required",
-        "dob": "dob",
+        '404 Not found':'404 Not found',
         /** ----------------------------------- **/
-        "Submit":"Submit"
-    },
-    "contexts":[
-        {
-            "matches":{
-                "gender":"male"
-            },
-            "values":{
-                "%{name} uploaded %n photos to their %{album} album":[
-                    [0, 0, "%{name} uploaded %n photos to his %{album} album"],
-                    [1, 1, "%{name} uploaded %n photo to his %{album} album"],
-                    [2, null, "%{name} uploaded %n photos to his %{album} album"]
-                ]
-            }
-        },
-        {
-            "matches":{
-                "gender":"female"
-            },
-            "values":{
-                "%{name} uploaded %n photos to their %{album} album":[
-                    [0, 0, "%{name} uploaded %n photos to her %{album} album"],
-                    [1, 1, "%{name} uploaded %n photo to her %{album} album"],
-                    [2, null, "%{name} uploaded %n photos to her %{album} album"]
-                ]
-            }
-        }
-    ]
+        'About this project': 'About this project',
+        'About_this_project_details': 'Currently, a simple ReactJS Rapid Prototype Template, based on <span style="text-decoration: line-through">Aik</span> Webpack 2.5, ReactJS, Redux, and Sagas',
+        'Learn More': 'Learn More',
+        'Explore the project on Github': 'Explore the project on Github',
+        'MIT License Copyright (c) 2017 Philip A Senger': 'MIT License Copyright (c) 2017 Philip A Senger',
+        /** ----------------------------------- **/
+        'Profiles Search':'Profiles Search',
+        'Search Name':'Search Name',
+        'Enter search name':'Enter search name',
+        'Enter a name to search':'Enter a name to search',
+        /** ----------------------------------- **/
+        'Profile Edit': 'Profile Edit',
+        'Enter the first name':'Enter the first name',
+        'The first name is required and can be no larger than %n characters':'The first name is required and can be no larger than %n characters',
+        'First Name': 'First Name',
+        'Enter the last name':'Enter the last name',
+        'The last name is required and can be no larger than %n characters':'The last name is required and can be no larger than %n characters',
+        'Last Name':'Last Name',
+        'Enter the email':'Enter the email',
+        'The email is required and must be a valid format':'The email is required and must be a valid format',
+        'Email':'Email',
+        'Enter the Date of Birth':'Enter the Date of Birth',
+        'The Date of Birth is required':'The Date of Birth is required',
+        'dob': 'dob',
+        /** ----------------------------------- **/
+        'System Error':'System Error',
+        /** ----------------------------------- **/
+        'Submit':'Submit'
+    }
 } );
 ReactDOM.render(
-    <div className="container" data-component-name='index'>
-        <LabelProvider i18n={i18n} >
-            <Provider store={store}>
-                <App />
-            </Provider>
-        </LabelProvider>
+    <div className='container' data-component-name='index'>
+      <Provider store={store}>
+        <I18NProvider i18n={i18n}>
+          <App />
+        </I18NProvider>
+      </Provider>
     </div>,
     document.getElementById('app'));
+

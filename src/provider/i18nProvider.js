@@ -2,16 +2,15 @@
 import PropTypes from "prop-types";
 import { Component, Children } from 'react';
 
-class LabelProvider extends Component {
+class I18NProvider extends Component {
 
     constructor(props, context) {
         super(props,context);
-        this.displayName = 'containers/labelsProvider';
     }
 
     getChildContext() {
-        console.log('inserting the i18n');
-        return { i18n: this.props.i18n };
+        const {i18n} = this.props;
+        return {i18n};
     }
 
     render() {
@@ -21,18 +20,20 @@ class LabelProvider extends Component {
     }
 }
 
-LabelProvider.propTypes = {
+I18NProvider.propTypes = {
     i18n: PropTypes.object.isRequired,
     children: PropTypes.element.isRequired
 };
 
-LabelProvider.contextTypes = {
+I18NProvider.contextTypes = {
     i18n: PropTypes.object
 };
 
 // you must specify what you’re adding to the context
-LabelProvider.childContextTypes = {
+I18NProvider.childContextTypes = {
     i18n: PropTypes.object.isRequired,
 };
 
-export default LabelProvider;
+I18NProvider.displayName = 'containers/LabelsProvider';
+
+export { I18NProvider as default };

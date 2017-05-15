@@ -7,6 +7,7 @@ import React, {Component} from 'react';
 import {withRouter} from 'react-router';
 import Form from '../../components/form';
 import {bindActionCreators} from 'redux';
+import I18NInjector from '../../decorator/i18nInjector';
 import * as ProfilesActions from '../../actionCreators/profilesAction';
 import {FormGroup,ControlLabel,FormControl,HelpBlock,Button,Table} from 'react-bootstrap';
 
@@ -15,6 +16,7 @@ const columns = [{key: '_id', name: 'ID'},
     {key: 'name.last', name: 'Last'},
     {key: 'email', name: 'Email'}];
 
+@I18NInjector()
 export class UserProfiles extends Component {
 
     constructor(props) {
@@ -65,18 +67,17 @@ export class UserProfiles extends Component {
     }
 
     render() {
-        let _t = this.context.i18n;
         return (
             <div data-component-name={this.displayName}>
-                <h1>{_t.translate('Profiles Search')}</h1>
+                <h1>{this.props.i18n.translate('Profiles Search')}</h1>
                 <Form>
                     <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
-                        <ControlLabel>{_t.translate('Search Name')}</ControlLabel>
-                        <FormControl type="text" placeholder={_t.translate('Enter search name')} onChange={this.onChange}/>
+                        <ControlLabel>{this.props.i18n.translate('Search Name')}</ControlLabel>
+                        <FormControl type="text" placeholder={this.props.i18n.translate('Enter search name')} onChange={this.onChange}/>
                         <FormControl.Feedback />
-                        <HelpBlock>{_t.translate('Enter a name to search')}</HelpBlock>
+                        <HelpBlock>{this.props.i18n.translate('Enter a name to search')}</HelpBlock>
                     </FormGroup>
-                    <Button bsStyle="primary" onClick={this.onSubmit}>{_t.translate('Submit')}</Button>
+                    <Button bsStyle="primary" onClick={this.onSubmit}>{this.props.i18n.translate('Submit')}</Button>
                 </Form>
 
                 <hr/>
@@ -97,11 +98,6 @@ export class UserProfiles extends Component {
         );
     }
 }
-
-// needed to allow specific context to be brought down.
-UserProfiles.contextTypes = {
-    i18n: PropTypes.object.isRequired
-};
 
 let mapStateToProps = (store /*, ownProps */) => {
     return {

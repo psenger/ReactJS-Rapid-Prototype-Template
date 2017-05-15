@@ -1,5 +1,5 @@
 
-import merge from "lodash/merge";
+import {merge} from "lodash";
 import * as actionConst from "../actionCreators/actionTypes/profile";
 
 let initialState = { profile: null, message: '' };

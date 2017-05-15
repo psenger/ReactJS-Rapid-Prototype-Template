@@ -1,15 +1,14 @@
 
-import Home from './home/home';
-import SignUp from './signUp/signUp';
-import About from './about/about';
-import PropTypes from "prop-types";
+import Home from './Home/home';
+import About from './About/about';
+import {flatViewMap} from '../utils';
+import SignUp from './SignUp/signUp';
 import React, {Component} from 'react';
 import NotFound from './NotFound/notFound';
-import {Navbar,Nav,NavItem} from 'react-bootstrap';
-import UserProfile from './userProfile/userProfile';
-import UserProfiles from './userProfiles/userProfiles';
+import {Navbar,Nav} from 'react-bootstrap';
+import UserProfile from './UserProfile/userProfile';
+import UserProfiles from './UserProfiles/userProfiles';
 import {HashRouter as Router, Route, Switch,NavLink} from 'react-router-dom';
-import {flatViewMap} from '../utils';
 
 const viewMap = [
     {path: '/',                 component: Home,         label: 'Home',     },
@@ -26,15 +25,11 @@ export default class App extends Component {
         this.state = { routes: flatViewMap( viewMap ) };
     }
 
-    getChildContext() {
-        return { i18n: this.context.i18n };
-    }
-
     render() {
         return (
             <div data-component-name={this.displayName}>
                 <Router>
-                    <div>
+                   <div>
                         <Navbar collapseOnSelect role='navigation'>
                             <Navbar.Header>
                                 <Navbar.Brand>
@@ -46,7 +41,9 @@ export default class App extends Component {
                                 <Nav>
                                     {viewMap.map((option,index) => {
                                         return(
-                                            <NavItem key={index} href="#"><NavLink to={option.path} activeClassName="active">{option.label}</NavLink></NavItem>
+                                          <li role="presentation">
+                                            <NavLink key={index} to={option.path} activeClassName="active">{option.label}</NavLink>
+                                          </li>
                                         );
                                     })}
                                 </Nav>
@@ -55,29 +52,20 @@ export default class App extends Component {
                         <main id="main" role="main">
                             <Switch>
                                 {this.state.routes.map((option, index) => {
-                                    return (
-                                        <Route key={index} exact {...option} />
-                                    );
+                                  return (
+                                    <Route key={index} exact {...option} />
+                                  );
                                 })}
                                 <Route component={NotFound}/>
                             </Switch>
                         </main>
                     </div>
+
                 </Router>
             </div>
         );
     }
 }
-
-
-// needed to allow specific context to be brought down.
-App.contextTypes = {
-    i18n: PropTypes.object.isRequired
-};
-
-App.childContextTypes = {
-    i18n: PropTypes.object.isRequired,
-};
 
 /**
 

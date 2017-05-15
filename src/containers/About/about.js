@@ -1,36 +1,35 @@
 
-import PropTypes from "prop-types";
 import React, {Component} from 'react';
+import DomPurify from '../../components/domPurify';
+import I18NInjector from '../../decorator/i18nInjector';
 
-export default class About extends Component {
+@I18NInjector()
+export class About extends Component {
 
-    constructor(props) {
-        super(props);
-        this.displayName = 'containers/About';
-    }
+  constructor(props) {
+    super(props);
+    this.displayName = 'containers/About';
+  }
 
-    render() {
-        return (
-            <div>
-                <div className="jumbotron">
-                    <h1>About this project</h1>
-                    <p>The purpose of this program is to create a sandbox, a playground for exploring design patterns
-                        and new technology in ReactJS.</p>
-                    <p>Currently, a simple ReactJS Rapid Prototype Template, based on Aik and includes ReactJS, React
-                        Router, Redux, and Twitter Bootstrap.</p>
-                    <p><a className="btn btn-primary btn-lg" role="button"
-                          href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template/blob/master/README.md"
-                          rel="external" target="_blank">Learn more</a></p>
-                    <p><a className="btn btn-primary btn-lg" role="button"
-                          href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template" rel="external"
-                          target="_blank">Explore the project on Github</a></p>
-                </div>
-                <br/>
-                <pre className="well well-sm">MIT License Copyright (c) 2017 Philip A Senger</pre>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <div className="jumbotron">
+          <h1>{this.props.i18n.translate('About this project')}</h1>
+          <p><DomPurify content={this.props.i18n.translate('About_this_project_details')}/></p>
+          <p><a className="btn btn-primary btn-lg" role="button"
+                href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template/blob/master/README.md"
+                rel="external" target="_blank">{this.props.i18n.translate('Learn More')}</a></p>
+          <p><a className="btn btn-primary btn-lg" role="button"
+                href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template" rel="external"
+                target="_blank">{this.props.i18n.translate('Explore the project on Github')}</a></p>
+        </div>
+        <br/>
+        <pre
+          className="well well-sm">{this.props.i18n.translate('MIT License Copyright (c) 2017 Philip A Senger')}</pre>
+      </div>
+    );
+  }
 }
-About.contextTypes = {
-    i18n: PropTypes.object.isRequired
-};
+
+export {About as default};

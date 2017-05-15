@@ -10,17 +10,8 @@ import Form from "../../components/form";
 import InputText from '../../components/inputText';
 import {Button, ProgressBar} from "react-bootstrap";
 import DateFields from "../../components/dateFields";
+import I18NInjector from '../../decorator/i18nInjector';
 import * as ProfileAction from "../../actionCreators/profileAction";
-
-const delayPromise = (ms) => {
-    return (data) => {
-        return new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(data);
-            }, ms);
-        })
-    };
-};
 
 validate.extend(validate.validators.datetime, {
     // The value is guaranteed not to be null or undefined but otherwise it could be anything. needs to be UTC Unix Timestamp (milliseconds)
@@ -57,6 +48,7 @@ let options = {
     format: "flat"
 };
 
+@I18NInjector()
 export class UserProfile extends Component {
 
     constructor(props) {
@@ -65,14 +57,16 @@ export class UserProfile extends Component {
         this.onSubmit = this.onSubmit.bind(this);
         this.createOnChange = this.createOnChange.bind(this);
         this.createValidator = this.createValidator.bind(this);
-        this.state= {loading:false};
+        this.state = { loading: false };
     }
 
     componentWillMount() {
         /**
          * Test to see if there is an id in the url, if so, load the record.
          */
-        if ( this.props.match && this.props.match.params && this.props.match.params.id ) this.load( this.props.match.params.id )
+        if ( this.props.match && this.props.match.params && this.props.match.params.id && this.props.match.params.id !== '0' ) {
+          this.load( this.props.match.params.id )
+        }
     }
 
     load(id) {
@@ -118,10 +112,9 @@ export class UserProfile extends Component {
     }
 
     render() {
-        let _t = this.context.i18n;
         return (
             <section data-component-name={this.displayName}>
-                <h1>{_t.translate('Profile Edit')}</h1>
+                <h1>{this.props.i18n.translate('Profile Edit')}</h1>
                 {/*<Form>
                     {(typeof this.props.name === 'undefined') ?
                         (
@@ -183,9 +176,9 @@ export class UserProfile extends Component {
                     <div>
                         <InputText
                             fieldId="firstName"
-                            label={_t.translate('Enter the first name')}
-                            help={_t.translate('The first name is required and can be no larger than %n characters',20)}
-                            placeholder={_t.translate('First Name')}
+                            label={this.props.i18n.translate('Enter the first name')}
+                            help={this.props.i18n.translate('The first name is required and can be no larger than %n characters',20)}
+                            placeholder={this.props.i18n.translate('First Name')}
                             value={this.props.first}
                             required={true}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateFirstName)}
@@ -194,9 +187,9 @@ export class UserProfile extends Component {
                         />
                         <InputText
                             fieldId="lastName"
-                            label={_t.translate('Enter the last name')}
-                            help={_t.translate('The last name is required and can be no larger than %n characters',20)}
-                            placeholder={_t.translate('Last Name')}
+                            label={this.props.i18n.translate('Enter the last name')}
+                            help={this.props.i18n.translate('The last name is required and can be no larger than %n characters',20)}
+                            placeholder={this.props.i18n.translate('Last Name')}
                             value={this.props.last}
                             required={false}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateLastName)}
@@ -205,9 +198,9 @@ export class UserProfile extends Component {
                         />
                         <InputText
                             fieldId="email"
-                            label={_t.translate('Enter the email')}
-                            help={_t.translate('The email is required and must be a valid format')}
-                            placeholder={_t.translate('Email')}
+                            label={this.props.i18n.translate('Enter the email')}
+                            help={this.props.i18n.translate('The email is required and must be a valid format')}
+                            placeholder={this.props.i18n.translate('Email')}
                             value={this.props.email}
                             required={true}
                             onChange={this.createOnChange(this.props.profileActionDispatcher.updateEmail)}
@@ -216,9 +209,9 @@ export class UserProfile extends Component {
                         />
                         <DateFields
                             fieldId="dob"
-                            label={_t.translate('Enter the Date of Birth')}
-                            help={_t.translate('The Date of Birth is required')}
-                            placeholder={_t.translate('dob')}
+                            label={this.props.i18n.translate('Enter the Date of Birth')}
+                            help={this.props.i18n.translate('The Date of Birth is required')}
+                            placeholder={this.props.i18n.translate('dob')}
                             value={this.props.dob}
                             day={this.props.day}
                             month={this.props.month}
@@ -227,7 +220,7 @@ export class UserProfile extends Component {
                             getModelToValidate={ (dob)=>{ return { dob:dob }; } }
                             validator={this.createValidator( [ 'dob' ], constraints, options, this ) }
                         />
-                        <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>{_t.translate('Submit')}</Button>
+                        <Button type="button" className="btn btn-primary" onClick={this.onSubmit}>{this.props.i18n.translate('Submit')}</Button>
                     </div>
                 </Form>
                {/* <pre>
@@ -241,11 +234,6 @@ export class UserProfile extends Component {
 // Use props to create warnings in the console if they are missing.
 UserProfile.propTypes = {
     profileReducer: PropTypes.object.isRequired
-};
-
-// needed to allow specific context to be brought down.
-UserProfile.contextTypes = {
-    i18n: PropTypes.object.isRequired
 };
 
 UserProfile.defaultProps = {
