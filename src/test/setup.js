@@ -1,9 +1,8 @@
-
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-
-const dom = new JSDOM('<!doctype html><html><head></head><body></body></html>');
-
-global.document = dom;
+require('babel-register')();
+const { JSDOM } = require("jsdom");
+const dom = new JSDOM();
 global.window = dom.window;
-global.navigator = dom.window.navigator;
+global.document = dom.window.document;
+global.navigator = {
+  userAgent: 'node.js'
+};
