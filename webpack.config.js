@@ -25,8 +25,8 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: 'babel-loader',
         options: {
-          presets: ['react', 'es2015', 'stage-0', 'stage-1'],
-          plugins: ['transform-decorators-legacy', 'transform-object-assign', 'transform-class-properties',]
+          presets: [ 'react', 'es2015', 'stage-0', 'stage-1' ],
+          plugins: [ 'transform-decorators-legacy', 'transform-object-assign', 'transform-class-properties' ]
         }
       },
       {

@@ -28,3 +28,26 @@ npm install
 6. Example of Middleware - wip
 7. Example of Many-To-One / drill-into Web Pattern
 8. Example of funnel-flow web pattern - wip
+
+
+## Notes:
+
+### Build tools
+
+I want to use this tool [pmm](https://www.npmjs.com/package/pmm) and this tool [pre-commit](https://www.npmjs.com/package/pre-commit) but one of them put git hooks into the .git directory and I didn't have time to figure out what they do. I saw people using npm scripts like the following ( with exception of github-release which is something Steve Mao wrote)
+
+```javascript
+    "github-release": "conventional-github-releaser -p angular",
+    "major": "pmm major",
+    "minor": "pmm minor",
+    "patch": "pmm patch",
+```
+
+### immutable
+
+[immutable](https://facebook.github.io/immutable-js/) is a very cool concept but I dont like the idea of redux returing this complicated object back.
+
+
+### normalizr
+
+normalizr is very cool I like it and should have used it when I did a project with a very complex payload [normalizr](https://github.com/paularmstrong/normalizr) It has a cool way of flattening the data and rebuilding it. this is almost esential if you have a one to many or bidirectional linkage.

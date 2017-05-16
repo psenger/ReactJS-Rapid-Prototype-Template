@@ -14,8 +14,6 @@ let chai       = require('chai');
 let assert     = require('chai').assert;
 let expect     = require('chai').expect;
 
-
-
 describe('<InputText/>', () => {
     it('test dirty', () => {
         let context = { foo: true };
