@@ -1,5 +1,5 @@
 
-import * as actionConstants from "./actionTypes/profile";
+import ACTIONS from "./actionTypes/index";
 
 /**
  * Lessons Learned:
@@ -9,47 +9,47 @@ import * as actionConstants from "./actionTypes/profile";
 
 
 export const requestProfile = id => ({
-    type: actionConstants.PROFILE_REQUEST,
+    type: ACTIONS.PROFILE.REQUEST.INITIATE,
     value: id
 });
 
 export const requestProfileSuccess = message => ({
-    type: actionConstants.PROFILE_REQUEST_SUCCESS,
+    type: ACTIONS.PROFILE.REQUEST.SUCCESS,
     value: message
 });
 
 export const requestProfileFail = message => ({
-    type: actionConstants.PROFILE_REQUEST_FAIL,
+    type: ACTIONS.PROFILE.REQUEST.FAIL,
     value: message
 });
 
 export const loadProfile = profile => ({
-    type: actionConstants.PROFILE_LOAD,
+    type: ACTIONS.PROFILE.REQUEST.LOAD,
     value: profile
 });
 
 export const updateEmail = email => ({
-    type: actionConstants.PROFILE_MODIFY_EMAIL,
+    type: ACTIONS.PROFILE.MODIFY.EMAIL,
     value: email
 });
 
 export const updateActivity = isActive => ({
-    type: actionConstants.PROFILE_MODIFY_ACTIVE,
+    type: ACTIONS.PROFILE.MODIFY.ACTIVE,
     value: isActive
 });
 
 export const updateFirstName = first => ({
-    type: actionConstants.PROFILE_MODIFY_FIRST_NAME,
+    type: ACTIONS.PROFILE.MODIFY.FIRST_NAME,
     value: first
 });
 
 export const updateLastName = last => ({
-    type: actionConstants.PROFILE_MODIFY_LAST_NAME,
+    type: ACTIONS.PROFILE.MODIFY.LAST_NAME,
     value: last
 });
 
 export const updateDob = dob => ({
-    type: actionConstants.PROFILE_MODIFY_DATE_OF_BIRTH,
+    type: ACTIONS.PROFILE.MODIFY.DATE_OF_BIRTH,
     value: dob
 });
 

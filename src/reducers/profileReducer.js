@@ -1,6 +1,6 @@
 
 import {merge} from "lodash";
-import * as actionConst from "../actionCreators/actionTypes/profile";
+import ACTIONS from "../actionCreators/actionTypes/index";
 
 let initialState = { profile: null, message: '' };
 
@@ -22,25 +22,25 @@ export default function profileReducer(state = initialState, action) {
 
     switch (action.type) {
 
-        case actionConst.PROFILE_REQUEST_FAIL:
+        case ACTIONS.PROFILE.REQUEST.FAIL:
             return merge( {}, state , { message: value } );
 
-        case actionConst.PROFILE_LOAD:
+        case ACTIONS.PROFILE.REQUEST.LOAD:
             return merge( {}, state , { profile: value } );
 
-        case actionConst.PROFILE_MODIFY_ACTIVE:
+        case ACTIONS.PROFILE.MODIFY.ACTIVE:
             return merge( {}, state , { profile: { isActive: value } } );
 
-        case actionConst.PROFILE_MODIFY_EMAIL:
+        case ACTIONS.PROFILE.MODIFY.EMAIL:
             return merge( {}, state , { profile: { email: value } } );
 
-        case actionConst.PROFILE_MODIFY_DATE_OF_BIRTH:
+        case ACTIONS.PROFILE.MODIFY.DATE_OF_BIRTH:
             return merge( {}, state , { profile: { dob: value } } );
 
-        case actionConst.PROFILE_MODIFY_FIRST_NAME:
+        case ACTIONS.PROFILE.MODIFY.FIRST_NAME:
             return merge( {}, state , { profile: { name: { first: value } } } );
 
-        case actionConst.PROFILE_MODIFY_LAST_NAME:
+        case ACTIONS.PROFILE.MODIFY.LAST_NAME:
             return merge( {}, state , { profile: { name: { last: value } } } );
 
         default:

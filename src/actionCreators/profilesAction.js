@@ -1,5 +1,5 @@
 
-import * as actionConstants from "./actionTypes/profiles";
+import ACTIONS from "./actionTypes/index";
 
 /**
  * Lessons Learned:
@@ -9,18 +9,18 @@ import * as actionConstants from "./actionTypes/profiles";
 
 /* exported requestProfiles - this comment exists for eslint to pass */
 export const requestProfiles = () => ({
-    type: actionConstants.PROFILES_REQUEST
+    type: ACTIONS.PROFILES.REQUEST.INITIATE
 });
 export const loadProfiles = profiles => ({
-    type: actionConstants.PROFILES_LOAD,
+    type: ACTIONS.PROFILES.REQUEST.LOAD,
     value: profiles
 });
 export const requestProfilesSuccess = message => ({
-    type: actionConstants.PROFILES_REQUEST_SUCCESS,
+    type: ACTIONS.PROFILES.REQUEST.SUCCESS,
     value: message
 });
 export const requestProfilesFail = message => ({
-    type: actionConstants.PROFILES_REQUEST_FAIL,
+    type: ACTIONS.PROFILES.REQUEST.FAIL,
     value: message
 });
 

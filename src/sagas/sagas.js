@@ -1,7 +1,6 @@
 import 'babel-polyfill'
-import { call, put, fork, takeLatest } from 'redux-saga/effects'
-import { PROFILES_REQUEST } from '../actionCreators/actionTypes/profiles';
-import { PROFILE_REQUEST } from '../actionCreators/actionTypes/profile';
+import { call, put, fork, takeLatest } from 'redux-saga/effects';
+import ACTIONS from "../actionCreators/actionTypes/index";
 import { loadProfiles, requestProfilesSuccess, requestProfilesFail } from '../actionCreators/profilesAction';
 import { loadProfile, requestProfileSuccess, requestProfileFail } from '../actionCreators/profileAction';
 import * as api from '../services/api';
@@ -44,12 +43,12 @@ function* call_fetchProfile ( action ) {
 
 function* fetchProfilesSaga() {
     // takeLatest does not allow concurrent fetches of PROFILES_REQUEST
-    yield takeLatest ( PROFILES_REQUEST, call_fetchProfiles );
+    yield takeLatest ( ACTIONS.PROFILES.REQUEST.INITIATE, call_fetchProfiles );
 }
 
 function* fetchProfileSaga() {
     // takeLatest does not allow concurrent fetches of PROFILES_REQUEST
-    yield takeLatest ( PROFILE_REQUEST, call_fetchProfile );
+    yield takeLatest ( ACTIONS.PROFILE.REQUEST.INITIATE, call_fetchProfile );
 }
 
 /** ******************************* **/

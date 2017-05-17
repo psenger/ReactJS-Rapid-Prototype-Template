@@ -1,5 +1,5 @@
 import {merge} from "lodash";
-import * as actionConst from "../actionCreators/actionTypes/profiles";
+import ACTIONS from "../actionCreators/actionTypes/index";
 
 /**
  * When you use immutable, it locks down the state, by wrapping the object
@@ -20,11 +20,11 @@ export default function profilesReducer(state = initialState, action) {
     let value = action.value;
 
     switch (action.type) {
-        case actionConst.PROFILES_LOAD:
+        case ACTIONS.PROFILES.REQUEST.LOAD:
             return merge( {}, state , { profiles: value } );
 
-        case actionConst.PROFILES_REQUEST_SUCCESS:
-        case actionConst.PROFILES_REQUEST_FAIL:
+        case ACTIONS.PROFILES.REQUEST.SUCCESS:
+        case ACTIONS.PROFILES.REQUEST.FAIL:
             return merge( {}, state , { message: value } );
 
         default:

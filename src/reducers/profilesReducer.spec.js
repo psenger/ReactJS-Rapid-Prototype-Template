@@ -21,14 +21,14 @@ describe('REDUCER: ', () => {
             expect(reducer(initialState, {})).to.deep.equal({profiles: [], message: ''});
         });
 
-        describe('PROFILES_LOAD', () => {
+        describe('ACTIONS.PROFILES.REQUEST.LOAD', () => {
             it("should replace array of profiles and blank out the message", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState, profileActions.loadProfiles( [ {id:100},{id:200} ] ))).to.deep.equal( { profiles:[ { id: 100 }, { id: 200 } ], message:''}  );
             });
         });
 
-        describe('PROFILES_REQUEST_SUCCESS', () => {
+        describe('ACTIONS.PROFILES.REQUEST.SUCCESS', () => {
             it("should not tamper with array of profiles and set the message", () => {
                 let newState = { profiles:[{id:100}], message:'xxxx'}
                 Object.freeze(newState);
@@ -36,13 +36,13 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILES_REQUEST_FAIL', () => {
+        describe('ACTIONS.PROFILES.REQUEST.FAIL', () => {
             it("should not tamper with array of profiles and set the message", () => {
                 let newState = { profiles:[{id:100}], message:'xxxx'}
                 Object.freeze(newState);
                 expect(reducer(newState, profileActions.requestProfilesFail('Big Fat Error'))).to.deep.equal( { profiles:[{id:100}], message:'Big Fat Error'}  );
             });
         });
- 
+
     });
 });

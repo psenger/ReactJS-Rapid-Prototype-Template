@@ -22,7 +22,7 @@ describe('REDUCER: ', () => {
             expect(reducer(initialState, {})).to.deep.equal({ profile: null, message: '' });
         });
 
-        describe('PROFILE_LOAD', () => {
+        describe('ACTIONS.PROFILE.REQUEST.LOAD', () => {
             it("should change the whole object", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState, profileActions.loadProfile({email:'a@a.com',isActive: true}))).to.deep.equal({profile:{email:'a@a.com',isActive: true},message:''});
@@ -33,7 +33,7 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILE_MODIFY_ACTIVE', () => {
+        describe('ACTIONS.PROFILE.MODIFY.ACTIVE', () => {
             it("should change the active state to true", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState, profileActions.updateActivity(true))).to.deep.equal({profile:{  isActive: true },message:''});
@@ -44,7 +44,7 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILE_MODIFY_EMAIL', () => {
+        describe('ACTIONS.PROFILE.MODIFY.EMAIL', () => {
             it("should add a new email to an otherwise missing value", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState,profileActions.updateEmail('p@p.com'))).to.deep.equal({profile:{  email: 'p@p.com'},message:''});
@@ -56,7 +56,7 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILE_MODIFY_FIRST_NAME', () => {
+        describe('ACTIONS.PROFILE.MODIFY.FIRST_NAME', () => {
             it("should add a the first name to an otherwise missing value", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState,profileActions.updateFirstName('bob'))).to.deep.equal({profile:{ name: { first: 'bob'} },message:''});
@@ -68,7 +68,7 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILE_MODIFY_LAST_NAME', () => {
+        describe('ACTIONS.PROFILE.MODIFY.LAST_NAME', () => {
             it("should add the last name to an otherwise missing value", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState,profileActions.updateLastName('smith'))).to.deep.equal({profile:{  name: { last: 'smith'} },message:''});
@@ -80,7 +80,7 @@ describe('REDUCER: ', () => {
             });
         });
 
-        describe('PROFILE_MODIFY_DATE_OF_BIRTH', () => {
+        describe('ACTIONS.PROFILE.MODIFY.DATE_OF_BIRTH', () => {
             it("should update the DOB to an otherwise missing value", () => {
                 Object.freeze(initialState);
                 expect(reducer(initialState,profileActions.updateDob('2016/04/12'))).to.deep.equal({profile:{  dob: '2016/04/12' },message:''});
@@ -149,6 +149,6 @@ describe('REDUCER: ', () => {
                 });
             });
         });
- 
+
     });
 });
