@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[hash].bundle.js',
     publicPath: '/',
-    library: 'eq3',
+    library: 'rrpt',
     libraryTarget: 'var'
   },
 
