@@ -1,10 +1,8 @@
 const path = require('path');
+const fs = require('fs');
 const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const NpmInstallPlugin = require('npm-install-webpack-plugin');
 const BellOnBundlerErrorPlugin = require('bell-on-bundler-error-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
@@ -78,21 +76,33 @@ module.exports = {
   // lets you precisely control what bundle information gets displayed
 
   devServer: {
-    outputPath: path.join(__dirname, 'dist'), // old version of dev server
-    contentBase: [path.join(__dirname, 'dist'),path.join(__dirname)], // boolean | string | array, static file location
-    compress: true, // enable gzip compression
+    publicPath: '/',
+    setup: function(app){
+      app.get('/api/*', function(req, res) {
+        res.writeHead(200, {"Content-Type": "application/json"});
+        res.end( fs.readFileSync( path.join( __dirname, req.url ), 'utf8') );
+      });
+      app.get('/', function(req, res) {
+        res.writeHead(200, {"Content-Type": "text/html"});
+        res.end( fs.readFileSync( path.join( __dirname, 'dist', 'index.html' ), 'utf8')  );
+      });
+      app.get(['/css/**','/js/**','/fonts/**'], function(req, res) {
+        res.end( fs.readFileSync( path.join( __dirname, 'dist', req.url), 'utf8')  );
+      });
+    },
+    compress: false, // enable gzip compression
     historyApiFallback: true, // true for index.html upon 404, object for multiple paths
     hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
+    hotOnky: true, // hot module replacement without reload
     https: false, // true for self-signed, object for cert authority
     noInfo: true, // only errors & warns on hot reload
     port: 8080,
     colors: true,
     inline: true,
     progress: true,
-    //   // contentBase:  [outPath,cssOutPath,jsOutPath],
     host: '0.0.0.0',
-    //   historyApiFallback: true,
-    clientLogLevel: 'info'
+    clientLogLevel: 'info',
+    stats: 'errors-only'
   },
 
   plugins: [
@@ -104,27 +114,6 @@ module.exports = {
     // new webpack.ProvidePlugin({
     //   'Promise': 'promise'
     // }),
-    new CopyWebpackPlugin(
-      [{
-        from: path.join(__dirname, 'css'),
-        to: path.join(__dirname, 'dist', 'css')
-      },
-        {
-          from: path.join(__dirname, 'fonts'),
-          to: path.join(__dirname, 'dist', 'fonts')
-        },
-        {
-          from: path.join(__dirname, 'scripts'),
-          to: path.join(__dirname, 'dist', 'scripts ')
-        },
-        {
-          from: path.join(__dirname, 'js'),
-          to: path.join(__dirname, 'dist', 'js')
-        }
-      ],
-      {
-        copyUnmodified: true
-      }),
 
     new BellOnBundlerErrorPlugin(),
     // new webpack.ProvidePlugin({
@@ -136,6 +125,14 @@ module.exports = {
     // new NpmInstallPlugin(),
     // new webpack.SourceMapDevToolPlugin({
     //   filename: '[file].map'
+    // }),
+    // new ClosureCompilerPlugin({
+    //   compiler: {
+    //     language_in: 'ECMASCRIPT6',
+    //     language_out: 'ECMASCRIPT5',
+    //     compilation_level: 'ADVANCED'
+    //   },
+    //   concurrency: 3,
     // }),
     new HtmlWebpackPlugin({
       filename: 'index.html',

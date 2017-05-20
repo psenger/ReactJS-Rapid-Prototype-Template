@@ -15,7 +15,7 @@ npm run tests
 
 ```bash
 npm install
-./node_modules/.bin/aik index.js -o
+npm run server
 ```
 
 ## High lights
