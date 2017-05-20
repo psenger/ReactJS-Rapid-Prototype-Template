@@ -16,10 +16,10 @@ const ACTIONS = {
     },
     PROFILES : {
       REQUEST: {
-        INITIATE: 'profile.request.initiate',
-        LOAD: 'profile.request.load',
-        SUCCESS: 'profile.request.success',
-        FAIL: 'profile.request.fail'
+        INITIATE: 'profiles.request.initiate',
+        LOAD: 'profiles.request.load',
+        SUCCESS: 'profiles.request.success',
+        FAIL: 'profiles.request.fail'
       },
     }
   };
