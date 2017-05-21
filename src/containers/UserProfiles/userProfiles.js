@@ -99,12 +99,25 @@ export class UserProfiles extends Component {
     }
 }
 
-let mapStateToProps = (store /*, ownProps */) => {
+/**
+ * Map a specific store's state to the props.
+ *
+ * @param {*} state - the state of the store/reducer
+ * @returns {{profiles: (*|Array)}}
+ */
+let mapStateToProps = (state /*, ownProps */) => {
     return {
-        profiles: store.profilesReducer.profiles
+        profiles: state.profilesReducer.profiles
     }
 };
 
+/**
+ * Map the Action(s)'s Dispatcher(s) to the props. The way this is written all the action's dispatch functions are
+ * mapped to the given name space.
+ *
+ * @param dispatch
+ * @returns {{profilesActionDispatcher: (A|B|M|N)}}
+ */
 let mapDispatchToProps = (dispatch) => {
     return {
         profilesActionDispatcher: bindActionCreators(ProfilesActions, dispatch)

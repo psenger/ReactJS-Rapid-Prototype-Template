@@ -236,6 +236,11 @@ UserProfile.propTypes = {
     profileReducer: PropTypes.object.isRequired
 };
 
+/**
+ * The default values on the props if they are not set.
+ *
+ * @type {{first: string, last: string, email: string, dob: string, year: number, month: number, day: number}}
+ */
 UserProfile.defaultProps = {
     first: '',
     last:'',
@@ -246,6 +251,13 @@ UserProfile.defaultProps = {
     day: 1
 };
 
+/**
+ * Map a specific store's state to the props.
+ *
+ * @param {*} state - the state of the store/reducer
+ * @param ownProps
+ * @returns {{profileReducer: *, first: *, last: *, email: *, dob: *, year: number, month: number, day: number}}
+ */
 let mapStateToProps = (state, ownProps) => {
 
     let def = moment(new Date()).format("YYYY-MM-DD");
@@ -277,6 +289,13 @@ let mapStateToProps = (state, ownProps) => {
     };
 };
 
+/**
+ * Map the Action(s)'s Dispatcher(s) to the props. The way this is written all the action's dispatch functions are
+ * mapped to the given name space.
+ *
+ * @param dispatch
+ * @returns {{profileActionDispatcher: (A|B|M|N)}}
+ */
 let mapDispatchToProps = (dispatch) => {
     return {
         profileActionDispatcher: bindActionCreators(ProfileAction, dispatch)
