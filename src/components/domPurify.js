@@ -6,6 +6,10 @@ import dompurify from 'dompurify';
 import PropTypes from "prop-types";
 import React, {Component} from 'react';
 
+/**
+ * DomPurify uses https://www.npmjs.com/package/dompurify to sanctify html suitable for ReactJS
+ * @class
+ */
 export default class DomPurify extends Component {
 
   constructor(props, context) {
@@ -20,6 +24,9 @@ export default class DomPurify extends Component {
 
 }
 
+/**
+ * @type {{content, className: *, domPurifyOptions: *}}
+ */
 DomPurify.propTypes = {
   content: PropTypes.string.required,
   className: PropTypes.string,
