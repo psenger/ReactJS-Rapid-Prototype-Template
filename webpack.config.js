@@ -3,6 +3,7 @@ const fs = require('fs');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BellOnBundlerErrorPlugin = require('bell-on-bundler-error-plugin');
+// const ClosureCompilerPlugin = require('webpack-closure-compiler');
 
 module.exports = {
 
@@ -90,16 +91,6 @@ module.exports = {
         res.end( fs.readFileSync( path.join( __dirname, 'dist', req.url), 'utf8')  );
       });
     },
-    compress: false, // enable gzip compression
-    historyApiFallback: true, // true for index.html upon 404, object for multiple paths
-    hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
-    hotOnky: true, // hot module replacement without reload
-    https: false, // true for self-signed, object for cert authority
-    noInfo: true, // only errors & warns on hot reload
-    port: 8080,
-    colors: true,
-    inline: true,
-    progress: true,
     host: '0.0.0.0',
     clientLogLevel: 'info',
     stats: 'errors-only'
@@ -130,9 +121,10 @@ module.exports = {
     //   compiler: {
     //     language_in: 'ECMASCRIPT6',
     //     language_out: 'ECMASCRIPT5',
-    //     compilation_level: 'ADVANCED'
+    //     compilation_level: 'ADVANCED',
+    //     debug: true
     //   },
-    //   concurrency: 3,
+    //   concurrency: 1,
     // }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
