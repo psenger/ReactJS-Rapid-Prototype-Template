@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import ProgressBar from './ProgressBar';
+import ProgressBar from './progressBar';
 
 describe('COMPONENT:', () => {
   describe('ProgressBar', () => {

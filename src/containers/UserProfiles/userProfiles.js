@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import Form from '../../components/form/Form';
+import Form from '../../components/form/form';
 import { bindActionCreators } from 'redux';
 import I18NInjector from '../../decorator/i18nInjector';
 import * as ProfilesActions from '../../actionCreators/profilesAction';

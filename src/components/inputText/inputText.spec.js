@@ -1,6 +1,6 @@
 import React from 'react';
 import validate from 'validate.js';
-import InputText from './InputText';
+import InputText from './inputText';
 import { mount } from 'enzyme';
 
 let describe = require('mocha').describe;

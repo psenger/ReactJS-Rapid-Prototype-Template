@@ -11,6 +11,9 @@
     "twitter-bootstrap"
   ],
   "main": "index.js",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
   "dependencies": {
     "assert": "^1.4.1",
     "autoprefixer": "^7.1.1",

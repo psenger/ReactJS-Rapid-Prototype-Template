@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import Option from '../option/Option';
-import Select from './Select';
+import Option from '../option/option';
+import Select from './select';
 
 describe('COMPONENT:', () => {
   describe('Select', () => {
@@ -9,9 +9,7 @@ describe('COMPONENT:', () => {
     it('should work with complex children', () => {
       const onChange = jest.fn();
       const component = shallow(
-        <Select name="times" value="2" onChangeHandler={onChange}><Option value="1" text={1} /><Option value="2"
-                                                                                                       text={2} /><Option
-          value="3" text={3} /></Select>
+        <Select name="times" value="2" onChangeHandler={onChange}><Option value="1" text={1} /><Option value="2" text={2}/><Option value="3" text={3}/></Select>
       );
       expect(component.children().length).toEqual(3);
     });

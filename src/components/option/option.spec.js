@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import Option from './Option';
+import Option from './option';
 
 describe('COMPONENT:', () => {
   describe('Option', () => {

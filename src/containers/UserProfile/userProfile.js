@@ -5,10 +5,10 @@ import validate from 'validate.js';
 import { connect } from 'react-redux';
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
-import Form from '../../components/form/Form';
-import InputText from '../../components/inputText/InputText';
+import Form from '../../components/form/form';
+import InputText from '../../components/inputText/inputText';
 import { Button } from 'react-bootstrap';
-import DateField from '../../components/dateField/DateField';
+import DateField from '../../components/dateField/dateField';
 import I18NInjector from '../../decorator/i18nInjector';
 import * as ProfileAction from '../../actionCreators/profileAction';
 

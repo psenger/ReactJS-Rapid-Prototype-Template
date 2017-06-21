@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DomPurify from '../../components/purify/Purify';
+import DomPurify from '../../components/purify/purify';
 import I18NInjector from '../../decorator/i18nInjector';
 import PropTypes from 'prop-types';
 

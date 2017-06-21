@@ -2,7 +2,7 @@ import className from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import './ProgressBar.css';
+import './progressBar.css';
 
 /**
  * Calculates the stop gap given the percentage.
