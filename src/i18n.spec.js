@@ -1,11 +1,3 @@
-let describe = require('mocha').describe;
-let before = require('mocha').before;
-let after = require('mocha').after;
-let it = require('mocha').it;
-let chai = require('chai');
-let assert = require('chai').assert;
-let expect = require('chai').expect;
-
 import 'babel-polyfill';
 import I18N from './i18n';
 
@@ -47,34 +39,34 @@ describe('I18N: ', () => {
     });
 
     it('should return something', () => {
-      expect(i18n.translate('Good bye friend')).to.equal('Au revoir mon ami');
+      expect(i18n.translate('Good bye friend')).toEqual('Au revoir mon ami');
     });
     it('should return something', () => {
-      expect(i18n.translate('Yes')).to.equal('Oui');
+      expect(i18n.translate('Yes')).toEqual('Oui');
     });
     it('should return something', () => {
-      expect(i18n.translate('No')).to.equal('Non');
+      expect(i18n.translate('No')).toEqual('Non');
     });
     it('should return something', () => {
-      expect(i18n.translate('Welcome %{name}', {name: 'John'})).to.equal('Bonjour John');
+      expect(i18n.translate('Welcome %{name}', {name: 'John'})).toEqual('Bonjour John');
     });
     it('should return the original value if the item is missing in the bundle', () => {
-      expect(i18n.translate('Is it missing?')).to.equal('Is it missing?');
+      expect(i18n.translate('Is it missing?')).toEqual('Is it missing?');
     });
     it('should return the original value if the item is missing in the bundle', () => {
-      expect(i18n.translate('It is a mystery to me %{name}', {name: 'John'})).to.equal('It is a mystery to me John');
+      expect(i18n.translate('It is a mystery to me %{name}', {name: 'John'})).toEqual('It is a mystery to me John');
     });
     it('should return a string with context and pluralisation expanded', () => {
       expect(i18n.translate('%{name} uploaded %n photos to their %{album} album', 100, {
         name: 'Larry',
         album: 'family'
-      }, {gender: 'male'})).to.equal('Larry uploaded 100 photos to his family album');
+      }, {gender: 'male'})).toEqual('Larry uploaded 100 photos to his family album');
     });
     it('should return string defaulted when the context is not found.', () => {
       expect(i18n.translate('%{name} uploaded %n photos to their %{album} album', 100, {
         name: 'Sue',
         album: 'family'
-      }, {gender: 'girl'})).to.equal('Sue uploaded 100 photos to their family album');
+      }, {gender: 'girl'})).toEqual('Sue uploaded 100 photos to their family album');
     });
   });
 });
