@@ -3,15 +3,9 @@ import validate from 'validate.js';
 import InputText from './inputText';
 import { mount } from 'enzyme';
 
-let describe = require('mocha').describe;
-let before = require('mocha').before;
-let after = require('mocha').after;
-let it = require('mocha').it;
-// let assert     = require('assert');
-// let should     = require('should');
-let chai = require('chai');
-let assert = require('chai').assert;
-let expect = require('chai').expect;
+// let describe = require('mocha').describe;
+// let it = require('mocha').it;
+// let expect = require('chai').expect;
 
 describe('<InputText/>', () => {
   it('should toggle the dirty flag', () => {
@@ -44,9 +38,9 @@ describe('<InputText/>', () => {
       }  }
     />, {context});
     // console.log( enzymeWrapper.debug() );
-    expect(enzymeWrapper.state().dirty).to.equal(false);
+    expect(enzymeWrapper.state().dirty).toEqual(false);
     enzymeWrapper.find('input').simulate('change', {target: {value: 'My new value'}});
-    expect(enzymeWrapper.state().dirty).to.equal(true);
+    expect(enzymeWrapper.state().dirty).toEqual(true);
   });
   it('should have an aria-invalid set to true', () => {
     let context = {foo: true};
@@ -74,7 +68,7 @@ describe('<InputText/>', () => {
     enzymeWrapper.find('input').simulate('change', {target: {value: ''}});
     // console.log( enzymeWrapper.find('input').html() );
     // console.log( enzymeWrapper.find('input').html().indexOf('aria-invalid="true"') )
-    expect(enzymeWrapper.find('input').html().indexOf('aria-invalid="true"')).to.not.equal(-1);
+    expect( enzymeWrapper.find('input').html().indexOf('aria-invalid="true"') ).not.toBe(-1);
   });
 });
 
