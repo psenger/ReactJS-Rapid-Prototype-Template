@@ -1,35 +1,36 @@
-
-import React, {Component} from 'react';
-import DomPurify from '../../components/domPurify';
+import React, { Component } from 'react';
+import DomPurify from '../../components/purify/Purify';
 import I18NInjector from '../../decorator/i18nInjector';
+import PropTypes from 'prop-types';
 
 @I18NInjector()
 export class About extends Component {
 
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.displayName = 'containers/About';
   }
 
-  render() {
+  render () {
+    let {translate} = this.props.i18n;
+
     return (
       <div>
         <div className="jumbotron">
-          <h1>{this.props.i18n.translate('About this project')}</h1>
-          <p><DomPurify content={this.props.i18n.translate('About_this_project_details')}/></p>
-          <p><a className="btn btn-primary btn-lg" role="button"
-                href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template/blob/master/README.md"
-                rel="external" target="_blank">{this.props.i18n.translate('Learn More')}</a></p>
-          <p><a className="btn btn-primary btn-lg" role="button"
-                href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template" rel="external"
-                target="_blank">{this.props.i18n.translate('Explore the project on Github')}</a></p>
+          <h1>{translate('About this project')}</h1>
+          <p><DomPurify content={translate('About_this_project_details')} /></p>
+          <p><a className="btn btn-primary btn-lg" role="button" href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template/blob/master/README.md" rel="noopener noreferrer" target="_blank">{translate('Learn More')}</a></p>
+          <p><a className="btn btn-primary btn-lg" role="button" href="https://github.com/psenger/ReactJS-Rapid-Prototype-Template" rel="noopener noreferrer"  target="_blank">{translate('Explore the project on Github')}</a></p>
         </div>
-        <br/>
-        <pre
-          className="well well-sm">{this.props.i18n.translate('MIT License Copyright (c) 2017 Philip A Senger')}</pre>
+        <br />
+        <pre className="well well-sm">{translate('MIT License Copyright (c) 2017 Philip A Senger')}</pre>
       </div>
     );
   }
 }
 
-export {About as default};
+export { About as default };
+
+About.propTypes = {
+  i18n: PropTypes.object.isRequired
+};

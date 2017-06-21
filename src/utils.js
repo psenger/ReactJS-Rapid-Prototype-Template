@@ -1,4 +1,3 @@
-
 /**
  * Recursively flatten the map, pulling the deepest child to the top of the array.
  * Router-Switch recognizes the order of the route path's with the intent of specificity.
@@ -6,23 +5,25 @@
  * be routes that look like proper REST paths... respecting the specificity.
  * I delete children because it is a reserved word in the props of Route
  */
-export const flatViewMap = ( items ) => {
-    let retList = [];
-    let subList = [];
-    if ( items && Array.isArray( items ) && items.length !== 0 ) {
-        retList = items.map( (d) => {
-            let dz = Object.assign({},d);
-            if ( dz.children && Array.isArray( dz.children ) && dz.children.length !== 0 ) {
-                dz.children.map( (c) => subList.push(c) );
-            }
-            delete dz.children;
-            return dz;
-        });
-    }
-    if ( subList.length !== 0 ) {
-        return flatViewMap( subList ).concat( retList )
-    }
-    return retList;
+export const flatViewMap = (items) => {
+  let retList = [];
+  let subList = [];
+
+  if (items && Array.isArray(items) && items.length !== 0) {
+    retList = items.map((d) => {
+      let dz = Object.assign({}, d);
+
+      if (dz.children && Array.isArray(dz.children) && dz.children.length !== 0) {
+        dz.children.map((c) => subList.push(c));
+      }
+      delete dz.children;
+      return dz;
+    });
+  }
+  if (subList.length !== 0) {
+    return flatViewMap(subList).concat(retList);
+  }
+  return retList;
 };
 
 /**
@@ -34,11 +35,11 @@ export const flatViewMap = ( items ) => {
  * @returns {*}
  */
 export const safeGet = (obj, key, defaultVal) => {
-    if ((obj === undefined) || (obj === null)) return defaultVal;
-    if (typeof obj[key] !== 'undefined') return obj[key];
-    return key.split('.').reduce(function (o, x) {
-        return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
-    }, obj);
+  if ((obj === undefined) || (obj === null)) return defaultVal;
+  if (typeof obj[key] !== 'undefined') return obj[key];
+  return key.split('.').reduce(function (o, x) {
+    return (typeof o === 'undefined' || o === null) ? ((typeof defaultVal !== 'undefined') ? defaultVal : o) : o[x];
+  }, obj);
 };
 
 /**
@@ -49,27 +50,28 @@ export const safeGet = (obj, key, defaultVal) => {
  * @returns {*}
  */
 export const safeSet = (obj, key, value) => {
-    if (!obj || !key)
-        return Object.assign({},obj); // bail out there is no object or no key.
+  if (!obj || !key)
+    return Object.assign({}, obj); // bail out there is no object or no key.
 
-    let properties = key.split(".") || [];
+  let properties = key.split('.') || [];
 
-    let curObj = Object.assign({},obj);
-    let ptr = curObj;
+  let curObj = Object.assign({}, obj);
+  let ptr = curObj;
 
-    const mapper = ( cv, ind, ar ) => {
-        if ( !ptr[cv] ) {
-            ptr[cv] = {};// initialize the object literal if there is no value in place.
-        }
-        if ( ar.length -1 === ind ) {
-            ptr[cv] = value; // at the end.
-        } else {
-            ptr = ptr[cv]; // move the pointer down.
-        }
-    };
-    properties.map( mapper );
+  const mapper = (cv, ind, ar) => {
+    if (!ptr[cv]) {
+      ptr[cv] = {};// initialize the object literal if there is no value in place.
+    }
+    if (ar.length - 1 === ind) {
+      ptr[cv] = value; // at the end.
+    } else {
+      ptr = ptr[cv]; // move the pointer down.
+    }
+  };
 
-    return curObj;
+  properties.map(mapper);
+
+  return curObj;
 };
 
 /**
@@ -77,8 +79,8 @@ export const safeSet = (obj, key, value) => {
  * @param number the base number
  * @param max max number of padding
  */
-export const lpad = ( number, max ) => {
-    return ( (Array(max).fill('0').join('')) + number).slice(-max);
+export const lpad = (number, max) => {
+  return ((Array(max).fill('0').join('')) + number).slice(-max);
 };
 
 /**
@@ -87,17 +89,17 @@ export const lpad = ( number, max ) => {
  * @param {String} key - the dot path into the object.
  * @returns {boolean}
  */
-export const ifPathExists = ( obj, key ) => {
-    if ( obj === null || typeof obj === 'undefined' || key === null || typeof key === 'undefined') return false;
-    let path = (key||'').split(".") || [];
-    let ptr = obj;
+export const ifPathExists = (obj, key) => {
+  if (obj === null || typeof obj === 'undefined' || key === null || typeof key === 'undefined') return false;
+  let path = (key || '').split('.') || [];
+  let ptr = obj;
 
-    return path.reduce( ( ac, cv ) => {
-        if ( ac === false ) return false;
-        if ( typeof ptr === 'undefined' || ptr === null || typeof ptr[cv] === 'undefined' || ptr[cv] === null ) {
-            return false;
-        }
-        ptr = ptr[cv];
-        return ac;
-    }, true );
+  return path.reduce((ac, cv) => {
+    if (ac === false) return false;
+    if (typeof ptr === 'undefined' || ptr === null || typeof ptr[cv] === 'undefined' || ptr[cv] === null) {
+      return false;
+    }
+    ptr = ptr[cv];
+    return ac;
+  }, true);
 };

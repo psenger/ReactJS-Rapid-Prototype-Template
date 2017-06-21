@@ -92,7 +92,7 @@
     ],
     "prefer-rest-params": 2,
     "quote-props": [
-      2,
+      1,
       "as-needed"
     ],
     "quotes": [
@@ -107,10 +107,7 @@
       2,
       "always"
     ],
-    "space-before-function-paren": [
-      2,
-      "never"
-    ],
+    "space-before-function-paren": ["error", "always"],
     "space-in-parens": [
       2,
       "never"

@@ -7,7 +7,7 @@
  *   1.) Never make your action form the data for a reducer in an expected shape. Because this creates tight coupling ( an Anti-Pattern )
  *   2.) Consistence wins, use one convention and stick with it. For example, the action specification does not require a "value:*" but rather "*". This creates deviations and can expand complexity for maintenance and refactoring.
  */
-import ACTIONS from "./actionTypes/index";
+import ACTIONS from './actionTypes/index';
 
 /**
  * Request from the server a Profile, singular.
@@ -97,4 +97,3 @@ export const updateDob = dob => ({
   type: ACTIONS.PROFILE.MODIFY.DATE_OF_BIRTH,
   value: dob
 });
-

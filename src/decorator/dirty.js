@@ -1,27 +1,26 @@
-
-import React from "react";
+import React from 'react';
 
 export const Dirty = () => {
   return ComponentToWrap => class extends ComponentToWrap {
 
-    constructor(props, context) {
+    constructor (props, context) {
       super(props, context);
-      this.displayName = "decorator/Dirty";
+      this.displayName = 'decorator/Dirty';
       this.state = {dirty: false};
     }
 
-    setDirty(dirty, cb) {
+    setDirty (dirty, cb) {
       this.setState({dirty}, cb(dirty));
     }
 
-    isDirty() {
+    isDirty () {
       return this.state.dirty;
     }
 
-    render() {
+    render () {
       return (<ComponentToWrap {...this.props} data-component-name={this.displayName}/>);
     }
-  }
+  };
 };
 
 //

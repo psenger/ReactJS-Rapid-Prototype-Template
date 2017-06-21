@@ -34,5 +34,5 @@ const ACTIONS = {
   }
 };
 
-export {ACTIONS as default};
+export { ACTIONS as default };
 

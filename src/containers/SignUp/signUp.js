@@ -1,22 +1,28 @@
-
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import I18NInjector from '../../decorator/i18nInjector';
+import PropTypes from 'prop-types';
 
 @I18NInjector()
 export class SignUp extends Component {
 
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.displayName = 'containers/Home';
   }
 
-  render() {
+  render () {
+    let {translate} = this.props.i18n;
+
     return (
       <div data-component-name={this.displayName}>
-        <h1>{ this.props.i18n.translate('Sign Up') }</h1>
+        <h1>{ translate('Sign Up') }</h1>
       </div>
     );
   }
 }
 
-export {SignUp as default};
+export { SignUp as default };
+
+SignUp.propTypes = {
+  i18n: PropTypes.object.isRequired
+};

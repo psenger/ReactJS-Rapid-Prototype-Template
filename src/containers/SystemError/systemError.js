@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import I18NInjector from '../../decorator/i18nInjector';
 
 @I18NInjector()
 export class SystemError extends Component {
 
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.displayName = 'containers/SystemError';
   }
 
-  render() {
+  render () {
     return (
       <div data-component-name={this.displayName}>
         <h1>{ this.props.i18n.translate('System Error') }</h1>
@@ -18,4 +18,4 @@ export class SystemError extends Component {
   }
 }
 
-export {SystemError as default};
+export { SystemError as default };

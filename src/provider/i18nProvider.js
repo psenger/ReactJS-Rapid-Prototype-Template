@@ -1,37 +1,38 @@
-
-import PropTypes from "prop-types";
-import { Component, Children } from 'react';
+import PropTypes from 'prop-types';
+import { Children, Component } from 'react';
 
 class I18NProvider extends Component {
 
-    constructor(props, context) {
-        super(props,context);
-    }
+  constructor (props, context) {
+    super(props, context);
+  }
 
-    getChildContext() {
-        const {i18n} = this.props;
-        return {i18n};
-    }
+  getChildContext () {
+    const {i18n} = this.props;
 
-    render() {
-        let children = this.props.children;
-        // Children.only enables us not to add a <div /> for nothing
-        return children ? Children.only(children) : null;
-    }
+    return {i18n};
+  }
+
+  render () {
+    let children = this.props.children;
+
+    // Children.only enables us not to add a <div /> for nothing
+    return children ? Children.only(children) : null;
+  }
 }
 
 I18NProvider.propTypes = {
-    i18n: PropTypes.object.isRequired,
-    children: PropTypes.element.isRequired
+  i18n: PropTypes.object.isRequired,
+  children: PropTypes.element.isRequired
 };
 
 I18NProvider.contextTypes = {
-    i18n: PropTypes.object
+  i18n: PropTypes.object
 };
 
 // you must specify what you’re adding to the context
 I18NProvider.childContextTypes = {
-    i18n: PropTypes.object.isRequired,
+  i18n: PropTypes.object.isRequired
 };
 
 I18NProvider.displayName = 'containers/LabelsProvider';

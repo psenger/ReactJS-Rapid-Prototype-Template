@@ -8,7 +8,7 @@
  *   2.) Consistence wins, use one convention and stick with it. For example, the action specification does not require a "value:*" but rather "*". This creates deviations and can expand complexity for maintenance and refactoring.
  */
 
-import ACTIONS from "./actionTypes/index";
+import ACTIONS from './actionTypes/index';
 
 /**
  * Request from the server all the Profiles, multiple.
@@ -47,5 +47,3 @@ export const requestProfilesFail = message => ({
   type: ACTIONS.PROFILES.REQUEST.FAIL,
   value: message
 });
-
-
