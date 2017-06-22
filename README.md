@@ -5,7 +5,6 @@ This is a simple ReactJS Rapid Prototype Template based on Aik, ReactJS, React R
 ## Status
 [![Build Status](https://travis-ci.org/psenger/ReactJS-Rapid-Prototype-Template.svg?branch=master)](https://travis-ci.org/psenger/ReactJS-Rapid-Prototype-Template)
 [![Coverage Status](https://coveralls.io/repos/github/psenger/ReactJS-Rapid-Prototype-Template/badge.svg?branch=master)](https://coveralls.io/github/psenger/ReactJS-Rapid-Prototype-Template?branch=master)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
 [![Code Climate](https://codeclimate.com/github/psenger/ReactJS-Rapid-Prototype-Template/badges/gpa.svg)](https://codeclimate.com/github/psenger/ReactJS-Rapid-Prototype-Template)
 [![Issue Count](https://codeclimate.com/github/psenger/ReactJS-Rapid-Prototype-Template/badges/issue_count.svg)](https://codeclimate.com/github/psenger/ReactJS-Rapid-Prototype-Template)
 
