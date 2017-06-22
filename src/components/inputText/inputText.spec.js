@@ -59,7 +59,7 @@ describe('<InputText/>', () => {
       placeholder="First Name"
       value="abcdefghijklmnop"
       required={true}
-      onChange={() => { console.log('ok'); }}
+      onChange={() => { return null; }}
       getModelToValidate={ (value) => { return {name: {first: value}}; } }
       validator={ (model, dirty) => {
         return 'error';
