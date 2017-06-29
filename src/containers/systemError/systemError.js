@@ -6,7 +6,7 @@ export class SystemError extends Component {
 
   constructor (props) {
     super(props);
-    this.displayName = 'containers/SystemError';
+    this.displayName = 'containers/systemError';
   }
 
   render () {

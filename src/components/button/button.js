@@ -14,7 +14,7 @@ class Button extends Component {
    * @param {number|string} props.value - the value to pass the <code>onClickHandler</code>
    * @param {function} props.onClickHandler - On click handler
    */
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.displayName = 'components/Button';
     this.onClickHandlerProxy = this.onClickHandlerProxy.bind(this);
@@ -23,7 +23,7 @@ class Button extends Component {
   /**
    * On click handler proxy, which forwards on the prop's value to the <code>onClickHandler</code> attached to the <code>props</code.
    */
-  onClickHandlerProxy() {
+  onClickHandlerProxy () {
     this.props.onClickHandler(this.props.value);
   }
 
@@ -31,7 +31,7 @@ class Button extends Component {
    * Standard React Render method
    * @returns {XML}
    */
-  render() {
+  render () {
     let { value } = this.props;
 
     return (

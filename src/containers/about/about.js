@@ -8,7 +8,7 @@ export class About extends Component {
 
   constructor (props) {
     super(props);
-    this.displayName = 'containers/About';
+    this.displayName = 'containers/about';
   }
 
   render () {

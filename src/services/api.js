@@ -39,3 +39,15 @@ function callApi (endpoint, params) {
 
 export const fetchProfiles = () => callApi('/profiles/*', null);
 export const fetchProfile = (id) => callApi(`/profiles/${id}`, null);
+/**
+ * Fetch All the buttons and bars from the server. No parameters and no Paging.
+ *
+ * @function
+ */
+export const fetchButtonBars = () => callApi('/buttons/', {
+  method: 'GET',
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json'
+  }
+});

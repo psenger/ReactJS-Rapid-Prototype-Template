@@ -9,6 +9,11 @@
  * @type {{PROFILE: {REQUEST: {INITIATE: string, LOAD: string, SUCCESS: string, FAIL: string}, MODIFY: {ACTIVE: string, EMAIL: string, FIRST_NAME: string, LAST_NAME: string, DATE_OF_BIRTH: string}}, PROFILES: {REQUEST: {INITIATE: string, LOAD: string, SUCCESS: string, FAIL: string}}}}
  */
 const ACTIONS = {
+  BUTTON_BARS: {
+    FETCH: 'buttonBars.fetch',
+    SAVE: 'buttonBars.save',
+    UPDATE: 'buttonBars.update'
+  },
   PROFILE: {
     REQUEST: {
       INITIATE: 'profile.request.initiate',

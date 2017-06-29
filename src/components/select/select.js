@@ -21,7 +21,7 @@ class Select extends Component {
    * @param {onChangeHandler} props.onChangeHandler - On click handler which is passed the selected value.
    * @constructor
    */
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.displayName = 'components/Select';
     this.onChangeHandlerProxy = this.onChangeHandlerProxy.bind(this);
@@ -31,11 +31,11 @@ class Select extends Component {
    * This proxy method, fires the call back defined in the props <code>onChangeHandler</code> and sends it the selected value.
    * @param {event} event
    */
-  onChangeHandlerProxy(event) {
+  onChangeHandlerProxy (event) {
     this.props.onChangeHandler(event.target.value);
   }
 
-  render() {
+  render () {
     let { name, value, children } = this.props;
 
     return (

@@ -1,24 +1,26 @@
-import Home from './Home/home';
-import About from './About/about';
+import Home from './home/home';
+import About from './about/about';
+import SampleProgressBars from './sampleProgressBars/sampleProgressBars';
 import { flatViewMap } from '../utils';
-import SignUp from './SignUp/signUp';
+import SignUp from './signUp/signUp';
 import React, { Component } from 'react';
-import NotFound from './NotFound/notFound';
+import NotFound from './notFound/notFound';
 import { Nav, Navbar } from 'react-bootstrap';
-import UserProfile from './UserProfile/userProfile';
-import UserProfiles from './UserProfiles/userProfiles';
+import UserProfile from './userProfile/userProfile';
+import UserProfiles from './userProfiles/userProfiles';
 import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 
 const viewMap = [
   {path: '/', component: Home, label: 'Home'},
   {
-    path: '/UserProfiles',
+    path: '/userProfiles',
     component: UserProfiles,
     label: 'Profiles',
-    children: [{path: '/UserProfiles/:id', component: UserProfile, label: 'Profiles'}]
+    children: [{path: '/userProfiles/:id', component: UserProfile, label: 'Profiles'}]
   },
+  {path: '/progressBar', component: SampleProgressBars, label: 'Dynamic Progress bars'},
   {path: '/signUp', component: SignUp, label: 'Sign Up'},
-  {path: '/About', component: About, label: 'About'}
+  {path: '/about', component: About, label: 'About'}
 ];
 
 export default class App extends Component {

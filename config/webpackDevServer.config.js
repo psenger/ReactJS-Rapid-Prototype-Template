@@ -94,6 +94,10 @@ module.exports = function(proxy, allowedHost) {
         }
         res.end(JSON.stringify(filteredProfiles));
       });
+      app.get('/api/v1/buttons', function (req, res) {
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        res.end(JSON.stringify({buttons: [9, 5, -30, -45], bars: [89, 54, 33, 22]}));
+      });
       // This lets us open files from the runtime error overlay.
       app.use(errorOverlayMiddleware());
       // This service worker file is effectively a 'no-op' that will reset any

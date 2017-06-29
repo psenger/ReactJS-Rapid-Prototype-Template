@@ -20,7 +20,7 @@ export class UserProfiles extends Component {
 
   constructor (props) {
     super(props);
-    this.displayName = 'containers/UserProfiles';
+    this.displayName = 'containers/userProfiles';
     this.onSubmit = this.onSubmit.bind(this);
     this.renderRow = this.renderRow.bind(this);
     this.renderCol = this.renderCol.bind(this);

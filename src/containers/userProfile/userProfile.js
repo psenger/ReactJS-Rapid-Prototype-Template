@@ -72,7 +72,7 @@ export class UserProfile extends Component {
 
   constructor (props) {
     super(props);
-    this.displayName = 'containers/UserProfile';
+    this.displayName = 'containers/userProfile';
     this.onSubmit = this.onSubmit.bind(this);
     this.createOnChange = this.createOnChange.bind(this);
     this.createValidator = this.createValidator.bind(this);

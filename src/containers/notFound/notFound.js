@@ -3,11 +3,11 @@ import I18NInjector from '../../decorator/i18nInjector';
 import PropTypes from 'prop-types';
 
 @I18NInjector()
-export class Home extends Component {
+export class NotFound extends Component {
 
   constructor (props) {
     super(props);
-    this.displayName = 'containers/Home';
+    this.displayName = 'containers/notFound';
   }
 
   render () {
@@ -15,15 +15,14 @@ export class Home extends Component {
 
     return (
       <div data-component-name={this.displayName}>
-        <h1>{ translate('Home') }</h1>
-        <p>{ translate('Welcome Home %{name}', {name: 'Larry'}) }</p>
+        { translate('404 Not found') }
       </div>
     );
   }
 }
 
-export { Home as default };
+export { NotFound as default };
 
-Home.propTypes = {
+NotFound.propTypes = {
   i18n: PropTypes.object.isRequired
 };
